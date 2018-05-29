@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Prostate Specimen Enrollment" displayName="Prostate Specimen Enrollment">
+
+  <eformSection name="Clinical Information">
+    <eformItem displayName="Identifiers" title=" " controlName="ProstateSpecimenIdentifiers"></eformItem>
+  </eformSection>
+
+  <eformSection name="Subject Information">
+    <eformItem displayName="Age at Diagnosis" title="" controlName="ProstateSpecimenDiagnosisAge"></eformItem>
+    <eformItem displayName="Demographics" title="Demographics" controlName="ProstateSpecimenDemographics"></eformItem>
+    <eformItem displayName="Cormorbidities" title="Cormorbidities" controlName="ProstateSpecimenComorbidities"></eformItem>
+    <eformItem displayName="Complications" title="Complications" controlName="ProstateSpecimenComplications"></eformItem>
+    <eformItem displayName="Family History of Cancer" title="Family History of Cancer" controlName="PatientsFamilyMembers"></eformItem>
+
+  </eformSection>
+
+  <eformSection name="Primary Tumor Identification/Stage">
+    <eformItem displayName="Diagnosis" title="" controlName="ProstateSpecimenDiagnosis"></eformItem>
+    <eformItem displayName="Year" title="" controlName="ProstateSpecimenAccessionsYear"></eformItem>
+    <eformItem displayName="Method" title="" controlName="ProstateSpecimenAccessionsProcedure"></eformItem>
+    <eformItem displayName="Primary Tumor" title="" controlName="ProstateSpecimenAccessionsPathology"></eformItem>
+    <eformItem displayName="PSA Lab" title="PSA Lab" controlName="ProstateSpecimenPSALabs"></eformItem>
+    <eformItem displayName="DRE Result" title="DRE Result" controlName="ProstateSpecimenRectalExam"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Collection Information">
+    <eformItem displayName="Location of Collection Site" title="Location of Collection Site" controlName="ProstateSpecimenSiteInformation"></eformItem>
+    <eformItem displayName="Consent Status" title="Consent Status" controlName="ProstateSpecimenPatientConsent"></eformItem>
+  </eformSection>
+
+  <Comorbidities RecordId='1'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='2'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='3'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='4'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='5'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='6'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='7'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='8'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='9'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='10'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='11'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='12'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='13'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='14'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='15'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='16'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='17'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='18'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='19'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='20'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='21'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='22'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='23'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='24'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='25'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='26'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='27'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+
+  <Contact RecordId='1'>
+    <UserId></UserId>
+    <LastName></LastName>
+    <Address1></Address1>
+    <Address2></Address2>
+    <City></City>
+    <State></State>
+    <PostalCode></PostalCode>
+    <Country></Country>
+    <ContactType></ContactType>
+  </Contact>
+
+  <Encounters RecordId="1">
+    <EncDate ></EncDate>
+    <EncDateText NotNull="True"></EncDateText>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncNurse></EncNurse>
+    <EncBP></EncBP>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncECOG_Score></EncECOG_Score>
+    <EncNotes></EncNotes>
+    <EncType></EncType>
+
+    <EncRectalExams  RecordId='1'>
+      <DRE_Result></DRE_Result>
+      <DRE_IndWidth></DRE_IndWidth>
+      <DRE_IndLength></DRE_IndLength>
+      <DRE_ProstateWeight></DRE_ProstateWeight>
+
+      <EncRectalExamFindings RecordId='1'>
+        <DRE_FindSide></DRE_FindSide>
+        <DRE_FindLaterality></DRE_FindLaterality>
+        <DRE_FindLevel></DRE_FindLevel>
+        <DRE_FindResult></DRE_FindResult>
+        <DRE_FindExtension></DRE_FindExtension>
+      </EncRectalExamFindings>
+    </EncRectalExams>
+
+  </Encounters>
+  
+  <FamilyMembers RecordId = "1">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId = "2">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId = "3">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  
+  <Identifiers RecordId="1">
+    <IdType></IdType>
+    <Identifier></Identifier>
+  </Identifiers>
+  <Identifiers RecordId="2">
+    <IdType></IdType>
+    <Identifier></Identifier>
+  </Identifiers>
+
+  <LabTests RecordId='1'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+  </LabTests>
+
+  <Pathology RecordId="1">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <PathResult></PathResult>
+    <PathNum></PathNum>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSpecimenCollection></PathSpecimenCollection>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+
+    <PathologyStageGrade RecordId='1'>
+      <PathStageDisease></PathStageDisease>
+      <PathStageSystem></PathStageSystem>
+      <PathStageT></PathStageT>
+      <PathStageN></PathStageN>
+      <PathStageM></PathStageM>
+      <PathGrade></PathGrade>
+      <PathNotes></PathNotes>
+      <PathStageGroup></PathStageGroup>
+    </PathologyStageGrade>
+
+    <ProstatectomyPath RecordId='1'>
+      <PathGG1></PathGG1>
+      <PathGG2></PathGG2>
+      <PathGGS></PathGGS>
+    </ProstatectomyPath>
+
+    <ProstateBiopsyPath RecordId='1'>
+      <PathNumCores></PathNumCores>
+      <PathPosCores></PathPosCores>
+    </ProstateBiopsyPath>
+
+  </Pathology>
+
+  <PatientConsent RecordId='1'>
+    <ConsentDateText></ConsentDateText>
+    <ConsentDate></ConsentDate>
+    <ConsentedBy></ConsentedBy>
+    <ConsentVer></ConsentVer>
+    <ObtainPerson></ObtainPerson>
+    <ConsentProtocol></ConsentProtocol>
+  </PatientConsent>
+
+  <ProjectOrganization RecordId='1'>
+    <Name></Name>
+    <ShortName></ShortName>
+    <Address1></Address1>
+    <Address2></Address2>
+    <City></City>
+    <State></State>
+    <Country></Country>
+    <PostalCode></PostalCode>
+  </ProjectOrganization>
+  
+  <Surveys RecordId="1">
+    <SurveyType></SurveyType>
+    <SurveyVersion></SurveyVersion>
+
+    <SurveyItems RecordId="1">
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  <SurveyItems RecordId="2">
+    <SurveyItem></SurveyItem>
+    <SurveyItemResult></SurveyItemResult>
+  </SurveyItems>
+  
+ </Surveys>
+
+  <Toxicities RecordId='1'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='2'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='3'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='4'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='5'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='6'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='7'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='8'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='9'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='10'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  
+
+ <NoTable>
+   <PathGleasonScoreRecorded></PathGleasonScoreRecorded>
+   <SiteAddress1></SiteAddress1>
+   <SiteAddress2></SiteAddress2>
+   <SiteCity></SiteCity>
+   <SiteState></SiteState>
+   <SiteCountry></SiteCountry>
+   <SitePostalCode></SitePostalCode>
+   <SelectedCollectionSite></SelectedCollectionSite>
+   <PathNumWithAccessDate></PathNumWithAccessDate>
+   <NewCollectionSiteName></NewCollectionSiteName>
+   <ExistingCollectionSiteName></ExistingCollectionSiteName>
+ </NoTable>
+
+
+</eform>

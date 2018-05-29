@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="StopRecord.aspx.cs" Inherits="Caisis.UI.Modules.All.Eforms.StopRecord" %>

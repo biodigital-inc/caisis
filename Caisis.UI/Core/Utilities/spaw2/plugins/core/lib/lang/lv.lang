@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Izgriezt</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopēt</message>
+  </block>
+  <block id="paste">
+    <message name="title">Ielikt</message>
+  </block>
+  <block id="undo">
+    <message name="title">Atcelt</message>
+  </block>
+  <block id="redo">
+    <message name="title">Atkārtot</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Ielikt attēlošanu</message>
+    <message name="select">Ielikt</message>
+    <message name="delete">Nodzēst</message>
+    <message name="cancel">Atcelt</message>
+    <message name="library">Bibliotēka</message>
+    <message name="preview">Caurskatīšana</message>
+    <message name="images">Attēlošanas</message>
+    <message name="upload">Piekraut attēlošanu</message>
+    <message name="upload_button">Piekraut</message>
+    <message name="error">Kļūda</message>
+    <message name="error_no_image">Izvēlaties attēlošanu</message>
+    <message name="error_uploading">Ielādes laikā notika kļūda. Iemēģiniet vēlreiz.</message>
+    <message name="error_wrong_type">Nekārtna attēlošanas tips</message>
+    <message name="error_no_dir">Bibliotēka neeksistē</message>
+    <message name="error_cant_delete">Nodzēst neizdevās</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Attēlošanas parametri</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+    <message name="source">Avots</message>
+    <message name="alt">Īss apraksts</message>
+    <message name="align">Izlīdzināšana</message>
+    <message name="justifyleft">pa kreisi (left)</message>
+    <message name="justifyright">pa labi (right)</message>
+    <message name="top">no augšas (top)</message>
+    <message name="middle">centrā (middle)</message>
+    <message name="bottom">no lejas (bottom)</message>
+    <message name="absmiddle">absolūts centrs (absmiddle)</message>
+    <message name="texttop">no augšas (texttop)</message>
+    <message name="baseline">no lejas (baseline)</message>
+    <message name="width">Platums</message>
+    <message name="height">Augstums</message>
+    <message name="border">Rāmītis</message>
+    <message name="hspace">Hor. lauki</message>
+    <message name="vspace">Vert. lauki</message>
+    <message name="error">Kļūda</message>
+    <message name="error_width_nan">Platums nav skaitlis</message>
+    <message name="error_height_nan">Augstums nav skaitlis</message>
+    <message name="error_border_nan">Rāmītis nav skaitlis</message>
+    <message name="error_hspace_nan">Horizontāli lauki nav skaitlis</message>
+    <message name="error_vspace_nan">Vertikāli lauki nav skaitlis</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontāla līnija</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Radīt tabulu</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabulas parametri</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+    <message name="rows">Rindas</message>
+    <message name="columns">Slejas</message>
+    <message name="css_class">Stils</message>
+    <message name="width">Platums</message>
+    <message name="height">Augstums</message>
+    <message name="border">Rāmītis</message>
+    <message name="pixels">piks.</message>
+    <message name="cellpadding">Atkāpe no rāmīša</message>
+    <message name="cellspacing">Attālums starp šūnām</message>
+    <message name="bg_color">Fona krāsa</message>
+    <message name="background">Fonu attēlošana</message>
+    <message name="error">Kļūda</message>
+    <message name="error_rows_nan">Rindas nav skaitlis</message>
+    <message name="error_columns_nan">Slejas nav skaitlis</message>
+    <message name="error_width_nan">Platums nav skaitlis</message>
+    <message name="error_height_nan">Augstums nav skaitlis</message>
+    <message name="error_border_nan">Rāmītis nav skaitlis</message>
+    <message name="error_cellpadding_nan">Atkāpe no rāmīša nav skaitlis</message>
+    <message name="error_cellspacing_nan">Attālums starp šūnām nav skaitlis</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Šūnas parametri</message>
+    <message name="horizontal_align">Horizontāla izlīdzināšana</message>
+    <message name="vertical_align">Vertikāla izlīdzināšana</message>
+    <message name="width">Platums</message>
+    <message name="height">Augstums</message>
+    <message name="css_class">Stils</message>
+    <message name="no_wrap">Bez pārnesuma</message>
+    <message name="bg_color">Fona krāsa</message>
+    <message name="background">Fonu attēlošana</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+    <message name="justifyleft">Pa kreisi</message>
+    <message name="justifycenter">Centrā</message>
+    <message name="justifyright">Pa labi</message>
+    <message name="top">No augšas</message>
+    <message name="bottom">No lejas</message>
+    <message name="baseline">Bāziska teksta līnija</message>
+    <message name="error">Kļūda</message>
+    <message name="error_width_nan">Platums nav skaitlis</message>
+    <message name="error_height_nan">Augstums nav skaitlis</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Ielikt rindu</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Ielikt sleju</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Aizdabūt rindu</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Aizdabūt sleju</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Apvienot pa labi</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Apvienot pa kreisi</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Sadalīt pa horizontāli</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Sadalīt pa vertikāli</message>
+  </block>
+  <block id="style">
+    <message name="title">Stils</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Šrifts</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Izmērs</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Rindkopa</message>
+  </block>
+  <block id="bold">
+    <message name="title">Taukains</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursīvs</message>
+  </block>
+  <block id="underline">
+    <message name="title">Uzsvērts</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Nokārtots saraksts</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Nenokārtots saraksts</message>
+  </block>
+  <block id="indent">
+    <message name="title">Palielināt atkāpi</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Samazināt atkāpi</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Izlīdzināšana pa kreisi</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Izlīdzināšana pa centru</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Izlīdzināšana pa labi</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Teksta krāsa</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Fona krāsa</message>
+  </block>
+  <block id="design">
+    <message name="title">Pārslēgties maketēšanas režīmā (WYSIWYG)</message>
+  </block>
+  <block id="html">
+    <message name="title">Pārslēgties koda redakcijas režīmā (HTML)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Krāsas izvēle</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML tīrīšana</message>
+    <message name="confirm">Šī operācija aizvāks visus stilus, šriftus un nevajadzīgi tegi no redaktora tekošā satura. Daļa vai viss jūsu formatēšana var būt nozaudēts.</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Iekļaut rāmīšus</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Links</message>
+    <message name="url">Adrese</message>
+    <message name="name">Vārds</message>
+    <message name="target">Atvērt</message>
+    <message name="title_attr">Nosaukums</message>
+    <message name="a_type">Tips</message>
+    <message name="type_link">Atsauce</message>
+    <message name="type_anchor">Enkurs</message>
+    <message name="type_link2anchor">links uz enkuru</message>
+    <message name="anchors">Enkuri</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">tas pats frejms (_self)</message>
+    <message name="_blank">jaunā logā (_blank)</message>
+    <message name="_top">uz visu logu (_top)</message>
+    <message name="_parent">vecāku frejms (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Rindas parametri</message>
+    <message name="horizontal_align">Horizontāla izlīdzināšana</message>
+    <message name="vertical_align">Vertikāla izlīdzināšana</message>
+    <message name="css_class">Stils</message>
+    <message name="no_wrap">Bez pārnesuma</message>
+    <message name="bg_color">Fona krāsa</message>
+    <message name="ok">??????</message>
+    <message name="cancel">Atcelt</message>
+    <message name="justifyleft">Pa kreisi</message>
+    <message name="justifycenter">Centrā</message>
+    <message name="justifyright">Pa labi</message>
+    <message name="top">No augšas</message>
+    <message name="middle">Centrā</message>
+    <message name="bottom">No lejas</message>
+    <message name="baseline">Bāziska teksta līnija</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Speciāli simboli</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+  </block>
+  <block id="templates">
+    <message name="title">Šabloni</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Lapaspuses parametri</message>
+    <message name="title_tag">Virsraksts</message>
+    <message name="charset">Simbolu salikums</message>
+    <message name="background">Fonu attēlošana</message>
+    <message name="bgcolor">Fona krāsa</message>
+    <message name="text">Teksta krāsa</message>
+    <message name="link">Atsauču krāsa</message>
+    <message name="vlink">Apmeklēto atsauču krāsa</message>
+    <message name="alink">Aktīvu atsauču krāsa</message>
+    <message name="leftmargin">Atkāpe pa kreisi</message>
+    <message name="topmargin">Atkāpe no augšas</message>
+    <message name="css_class">Stils</message>
+    <message name="ok">GATAVS</message>
+    <message name="cancel">Atcelt</message>
+  </block>
+  <block id="preview">
+    <message name="title">Iepriekšēja caurskatīšana</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup attēlošanas</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Palielināšana</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Apakšējs indekss</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Augšējs indekss</message>
+  </block>
+</messages>

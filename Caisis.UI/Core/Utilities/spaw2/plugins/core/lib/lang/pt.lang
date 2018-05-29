@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Cortar</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copiar</message>
+  </block>
+  <block id="paste">
+    <message name="title">Colar</message>
+  </block>
+  <block id="undo">
+    <message name="title">Desfazer</message>
+  </block>
+  <block id="redo">
+    <message name="title">Refazer</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hiperligação</message>
+    <message name="url">URL</message>
+    <message name="name">Nome</message>
+    <message name="target">Alvo</message>
+    <message name="title_attr">Título</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Inserir imagem</message>
+    <message name="select">Seleccionar</message>
+    <message name="cancel">Cancelar</message>
+    <message name="library">Biblioteca</message>
+    <message name="preview">Pré-visualização</message>
+    <message name="images">Imagens</message>
+    <message name="upload">Enviar imagem</message>
+    <message name="upload_button">Upload</message>
+    <message name="error">Erro</message>
+    <message name="error_no_image">Por favor, seleccione uma imagem</message>
+    <message name="error_uploading">Ocorreu um erro no envio do arquivo. Por favor, tente novamente</message>
+    <message name="error_wrong_type">Tipo de arquivo de imagem inválido</message>
+    <message name="error_no_dir">A bilbioteca não existe fisicamente</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Propriedades da imagem</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="source">Fonte</message>
+    <message name="alt">Texto alternativo</message>
+    <message name="align">Alinhamento</message>
+    <message name="justifyleft">esquerda</message>
+    <message name="justifyright">direita</message>
+    <message name="top">superior</message>
+    <message name="middle">meio</message>
+    <message name="bottom">inferior</message>
+    <message name="absmiddle">Meio absoluto</message>
+    <message name="texttop">Topo do texto</message>
+    <message name="baseline">Base</message>
+    <message name="width">Comprimento</message>
+    <message name="height">Altura</message>
+    <message name="border">Borda</message>
+    <message name="hspace">Espaço hor.</message>
+    <message name="vspace">Espaço vert.</message>
+    <message name="error">Erro</message>
+    <message name="error_width_nan">Comprimento não é um número</message>
+    <message name="error_height_nan">Altura não é um número</message>
+    <message name="error_border_nan">Borda não é um número</message>
+    <message name="error_hspace_nan">Espaço horizontal não é um número</message>
+    <message name="error_vspace_nan">Espaço vertical não é um número</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Linha horizontal</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Criar tabela</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Propriedades da tabela</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="rows">Linhas</message>
+    <message name="columns">Colunas</message>
+    <message name="width">Comprimento</message>
+    <message name="height">Altura</message>
+    <message name="border">Borda</message>
+    <message name="pixels">pixeis</message>
+    <message name="cellpadding">Espaço dentro das células</message>
+    <message name="cellspacing">Espaço entre células</message>
+    <message name="bg_color">Cor de Fundo</message>
+    <message name="error">Erro</message>
+    <message name="error_rows_nan">Linhas não é um número</message>
+    <message name="error_columns_nan">Colunas não é um número</message>
+    <message name="error_width_nan">Comprimento não é um número</message>
+    <message name="error_height_nan">Altura não é um número</message>
+    <message name="error_border_nan">Borda não é um número</message>
+    <message name="error_cellpadding_nan">Espaço dentro das células não é um número</message>
+    <message name="error_cellspacing_nan">Espaço entre células não é um número</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Propriedades da célula</message>
+    <message name="horizontal_align">Alinh. horizontal</message>
+    <message name="vertical_align">Alinh. vertical</message>
+    <message name="width">Comprimento</message>
+    <message name="height">Altura</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="no_wrap">Sem quebras</message>
+    <message name="bg_color">Cor de fundo</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="justifyleft">Esquerda</message>
+    <message name="justifycenter">Centrado</message>
+    <message name="justifyright">Direita</message>
+    <message name="top">Superior</message>
+    <message name="middle">Meio</message>
+    <message name="bottom">Inferior</message>
+    <message name="baseline">Base</message>
+    <message name="error">Erro</message>
+    <message name="error_width_nan">Comprimento não é um número</message>
+    <message name="error_height_nan">Altura não é um número</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Inserir linha</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Inserir coluna</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Apagar linha</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Apagar coluna</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Unir direita</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Unir abaixo</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Dividir células horizontalmente</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Dividir células verticalmente</message>
+  </block>
+  <block id="style">
+    <message name="title">Estilo</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Fonte</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Tamanho</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Parágrafo</message>
+  </block>
+  <block id="bold">
+    <message name="title">Negrito</message>
+  </block>
+  <block id="italic">
+    <message name="title">Itálico</message>
+  </block>
+  <block id="underline">
+    <message name="title">Sublinhado</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numeração</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Marcadores</message>
+  </block>
+  <block id="indent">
+    <message name="title">Aumentar Recuo</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Diminuir Recuo</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Esquerda</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centralizado</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Direita</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Realçar</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Cor de fundo</message>
+  </block>
+  <block id="design">
+    <message name="title">Mudar para modo WYSIWYG (design)</message>
+  </block>
+  <block id="html">
+    <message name="title">Mudar para modo HTML (código)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Selector de cores</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Limpeza HTML (remover estilos)</message>
+    <message name="confirm">Ao realizar esta acção vai remover todos estilos, fontes e tags inúteis do conteúdo. Alguma ou toda a formatação poderá ser perdida.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Accionar borda</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Propriedades da linha</message>
+    <message name="horizontal_align">Alinhamento horizontal</message>
+    <message name="vertical_align">Alinhamento vertical</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="no_wrap">Sem quebras</message>
+    <message name="bg_color">Cor de Fundo</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="justifyleft">Esquerda</message>
+    <message name="justifycenter">Center</message>
+    <message name="justifyright">Direita</message>
+    <message name="top">Topo</message>
+    <message name="middle">Meio</message>
+    <message name="bottom">Inferior</message>
+    <message name="baseline">Base</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Caracteres especiais</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="templates">
+    <message name="title">Modelos</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Propriedades da página</message>
+    <message name="title_tag">Título</message>
+    <message name="charset">Conjunto Caracteres</message>
+    <message name="background">Imagem de Fundo</message>
+    <message name="bgcolor">Cor de Fundo</message>
+    <message name="text">Cor texto</message>
+    <message name="link">Cor link</message>
+    <message name="vlink">Cor link visitados</message>
+    <message name="alink">Cor link activo</message>
+    <message name="leftmargin">Margem esquerda</message>
+    <message name="topmargin">Margem topo</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="preview">
+    <message name="title">Pré-visualização</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Imagem popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

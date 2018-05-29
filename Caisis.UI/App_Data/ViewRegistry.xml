@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<views>
+  <view name="All"/>
+  <view name="Bladder"/>
+  <view name="Breast"/>
+  <view name="Colorectal"/>
+  <view name="Esophagus"/>
+  <view name="Gastric"/>
+  <view name="Gynecology"/>
+  <view name="Head &amp; Neck"/>
+  <view name="Kidney"/>
+  <view name="Liver"/>
+  <view name="Neuro"/>
+  <view name="Pancreas"/>
+  <view name="Pancreatitis"/>
+  <view name="Plastics"/>
+  <view name="Prostate"/>
+  <view name="Testis"/>
+  <view name="Thoracic"/>
+</views>

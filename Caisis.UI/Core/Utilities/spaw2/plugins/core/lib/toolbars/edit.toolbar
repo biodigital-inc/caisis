@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="edit" module="core">
+  <button name="cut" onEnabledCheck="isStandardFunctionEnabled"
+          onClick="standardFunctionClick" agent="IE" showInContextMenu="true" />
+  <button name="copy" onEnabledCheck="isStandardFunctionEnabled"
+          onClick="standardFunctionClick" agent="IE" showInContextMenu="true" />
+  <button name="paste" onEnabledCheck="isStandardFunctionEnabled"
+          onClick="standardFunctionClick" agent="IE" showInContextMenu="true" />
+  <image name="separator" agent="IE" />
+  <button name="undo" onEnabledCheck="isStandardFunctionEnabled" onClick="standardFunctionClick" />
+  <button name="redo" onEnabledCheck="isStandardFunctionEnabled" onClick="standardFunctionClick" />
+  <image name="separator" />
+</toolbar>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Odreži</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopiraj</message>
+  </block>
+  <block id="paste">
+    <message name="title">Prilepi</message>
+  </block>
+  <block id="undo">
+    <message name="title">Razveljavi</message>
+  </block>
+  <block id="redo">
+    <message name="title">Ponovno uveljavi</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Povezava</message>
+    <message name="url">URL</message>
+    <message name="name">Ime</message>
+    <message name="target">Tarča</message>
+    <message name="title_attr">Naslov</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Vrini sliko</message>
+    <message name="select">Izberi</message>
+    <message name="cancel">Prekini</message>
+    <message name="library">Knjižnjica</message>
+    <message name="preview">Predogled</message>
+    <message name="images">Slike</message>
+    <message name="upload">Pošlji sliko</message>
+    <message name="upload_button">Pošlji</message>
+    <message name="error">Napaka</message>
+    <message name="error_no_image">Izberite sliko, prosim</message>
+    <message name="error_uploading">Napaka pri pošiljanju datoteke. Poskusite ponovno</message>
+    <message name="error_wrong_type">Napačna vrsta datoteke s sliko</message>
+    <message name="error_no_dir">Knjižnjica ne obstaja / ni dostopna</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Lastnosti slike</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+    <message name="source">Source</message>
+    <message name="alt">Alternativno besedilo</message>
+    <message name="align">Poravnaj</message>
+    <message name="justifyleft">levo</message>
+    <message name="justifyright">desno</message>
+    <message name="top">zgoraj</message>
+    <message name="middle">na sredino</message>
+    <message name="bottom">spodaj</message>
+    <message name="absmiddle">absolutno sredino</message>
+    <message name="texttop">na vrh teksta</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Širina</message>
+    <message name="height">Višina</message>
+    <message name="border">Obroba</message>
+    <message name="hspace">Horiz. razmik</message>
+    <message name="vspace">Vert. razmik</message>
+    <message name="error">Napaka</message>
+    <message name="error_width_nan">Širina mora biti podana s številom</message>
+    <message name="error_height_nan">Višina mora biti podana s številom</message>
+    <message name="error_border_nan">Obroba mora biti podana s številom</message>
+    <message name="error_hspace_nan">Horiz. razmik mora biti podan s številom</message>
+    <message name="error_vspace_nan">Vert. razmik mora biti podan številom</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontalna črta</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Naredi tabelo</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Lastnosti tabele</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+    <message name="rows">Vrstic</message>
+    <message name="columns">Kolon</message>
+    <message name="width">Širina</message>
+    <message name="height">Višina</message>
+    <message name="border">Debelina obrobe</message>
+    <message name="pixels">pixlov</message>
+    <message name="cellpadding">Debelina obloge celic</message>
+    <message name="cellspacing">Razmik med celicami</message>
+    <message name="bg_color">Barva ozadja</message>
+    <message name="error">Napaka</message>
+    <message name="error_rows_nan">Število vrstic mora biti podano s številom</message>
+    <message name="error_columns_nan">Število kolon mora biti podano s številom</message>
+    <message name="error_width_nan">Širina mora biti podana s številom</message>
+    <message name="error_height_nan">Višina mora biti podana s številom</message>
+    <message name="error_border_nan">Debelina obrobe mora biti podana s številom</message>
+    <message name="error_cellpadding_nan">Debelina obloge celic mora biti podana s številom</message>
+    <message name="error_cellspacing_nan">Razmik med celicami mora biti podan s številom</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Lastnosti celic</message>
+    <message name="horizontal_align">Horiz. poravnava</message>
+    <message name="vertical_align">Vert. poravnava</message>
+    <message name="width">Širina</message>
+    <message name="height">Višina</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">Brez preloma (wrap)</message>
+    <message name="bg_color">Barva ozadja</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+    <message name="justifyleft">Levo</message>
+    <message name="justifycenter">Center</message>
+    <message name="justifyright">Desno</message>
+    <message name="top">Zgoraj</message>
+    <message name="middle">Sredina</message>
+    <message name="bottom">Spodaj</message>
+    <message name="baseline">Baseline</message>
+    <message name="error">Napaka</message>
+    <message name="error_width_nan">Višina mora biti podana s številom</message>
+    <message name="error_height_nan">Višina mora biti podana s številom</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Vrini vrstico</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Vrini kolono</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Briši vrstico</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Briši kolono</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Vrini na desni</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Vrini spodaj</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Horizontalno Razdeli celico</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Vretikalno razdeli celico</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Velikost</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Odstavek</message>
+  </block>
+  <block id="bold">
+    <message name="title">Krepko</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kurzivno</message>
+  </block>
+  <block id="underline">
+    <message name="title">Podčrtano</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Oštevilčen seznam</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">"Bulleted" seznam</message>
+  </block>
+  <block id="indent">
+    <message name="title">Odmik</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Izmik</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Levo</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Center</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Desno</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Barva ospredja</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Barva ozadjar</message>
+  </block>
+  <block id="design">
+    <message name="title">Preklopi v WYSIWYG (design) način dela</message>
+  </block>
+  <block id="html">
+    <message name="title">Preklopi na HTML (koda) način dela</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Izbira barve</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Čiščenje HTML (odstranjevanje stilov)</message>
+    <message name="confirm">S tem boste odstranili stile, fonte in neuporabne HTML tage iz trenutnega besedila. Oblika bo deloma ali povsem izgubljena.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Preklopi obrobe</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Lastnosti vrstic</message>
+    <message name="horizontal_align">Horizontalna poravnava</message>
+    <message name="vertical_align">Vertikana poravnava</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">Brez preloma (wrap)</message>
+    <message name="bg_color">Barva ozadja</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+    <message name="justifyleft">Levo</message>
+    <message name="justifycenter">Center</message>
+    <message name="justifyright">Desno</message>
+    <message name="top">Zgoraj</message>
+    <message name="middle">Sredina</message>
+    <message name="bottom">Spodaj</message>
+    <message name="baseline">Baseline</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Posebni znaki</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+  </block>
+  <block id="templates">
+    <message name="title">Predloge</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Lastnosti strani</message>
+    <message name="title_tag">Naslov</message>
+    <message name="charset">Nabor znakov</message>
+    <message name="background">Slika v ozadju</message>
+    <message name="bgcolor">Barva ozadja</message>
+    <message name="text">Barva teksta</message>
+    <message name="link">Barva povezav</message>
+    <message name="vlink">Barva že obiskane povezave</message>
+    <message name="alink">Barva aktivne povezave</message>
+    <message name="leftmargin">Meja levo</message>
+    <message name="topmargin">Meja zgoraj</message>
+    <message name="css_class">CSS class</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Prekini</message>
+  </block>
+  <block id="preview">
+    <message name="title">Predogled</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup s sliko</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

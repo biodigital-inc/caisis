@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<reports>
+    
+    <!-- 
+    :::report configuration template
+    
+    <report id="">
+        <reportTitle></reportTitle>
+        <reportDescription></reportDescription>
+        <storedProcedure></storedProcedure>
+        <useTimePeriod>True/False</useTimePeriod> 
+        <useGenericReportFormat>True/False</useGenericReportFormat>
+        <useExport>True/False</useExport>
+        <usePageSize>True/False</usePageSize>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column></column>
+            </showAsNormalColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField></dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField></dataNavigateUrlField>
+                    <headerText></headerText>
+                    <goToReport></goToReport>
+                    <param></param>
+                 </column>
+            </hyperLinkColumns>
+            <searchableColumns>
+                <column>
+                    <columnName></columnName>
+                    <alternatives>
+                        <alternative></alternative>
+                    </alternatives>
+                </column>
+            </searchableColumns>
+        </columnConfiguration>
+    </report>
+    
+    :::end report configuration template
+    -->
+    
+    <report id="Logins">
+        <reportTitle>Login attempts</reportTitle>
+        <reportDescription>Shows login attempts.</reportDescription>
+        <storedProcedure>spRptAdminLoginAttempts</storedProcedure>
+        <useTimePeriod>True</useTimePeriod>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>UserName</column>
+                <column>UserLoginAttemptTime</column>
+                <column>LoginId</column>
+                <column>Error message</column>
+                <column>UserIP</column>
+                <column>UserBrowser</column>
+                <column>UserCookies</column>
+            </showAsNormalColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>UserId</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+    <report id="UserStats">
+        <reportTitle>User Statistics</reportTitle>
+        <reportDescription>Shows summary for each user.</reportDescription>
+        <storedProcedure>spRptAdminSummaryForEachUser</storedProcedure>
+        <useTimePeriod>True</useTimePeriod>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>UserName</column>
+                <column>UserLastLoginTime</column>
+                <column>Patients views</column>
+                <column>UserTimeLastPatientViewed</column>
+                <column>UserRecordLastUpdated</column>
+            </showAsNormalColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>User ID</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+    
+    <report id="UserSummary">
+        <reportTitle>User Summary</reportTitle>
+        <reportDescription>Shows a detailed summary for selected user. Last five logins, last five viewed patients etc. Select this report in the drop down menu to the left and then select user under 'Additional filtering'. This report can also be selected from the User Summary Report.</reportDescription>
+        <storedProcedure>spRptAdminSummaryForOneUser</storedProcedure>
+        <useTimePeriod>False</useTimePeriod> 
+        <useGenericReportFormat>False</useGenericReportFormat>
+        <useExport>False</useExport>
+        <usePageSize>False</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>UserName</columnName>
+                </column>
+            </searchableColumns>
+        </columnConfiguration>
+    </report>
+    
+    <report id="LoginsForUser">
+        <reportTitle>Logins For Selected User</reportTitle>
+        <reportDescription>List logins for a selected user. Select this report in the drop down menu to the left and then select user under 'Additional filtering'. This report can also be selected from the User Summary Report.</reportDescription>
+        <storedProcedure>spRptAdminLoginsForSelectedUser</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>UserName</columnName>
+                </column>
+            </searchableColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="PatientViewsLastByPatient">
+        <reportTitle>Views of Patients</reportTitle>
+        <reportDescription>Shows for each patient, last time the patient was viewed and the user who viewed the patient.</reportDescription>
+        <storedProcedure>spRptAdminPatientViewsLastByPatient</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>PatientId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>PtMRN</dataNavigateUrlField>
+                    <headerText>PtMRN</headerText>
+                    <goToReport>PatientsViewsByPatient</goToReport>
+                    <param>MRN</param>
+                 </column>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>UserId</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+    
+    <report id="PatientsViewsByPatient">
+        <reportTitle>Users that Viewed Selected Patient</reportTitle>
+        <reportDescription>Lists who and when a patient was viewed.  Select this report in the drop down menu to the left and then enter MRN under 'Additional filtering'. This report can also be selected from the Patient Views Report.</reportDescription>
+        <storedProcedure>spRptAdminViewsForSelectedPatient</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>MRN</columnName>
+                </column>
+            </searchableColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>User ID</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+    
+    <report id="PatientsViewsByUser">
+        <reportTitle>Patients Viewed by Selected User</reportTitle>
+        <reportDescription>List when and what patients a user has viewed. Select this report in the drop down menu to the left and then select user under 'Additional filtering'. This report can also be selected from the User Summary Report.</reportDescription>
+        <storedProcedure>spRptAdminPatientsViewsByUser</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>UserName</columnName>
+                </column>
+            </searchableColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>PatientId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>PtMRN</dataNavigateUrlField>
+                    <headerText>PatientId</headerText>
+                    <goToReport>PatientsViewsByPatient</goToReport>
+                    <param>MRN</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+    
+    <report id="TimeSincePasswordChangeList">
+        <reportTitle>Days Since Password Change</reportTitle>
+        <reportDescription>Shows for each user time since last password change.</reportDescription>
+        <storedProcedure>spRptAdminTimeSincePasswordChangeList</storedProcedure>
+        <useTimePeriod>False</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>Days</columnName>
+                </column>
+            </searchableColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>User ID</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="UsersRecordChanges">
+        <reportTitle>User record updates</reportTitle>
+        <reportDescription>Shows user records deprecated by updates or deletions. Can be filtered by user name. Does not show the current valid record for a user.</reportDescription>
+        <storedProcedure>spRptAdminUsersRecordChanges</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>LoggedOperation</column>
+                <column>UserName</column>
+                <column>LoggedTime</column>
+                <column>UserEmail</column>
+                <column>UpdatedBy</column>
+                <column>UpdatedTime</column>
+            </showAsNormalColumns>
+            <searchableColumns>
+                <column>
+                    <columnName>UserName</columnName>
+                </column>
+            </searchableColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>User ID</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="UsersInGroup">
+        <reportTitle>Users in group</reportTitle>
+        <reportDescription>List all users in a selected group.</reportDescription>
+        <storedProcedure>spRptAdminAllUsersInGroupByGroupName</storedProcedure>
+        <useTimePeriod>False</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>GroupName</columnName>
+                    <alternatives>
+                        <alternative>spRptAdminAllUsersInGroupByGroupNameGroupNames</alternative>
+                    </alternatives>
+                </column>
+            </searchableColumns>
+            <hyperLinkColumns>
+                <column>
+                    <dataTextField>UserId</dataTextField>
+                    <dataTextFormatString>{0}</dataTextFormatString>
+                    <dataNavigateUrlField>UserName</dataNavigateUrlField>
+                    <headerText>User ID</headerText>
+                    <goToReport>UserSummary</goToReport>
+                    <param>userName</param>
+                 </column>
+            </hyperLinkColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="ErrorLog">
+        <reportTitle>Error Log</reportTitle>
+        <reportDescription>Shows error log.</reportDescription>
+        <storedProcedure>spRptAdminErrorLog</storedProcedure>
+        <useTimePeriod>True</useTimePeriod> 
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>True</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>ErrUserName</column>
+                <column>ErrFileName</column>
+                <column>ErrorTime</column>
+                <column>ErrStackTrace</column>
+            </showAsNormalColumns>
+        </columnConfiguration>
+    </report>
+
+  <report id="NoPasswordChange">
+    <reportTitle>Security: No Password Changes</reportTitle>
+    <reportDescription>User who have never changed their password.</reportDescription>
+    <storedProcedure>spRptAdminPasswordNeverChanged</storedProcedure>
+    <useTimePeriod>False</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>True</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>UserName</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>UserId</column>
+        <column>UserEmail</column>
+        <column>UserName</column>
+        <column>UserFirstName</column>
+        <column>UserLastName</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+
+  <report id="PasswordReuse">
+    <reportTitle>Security: Password Reuse</reportTitle>
+    <reportDescription>User who reuse their passwords. PriorPasswords parameter: the users current password was used within the last "X" password updates. </reportDescription>
+    <storedProcedure>spRptAdminPasswordReuse</storedProcedure>
+    <useTimePeriod>False</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>True</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>PriorPasswords</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>UserId</column>
+        <column>UserEmail</column>
+        <column>LastTimeUsed</column>
+        <column>UserName</column>
+        <column>UserFirstName</column>
+        <column>UserLastName</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+
+  <report id="AccessTermination">
+    <reportTitle>Security: Termination of Access</reportTitle>
+    <reportDescription>Users whos access has been terminated by date range. </reportDescription>
+    <storedProcedure>spRptAdminDeactivatedLogins</storedProcedure>
+    <useTimePeriod>True</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>True</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>UserName</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>UserId</column>
+        <column>UserName</column>
+        <column>DeactivatedTime</column>
+        <column>LastLoginTime</column>
+        <column>LastLoginAttemptTime</column>
+        <column>UserFirstName</column>
+        <column>UserLastName</column>
+        <column>UserEmail</column>
+        <column>EnteredTime</column>
+        <column>UpdatedTime</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+
+    <report id="WebServiceSurveys">
+    <reportTitle>Web Service: Surveys (Advanced)</reportTitle>
+    <reportDescription>Surveys which have been entered during date range.</reportDescription>
+    <sqlStatement>
+      SELECT
+        p.PtMRN,
+        p.PtLastName,
+        p.PtFirstName,
+        s.SurveyType,
+        s.SurveyDateText,
+        s.EnteredBy,
+        s.EnteredTime
+      FROM Surveys s
+      INNER JOIN Patients p
+        ON p.PatientId = s.PatientId
+      WHERE s.EnteredBy LIKE '%web service%'
+        AND s.SurveyDate BETWEEN @FromDate AND @ToDate
+      ORDER BY s.SurveyDate DESC, s.EnteredTime DESC
+    </sqlStatement>
+    <useTimePeriod>True</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>False</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>SurveyType</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>PtMRN</column>
+        <column>PtLastName</column>
+        <column>PtFirstName</column>
+        <column>SurveyType</column>
+        <column>SurveyDateText</column>
+        <column>EnteredBy</column>
+        <column>EnteredTime</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+
+  <report id="WebServiceSurveysSimple">
+    <reportTitle>Web Service: Surveys (Simple)</reportTitle>
+    <reportDescription>A list of web service surveys by type over date range.</reportDescription>
+    <sqlStatement>
+      SELECT
+        s.SurveyType AS Survey,
+        COUNT(s.SurveyType) AS [Count],
+        s.SurveyDateText AS [Date],
+        ISNULL(u.UserName, s.EnteredBy) AS [User]
+      FROM Surveys s
+      INNER JOIN Patients p
+        ON p.PatientId = s.PatientId
+      LEFT OUTER JOIN Users u
+        ON u.UserName + ' (web service)' = s.EnteredBy
+      WHERE s.EnteredBy LIKE '%web service%' AND s.SurveyDate BETWEEN @FromDate AND @ToDate
+      GROUP BY
+        s.SurveyType,
+        s.SurveyDateText,
+        s.EnteredBy,
+        u.UserName
+      ORDER BY s.SurveyDateText DESC
+    </sqlStatement>
+    <useTimePeriod>True</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>False</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>Survey</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>Survey</column>
+        <column>Count</column>
+        <column>Date</column>
+        <column>User</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+  
+  <report id="WebServiceAudit">
+    <reportTitle>Web Service: Audit</reportTitle>
+    <reportDescription>A list of web service uses by date range.</reportDescription>
+    <sqlStatement>
+      SELECT
+        u.UserName AS [User],
+        u.UserFirstName + ' ' + UserLastName AS Name,
+        u.UserEmail AS Email,
+        u.UserEmployeeId AS EmployeeId,
+        ue.ExportName AS WebServiceMethod,
+        ul.UserLoginTime AS UserLoginTime,
+        ue.ExportDate AS WebServiceInvokeTime
+      FROM UserExports ue
+      INNER JOIN UserLogins ul
+        ON ul.UserLoginId = ue.UserLoginId
+      INNER JOIN Users u
+        ON u.UserId = ul.UserId
+      WHERE ue.ExportType LIKE '%Web Service%'
+        AND ue.ExportDate &gt;= @FromDate
+        AND ue.ExportDate &lt;= @ToDate
+      ORDER BY u.UserName ASC
+    </sqlStatement>
+    <useTimePeriod>True</useTimePeriod>
+    <useGenericReportFormat>True</useGenericReportFormat>
+    <useExport>False</useExport>
+    <usePageSize>True</usePageSize>
+    <columnConfiguration>
+      <searchableColumns>
+        <column>
+          <columnName>User</columnName>
+        </column>
+      </searchableColumns>
+      <showAsNormalColumns>
+        <column>User</column>
+        <column>Name</column>
+        <column>Email</column>
+        <column>EmployeeId</column>
+        <column>WebServiceMethod</column>
+        <column>UserLoginTime</column>
+      </showAsNormalColumns>
+    </columnConfiguration>
+  </report>
+
+  <report id="WebServiceUsageStats">
+        <reportTitle>Web Service: Usage Stats</reportTitle>
+        <reportDescription>A list of web service usage.</reportDescription>
+        <sqlStatement>
+            SELECT
+                ExportName AS ServiceName,
+                COUNT(UserExportId) AS ServiceCount
+            FROM UserExports e
+            WHERE
+                ExportType LIKE '%Web Service%'
+                AND ExportDate BETWEEN @FromDate AND @ToDate
+            GROUP BY ExportName
+            ORDER BY ExportName
+        </sqlStatement>
+        <useTimePeriod>True</useTimePeriod>
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>False</useExport>
+        <usePageSize>True</usePageSize>
+    </report>
+
+    <report id="MetadataTableAudit">
+        <reportTitle>Metadata: Audit Metadata Tables</reportTitle>
+        <reportDescription>Metadata Tables not mapped to System Tables</reportDescription>
+        <sqlStatement>
+            SELECT
+            a.TableId,
+            a.TableName
+            FROM MetadataTables a
+            LEFT OUTER JOIN INFORMATION_SCHEMA.TABLES b
+            ON a.TableName = b.TABLE_NAME AND b.TABLE_TYPE = 'BASE TABLE'
+            WHERE
+            b.TABLE_NAME IS NULL
+        </sqlStatement>
+        <useTimePeriod>False</useTimePeriod>
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>False</useExport>
+        <usePageSize>False</usePageSize>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>TableId</column>
+                <column>TableName</column>
+            </showAsNormalColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="MetadataFieldAudit">
+        <reportTitle>Metadata: Audit Metadata Fields</reportTitle>
+        <reportDescription>Metadata Fields not mapped to System Table and Fields</reportDescription>
+        <sqlStatement>
+            SELECT
+                b.TableId,
+                b.TableName,
+                a.FieldId,
+                a.FieldName
+            FROM MetadataFields a
+            INNER JOIN MetadataTables b
+                ON a.TableId = b.TableId
+            LEFT OUTER JOIN INFORMATION_SCHEMA.COLUMNS c
+                ON b.TableName = c.TABLE_NAME
+                AND a.FieldName = c.COLUMN_NAME
+            WHERE
+                a.FieldIsVirtual != 1
+                AND c.COLUMN_NAME IS NULL
+        </sqlStatement>
+        <useTimePeriod>False</useTimePeriod>
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>False</useExport>
+        <usePageSize>False</usePageSize>
+        <columnConfiguration>
+            <showAsNormalColumns>
+                <column>TableId</column>
+                <column>TableName</column>
+                <column>FieldId</column>
+                <column>FieldName</column>
+            </showAsNormalColumns>
+        </columnConfiguration>
+    </report>
+
+    <report id="UserReportViews">
+        <reportTitle>User Report Views</reportTitle>
+        <reportDescription>A list of Reports viewed by Users</reportDescription>
+        <sqlStatement>      
+SELECT
+UserName,
+ExportName AS [ReportName],
+	CASE
+		WHEN CHARINDEX('?', ExportName, 0) > 0 THEN SUBSTRING(ExportName, CHARINDEX('?', ExportName, 0) + 1, LEN(ExportName))
+		ELSE ''
+	END AS [ReportParams],
+UserExports.ExportDate AS [ReportDate]
+FROM UserExports 
+INNER JOIN UserLogins 
+ON UserLogins.UserLoginId = UserExports.UserLoginId 
+INNER JOIN Users 
+ON Users.UserId = UserLogins.UserId 
+WHERE
+	ExportType = 'Report View'
+    AND (UserExports.ExportDate BETWEEN @FromDate AND @ToDate)
+	-- AND (@ReportName IS NULL OR @ReportName = '' OR ExportName LIKE '%' +  @ReportName + '%')
+	AND (@UserName IS NULL OR @UserName = '' OR UserName = @UserName)
+ORDER BY
+	UserName,
+	ReportName,
+	UserExports.ExportDate DESC
+        </sqlStatement>
+        <useTimePeriod>True</useTimePeriod>
+        <useGenericReportFormat>True</useGenericReportFormat>
+        <useExport>False</useExport>
+        <usePageSize>True</usePageSize>
+        <columnConfiguration>
+            <searchableColumns>
+                <column>
+                    <columnName>UserName</columnName>
+                </column>
+            </searchableColumns>
+            <showAsNormalColumns>
+                <column>UserName</column>
+                <column>ReportName</column>
+                <column>ReportParams</column>
+                <column>ReportDate</column>
+            </showAsNormalColumns>
+        </columnConfiguration>
+    </report>
+
+</reports>

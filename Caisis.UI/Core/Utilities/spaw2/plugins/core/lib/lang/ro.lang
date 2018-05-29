@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Taie</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copiaza</message>
+  </block>
+  <block id="paste">
+    <message name="title">Lipeste</message>
+  </block>
+  <block id="undo">
+    <message name="title">Inapoi</message>
+  </block>
+  <block id="redo">
+    <message name="title">Inainte</message>
+  </block>
+  <block id="image">
+    <message name="title">Inserare rapida imagine</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Imagine</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+    <message name="source">Sursa</message>
+    <message name="alt">Text alternativ</message>
+    <message name="align">Aliniere</message>
+    <message name="left">stanga</message>
+    <message name="right">dreapta</message>
+    <message name="top">sus</message>
+    <message name="middle">mijloc</message>
+    <message name="bottom">jos</message>
+    <message name="absmiddle">absolut mijloc</message>
+    <message name="texttop">text sus</message>
+    <message name="baseline">line baza</message>
+    <message name="width">Latime</message>
+    <message name="height">Inaltime</message>
+    <message name="border">Margine</message>
+    <message name="hspace">Oriz. sptiu</message>
+    <message name="vspace">Vert. sptiu</message>
+    <message name="dimensions">Dimensiuni</message>
+    <message name="reset_dimensions">Reset dimensiuni</message>
+    <message name="title_attr">Titlu</message>
+    <message name="constrain_proportions">pastreaza proportiile</message>
+    <message name="error">Eroare</message>
+    <message name="error_width_nan">Latime nu e numar</message>
+    <message name="error_height_nan">Inaltime nu e numar</message>
+    <message name="error_border_nan">Margine nu e numar</message>
+    <message name="error_hspace_nan">Spatiu orizontal nu e numar</message>
+    <message name="error_vspace_nan">Spatiu vertical nu e numar</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+    <message name="source">Sursa</message>
+    <message name="width">Latime</message>
+    <message name="height">Inaltime</message>
+    <message name="error">Eroare</message>
+    <message name="error_width_nan">Latime nu e numar</message>
+    <message name="error_height_nan">Inaltime nu e numar</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Linie orizontala rule</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Create table</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Proprietati tabla</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+    <message name="rows">Randuri</message>
+    <message name="columns">Coloane</message>
+    <message name="css_class">clasa CSS</message>
+    <message name="width">Latime</message>
+    <message name="height">Inaltime</message>
+    <message name="border">Margine</message>
+    <message name="pixels">pixeli</message>
+    <message name="cellpadding">Margine in celula</message>
+    <message name="cellspacing">Margini intre celule</message>
+    <message name="bg_color">Culoare fond</message>
+    <message name="background">Imagine fond</message>
+    <message name="error">Eroare</message>
+    <message name="error_rows_nan">Rand nu e numar</message>
+    <message name="error_columns_nan">Coloana nu e numar</message>
+    <message name="error_width_nan">Latime nu e numar</message>
+    <message name="error_height_nan">Inaltime nu e numar</message>
+    <message name="error_border_nan">Margine nu e numar</message>
+    <message name="error_cellpadding_nan">Margine in celula nu e numar</message>
+    <message name="error_cellspacing_nan">Margini intre celule nu e numar</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Proprietati celula</message>
+    <message name="horizontal_align">Aliniere orizontala</message>
+    <message name="vertical_align">Aliniere verticala</message>
+    <message name="width">Latime</message>
+    <message name="height">Inaltime</message>
+    <message name="css_class">clasa CSS</message>
+    <message name="no_wrap">Nu rupe randul</message>
+    <message name="bg_color">Culoare fond</message>
+    <message name="background">Imagine fond</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+    <message name="left">Stanga</message>
+    <message name="center">Centru</message>
+    <message name="right">Dreapta</message>
+    <message name="top">Sus</message>
+    <message name="middle">Mijloc</message>
+    <message name="bottom">Jos</message>
+    <message name="baseline">Linie baza</message>
+    <message name="error">Eroare</message>
+    <message name="error_width_nan">Latime nu e numar</message>
+    <message name="error_height_nan">Inaltime nu e numar</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Insereaza rand</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Insereaza coloana</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Sterge rand</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Sterge coloana</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Uneste dreapta</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Uneste jos</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Sparge celule orizontal</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Sparge celula vertical</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Marime</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragraf</message>
+  </block>
+  <block id="bold">
+    <message name="title">Apasat</message>
+  </block>
+  <block id="italic">
+    <message name="title">Italic</message>
+  </block>
+  <block id="underline">
+    <message name="title">Subliniat</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Taiat peste</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Lista numerotata</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Lista cu buine</message>
+  </block>
+  <block id="indent">
+    <message name="title">Muta in dreapta</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Muta in stanga</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Stanga</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centru</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Dreapta</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Umple randul</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Culaore scris</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Culoare fond</message>
+  </block>
+  <block id="design">
+    <message name="title">Schimba in mod Vad Ceea Ce Scriu (WYSIWYG)</message>
+  </block>
+  <block id="html">
+    <message name="title">Schimba in cod sursa (HTML)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Aleg culoare</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Curata codul (sterge toate stilurile aplicate)</message>
+    <message name="confirm">Curatand codurile vor fi sterse toate stilurile, fonturile exceptie tag-urile din continutul pagini curente. Parte din sau toate formatarile vor fi pierdute. NU vei sterge continutul</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Ascunde Arata marginile</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Legaturi</message>
+    <message name="url">URL</message>
+    <message name="name">Nume</message>
+    <message name="target">Tinta</message>
+    <message name="title_attr">Titlu</message>
+    <message name="a_type">Tip</message>
+    <message name="type_link">Legatura externa</message>
+    <message name="type_anchor">Semn</message>
+    <message name="type_link2anchor">Legatura la semn</message>
+    <message name="anchors">Semne</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunt</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">acelasi cadru (_self)</message>
+    <message name="_blank">in alta fereastra (_blank)</message>
+    <message name="_top">cadrul de sus (_top)</message>
+    <message name="_parent">cadru parinte (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Sterge legatura</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Proprietati rand</message>
+    <message name="horizontal_align">Aliniere pe orizontala</message>
+    <message name="vertical_align">Aliniere pe verticala</message>
+    <message name="css_class">clasa CSS</message>
+    <message name="no_wrap">Nu rupe randul</message>
+    <message name="bg_color">Culoare fond</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+    <message name="left">Stanga</message>
+    <message name="center">Centru</message>
+    <message name="right">Dreapta</message>
+    <message name="top">Sus</message>
+    <message name="middle">Mijloc</message>
+    <message name="bottom">Jos</message>
+    <message name="baseline">Linie baza</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Caractere Speciale</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+  </block>
+  <block id="templates">
+    <message name="title">Modele</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Proprietati pagina</message>
+    <message name="title_tag">Titlu</message>
+    <message name="charset">Set caractere</message>
+    <message name="background">Imagine fond</message>
+    <message name="bgcolor">Culoare fond</message>
+    <message name="text">Culoare texte</message>
+    <message name="link">Culoare legatura</message>
+    <message name="vlink">Culoare legatura vizitata</message>
+    <message name="alink">Culoare legatura activa</message>
+    <message name="leftmargin">Margine stanga</message>
+    <message name="topmargin">Margine sus</message>
+    <message name="css_class">clasa CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Renunta</message>
+  </block>
+  <block id="preview">
+    <message name="title">Previzualizare</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Imagine care apare in fata</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Mareste Micsoreaza</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Scris mic jos</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Scris mic sus</message>
+  </block>
+</messages>

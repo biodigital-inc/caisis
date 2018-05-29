@@ -1,0 +1,88 @@
+﻿h1
+{
+    font-size: 18px;
+}
+h2
+{
+    font-size: 16px;
+}
+h3
+{
+    font-size: 14px;
+}
+h4
+{
+    font-size: 12px;
+}
+table
+{
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+    margin: 10px auto;
+}
+table th
+{
+    padding: 2px 3px;
+    font-weight: bold;
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+}
+table, table td, table th
+{
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+}
+table td
+{
+    padding: 2px 3px;
+    background-color: #fff;
+    color: #222;
+}
+table tr > td:first-child
+{
+    font-weight: bold;
+}
+table tr:hover > td
+{
+    background-color: #eee;
+    color: #000; /*#3D526C;*/
+}
+table tr.total > td
+{
+    background-color: #eee;
+}
+table.gradesTable th:first-child
+{
+    width: 25%;
+}
+img.SmallProtocolChart
+{
+    border: 1px solid #111;
+    width: 50%;
+    height: auto;
+}
+.chartContainer
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.percentage
+{
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+@media print
+{
+    .chartContainer img.SmallProtocolChart
+    {
+        float: none;
+    }
+    .dataEntryButtonGray
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Plugins Registry used to manage Plugins
+NOTE: Plugins naming convention used to dynamically load plugins
+~/Plugins/{name}/{className}.ascx where the name and className are the attribute values
+from the plugin node. Configuration files will load plugin's based on plugin attribute "name" (i.e. FileLoader,PSAGraph,etc..).
+-->
+<plugins>
+  
+  <plugin name="FileLoader" className="FileLoaderPlugin">
+    <attributes>
+      <attribute name="ShowThumbnail" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+  
+  <plugin name="PSAGraph" className="BCMPSAGraphPlugin">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+  
+  <plugin name="Comments" className="AddCommentsContainer">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+  
+  <plugin name="SpecimenLocation" className="SpecimenLocationControl">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+  
+  <plugin name="SpecimenExternalReference" className="" enabled="true">
+    <attributes>
+      <attribute name="URL" type="string" value="http://aji.cbio.mskcc.org/btc/{0}/index.html" required="true"></attribute>
+      <attribute name="URLParam0" type="string" value="Specimens.SpecimenReferenceNumber" required="true"></attribute>
+      <attribute name="AssociatedField" type="string" value="SpecimenEvents.EventType" required="true"></attribute>
+      <attribute name="ListenForValue" type="string" value="aCGH" required="true"></attribute><!--allow comma delimited list-->
+    </attributes>
+  </plugin>
+  
+  <plugin name="ProtocolsPlugin" className="ProtocolsPlugin">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+      <attribute name="DynamicRender" type="bool" value="true"></attribute>
+    </attributes>
+  </plugin>
+  
+  <plugin name="SurveyPlugin" className="SurveyControl">
+    <attributes>
+      <attribute name="ShowNextToField" type="bool" value="false" required="false"></attribute>
+    </attributes>   
+  </plugin>
+  <plugin name="CTCAEWizard" className="CTCAEWizardControl">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+  <plugin name="IdentifierValidator" className="IdentifierValidatorControl">
+    <attributes>
+      <attribute name="Visible" type="bool" value="true" required="false"></attribute>
+    </attributes>
+  </plugin>
+</plugins>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Iseci</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopiraj</message>
+  </block>
+  <block id="paste">
+    <message name="title">Zalepi</message>
+  </block>
+  <block id="undo">
+    <message name="title">Poni&#353;ti</message>
+  </block>
+  <block id="redo">
+    <message name="title">Obnovi</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Link</message>
+    <message name="url">URL ( adresa )</message>
+    <message name="name">Naziv</message>
+    <message name="target">Odredi&#353;te</message>
+    <message name="title_attr">Tekst za prikaz</message>
+    <message name="a_type">Tip</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Lokalni</message>
+    <message name="type_link2anchor">Link ka lokalnom</message>
+    <message name="anchors">Lokalni</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Unos slike</message>
+    <message name="select">Izbor</message>
+    <message name="delete">Obri&#353;i</message>
+    <message name="cancel">Odustani</message>
+    <message name="library">Biblioteka</message>
+    <message name="preview">Pregled</message>
+    <message name="images">Slike</message>
+    <message name="upload">Unos slike</message>
+    <message name="upload_button">Unos</message>
+    <message name="error">Gre&#353;ka</message>
+    <message name="error_no_image">Izaberite sliku</message>
+    <message name="error_uploading">Gre&#353;ka pri unosu slike. Poku&#353;ajte ponovo</message>
+    <message name="error_wrong_type">Datoteka ne sadr&#382;i sliku</message>
+    <message name="error_no_dir">Biblioteka ne postoji / nije dostupna</message>
+    <message name="error_cant_delete">Ne mogu da obri&#353;em</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Naziv slike</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+    <message name="source">Izvor</message>
+    <message name="alt">Alternativni naziv</message>
+    <message name="align">Poravnaj</message>
+    <message name="justifyleft">lievo</message>
+    <message name="justifyright">desno</message>
+    <message name="top">gore</message>
+    <message name="middle">u sredinu</message>
+    <message name="bottom">dole</message>
+    <message name="absmiddle">apsolutna sredina</message>
+    <message name="texttop">na vrh teksta</message>
+    <message name="baseline">na osnovni red</message>
+    <message name="width">&#352;irina</message>
+    <message name="height">Visina</message>
+    <message name="border">Okvir</message>
+    <message name="hspace">Horizontalni razmak</message>
+    <message name="vspace">Vertikalni razmak</message>
+    <message name="error">Gre&#353;ka</message>
+    <message name="error_width_nan">&#352;irina mora biti  broj&#269;ana vrednost</message>
+    <message name="error_height_nan">Visina mora biti  broj&#269;ana vrednost</message>
+    <message name="error_border_nan">Okvir mora biti  broj&#269;ana vrednost</message>
+    <message name="error_hspace_nan">Horizontalni razmak  broj&#269;ana vrednost</message>
+    <message name="error_vspace_nan">Vertikalni razmak mora broj&#269;ana vrednost</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontalna crta</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Tabela</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Naziv tabele</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+    <message name="rows">redova</message>
+    <message name="columns">kolona</message>
+    <message name="css_class">CSS klasa</message>
+    <message name="width">&#352;irina</message>
+    <message name="height">Visina</message>
+    <message name="border">Debljina okvira</message>
+    <message name="pixels">pixela</message>
+    <message name="cellpadding">Debljina obloge &#263;elije</message>
+    <message name="cellspacing">Razmak me&#273;u &#263;elijama</message>
+    <message name="background">Pozadinska slika</message>
+    <message name="bg_color">Boja pozadine</message>
+    <message name="error">Gre&#353;ka</message>
+    <message name="error_rows_nan">Broj redova mora biti broj&#269;ana vrednost</message>
+    <message name="error_columns_nan">Broj kolona  mora biti broj&#269;ana vrednost</message>
+    <message name="error_width_nan">&#352;irina mora biti broj&#269;ana vrednost</message>
+    <message name="error_height_nan">Visina mora biti broj&#269;ana vrednost</message>
+    <message name="error_border_nan">Debljina okvira mora biti broj&#269;ana vrednost</message>
+    <message name="error_cellpadding_nan">Debljina ispune &#263;elije mora biti broj&#269;ana vrednost</message>
+    <message name="error_cellspacing_nan">Razmak me&#273;u &#263;elijama mora biti broj&#269;ana vrednost</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Osobine &#263;elije</message>
+    <message name="horizontal_align">horizontalno poravnanje</message>
+    <message name="vertical_align">vertikalno poravnanje</message>
+    <message name="width">&#352;irina</message>
+    <message name="height">Visina</message>
+    <message name="css_class">CSS klasa</message>
+    <message name="no_wrap">Brez preloma (wrap)</message>
+    <message name="bg_color">Boja pozadine</message>
+    <message name="background">Pozadinska slika</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+    <message name="justifyleft">Levo</message>
+    <message name="justifycenter">Centar</message>
+    <message name="justifyright">Desno</message>
+    <message name="top">Gore</message>
+    <message name="middle">Sredina</message>
+    <message name="bottom">Dole</message>
+    <message name="baseline">Osnovna linija</message>
+    <message name="error">Gre&#353;ka</message>
+    <message name="error_width_nan">&#352;irina mora biti broj&#269;ana vrednost</message>
+    <message name="error_height_nan">Visina mora biti broj&#269;ana vrednost</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Unos reda</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Unos kolone</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Brisanje reda</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Brisanje kolone</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Unos na desno</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Unos ispod</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Vodoravno podijeli &#263;eliju</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Okomito podeli &#263;eliju</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Veli&#269;ina</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragraf</message>
+  </block>
+  <block id="bold">
+    <message name="title">Bold</message>
+  </block>
+  <block id="italic">
+    <message name="title">Italic</message>
+  </block>
+  <block id="underline">
+    <message name="title">Podvu&#269;eno</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numerisana lista</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Lista</message>
+  </block>
+  <block id="indent">
+    <message name="title">Pove&#263;aj uvla&#269;enje</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Smanji uvla&#269;enje</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Levo</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centar</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Desno</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Boja slova</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Boja pozadine slova</message>
+  </block>
+  <block id="design">
+    <message name="title">Dizajn</message>
+  </block>
+  <block id="html">
+    <message name="title">HTML kod</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Izbor boje</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">&#268;i&#353;&#269;enje HTML (odstranjivanje stilova)</message>
+    <message name="confirm">Brisanje stilova iz HTML koda. Stilovi su delimi&#269;no ili potpuno izbrisani.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Preklop granica</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">isti prozor (_self)</message>
+    <message name="_blank">novi prozor (_blank)</message>
+    <message name="_top">gornji okvir (_top)</message>
+    <message name="_parent">roditeljski prozor (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Osobine redova</message>
+    <message name="horizontal_align">Horizontalno poravnanje</message>
+    <message name="vertical_align">Vertikalno poravnanje</message>
+    <message name="css_class">CSS klasa</message>
+    <message name="no_wrap">Brez preloma (wrap)</message>
+    <message name="bg_color">Boja pozadine</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+    <message name="justifyleft">Levo</message>
+    <message name="justifycenter">Centar</message>
+    <message name="justifyright">Desno</message>
+    <message name="top">Gore</message>
+    <message name="middle">Sredina</message>
+    <message name="bottom">Dole</message>
+    <message name="baseline">Osnovna linija</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Simboli</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+  </block>
+  <block id="templates">
+    <message name="title">&#352;abloni</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Osobine  stranice</message>
+    <message name="title_tag">Naslov</message>
+    <message name="charset">Prikaz slova (charset)</message>
+    <message name="background">Slika u pozadini</message>
+    <message name="bgcolor">Boja pozadine</message>
+    <message name="text">Boja slova teksta</message>
+    <message name="link">Boja linkova</message>
+    <message name="vlink">Boja pose&#263;enog linka</message>
+    <message name="alink">Boja aktivnog linka</message>
+    <message name="leftmargin">Margina levo</message>
+    <message name="topmargin">Margina gore</message>
+    <message name="css_class">CSS klasa</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Odustani</message>
+  </block>
+  <block id="preview">
+    <message name="title">Pregled</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup sa slikom</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Pove&#263;aj ( Zoom )</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subskript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superskript</message>
+  </block>
+</messages>

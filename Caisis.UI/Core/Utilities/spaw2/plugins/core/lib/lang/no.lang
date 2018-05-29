@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Klipp ut</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopier</message>
+  </block>
+  <block id="paste">
+    <message name="title">Lim inn</message>
+  </block>
+  <block id="undo">
+    <message name="title">Angre</message>
+  </block>
+  <block id="redo">
+    <message name="title">Gjenta</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hyperlenke</message>
+    <message name="url">Adresse</message>
+    <message name="name">Navn</message>
+    <message name="target">Ramme</message>
+    <message name="title_attr">Tittel</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Sett inn bilde</message>
+    <message name="select">Velg</message>
+    <message name="cancel">Avbryt</message>
+    <message name="library">Bildearkiv</message>
+    <message name="preview">Forhåndsvisning</message>
+    <message name="images">Bilder</message>
+    <message name="upload">Last opp bilde</message>
+    <message name="upload_button">Last opp</message>
+    <message name="error">Feil</message>
+    <message name="error_no_image">Vennligst velg et bilde</message>
+    <message name="error_uploading">En feil oppstod under opplasting av fil. Vennligst prøv igjen senere</message>
+    <message name="error_wrong_type">Bilde har feil filtype</message>
+    <message name="error_no_dir">Bildearkiv eksisterer ikke</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Bildeegenskaper</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="source">Kilde</message>
+    <message name="alt">Alternativ tekst</message>
+    <message name="align">Justering</message>
+    <message name="justifyleft">venstre</message>
+    <message name="justifyright">høyre</message>
+    <message name="top">topp</message>
+    <message name="middle">midt</message>
+    <message name="bottom">bunn</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Bredde</message>
+    <message name="height">Høyde</message>
+    <message name="border">Kantlinje</message>
+    <message name="hspace">Hor. mellomrom</message>
+    <message name="vspace">Vert. mellomrom</message>
+    <message name="error">Feil</message>
+    <message name="error_width_nan">Bredde er ikke et tall</message>
+    <message name="error_height_nan">Høyde er ikke et tall</message>
+    <message name="error_border_nan">Kantlinje er ikke et tall</message>
+    <message name="error_hspace_nan">Horisontalt mellomrom er ikke et tall</message>
+    <message name="error_vspace_nan">Vertikalt mellomrom er ikke et tall</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horisontal linje</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Sett inn tabell</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabellegenskaper</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="rows">Rader</message>
+    <message name="columns">Kolonner</message>
+    <message name="width">Bredde</message>
+    <message name="height">Høyde</message>
+    <message name="border">Kantlinje</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Cellemarg</message>
+    <message name="cellspacing">Celleavstand</message>
+    <message name="bg_color">Bakgrunnsfarge</message>
+    <message name="error">Feil</message>
+    <message name="error_rows_nan">Rader er ikke et tall</message>
+    <message name="error_columns_nan">Kolonner er ikke et tall</message>
+    <message name="error_width_nan">Bredde er ikke et tall</message>
+    <message name="error_height_nan">Høyde er ikke et tall</message>
+    <message name="error_border_nan">Kantlinje er ikke et tall</message>
+    <message name="error_cellpadding_nan">Cellemarg er ikke et tall</message>
+    <message name="error_cellspacing_nan">Celleavstand er ikke et tall</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Celleegenskaper</message>
+    <message name="horizontal_align">Horisontal justering</message>
+    <message name="vertical_align">Vertikal justering</message>
+    <message name="width">Bredde</message>
+    <message name="height">Høyde</message>
+    <message name="css_class">CSS-klasse</message>
+    <message name="no_wrap">Ingen linjebryting</message>
+    <message name="bg_color">Bakgrunnsfarge</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="justifyleft">Venstre</message>
+    <message name="justifycenter">Midt</message>
+    <message name="justifyright">Høyre</message>
+    <message name="top">Topp</message>
+    <message name="middle">Midt</message>
+    <message name="bottom">Bunn</message>
+    <message name="baseline">baseline</message>
+    <message name="error">Feil</message>
+    <message name="error_width_nan">Bredde er ikke et tall</message>
+    <message name="error_height_nan">Høyde er ikke et tall</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Sett inn rad</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Sett inn kolonne</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Slett rad</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Slett kolonne</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Slå sammen mot høyre</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Slå sammen nedover</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Del celle horisontalt</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Del celle vertikalt</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Størrelse</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Avsnitt</message>
+  </block>
+  <block id="bold">
+    <message name="title">Fet</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursiv</message>
+  </block>
+  <block id="underline">
+    <message name="title">Understrekning</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Sortert liste</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Usortert liste</message>
+  </block>
+  <block id="indent">
+    <message name="title">Øk innrykk</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Reduser innrykk</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Venstre</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Midt</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Høyre</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Forgrunnsfarge</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Bakgrunnsfarge</message>
+  </block>
+  <block id="design">
+    <message name="title">Vis design</message>
+  </block>
+  <block id="html">
+    <message name="title">Vis kildekode</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Fargevelger</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML-opprenskning (fjerner stilformatteringer)</message>
+    <message name="confirm">HTML-opprenskning vil fjerne alle stilformatteringer, fonter og overflødige oppmerkinger. Noen av eller alle dine formateringer kan forsvinne.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Vis/skjul kantlinjer</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Radegenskaper</message>
+    <message name="horizontal_align">Horisontal justering</message>
+    <message name="vertical_align">Vertikal justering</message>
+    <message name="css_class">CSS-klasse</message>
+    <message name="no_wrap">Ingen linjebryting</message>
+    <message name="bg_color">Bakgrunnsfarge</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="justifyleft">Venstre</message>
+    <message name="justifycenter">Midt</message>
+    <message name="justifyright">Høyre</message>
+    <message name="top">Topp</message>
+    <message name="middle">Midt</message>
+    <message name="bottom">Bunn</message>
+    <message name="baseline">Baseline</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Spesielle symboler</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="templates">
+    <message name="title">Maler</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Sideegenskaper</message>
+    <message name="title_tag">Tittel</message>
+    <message name="charset">Tegnsett</message>
+    <message name="background">Bakgrunnsbilde</message>
+    <message name="bgcolor">Bakgrunnsfarge</message>
+    <message name="text">Tekstfarge</message>
+    <message name="link">Farge på lenke</message>
+    <message name="vlink">Farge på besøkt lenke</message>
+    <message name="alink">Farge på aktiv lenke</message>
+    <message name="leftmargin">Venstremarg</message>
+    <message name="topmargin">Toppmarg</message>
+    <message name="css_class">CSS-klasse</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="preview">
+    <message name="title">Forhåndsvisning</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Bilde-popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

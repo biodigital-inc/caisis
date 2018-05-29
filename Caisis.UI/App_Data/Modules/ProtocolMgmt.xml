@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module name="ProtocolMgmt">
+    <surveys>
+        <survey name="c13-115 Eligibility Questionnaire">
+            <!--
+        Question 1 has to be always answered as “Yes” AND either of the following has to be true
+            Question 2 is answered as “Yes” OR
+            Question 3 and 4 are answered “Yes”  OR
+            Question 3 and 5 are answered “Yes”.
+        -->
+            <eligible response="Yes,Yes,*,*,*"></eligible>
+            <eligible response="Yes,*,Yes,Yes,*"></eligible>
+            <eligible response="Yes,*,Yes,*,Yes"></eligible>
+        </survey>
+    </surveys>
+    <visits>
+        <visit match="ProtocolNum LIKE 'c12-108%'">
+            <sql>
+                <![CDATA[
+/* REQUIREMENTS
+ (1) Create Status Disease Progression on Progression tab (Status table);
+ (2) Add ability to Disease Progression to Protocol Admin/Timeline;
+ (3) Hide AA (1) and AA(2) visits scheduled after Progression date for Arm 1;
+	 Hide all visits (C, AA (2)) after Progression date for Arm 2
+*/
+SELECT DISTINCT
+	--*
+	--a.ProtocolId,
+	--a.PatientId,
+	--a.PatientProtocolId,
+	-- patient item info
+	a.ItemTimelineId,
+	a.PatientSchemaId,
+	a.PatientItemId,	
+	a.ScheduledDate,
+	a.FirstAnticipatedDate,
+	a.LastAnticipatedDate,
+	a.Status
+FROM
+-- get patient schedule
+(
+	SELECT DISTINCT
+		p.ProtocolId,
+		pp.PatientId,
+		pp.PatientProtocolId,
+		ps.PatientSchemaId,
+		ps.ProtocolSchemaId,
+		ps.ProtocolArmDescription,
+		t.TimelineId,
+		t.VisitLabel,
+		pi.PatientItemId,
+		pi.ItemTimelineId,
+		pi.ScheduledDate,
+		pi.FirstAnticipatedDate,
+		pi.LastAnticipatedDate,
+		pi.Status
+	FROM PatientProtocols pp
+	INNER JOIN Protocols p
+		ON pp.ProtocolId = p.ProtocolId
+	LEFT OUTER JOIN
+	(
+		SELECT
+			c.ProtocolId,
+			b.ProtocolSchemaId,
+			b.ProtocolArmDescription,
+			a.PatientId,
+			a.PatientSchemaId			
+		FROM ProtocolMgr_PatientSchemas a
+		INNER JOIN ProtocolMgr_ProtocolSchemas b
+			ON a.ProtocolSchemaId = b.ProtocolSchemaId
+		INNER JOIN ProtocolMgr_ProtocolVersions c
+			ON b.ProtocolVersionId = c.ProtocolVersionId
+	) ps
+		ON pp.ProtocolId = ps.ProtocolId AND pp.PatientId = ps.PatientId
+	LEFT OUTER JOIN ProtocolMgr_PatientItems pi
+		ON ps.PatientSchemaId = pi.PatientSchemaId
+	LEFT OUTER JOIN ProtocolMgr_ItemTimeline it
+		ON pi.ItemTimelineId = it.ItemTimelineId
+	LEFT OUTER JOIN ProtocolMgr_Timeline t
+		ON it.TimelineId = t.TimelineId 
+	WHERE
+		p.ProtocolId = @ProtocolId
+) a
+LEFT OUTER JOIN
+(
+-- get patients with disease progression
+	SELECT
+		PatientId,
+		PatientProtocolId,
+		[1st Progression],
+		[2nd Progression]
+	FROM
+	(
+		SELECT DISTINCT
+			pp.PatientId,
+			pp.PatientProtocolId,
+			c.StatusDate,
+			c.StatusDisease,
+			c.Status
+		FROM Patients a
+		INNER JOIN PatientProtocols pp
+			ON a.PatientId = pp.PatientId
+		INNER JOIN Status c
+			ON a.PatientId = c.PatientId
+		WHERE
+			-- valid dates
+			c.StatusDate IS NOT NULL
+			-- specified disease
+			AND c.StatusDisease = 'Prostate Cancer'
+			-- specfied progression
+			AND c.Status IN ('1st Progression','2nd Progression')
+		) a
+		PIVOT
+		(
+			MIN(StatusDate)
+			FOR [Status] IN ([1st Progression],[2nd Progression])
+		) AS a
+) b
+ON
+	a.PatientProtocolId = b.PatientProtocolId
+LEFT OUTER JOIN
+(
+	SELECT DISTINCT e.TimelineId
+	FROM ProtocolMgr_Timeline a
+	INNER JOIN ProtocolMgr_ProtocolSchemas b
+		ON b.ProtocolSchemaId = a.ProtocolSchemaId
+	INNER JOIN ProtocolMgr_ProtocolVersions c
+		ON b.ProtocolVersionId = c.ProtocolVersionId AND a.ItemIntervalType LIKE '%Recurring%' AND (a.VisitLabel LIKE 'AA (1)%' OR a.VisitLabel LIKE 'AA (2)%')
+	INNER JOIN Protocols d
+		ON c.ProtocolId = d.ProtocolId
+	INNER JOIN ProtocolMgr_Timeline e
+		ON a.ProtocolSchemaId = e.ProtocolSchemaId
+		AND a.DisplayColumnPosition = e.DisplayColumnPosition
+		AND a.PreStudySchemaItem = e.PreStudySchemaItem
+	WHERE
+		d.ProtocolId = @ProtocolId
+) c
+	ON a.TimelineId = c.TimelineId
+LEFT OUTER JOIN
+(
+	SELECT DISTINCT e.TimelineId
+	FROM ProtocolMgr_Timeline a
+	INNER JOIN ProtocolMgr_ProtocolSchemas b
+		ON b.ProtocolSchemaId = a.ProtocolSchemaId
+	INNER JOIN ProtocolMgr_ProtocolVersions c
+		ON b.ProtocolVersionId = c.ProtocolVersionId AND a.ItemIntervalType LIKE '%Recurring%' AND (a.VisitLabel LIKE 'C+AA%' OR a.VisitLabel LIKE 'AA%')	
+	INNER JOIN Protocols d
+		ON c.ProtocolId = d.ProtocolId
+	INNER JOIN ProtocolMgr_Timeline e
+		ON a.ProtocolSchemaId = e.ProtocolSchemaId
+		AND a.DisplayColumnPosition = e.DisplayColumnPosition
+		AND a.PreStudySchemaItem = e.PreStudySchemaItem
+	WHERE
+		d.ProtocolId = @ProtocolId
+) d
+	ON a.TimelineId = d.TimelineId
+WHERE
+	a.ItemTimelineId IS NOT NULL
+	AND
+	NOT
+	(
+		[1st Progression] IS NOT NULL
+		AND
+		ProtocolArmDescription IS NOT NULL
+		AND
+		ScheduledDate IS NOT NULL
+		AND
+		(
+			(c.TimelineId IS NOT NULL AND ProtocolArmDescription LIKE 'Arm 1%' AND ScheduledDate > [1st Progression])
+			OR
+			(d.TimelineId IS NOT NULL AND ProtocolArmDescription LIKE 'Arm 2%' AND ScheduledDate > [1st Progression])
+		)
+		
+	)
+                ]]>
+            </sql>
+        </visit>
+    </visits>
+    <!-- specimen configurations -->
+    <specimens>
+        <!-- visits -->
+        <visits match="ProtocolNum LIKE 'c12-108%'" type="Blood Specimens">
+            <visit>
+                <Label>Pre-Treatment (A)</Label>
+                <Value>A</Value>
+            </visit>
+            <visit>
+                <Label>Progression (C)</Label>
+                <Value>C</Value>
+            </visit>
+        </visits>
+        <visits match="ProtocolNum LIKE 'c12-108%'" type="Tissue Specimens">
+            <visit>
+                <Label>Pre-Treatment (A)</Label>
+                <Value>A</Value>
+            </visit>
+            <visit>
+                <Label>Progression (C)</Label>
+                <Value>C</Value>
+            </visit>
+        </visits>
+        <!-- default specimens -->
+        <defaults type="Blood Specimens" match="ProtocolNum LIKE 'c12-108%'">
+            <ProtocolSpecimenDefault>
+                <Suffix>S</Suffix>
+                <SubType>Androgen Panel</SubType>
+                <VialType>SST</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>P</Suffix>
+                <SubType>Plasma (cfDNA)</SubType>
+                <VialType>EDTA</VialType>
+            </ProtocolSpecimenDefault>
+        </defaults>
+        <defaults type="Blood Specimens" match="ProtocolNum LIKE '%%'">
+            <ProtocolSpecimenDefault>
+                <Suffix>S-1</Suffix>
+                <SubType>Serum</SubType>
+                <VialType>SST</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>S-2</Suffix>
+                <SubType>Serum</SubType>
+                <VialType>SST</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>P-1</Suffix>
+                <SubType>Plasma</SubType>
+                <VialType>EDTA</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>P-2</Suffix>
+                <SubType>Plasma</SubType>
+                <VialType>EDTA</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>B-1</Suffix>
+                <SubType>Buffy Coat</SubType>
+                <VialType>EDTA</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>BU-1</Suffix>
+                <SubType>Buccolic Swab</SubType>
+                <VialType>Swab</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>PAX-1</Suffix>
+                <SubType></SubType>
+                <VialType>PAXgene</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>PAX-2</Suffix>
+                <SubType></SubType>
+                <VialType>PAXgene</VialType>
+            </ProtocolSpecimenDefault>
+            <ProtocolSpecimenDefault>
+                <Suffix>W-1</Suffix>
+                <SubType>Whole Blood</SubType>
+                <VialType></VialType>
+            </ProtocolSpecimenDefault>
+        </defaults>
+    </specimens>
+</module>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<messages charset="iso-8859-1">
+  <block id="cut">
+    <message name="title">Leikkaa</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopioi</message>
+  </block>
+  <block id="paste">
+    <message name="title">Liitä</message>
+  </block>
+  <block id="undo">
+    <message name="title">Kumoa</message>
+  </block>
+  <block id="redo">
+    <message name="title">Tee uudelleen</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Linkki</message>
+    <message name="url">Kohdeosoite (URL)</message>
+    <message name="name">Nimi</message>
+    <message name="target">Ikkuna, johon linkki avautuu</message>
+    <message name="title_attr">Otsikko</message>
+    <message name="a_type">Linkin tyyppi</message>
+    <message name="type_link">Tavallinen linkki</message>
+    <message name="type_linktoownpage">Linkki omalle sivulle</message>
+    <message name="type_linktofile">Linkki tiedostoon palvelimella</message>
+    <message name="type_anchor">Ankkuri</message>
+    <message name="type_link2anchor">Linkki ankkuriin</message>
+    <message name="anchors">Ankkurit</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+  </block>
+  <block id="image">
+    <message name="title">Kuvan nopea lisäys</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Kuvan ominaisuudet</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+    <message name="source">Kuva</message>
+    <message name="alt">Kuvaus (ALT)</message>
+    <message name="align">Suhde tekstiin</message>
+    <message name="left">kuva vasemmalla, teksti kiertää</message>
+    <message name="right">kuva oikealla, teksti kiertää</message>
+    <message name="top">teksti asettuu kuvan yläreunaan</message>
+    <message name="middle">teksti asettuu kuvan keskikork.</message>
+    <message name="bottom">teksti asettuu kuvan alareunaan</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Leveys</message>
+    <message name="height">Korkeus</message>
+    <message name="border">Reunus</message>
+    <message name="hspace">Vaakas. tyhjä tila</message>
+    <message name="vspace">Pystys. tyhjä tila</message>
+    <message name="dimensions">Mitat</message>
+    <message name="reset_dimensions">Aseta alkuperäinen kuvakoko</message>
+    <message name="title_attr">Otsake</message>
+    <message name="constrain_proportions">Säilytä kuvasuhde</message>
+    <message name="error">Virhe</message>
+    <message name="error_width_nan">Leveyden arvo ei ole numero</message>
+    <message name="error_height_nan">Korkeuden arvo ei ole numero</message>
+    <message name="error_border_nan">Reunuksen arvo ei ole numero</message>
+    <message name="error_hspace_nan">Vaakasuoran tyhjän tilan arvo ei ole numero</message>
+    <message name="error_vspace_nan">Pystysuoran tyhjän tilan arvo ei ole numero</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash-objektin liittäminen</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+    <message name="source">Lähde</message>
+    <message name="width">Leveys</message>
+    <message name="height">Korkeus</message>
+    <message name="error">Virhe</message>
+    <message name="error_width_nan">Leveyden arvo ei ole numero</message>
+    <message name="error_height_nan">Korkeuden arvo ei ole numero</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Vaakaviiva</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Luo taulukko</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Taulukon ominaisuudet</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+    <message name="rows">Rivejä</message>
+    <message name="columns">Sarakkeita</message>
+    <message name="width">Leveys</message>
+    <message name="height">Korkeus</message>
+    <message name="border">Reunaviiva</message>
+    <message name="pixels">kuvapistettä</message>
+    <message name="css_class">Tyyli</message>
+    <message name="cellpadding">Tekstin etäisyys solun reunasta</message>
+    <message name="cellspacing">Solujen välinen tyhjä tila</message>
+    <message name="bg_color">Taustaväri</message>
+    <message name="background">Taustakuva</message>
+    <message name="error">Virhe</message>
+    <message name="error_rows_nan">Rivimäärän arvo ei ole numero</message>
+    <message name="error_columns_nan">Sarakemäärän arvo ei ole numero</message>
+    <message name="error_width_nan">Leveyden arvo ei ole numero</message>
+    <message name="error_height_nan">Korkeuden arvo ei ole numero</message>
+    <message name="error_border_nan">Reunuksen arvo ei ole numero</message>
+    <message name="error_cellpadding_nan">Tekstin etäisyys solun reunasta -kentän arvo ei ole numero</message>
+    <message name="error_cellspacing_nan">Solujen välinen tyhjä tila -arvo ei ole numero</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Taulukon solun ominaisuudet</message>
+    <message name="horizontal_align">Tasaus vaakasuunnassa</message>
+    <message name="vertical_align">Tasaus pystysuunnassa</message>
+    <message name="width">Leveys</message>
+    <message name="height">Korkeus</message>
+    <message name="css_class">Tyyli</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Taustaväri</message>
+    <message name="background">Taustakuva</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+    <message name="justifyleft">Vasen</message>
+    <message name="justifycenter">Keskitä</message>
+    <message name="justifyright">Oikea</message>
+    <message name="top">YlÃ¶s</message>
+    <message name="middle">Keskelle</message>
+    <message name="bottom">Alas</message>
+    <message name="baseline">Baseline</message>
+    <message name="error">Virhe</message>
+    <message name="error_width_nan">Leveyden arvo ei ole numero</message>
+    <message name="error_height_nan">Korkeuden arvo ei ole numero</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Lisää rivi taulukkoon</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Lisää sarake taulukkoon</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Poista rivi taulukosta</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Poista sarake taulukosta</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Yhdistä oikealla puolella olevaan soluun</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Yhdistä alapuolella olevaan soluun</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Jaa solu vaakasuunnassa</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Jaa solu pystysuunnassa</message>
+  </block>
+  <block id="style">
+    <message name="title">Tyyli</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Fontti</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Koko</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Kappale</message>
+  </block>
+  <block id="bold">
+    <message name="title">Lihavoi</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursivoi</message>
+  </block>
+  <block id="underline">
+    <message name="title">Alleviivaa</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numeroitu luettelo</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Luettelomerkit</message>
+  </block>
+  <block id="indent">
+    <message name="title">Sisennä</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Poista sisennystä</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Tasaa vasempaan reunaan</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Keskitä</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Tasaa oikeaan reunaan</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Tasaa molemmat reunat</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Tekstin väri</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Tekstin taustaväri</message>
+  </block>
+  <block id="design">
+    <message name="title">Vaihda sisältöeditorin tekstinkäsittelyn kaltaiseen  WYSIWYG (design) -tilaan.</message>
+  </block>
+  <block id="html">
+    <message name="title">Vaihda HTML-kooditilaan</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Värivalitsin</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML-koodin puhdistus (poistaa tyylimäärittelyt)</message>
+    <message name="confirm">Tämä toiminto poistaa tämän sivun sisällöstä kaikki tyylimäärittelyt, fonttimäärittelyt ja tarpeettomat komennot. Kaikki tekstin muotoilu tai osa muotoilusta voi kadota.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Näytä/Piilota reunuksettomien taulukkojen reunat</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">Sama ikkuna (_self)</message>
+    <message name="_blank">Uusi tyhjä ikkuna (_blank)</message>
+    <message name="_top">top frame (_top)</message>
+    <message name="_parent">parent frame (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Poista linkki</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Taulukon rivin ominaisuudet</message>
+    <message name="horizontal_align">Tasaus vaakasuunnassa</message>
+    <message name="vertical_align">Tasaus Pystysuunnassa</message>
+    <message name="css_class">CSS tyyli</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Taustaväri</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+    <message name="justifyleft">Vasen</message>
+    <message name="justifycenter">Keskitä</message>
+    <message name="justifyright">Oikea</message>
+    <message name="top">Ylös</message>
+    <message name="middle">Keskelle</message>
+    <message name="bottom">Alas</message>
+    <message name="baseline">Alareunaan</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Erikoismerkit</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+  </block>
+  <block id="templates">
+    <message name="title">Ulkoasupohjat</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Sivun ominaisuudet</message>
+    <message name="title_tag">Otsikko (Title)</message>
+    <message name="charset">Charset</message>
+    <message name="background">Taustakuva</message>
+    <message name="bgcolor">Taustaväri</message>
+    <message name="text">Tekstin väri</message>
+    <message name="link">Linkin väri</message>
+    <message name="vlink">Vieraillun linkin väri</message>
+    <message name="alink">Aktiivisen linkin väri</message>
+    <message name="leftmargin">Vasen reunus</message>
+    <message name="topmargin">Yläreunus</message>
+    <message name="css_class">CSS luokka</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Peruuta</message>
+  </block>
+  <block id="preview">
+    <message name="title">Esikatselu</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Ponnahduskuva</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoomaa</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subscript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superscript</message>
+  </block>
+</messages>

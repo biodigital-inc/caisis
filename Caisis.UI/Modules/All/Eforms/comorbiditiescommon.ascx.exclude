@@ -1,0 +1,170 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="ComorbiditiesCommon.ascx.cs" Inherits="Caisis.UI.Modules.All.Eforms.ComorbiditiesCommon" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+<%@ Register TagPrefix="euc" Namespace="Caisis.UI.Core.Eforms" Assembly="Caisis.UI" %>
+<script language="javascript">
+	tableArray.ComorbiditiesHtmlTable = "ComorbiditiesHtmlTable";
+</script>
+<link href="../../../StyleSheets/EformStyles.css" rel="stylesheet" type="text/css">
+<a name="Comorbidities" /><span class="controlBoxTitle">Comorbidities</span><br>
+<table width="650" cellpadding="5" cellspacing="0" class="ClinicalEformTable" id="ComorbiditiesHtmlTable">
+  <tr> 
+    <td width="20%" class="controlBoxDataGridHeaderFirstCol" style="text-align: left;">&nbsp;Date</td>
+    <td width="25%" class="controlBoxDataGridHeaderFirstCol">Comorbidity</td>
+    <td width="25%" class="controlBoxDataGridHeaderFirstCol">Notes</td>
+    <td height="10%" class="controlBoxDataGridHeaderFirstCol">&nbsp;</td>
+  </tr>
+  
+  
+  
+  <asp:Repeater ID="comorbidities" runat="server" OnItemCreated="EFormRepeaterOnDataBound" > 
+	<ItemTemplate> 
+		<tr class="ClinicalEformPopulatedRow" onMouseOver="this.className='ClinicalEformHighlightedRow';" onMouseOut="this.className='ClinicalEformPopulatedRow';"  onclick="LoadDataEntryForm('Comorbidities', <%# DataBinder.Eval(Container.DataItem, "ComorbidityId") %>, 'ComorbDateText,ComorbDate,Comorbidity,ComorbNotes','Comorbidities');"> 
+			<td class="ClinicalEformPopulatedColumn">&nbsp;<%# DataBinder.Eval(Container.DataItem, "ComorbDateText") %></td>
+			<td align="center" class="ClinicalEformPopulatedColumn"><%# DataBinder.Eval(Container.DataItem, "Comorbidity") %>&nbsp;</td>
+			<td align="center" class="ClinicalEformPopulatedColumn"><%# DataBinder.Eval(Container.DataItem, "ComorbNotes") %>&nbsp;</td>
+			<td class="ClinicalEformPopulatedColumn"><img align="right" src="../../../Images/EformPopulatedRowLOCK.gif" width="9" height="11" id="LockImage" runat="server" title="This record has been locked.">&nbsp;</td>
+		</tr>      
+	</ItemTemplate>
+  </asp:Repeater>
+  
+  
+  
+
+  <tr > 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="1"  ID="ComorbDateText_1" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="1" Runat="server" ID="ComorbDate_1" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80" RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="1" Table="Comorbidities" Runat="server" ID="Comorbidity_76"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="1" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_1"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon1"/></td>
+  </tr>
+  <tr > 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="2"  ID="ComorbDateText_2" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="2" Runat="server" ID="ComorbDate_2" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="2" Table="Comorbidities" Runat="server" ID="Comorbidity_2"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="2" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_2"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon2"/></td>
+  </tr>
+  <tr > 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="3"  ID="ComorbDateText_3" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="3" Runat="server" ID="ComorbDate_3" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="3" Table="Comorbidities" Runat="server" ID="Comorbidity_3"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="3" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_3"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon3"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="4"  ID="ComorbDateText_4" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="4" Runat="server" ID="ComorbDate_4" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="4" Table="Comorbidities" Runat="server" ID="Comorbidity_4"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="4" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_4"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon4"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="5"  ID="ComorbDateText_5" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="5" Runat="server" ID="ComorbDate_5" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="5" Table="Comorbidities" Runat="server" ID="Comorbidity_5"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="5" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_5"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon5"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="6"  ID="ComorbDateText_6" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="6" Runat="server" ID="ComorbDate_6" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="6" Table="Comorbidities" Runat="server" ID="Comorbidity_6"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="6" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_6"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon6"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="7"  ID="ComorbDateText_7" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="7" Runat="server" ID="ComorbDate_7" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="7" Table="Comorbidities" Runat="server" ID="Comorbidity_7"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="7" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_7"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon7"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="8"  ID="ComorbDateText_8" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="8" Runat="server" ID="ComorbDate_8" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="8" Table="Comorbidities" Runat="server" ID="Comorbidity_8"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="8" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_8"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon8"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="9"  ID="ComorbDateText_9" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="9" Runat="server" ID="ComorbDate_9" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="9" Table="Comorbidities" Runat="server" ID="Comorbidity_9"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="9" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_9"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon9"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="10"  ID="ComorbDateText_10" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="10" Runat="server" ID="ComorbDate_10" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="10" Table="Comorbidities" Runat="server" ID="Comorbidity_10"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="10" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_10"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon10"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="11"  ID="ComorbDateText_11" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="11" Runat="server" ID="ComorbDate_11" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="11" Table="Comorbidities" Runat="server" ID="Comorbidity_11"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="11" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_11"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon11"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="12"  ID="ComorbDateText_12" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="12" Runat="server" ID="ComorbDate_12" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="12" Table="Comorbidities" Runat="server" ID="Comorbidity_12"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="12" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_12"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon12"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="13"  ID="ComorbDateText_13" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="13" Runat="server" ID="ComorbDate_13" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="13" Table="Comorbidities" Runat="server" ID="Comorbidity_13"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="13" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_13"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon13"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="14"  ID="ComorbDateText_14" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="14" Runat="server" ID="ComorbDate_14" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="14" Table="Comorbidities" Runat="server" ID="Comorbidity_14"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="14" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_14"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon14"/></td>
+  </tr>
+  <tr style="DISPLAY: none"> 
+    <td height="28" class="ClinicalEformGridColumnOne">
+	
+	<euc:EformTextBox Runat="server" RecordId="15"  ID="ComorbDateText_15" TABLE="Comorbidities" FIELD="ComorbDateText" style="width:80px;"  ShowCalendar="True" CalcDate="True" class="InputText"  />
+	<euc:EformHidden RecordId="15" Runat="server" ID="ComorbDate_15" Table="Comorbidities" Field="ComorbDate" />	</td>
+    <td><euc:EformComboBox  LookupCode="Comorbidity,PercentUsage,Top80"  RefBy="Comorbidity" style="width:140;" Field="Comorbidity" RecordId="15" Table="Comorbidities" Runat="server" ID="Comorbidity_15"  /></td>
+    <td align="center"><euc:EformTextBox RecordId="15" ShowCalendar="False" CalcDate="False" style="width:200px;" TABLE="Comorbidities" FIELD="ComorbNotes" Runat="server" ID="ComorbNotes_15"/></td>
+    <td><euc:EformDeleteIcon runat="server" ID="Eformdeleteicon15"/></td>
+  </tr>
+</table>
+<img src="../../Images/EFormAddARow.gif" hspace="0" width="117" height="16" border="0" class="ClickableImage" align="left"  onclick="return showFirstAdditionalRow(this,'ComorbiditiesHtmlTable');" />
+<br/><br/>
+<br/>

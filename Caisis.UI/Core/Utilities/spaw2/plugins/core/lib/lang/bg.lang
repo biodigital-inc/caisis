@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Отрежи</message>
+  </block>
+  <block id="copy">
+    <message name="title">Копирай</message>
+  </block>
+  <block id="paste">
+    <message name="title">Вмъкни</message>
+  </block>
+  <block id="undo">
+    <message name="title">Отмени</message>
+  </block>
+  <block id="redo">
+    <message name="title">Повтори</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Линк</message>
+    <message name="url">Адрес</message>
+    <message name="name">Име</message>
+    <message name="target">Цел</message>
+    <message name="title_attr">Название</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Вмъкни картинка</message>
+    <message name="select">Вмъкни</message>
+    <message name="cancel">Отмени</message>
+    <message name="library">Библиотека</message>
+    <message name="preview">Преглед</message>
+    <message name="images">Картинки</message>
+    <message name="upload">Изпрати картинка</message>
+    <message name="upload_button">Изпрати</message>
+    <message name="error">Грешка</message>
+    <message name="error_no_image">Изберете картинка</message>
+    <message name="error_uploading">Грешка при изпращането. Пробвайте пак.</message>
+    <message name="error_wrong_type">Неправилен тип картинка</message>
+    <message name="error_no_dir">Библиотеката не съществува</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Параметри на картинката</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+    <message name="source">Източник</message>
+    <message name="alt">Кратко описание</message>
+    <message name="align">Подравняване</message>
+    <message name="justifyleft">наляво (left)</message>
+    <message name="justifyright">надясно (right)</message>
+    <message name="top">горе (top)</message>
+    <message name="middle">в центъра (middle)</message>
+    <message name="bottom">долу (bottom)</message>
+    <message name="absmiddle">абс. център (absmiddle)</message>
+    <message name="texttop">отгоре (texttop)</message>
+    <message name="baseline">отдолу (baseline)</message>
+    <message name="width">Ширина</message>
+    <message name="height">Височина</message>
+    <message name="border">Рамка</message>
+    <message name="hspace">Гор. разстояние</message>
+    <message name="vspace">Верт. разстояние</message>
+    <message name="error">Грешка</message>
+    <message name="error_width_nan">Ширината трябва да е числена стойност</message>
+    <message name="error_height_nan">Височината трябва да е числена стойност</message>
+    <message name="error_border_nan">Рамката трябва да е числена стойност</message>
+    <message name="error_hspace_nan">Хоризонталните полета трябва да са числена стойност</message>
+    <message name="error_vspace_nan">Вертикалните полета трябва да са числена стойност</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Хоризонтална линия</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Създай таблица</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Параметри на таблицата</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+    <message name="rows">Редове</message>
+    <message name="columns">Колони</message>
+    <message name="width">Ширина</message>
+    <message name="height">Височина</message>
+    <message name="border">Рамка</message>
+    <message name="pixels">пикс.</message>
+    <message name="cellpadding">Отстъп от рамката</message>
+    <message name="cellspacing">Разстояние между клетките</message>
+    <message name="bg_color">Цвят на фона</message>
+    <message name="error">Грешка</message>
+    <message name="error_rows_nan">Редовете трябва да са числена стойност</message>
+    <message name="error_columns_nan">Колоните трябва да са числена стойност</message>
+    <message name="error_width_nan">Ширината трябва да е числена стойност</message>
+    <message name="error_height_nan">Височината трябва да е числена стойност</message>
+    <message name="error_border_nan">Рамката трябва да е числена стойност</message>
+    <message name="error_cellpadding_nan">Отстъпът от рамката трябва да е числена стойност</message>
+    <message name="error_cellspacing_nan">Разстоянието между клетките трябва да е числена стойност</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Параметри на клетката</message>
+    <message name="horizontal_align">Хоризонтално подравняване</message>
+    <message name="vertical_align">Вертикално подравняване</message>
+    <message name="width">Ширина</message>
+    <message name="height">Височина</message>
+    <message name="css_class">Стил</message>
+    <message name="no_wrap">Без преноси</message>
+    <message name="bg_color">Цвят на фона</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+    <message name="justifyleft">Наляво</message>
+    <message name="justifycenter">В центъра</message>
+    <message name="justifyright">Надясно</message>
+    <message name="top">Отгоре</message>
+    <message name="middle">В центъра</message>
+    <message name="bottom">Отдолу</message>
+    <message name="baseline">На базовата линия на текста</message>
+    <message name="error">Грешка</message>
+    <message name="error_width_nan">Ширината трябва да е числена стойност</message>
+    <message name="error_height_nan">Височината трябва да е числена стойност</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Вмъкни ред</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Вмъкни колона</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Премахни ред</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Премахни колона</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Обедини надясно</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Обедини наляво</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Раздели хоризонтално</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Раздели вертикално</message>
+  </block>
+  <block id="style">
+    <message name="title">Стил</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Шрифт</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Размер</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">параграф</message>
+  </block>
+  <block id="bold">
+    <message name="title">Получер</message>
+  </block>
+  <block id="italic">
+    <message name="title">Курсив</message>
+  </block>
+  <block id="underline">
+    <message name="title">Подчертан</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Пронумерован списък</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Обикновен списък</message>
+  </block>
+  <block id="indent">
+    <message name="title">Увеличи отстъпа</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Намали отстъпа</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Подравняване наляво</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Подравняване по центъра</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Подравняване надясно</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Цвят на текста</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Цвят на фона</message>
+  </block>
+  <block id="design">
+    <message name="title">Превключи в режим на макетиране (WYSIWYG)</message>
+  </block>
+  <block id="html">
+    <message name="title">Превключи в режим на редактиране на кода (HTML)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Избор на цвят</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Очистване на HTML</message>
+    <message name="confirm">Тази операция премахва всички стилове, шрифтове и ненужни тагове от съдържанието в редактора. Форматирането може да бъде загубено частично или изцяло.</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Включи рамката</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Параметри на реда</message>
+    <message name="horizontal_align">Хоризонтално подравняване</message>
+    <message name="vertical_align">Вертикално подравняване</message>
+    <message name="css_class">Стил</message>
+    <message name="no_wrap">Без преноси</message>
+    <message name="bg_color">Цвят на фона</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+    <message name="justifyleft">Отляво</message>
+    <message name="justifycenter">В центъра</message>
+    <message name="justifyright">Отдясно</message>
+    <message name="top">Отгоре</message>
+    <message name="middle">В центъра</message>
+    <message name="bottom">Отдолу</message>
+    <message name="baseline">По базовата линия на текста</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Спец. символи</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+  </block>
+  <block id="templates">
+    <message name="title">Графични модели</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Параметри на страницата</message>
+    <message name="title_tag">Заглавие</message>
+    <message name="charset">Кодова таблица</message>
+    <message name="background">Фонова картинка</message>
+    <message name="bgcolor">Цвят на фона</message>
+    <message name="text">Цвят на текста</message>
+    <message name="link">Цвят на линка</message>
+    <message name="vlink">Цвят на посетените линкове</message>
+    <message name="alink">Цвят на активните линкове</message>
+    <message name="leftmargin">Отстъп отляво</message>
+    <message name="topmargin">Отстъп отгоре</message>
+    <message name="css_class">Стил</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отмени</message>
+  </block>
+  <block id="preview">
+    <message name="title">Предварителен преглед</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup картинка</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Увеличение</message>
+  </block>
+</messages>

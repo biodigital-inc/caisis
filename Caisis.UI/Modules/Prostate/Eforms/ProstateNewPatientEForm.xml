@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<eform name="Prostate New Patient EForm" displayName="Prostate New Patient EForm">
+
+		<eformSection name="Contact Information">
+			<eformItem displayName="Phone Numbers" controlName="PatientPhoneNumbers"></eformItem>
+			<eformItem displayName="Identifiers" controlName="Identifiers"></eformItem>				
+		</eformSection>
+
+		<eformSection name="Biopsy Details">
+			<eformItem displayName="Biopsies" controlName="ProstateBiopsies"></eformItem>
+		</eformSection>
+	
+		<eformSection name="Diagnostics / Staging">
+			<eformItem displayName="Imaging" controlName="DiagnosticImaging"></eformItem>
+			<eformItem displayName="PSA" controlName="LabTestPSA"></eformItem>
+			<eformItem displayName="Clinical Stage" controlName="ClinStage_ProstateUICC02"></eformItem>
+		</eformSection>
+		
+		<eformSection name="Encounter Details">
+			<eformItem displayName="Medications" controlName="Medications"></eformItem>
+			<eformItem displayName="Toxicities" controlName="Toxicities_UrinaryAndRectal"></eformItem>
+			<eformItem displayName="Encounter" controlName="Encounter"></eformItem>
+			<eformItem displayName="Surveys" controlName="Surveys_IPSS_IIEF_Potency"></eformItem>
+			<eformItem displayName="Booking" controlName="BrachyBooking"></eformItem>
+		</eformSection>
+		
+		
+		
+		<PatientPhoneNumbers RecordId='1'>
+				<PtPhoneType></PtPhoneType>
+				<PtPhoneNumber NotNull="True"></PtPhoneNumber>
+				<PtPhoneExtension></PtPhoneExtension>
+		</PatientPhoneNumbers>	
+		<PatientPhoneNumbers RecordId='2'>
+				<PtPhoneType></PtPhoneType>
+				<PtPhoneNumber NotNull="True"></PtPhoneNumber>
+				<PtPhoneExtension></PtPhoneExtension>
+		</PatientPhoneNumbers>	
+		<PatientPhoneNumbers RecordId='3'>
+				<PtPhoneType></PtPhoneType>
+				<PtPhoneNumber NotNull="True"></PtPhoneNumber>
+				<PtPhoneExtension></PtPhoneExtension>
+		</PatientPhoneNumbers>
+		
+		<Identifiers RecordId='1'>
+			<IdType NotNull="True"></IdType>
+			<Identifier NotNull="True"></Identifier>
+		</Identifiers>	
+		<Identifiers RecordId='2'>
+			<IdType NotNull="True"></IdType>
+			<Identifier NotNull="True"></Identifier>
+		</Identifiers>
+		<Identifiers RecordId='3'>
+			<IdType NotNull="True"></IdType>
+			<Identifier NotNull="True"></Identifier>
+		</Identifiers>
+		
+		<!-- Page 2 -->
+		
+		<BiopsiesProstate>
+			<BxDate></BxDate>
+			<BxDateText></BxDateText>
+			<BxType  NotNull="True"></BxType>
+			<BxPathNum></BxPathNum>
+			<BxPosCores></BxPosCores>
+			<BxNumCores></BxNumCores>
+			<BxNumSites></BxNumSites>
+			<BxGG1></BxGG1>
+			<BxGG2></BxGG2>
+			<BxGGS></BxGGS>
+			<BxResult></BxResult>
+			<BxPercCancer></BxPercCancer>
+			<BxMaxPercCancer></BxMaxPercCancer>
+			
+			<BiopsyCoresProstate RecordId='1'>
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId='2'>
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId='3'>
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId="4">
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId="5">
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId="6">
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId="7">
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			<BiopsyCoresProstate RecordId="8">
+				<BxCoreSide></BxCoreSide>
+				<BxCoreLevel></BxCoreLevel>
+				<BxCoreLaterality></BxCoreLaterality>
+				<BxCoreNumCores></BxCoreNumCores>
+				<BxCorePercCancer></BxCorePercCancer>
+				<BxCoreGG1></BxCoreGG1>
+				<BxCoreGG2></BxCoreGG2>
+				<BxCoreGGS></BxCoreGGS>
+				<BxCoreResult></BxCoreResult>
+			</BiopsyCoresProstate>
+			
+		</BiopsiesProstate>
+		
+		<!-- page 3 -->
+		
+		<Diagnostics RecordId='1'>
+			<DxDateText></DxDateText>
+			<DxDate></DxDate>
+			<DxType  NotNull="True"></DxType>
+			<DxTarget></DxTarget>
+			<DxResult></DxResult>
+		</Diagnostics>
+		<Diagnostics RecordId='2'>
+			<DxDateText></DxDateText>
+			<DxDate></DxDate>
+			<DxType  NotNull="True"></DxType>
+			<DxTarget></DxTarget>
+			<DxResult></DxResult>
+		</Diagnostics>
+		<Diagnostics RecordId='3'>
+			<DxDateText></DxDateText>
+			<DxDate></DxDate>
+			<DxType  NotNull="True"></DxType>
+			<DxTarget></DxTarget>
+			<DxResult></DxResult>
+		</Diagnostics>
+		
+		
+		<!-- 4th Dx is for ultrasound, has child and on separate page -->
+		<Diagnostics RecordId='4'>
+			<DxDateText></DxDateText>
+			<DxDate></DxDate>
+			<DxType  NotNull="True"></DxType>
+			<DxTarget></DxTarget>
+			<DxResult></DxResult>
+			
+			<DxImageProstate>
+				<ImgUseForDosimetry></ImgUseForDosimetry>
+				<ImgProsHeight></ImgProsHeight>
+				<ImgProsWidth></ImgProsWidth>
+				<ImgProsLength></ImgProsLength>
+				<ImgAvgDim></ImgAvgDim>
+				<ImgProsVolume></ImgProsVolume>		
+			</DxImageProstate>
+			
+		</Diagnostics>
+		
+		<LabTests>
+			<LabDateText></LabDateText>
+			<LabDate></LabDate>
+			<LabTest NotNull="True"></LabTest>
+			<LabResult></LabResult>
+		</LabTests>
+		
+		<!-- Page 4 -->
+		
+		
+		<Medications RecordId="1">
+			<MedDateText></MedDateText>
+			<MedDate></MedDate>
+			<MedType></MedType>
+			<Medication  NotNull="True"></Medication>
+			<MedStopDateText></MedStopDateText>
+			<MedStopDate></MedStopDate>
+		</Medications>
+		<Medications RecordId="2">
+			<MedDateText></MedDateText>
+			<MedDate></MedDate>
+			<MedType></MedType>
+			<Medication  NotNull="True"></Medication>
+			<MedStopDateText></MedStopDateText>
+			<MedStopDate></MedStopDate>
+		</Medications>
+		<Medications RecordId="3">
+			<MedDateText></MedDateText>
+			<MedDate></MedDate>
+			<MedType></MedType>
+			<Medication  NotNull="True"></Medication>
+			<MedStopDateText></MedStopDateText>
+			<MedStopDate></MedStopDate>
+		</Medications>
+		
+		<ClinicalStages>
+			<ClinStageDateText></ClinStageDateText>
+			<ClinStageDate></ClinStageDate>
+			<ClinStageDisease></ClinStageDisease>
+			<ClinStageSystem></ClinStageSystem>
+			<ClinStageT></ClinStageT>
+			<ClinStageQuality></ClinStageQuality>
+		</ClinicalStages>
+		
+		<Surveys RecordId="1">
+			<SurveyDateText></SurveyDateText>
+			<SurveyDate></SurveyDate>
+			<SurveyType  NotNull="True"></SurveyType>
+			<SurveyResult></SurveyResult>
+			<SurveyTotal></SurveyTotal>
+		</Surveys>
+		<Surveys RecordId="2">
+			<SurveyDateText></SurveyDateText>
+			<SurveyDate></SurveyDate>
+			<SurveyType  NotNull="True"></SurveyType>
+			<SurveyResult></SurveyResult>
+			<SurveyTotal></SurveyTotal>
+		</Surveys>
+		<Surveys RecordId="3">
+			<SurveyDateText></SurveyDateText>
+			<SurveyDate></SurveyDate>
+			<SurveyType  NotNull="True"></SurveyType>
+			<SurveyResult></SurveyResult>
+			<SurveyTotal></SurveyTotal>
+		</Surveys>
+		
+		<Toxicities RecordId="1">
+			<ToxDateText></ToxDateText>
+			<ToxDate></ToxDate>
+			<ToxName  NotNull="True"></ToxName>
+			<ToxGrade></ToxGrade>
+		</Toxicities>
+		<Toxicities RecordId="2">
+			<ToxDateText></ToxDateText>
+			<ToxDate></ToxDate>
+			<ToxName  NotNull="True"></ToxName>
+			<ToxGrade></ToxGrade>
+		</Toxicities>
+		
+		
+		
+		<Encounters>
+			<EncDateText></EncDateText>
+			<EncDate></EncDate>
+			<EncKPS></EncKPS>
+			<EncNotes></EncNotes>
+		</Encounters>
+		
+		<!-- Booking info -->
+		<Actions>
+			<ActionDateText></ActionDateText>
+			<ActionDate></ActionDate>
+			<ActionItem></ActionItem>
+		</Actions>
+		<BrachyTherapy>
+			<BrachyPrescribedDose></BrachyPrescribedDose>
+			<BrachyIsotope></BrachyIsotope>
+		</BrachyTherapy>
+</eform>

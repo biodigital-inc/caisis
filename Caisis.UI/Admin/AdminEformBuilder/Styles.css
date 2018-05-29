@@ -1,0 +1,320 @@
+﻿
+.DragDropList
+{
+    /*
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    margin-right: 10px;
+    padding: 5px;
+    height: 100%;
+    display: block;
+    border: 1px solid red;
+*/
+
+}
+.DragDropListItems
+{
+}
+.DragDropListItemsColumn
+{
+/*    width: 204px;  */
+	  min-width: 204px;
+}
+.DragDropListItemsGrid
+{
+    width: 195px;
+}
+.DragDropListColumn
+{
+/*    width: 325px;
+    min-width: 325px;
+    float: left;
+    min-height: 50px;
+*/
+}
+.DragDrownListRow
+{
+    display: block;
+    margin-bottom: 10px;
+    float: none;
+    clear: both;
+	list-style: none;
+}
+.DragDrownListRow li
+{
+    float: left;
+	padding: 5px 10px 5px 10px;
+}
+
+.ToolboxItemHighlightCell
+{
+    border: 1px dashed #666666;
+    width: 100%;
+    height: 100%;
+}
+.ToolboxItemHighlightCellGrid
+{
+    height: 100%;
+             margin: 0px;
+             padding: 0px;
+             border: 1px dashed #cccccc;
+}
+.DragDropList li
+{
+/*    display: block;  */
+    margin: 0px 0px 3px 0px;
+    padding: 4px;
+    font-size: 13px;
+/*   background-color: #ffffff;*/
+}
+#ToolboxList
+{
+    width: 285px;
+    float: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    margin-right: 10px;
+    padding: 5px;
+    width: 325px;
+    height: 100%;
+    background-color: #ffffff;
+}
+#ToolboxList li
+{
+    cursor: pointer;
+}
+#TableList
+{
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    display: block;
+}
+#ToolboxContainer
+{
+    background-color: #ffffff;
+    width: 350px;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+}
+#ToolboxOverflow
+{
+    height: 400px;
+    overflow: auto;
+}
+.ToolboxItem
+{
+    background-color: #ffffff;
+/*
+    cursor: pointer;
+    margin: auto auto 15px auto;
+    padding: 5px;
+    font-size: 1.2em;
+    white-space: nowrap;
+    min-height: 25px;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    vertical-align: middle;
+    text-align: left;
+*/
+}
+.FieldLabel
+{
+    font-size: 11px;
+    font-weight: bold;
+    display: inline;
+}
+.InfoTooltip
+{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.MetadataEFormPage
+{
+    display: block;
+    width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.MetadataEFormPages_Section
+{
+    display: block;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #f8fafc;
+}
+#MainHeader
+{
+    width: 800px;
+    top: 25px;
+    right: 50px;
+    position: fixed;
+    background-color: #ffffff;
+}
+#MainHeader img
+{
+    cursor: pointer;
+}
+#MainContainer
+{
+    width: 800px;
+    margin-top: 100px;
+    margin-right: 50px;
+    overflow: auto;
+    height: 800px;
+    float: right;
+}
+.SectionTitle
+{
+    width: 200px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+}
+.EformSectionContainer
+{
+    width: auto;
+    margin: auto;
+}
+.EformChildSectionContainer
+{
+    width: auto;
+    margin: auto;
+}
+.EformSection
+{
+    width: 95%;
+    margin: 10px auto 10px auto;
+    border: 1px solid #cccccc;
+}
+.EformSectionRow
+{
+    width: 700px;
+    background-color: #dfedf9;
+    min-height: 50px;
+    border: 1px solid #cccccc;
+    margin: 5px auto 5px auto;
+    overflow: auto;
+}
+.EformSection h3
+{
+    display: none;
+}
+.EformSectionHidden tbody
+{
+    display: none;
+}
+.EformSectionHidden h3
+{
+    display: block;
+}
+.EformFieldLabel
+{
+/*    display: block;*/
+}
+.EformFieldLabelColumn
+{
+/*   float: left;
+    width: auto;
+    display: block;
+    text-align: left;
+*/
+}
+.EformFieldLabelGrid
+{
+    float: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.EformFieldControl
+{
+
+}
+/* LI Column */
+.EformFieldControlColumn
+{
+    display: inline;
+    margin-left: 5px;
+    width: 150px;
+}
+.EformFieldControlGrid
+{
+    display: block;
+    float: none;
+    width: auto;
+}
+#TrashCan
+{
+    text-align: center;
+    width: 95%;
+    margin: 10px auto 10px auto;
+    height: 78px;
+    border: 1px solid #cccccc;
+	background-image: url(Images/AdminImages/Trash.png);
+	background-repeat: no-repeat;
+	background-position: 11px 11px;
+	position: relative;
+	vertical-align: bottom;
+}
+#TrashText
+{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 99;
+    font-weight: bold;
+    font-size: 13px;
+}
+#Trash
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px; 
+    margin: 0px;
+    z-index: 100;
+}
+#Trash li
+{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#EFormListLayer
+{
+    z-index: 2000;
+    position: absolute;
+    width: 50%;
+    top: 200px;
+    left: 25%;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+#EFormContentLayer
+{
+    display: none;
+}
+#EFormListTable
+{
+    width: 400px;
+    text-align: left;
+    margin: auto;
+}
+.EFormNameText
+{
+    color: #000000;
+}
+.EFormDiseaseText
+{
+    color: #000000;
+}
+.EFormTypeText
+{
+    color: #333333;
+    font-style: italic;
+}
+

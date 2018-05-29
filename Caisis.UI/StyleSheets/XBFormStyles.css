@@ -1,0 +1,328 @@
+/* HTML STYLES REDEFINED */
+td	{font-family:  Helvetica, Verdana, Arial, sans-serif; font-size: 13px;font-weight: normal;}
+select, option 	{ z-index:1; width: 140; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+input, textarea { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal;}
+input, checkbox {margin: 0px;	padding: 0px;}
+body {background-color:#f1f7fc; scrollbar-arrow-color: #FFFFFF; scrollbar-3dlight-color: #A1AABA;scrollbar-highlight-color: #A1AABA;scrollbar-face-color: #ABBBC9;scrollbar-shadow-color: #818EA3;scrollbar-track-color: #CCCCCC;scrollbar-darkshadow-color: #D4D4D4;}
+
+/* CUSTOM TEXT STYLES */
+.blackBoldText { font-family: Helvetica,  Verdana, Arial,  sans-serif; font-size: 14px; font-weight: bold; }
+.smallGrayText {color: #333333;font-size: 12px;}
+
+
+
+.masterTable {
+	width: 850px;
+}
+.pageWidth {
+	width: 850px;
+}
+.pageWidth98percent {
+	width: 833px;
+}
+.pageWidth90percent {
+	width: 765px;
+}
+
+
+/* added for v1.2 */
+.blackBoldTextSmall {
+	font-family: Helvetica,  Verdana, Arial,  sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.OuterFormTable {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+.FormOuterTableRow {
+	background-color: #FFFFFF;
+	border-top: 0px solid #000000;
+	border-right: 3px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+.InnerFormTableRow {
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+}
+.FormInnerRowRightBorder {
+	background-color: #FFFFFF;
+	border-top: 0px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 0px solid #999999;
+	border-left: 0px solid #999999;
+}
+.FormInnerRowBottomBorder {
+	background-color: #FFFFFF;
+	border-top: 0px solid #999999;
+	border-right: 0px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 0px solid #999999;
+}
+.FormOuterTableTopRow {
+	background-color: #FFFFFF;
+	border-top: 1px solid #000000;
+	border-right: 3px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+.FormInnerTableBlackTopRow {
+	background-color: #FFFFFF;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+.FormInsideTableTopLeftCell {
+
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+.FormInsideTableRegCell {
+	border-top: 0px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 0px solid #999999;
+
+}
+.FormInsideTableLeftCell {
+
+	border-top: 0px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+/*Added for a central bold border between two collumns*/
+.FormInnerRowBottomBorderLeftBold {
+	background-color: #FFFFFF;
+	border-top: 0px solid #999999;
+	border-right: 0px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 2px solid #000000;
+}
+/*Added for a central bold border between two collumns bottom row*/
+.FormInnerRowBottomBorderLeftBoldBottom {
+	background-color: #FFFFFF;
+	border-top: 0px solid #999999;
+	border-right: 0px solid #999999;
+	border-bottom: 0px solid #999999;
+	border-left: 2px solid #000000;
+}
+.FormInsideTableTopCell {
+	background-color: #FFFFFF;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 0px solid #999999;
+}
+.FormInsideTableRegCellShaded {
+	border-top: 0px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 0px solid #999999;
+	background-color: #eeeeee;
+}
+.FormInnerRowBottomBorderShaded {
+	background-color: #eeeeee;
+	border-top: 0px solid #999999;
+	border-right: 0px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 0px solid #999999;
+}
+.FormOuterTableRowShaded {
+	background-color: #eeeeee;
+	border-top: 0px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+.FormPopulatedSmallerText {
+font-size: 12px;
+}
+
+.HPIText {
+	font-size: 12px;
+}
+.HPITextExtraColumns {
+	font-size: 12px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #999999;
+}
+
+
+
+.HPITextBladder {
+	font-size: 13px;
+}
+
+.HPITextExtraColumnsBladder {
+	font-size: 13px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #999999;
+}
+
+
+
+
+.PopulatedTextExtraColumns {
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #999999;
+}
+.SurveyTitle {
+	font-size: 24px;
+}
+.VerticalBarCodeDiv 
+{
+    display:none;
+}
+.NoVerticalBarCodeDiv
+{
+	display:none;
+}
+
+
+.VerticalBarCodeMRN {
+    display:none;
+}
+.VerticalBarCodeDocType {
+    display:none;
+}
+.VerticalBarCodeAcctType {
+    display:none;
+}
+.VerticalBarCodeDate {
+    display:none;
+}
+.VerticalBarCodeDateText 
+{
+    display:none;
+}
+.VerticalBarCodeDateTextBG
+{
+    display:none;
+}
+.VerticalBarCodeStatement {
+    display:none;
+}
+.VerticalBarCodeStatementImage {
+    display:none;
+}
+
+
+
+.ORPopulation
+{
+	position:absolute; 
+	left:390px; 
+	height:969px; 
+	z-index:20;
+	font-family:Bar-Code39,Code39One,Code39OneText;
+	font-size:27px;
+}
+
+.ORDemographics
+{
+	position:relative;
+	left:-22px;
+	top:17px;
+	z-index:21;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+
+.ORFormDemographicsDiv
+{
+	position:absolute; 
+	height:969px; 
+	z-index:20;
+}
+
+.ORFormDemographicsText
+{
+	position:relative;
+	left:200px;
+	top:90px;
+	z-index:24;
+}
+
+
+
+.FormPatientSectionEnd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-top-width: 7px;
+	border-right-width: 1px;
+	border-bottom-width: 7px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+
+.break
+{
+	page-break-before: always; 
+}
+
+.paperFormRadioButton
+{
+	width: 11px; 
+	height: 11px; 
+	margin: 8px 6px 8px 37px; 
+	vertical-align: middle;
+}
+
+.ReportOuterTableRow
+{
+	padding: 16px 10px 8px 10px;
+	border: solid 1px #000000;
+	border-right: solid 2px #000000;
+	border-top: none;
+	background-color: #ffffff;
+}
+
+.ReportOuterTableTopRow
+{
+	padding: 0px 10px 0px 10px;
+	border: solid 1px #000000;
+	border-right: solid 2px #000000;
+	background-color: #ffffff;
+}
+
+.reportSectionTitle
+{
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 8px;
+}
+
+
+.surveyResponses td,th
+{
+	font-size: 15px;
+	border-bottom: solid 1px #999999;
+}
+span.urodynamicsSectionComment
+{
+	color: #666666;
+	font-size: 11px;
+	margin-left: 20px; 
+}

@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Urodynamics EForm" displayName="Urodynamics EForm"   >
+
+  <eformSection name="History">
+    <eformItem displayName="Appointment" controlName="UrodynamicsAppointment"></eformItem>
+    <eformItem displayName="Vital Signs" controlName="VitalSigns"></eformItem>
+    <eformItem displayName="Instructions and Verification" controlName="UrodynamicsInstructionsAndVerification"></eformItem>
+    <eformItem displayName="HPI" controlName="GeneralHPI"></eformItem>
+		<eformItem displayName="Medications" controlName="MedicationsClinical"></eformItem>
+    <eformItem displayName="Previous History / Indication" controlName="UrodynamicsIndication"></eformItem>
+  </eformSection>
+  <eformSection name="Urodynamics Details">
+    <eformItem displayName="Procedure" controlName="UrodynamicsProcedure"></eformItem>
+    <eformItem displayName="Pressure Flow Study" controlName="PressureFlowStudy"></eformItem>
+    <eformItem displayName="Filling Phase" controlName="FillingPhase"></eformItem>
+    <eformItem displayName="Video Findings" controlName="UrodynamicsVideoFindings"></eformItem>
+    <eformItem displayName="Leak Point Pressure" controlName="LeakPointPressure"></eformItem>
+    <eformItem displayName="EMG" controlName="UrodynamicsEMG"></eformItem>
+    <eformItem displayName="Video Urodynamics Study Diagnosis" controlName="VideoUDDiagnosis"></eformItem>
+    
+  </eformSection>
+  <eformSection name="Plan and Disposition">
+    <eformItem displayName="Problems And Plans" controlName="ProblemsAndPlans"></eformItem>
+    <eformItem displayName="Disposition" controlName="Disposition_Urodynamics"></eformItem>
+    
+  </eformSection>  
+
+
+  <Encounters>
+    <EncDate></EncDate>
+    <EncDateText></EncDateText>
+    <EncPhysician></EncPhysician>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncSystolic></EncSystolic>
+    <EncDiastolic></EncDiastolic>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncNotes></EncNotes>
+    <EncType></EncType>
+  </Encounters>
+
+  <Surveys RecordId='1'>
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyTotal></SurveyTotal>
+    <SurveyNotes></SurveyNotes>
+    <SurveyQuality></SurveyQuality>
+
+    <SurveyItems RecordId='1'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='2'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='3'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='4'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='5'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='6'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='7'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='8'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='9'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='10'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='11'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='12'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='13'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='14'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='15'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='16'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='17'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='18'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='19'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='20'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='21'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='22'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='23'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='24'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='25'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='26'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='27'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='28'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='29'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  <SurveyItems RecordId='30'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='31'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='32'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='33'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='34'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='35'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='36'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='37'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='38'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='39'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  <SurveyItems RecordId='40'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='41'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='42'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='43'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='44'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='45'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='46'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='47'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='48'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='49'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  <SurveyItems RecordId='50'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='51'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='52'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='53'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='54'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='55'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='56'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='57'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='58'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='59'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='60'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='61'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='62'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='63'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='64'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='65'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='66'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='67'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='68'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='69'>
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  </Surveys>
+
+  <PatientProblems RecordId='1'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+
+  </PatientProblems>
+  <PatientProblems RecordId='2'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+
+  </PatientProblems>
+  <PatientProblems RecordId='3'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  <!-- test-->
+  <PatientProblems RecordId='4'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+
+  </PatientProblems>
+  <PatientProblems RecordId='5'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+
+  </PatientProblems>
+  <PatientProblems RecordId='6'>
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId='1'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='2'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='3'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='4'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId='5'>
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+
+  </PatientProblems>
+
+  <Medications RecordId='1'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='2'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='3'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='4'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='5'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='6'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='7'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='8'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='9'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='10'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='11'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='12'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='13'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='14'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='15'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='16'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='17'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='18'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='19'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  <Medications RecordId='20'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedSchedule></MedSchedule>
+  </Medications>
+  
+  <NoTable>
+    <ProcedureVerification></ProcedureVerification>
+    <Instructions></Instructions>
+    <ComplexUroflometryPerformed></ComplexUroflometryPerformed>
+    <Disposition></Disposition>
+
+    <Prescriptions RecordId='1'>
+      <PrescriptionNewRefill></PrescriptionNewRefill>
+      <PrescriptionType></PrescriptionType>
+    </Prescriptions>
+    <Prescriptions RecordId='2'>
+      <PrescriptionNewRefill></PrescriptionNewRefill>
+      <PrescriptionType></PrescriptionType>
+    </Prescriptions>
+    <Prescriptions RecordId='3'>
+      <PrescriptionNewRefill></PrescriptionNewRefill>
+      <PrescriptionType></PrescriptionType>
+    </Prescriptions>
+
+    <ChemoOrders RecordId='1'>
+      <ChemoOrdersNewRefill></ChemoOrdersNewRefill>
+      <ChemoOrdersType></ChemoOrdersType>
+    </ChemoOrders>
+
+
+    <ProtocolNumber></ProtocolNumber>
+    <ProtocolConsidered></ProtocolConsidered>
+    <ProtocolConsentObtained></ProtocolConsentObtained>
+    <ProtocolRegistered></ProtocolRegistered>
+
+    <GreaterThan50PercentTimeInCounseling></GreaterThan50PercentTimeInCounseling>
+    <TotalAttendingTime></TotalAttendingTime>
+    <CounselingDescription></CounselingDescription>
+
+    <LevelOfService></LevelOfService>
+    <Dictated></Dictated>
+
+    <AdditionalProblemPlanNotes></AdditionalProblemPlanNotes>
+
+
+  </NoTable>
+
+</eform>
+
+
+

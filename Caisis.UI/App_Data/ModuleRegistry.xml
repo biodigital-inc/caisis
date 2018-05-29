@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- isCore Attribute: setting the isCore attribute to false causes the module to use ModuleContainer.aspx -->
+<!-- Permission Attribute: if persmission for a section is set the groups role must have that permission or the section will not be visible/available -->
+
+
+<modules>
+
+  <!-- permissions used across modules -->
+  <permissions>
+    <permission name="ViewPatientIdentifiers" description="Global permission required to view patient name, birth date and medical record number"></permission>
+    <permission name="AddPatient" description="Global permission required to add new patients to Caisis"></permission>
+    <permission name="WebService" description="Provides access to call Web Services"></permission>
+  </permissions>
+
+    <module name="Administrative" description="System Administration" isTab="false" isCore="false">
+    <location>Admin.aspx</location>
+    <icon>DashboardModuleButton_Admin.png</icon>
+    <permissions>
+      <permission name="EditSecurity" description="Global permission required to access administrative tools"></permission>
+        <!--<permission name="Admin Users" description="Provides rights to configure user, groups, roles, permissions and datasets"></permission>-->
+        <!--<permission name="Admin Configuration" description="Provides rights to modify system configuration"></permission>-->
+        <!--<permission name="Admin Reports" description="Provides access to administrative reports"></permission>-->
+    </permissions>
+  </module>
+  
+  <module name="Patient Lists" description="View a list of patients" isTab="true" isCore="true">
+    <location>/PatientLists/PatientListPage.aspx</location>
+    <icon>DashboardModuleButton_PatientLists.png</icon>
+   </module>
+
+  <module name="Patient Data" description="View/enter patient data" isTab="true" isCore="true" requiresPatient="true">
+    <location>/DataEntryForms/Index.aspx</location>
+    <icon>DashboardModuleButton_PatientData.png</icon>
+    <permissions>
+      <permission name="ViewData" description="Provides read access to patient data"></permission>
+      <permission name="EditNarrative" description="Provides access to modify the running note on a patient"></permission>
+      <permission name="EditData" description="Provides access to add and update patient data"></permission>
+      <permission name="UnlockData" description="Provides rights to unlock a record locked by another user"></permission>
+      <permission name="DeleteData" description="Provides rights to delete patient data"></permission>
+      <permission name="DeletePatient" description="Provides rights to delete a patient with all of its records"></permission>
+    </permissions>
+   </module>
+
+  <module name="Forms" description="Print paper forms" isTab="true" isCore="true">
+    <location>/PaperForms/Forms.aspx</location>
+    <icon>DashboardModuleButton_Forms.png</icon>
+      <configuration>
+          <allowDoubleSided>true</allowDoubleSided>
+      </configuration>
+  </module>
+
+  <module name="EForms" description="Enter an EForm" isTab="true" isCore="true" requiresPatient="false">
+    <location>/Eforms/Index.aspx</location>
+    <icon>DashboardModuleButton_EForms.png</icon>
+      <configuration>
+          <allowDoubleSided>true</allowDoubleSided>
+      </configuration>
+    <permissions>
+      <permission name="InitiateEForm" description="Provides rights to start an eForm"></permission>
+      <permission name="EditEForm" description="Provides rights to modify an eForm"></permission>
+      <permission name="ApproveEForm" description="Provides rights to approve an eForm"></permission>
+    </permissions>
+    </module>
+
+  <module name="Data Analysis" description="View a report" isTab="true" isCore="true">
+    <location>/DataAnalysis/ReportsIndex.aspx</location>
+    <icon>DashboardModuleButton_Reports.png</icon>
+    <sections>
+      <section name="Export Data" title="Export Data" enabled="true" location="Export/DataExport.aspx" splashIcon="~/Images/SplashOptionsExportData.png" tooltip="">
+        <permissions>
+          <permission name="ExportData" description="Provides access to Export Data"></permission>
+        </permissions>
+      </section>
+      <section name="Prostate Data Export" title="Prostate Data Export" enabled="true" location="~/Modules/All/Reports/ProstateDataExportButton.aspx" splashIcon="~/Images/SplashOptionsProstateDataExport.png" tooltip="">
+        <permissions>
+          <permission name="Prostate Algorithm Export" description="Provides access to export postate data via the algorithm"></permission>
+        </permissions>
+      </section>
+      <section name="Reseach Datasets" title="Research Datasets" location="Reports/SelectReport.aspx?category=Research+Datasets" enabled="true" splashIcon="~/Images/SplashOptionsResearchDatasets.png" tooltip="">
+        <permissions>
+          <permission name="Research Datasets" description="Provides access to the Research Dataset reports"></permission>
+        </permissions>
+      </section>
+      <section name="Patient Outcomes" title="Patient Outcomes" location="Reports/SelectReport.aspx?category=Patient+Outcomes" splashIcon="~/Images/SplashOptionsPatientOutcomes.png" tooltip="">
+        <permissions>
+          <permission name="Patient Outcomes" description="Provides access to reports related to Patient Outcomes"></permission>
+        </permissions>
+      </section>
+
+      <section name="Clinical Trials" title="Clinical Trials" enabled="true" location="Reports/SelectReport.aspx?category=Clinical+Trials" splashIcon="~/Images/SplashOptionsClinicalTrials.png" tooltip="">
+        <permissions>
+          <permission name="Clinical Trials" description="Provides access to Clinical Trials reports"></permission>
+        </permissions>
+      </section>
+      <section name="General Reports" title="General Reports" enabled="true" location="Reports/SelectReport.aspx?category=General+Reports" splashIcon="~/Images/SplashOptionsGeneralReports.png" tooltip="">
+        <permissions>
+          <permission name="General Reports" description="Provides access to the default group of General Reports"></permission>
+        </permissions>
+      </section>
+    </sections>
+  </module>
+
+  <!--<module name="Data Export" isTab="true" isCore="true">
+    <location>/DataAnalysis/DataExportIndex.aspx</location>
+  </module>-->
+
+  <module name="Protocol Management" description="Manage protocols" isTab="true" isCore="false">
+      <location>/ProtocolMgmt/Index.aspx</location>
+      <icon>DashboardModuleButton_ProtocolManager.png</icon>
+      <permissions>
+        <permission name="EditProtocolSchema" description="Provides access to perform admin functions like modify schemas"></permission>
+        <permission name="ProtocolSpecimenUser" description="Provides access to perform patient specimen related tasks in the Protocol Manager"></permission>
+        <permission name="ProtocolSpecimenAdmin" description="Provides access to perform admin realted specimen tasks in the Protocol Manager"></permission>
+      </permissions>
+      <configuration>
+          <RestrictByUserOrganization>False</RestrictByUserOrganization>
+          <CustomStudyId>False</CustomStudyId>
+          <EditSpecimens>
+              <Protocol match="ProtocolNum LIKE '%SPECIMENS_PROTOCOLS%'"></Protocol>
+          </EditSpecimens>
+            <!-- enable export of Protocol Patients -->
+          <EnablePatientExport>
+              <Protocol match="ProtocolNum LIKE '%EXPORT_PROTOCOLS%'"></Protocol>
+          </EnablePatientExport>
+      </configuration>
+  </module>
+  
+  <!-- BETA -->
+  <module name="Specimen Management" description="Manage Specimens" isTab="true" isCore="false">
+    <location>/SpecimenMgmt/Index.aspx</location>
+    <icon>DashboardModuleButton_SpecimenManager.png</icon>
+<permissions>
+      <permission name="Export Specimen Data" description="Provides rights to dump data to Excel"></permission>
+      <permission name="Edit Specimen Data" description="Provides rights to edit specimen information"></permission>
+    </permissions>
+  </module>
+
+  <!-- BETA -->
+  <module name="Patient Education"  description="Print education materials" isTab="true" isCore="false">
+    <location>/PatientEducation/Index.aspx</location>
+    <icon>DashboardModuleButton_PatientEducation.png</icon>
+    <permissions>
+      <permission name="PatientEdAdmin" description="Provides access to add and modify content"></permission>
+    </permissions>
+  </module>
+
+  <!-- BETA -->
+  <module name="Project Management" description="Manage projects" isTab="true" isCore="false" enabled="true" version="beta">
+    <location>/ProjectMgmt/Index.aspx</location>
+      <icon>DashboardModuleButton_ProjectManagement.png</icon>
+    <permissions>
+      <permission name="UpdateProject" description=""></permission>
+      <permission name="AdminProject" description=""></permission>
+      <permission name="AdminProjectModule" description=""></permission>
+    </permissions>
+  </module>
+
+  <!-- BETA -->
+  <module name="Follow Up" description="Follow-up past patients" isTab="true" isCore="false">
+    <location>/FollowUp/Index.aspx</location>
+      <icon>DashboardModuleButton_FollowUp.png</icon>
+    <sections>
+      <section name="LongitudinalFollowUp" permission="" title="Longitudinal Follow Up" location="LongitudinalFollowUp.aspx" enabled="true" splashIcon="Images/splashOptionsFollowUpStatus.gif"></section>
+      <section name="BatchSurveys" permission="" title="Print a Batch of Surveys" location="BatchPrintSurveys.aspx" enabled="true" splashIcon="Images/SplashOptionsPrintABatchOfSurveys.gif"></section>
+      <section name="BatchLetters" permission="" title="Print a Batch of Letters" location="BatchPrintLetters.aspx" enabled="true" splashIcon="Images/SplashOptionsPrintABatchOfLetters.gif"></section>
+      <section name="EnterSurveyData" permission="" title="Enter Survey Data" location="" onclick="parent.showSelectPatientPanel('PtEd'); return false;" enabled="true" splashIcon="Images/SplashOptionsUpdatePatientSurveyData.gif"></section>
+      <section name="Reports" permission="" title="View Reports" location="~/Core/DataAnalysis/Reports/ReportsContainer.aspx?module=FollowUp" enabled="true" splashIcon="~/Images/SplashOptionsReports.gif"></section>
+      <section name="CheckVitalStatus" permission="" title="Check Patients' Vital Status" location="VitalStatusCheck.aspx" enabled="true" splashIcon="~/Images/SplashOptionsCheckVitalStatus.gif"></section>
+    </sections>
+    <configuration>
+      <SSDMFcredentials>
+        <user>FredHutchWebTrial</user>
+        <pword>ChangeMe</pword>
+        <maxQueries>100</maxQueries>
+        <expirationDate>6/30/2011</expirationDate>
+        <serviceInputs>
+          <ptSSN>true</ptSSN>
+          <ptLastName>false</ptLastName>
+          <ptFirstName>false</ptFirstName>
+          <ptDOB>false</ptDOB>
+          <ptMiddleName>false</ptMiddleName>
+          <ptDOD>false</ptDOD>
+          <ptZipLastRes>false</ptZipLastRes>
+        </serviceInputs>
+      </SSDMFcredentials>
+    </configuration>
+  </module>
+ 
+</modules>

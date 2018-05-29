@@ -1,0 +1,26 @@
+namespace Caisis.UI.Core.Header
+{
+	using System;
+	using System.Data;
+	using System.Drawing;
+	using System.Web;
+	using System.Web.UI.WebControls;
+	using System.Web.UI.HtmlControls;
+	using Caisis.UI;
+
+	using Caisis.UI.Core.Classes;
+
+
+	/// <summary>
+	///		Summary description for populateHelpArray.
+	/// </summary>
+	public partial  class populateHelpArray : BaseControl
+	{
+
+		override protected void Page_Load(object sender, System.EventArgs e)
+		{
+			// Put user code to initialize the page here
+	
+		}
+	}
+}

@@ -1,0 +1,2310 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Uro Sexual Func FU" displayName="Urology Sexual Function Follow Up">
+  
+  <eformSection name="Presenting Details">
+    <eformItem displayName="Chief Complaint" controlName="UroSexualEnc"></eformItem>
+    <eformItem displayName="HPI" controlName="UroSexualHPI"></eformItem>
+      <eformItem displayName="Comorbidities" controlName="Comorbidities"></eformItem>
+  </eformSection>
+
+  <eformSection name="Erectile Function">
+    <eformItem displayName="Erectile Function" controlName="ErectileFunction"></eformItem>
+    <eformItem displayName="Comments" controlName="ErectileFunctionComments"></eformItem>
+  </eformSection>
+
+  <eformSection name="Surveys">
+    <eformItem displayName="Penile Deformity" controlName="PenileDeformity"></eformItem>
+    <eformItem displayName="Duplex Doppler Ultrasonography" controlName="DuplexDoppler"></eformItem>
+    <eformItem displayName="Peyronie's Disease" controlName="PeyronieDisease"></eformItem>
+    <eformItem displayName="Sexual Incontinence" controlName="SexualIncont"></eformItem>
+  </eformSection>
+
+  <eformSection name="Labs and Diagnostics">
+    <eformItem displayName="Hypogonadism" controlName="UroHypogonadism"></eformItem>
+      <eformItem displayName="Semen Analysis" controlName="SemenAnalysis"></eformItem>
+    <eformItem displayName="DEXA Scan" controlName="DEXAScan"></eformItem>
+
+
+      
+  </eformSection>
+
+  <eformSection name="Systems Review">
+    <eformItem displayName="Review Of Systems" controlName="ROS_UroSexualFU"></eformItem>
+  </eformSection>
+
+  <eformSection name="Exam">
+    <eformItem displayName="Vital Signs" controlName="VitalSigns"></eformItem>
+    <eformItem displayName="Exam" controlName="Exam_UroSexualFU"></eformItem>
+  </eformSection>
+
+  <eformSection name="Impression and Plan">
+    <eformItem displayName="Problems And Plans" controlName="ProblemsAndPlans"></eformItem>
+      <eformItem displayName="Patient Consent" controlName="PatientConsentStatements"></eformItem>
+    <eformItem displayName="Disposition" controlName="Disposition_SexualFU"></eformItem>
+  </eformSection>
+
+
+
+
+  <Encounters RecordId="1">
+    <EncDate></EncDate>
+    <EncDateText></EncDateText>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncNurse></EncNurse>
+    <EncSystolic></EncSystolic>
+    <EncDiastolic></EncDiastolic>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncNotes></EncNotes>
+    <EncType></EncType>
+
+    <EncReviewOfSystems RecordId="1">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="2">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="3">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="4">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="5">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="6">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="7">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="8">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="9">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="10">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="11">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="12">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="13">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="14">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="15">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="16">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="17">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="18">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="19">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="20">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="21">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="22">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="23">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="24">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="25">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="26">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="27">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="28">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="29">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="30">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncExams RecordId="1">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="2">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="3">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="4">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="5">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="6">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="7">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="8">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="9">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="10">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="11">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="12">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="13">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="14">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="15">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="16">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="17">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="18">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="19">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="20">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="21">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="22">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="23">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="24">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="25">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="26">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="27">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="28">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="29">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="30">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="31">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId="32">
+      <ExamSystem></ExamSystem>
+      <Exam NotNull="True"></Exam>
+      <ExamResult></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    
+  </Encounters>
+
+  <PatientProblems RecordId="1">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  
+  <PatientProblems RecordId="2">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  
+  <PatientProblems RecordId="3">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  
+  <PatientProblems RecordId="4">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  
+  <PatientProblems RecordId="5">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+  
+  <PatientProblems RecordId="6">
+    <ProblemName></ProblemName>
+    <ProblemStatus></ProblemStatus>
+    <ProblemNotes></ProblemNotes>
+
+    <ProblemPlans RecordId="1">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="2">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="3">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="4">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+    <ProblemPlans RecordId="5">
+      <PlanName></PlanName>
+      <PlanStatus></PlanStatus>
+      <PlanType></PlanType>
+    </ProblemPlans>
+  </PatientProblems>
+
+  <Medications RecordId="1">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+      <MedDose></MedDose>
+      <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="2">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication NotNull="True"></Medication>
+      <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="3">
+      <MedDateText></MedDateText>
+      <MedDate></MedDate>
+      <Medication NotNull="True"></Medication>
+      <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="4">
+      <MedDateText></MedDateText>
+      <MedDate></MedDate>
+      <Medication NotNull="True"></Medication>
+      <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="5">
+      <MedDateText></MedDateText>
+      <MedDate></MedDate>
+      <Medication NotNull="True"></Medication>
+      <MedDose></MedDose>
+      <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+
+
+  <Medications RecordId="6">
+      <MedDateText DefaultSource="NoTable.MediDateText"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate"></MedDate>
+      <MedIndication></MedIndication>
+    <Medication NotNull="True"></Medication>
+      <MedRoute DefaultValue="Orally" ></MedRoute>
+      <MedDose></MedDose>
+    <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="7">
+      <MedDateText DefaultSource="NoTable.MediDateText"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate"></MedDate>
+      <MedIndication></MedIndication>
+    <Medication NotNull="True"></Medication>
+    <MedRoute DefaultValue="Intracavernosal" ></MedRoute>
+    <MedDose></MedDose>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="8">
+      <MedDateText DefaultSource="NoTable.MediDateText1"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate1"></MedDate>
+      <MedIndication></MedIndication>
+      <Medication NotNull="True"></Medication>
+      <MedRoute DefaultValue="Orally" ></MedRoute>
+      <MedDose></MedDose>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="9">
+      <MedDateText DefaultSource="NoTable.MediDateText1"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate1"></MedDate>
+      <MedIndication></MedIndication>
+    <Medication NotNull="True"></Medication>
+      <MedRoute DefaultValue="Intracavernosal" ></MedRoute>
+      <MedDose></MedDose>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="10">
+      <MedDateText DefaultSource="NoTable.MediDateText2"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate2"></MedDate>
+      <MedIndication></MedIndication>
+    <Medication NotNull="True"></Medication>
+      <MedRoute DefaultValue="Orally" ></MedRoute>
+      <MedDose></MedDose>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="11">
+      <MedDateText DefaultSource="NoTable.MediDateText2"></MedDateText>
+      <MedDate DefaultSource="NoTable.MediDate2"></MedDate>
+      <MedIndication></MedIndication>
+      <Medication NotNull="True"></Medication>
+      <MedRoute DefaultValue="Intracavernosal" ></MedRoute>
+      <MedDose></MedDose>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+
+  <Medications RecordId="12">
+    <MedDateText DefaultSource="NoTable.Hypogonadism1_DateText"></MedDateText>
+    <MedDate DefaultSource="NoTable.Hypogonadism1_Date"></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="13">
+    <MedDateText DefaultSource="NoTable.Hypogonadism2_DateText"></MedDateText>
+    <MedDate DefaultSource="NoTable.Hypogonadism2_Date"></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+  <Medications RecordId="14">
+    <MedDateText DefaultSource="NoTable.Hypogonadism3_DateText"></MedDateText>
+    <MedDate DefaultSource="NoTable.Hypogonadism3_Date"></MedDate>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+      <MedUnits></MedUnits>
+      <MedQuality DefaultValue="STD" ></MedQuality>
+  </Medications>
+
+    <LabTests RecordId="1">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="2">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="TEST"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="3">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="TESTFR"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="4">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="HBG"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="5">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="ESTRAD"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="6">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="LH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="7">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="FSH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="8">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="PROL"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="9">
+        <LabDateText DefaultSource="NoTable.Hypogonadism1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism1_Date"></LabDate>
+        <LabTest DefaultValue="HCT"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="10">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="11">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="TEST"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="12">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="TESTFR"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="13">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="HBG"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="14">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="ESTRAD"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="15">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="LH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="16">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="FSH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="17">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="PROL"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="18">
+        <LabDateText DefaultSource="NoTable.Hypogonadism2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism2_Date"></LabDate>
+        <LabTest DefaultValue="HCT"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="19">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="20">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="TEST"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="21">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="TESTFR"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="22">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="HBG"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="23">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="ESTRAD"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="24">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="LH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="25">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="FSH"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="26">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="PROL"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="27">
+        <LabDateText DefaultSource="NoTable.Hypogonadism3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.Hypogonadism3_Date"></LabDate>
+        <LabTest DefaultValue="HCT"></LabTest>
+        <LabQuality></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+
+
+    <LabTests RecordId="31">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis1_Date"></LabDate>
+        <LabTest DefaultValue="Semen Concentration"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="32">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis1_Date"></LabDate>
+        <LabTest DefaultValue="Semen Motility"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="33">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis1_Date"></LabDate>
+        <LabTest DefaultValue="Semen Normal Morphology"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="34">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis1_Date"></LabDate>
+        <LabTest DefaultValue="Semen pH"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="35">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis1_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis1_Date"></LabDate>
+        <LabTest DefaultValue="Semen Volume"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="36">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis2_Date"></LabDate>
+        <LabTest DefaultValue="Semen Concentration"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="37">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis2_Date"></LabDate>
+        <LabTest DefaultValue="Semen Motility"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="38">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis2_Date"></LabDate>
+        <LabTest DefaultValue="Semen Normal Morphology"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="39">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis2_Date"></LabDate>
+        <LabTest DefaultValue="Semen pH"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="40">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis2_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis2_Date"></LabDate>
+        <LabTest DefaultValue="Semen Volume"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="41">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis3_Date"></LabDate>
+        <LabTest DefaultValue="Semen Concentration"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="42">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis3_Date"></LabDate>
+        <LabTest DefaultValue="Semen Motility"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="43">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis3_Date"></LabDate>
+        <LabTest DefaultValue="Semen Normal Morphology"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="44">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis3_Date"></LabDate>
+        <LabTest DefaultValue="Semen pH"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="45">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis3_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis3_Date"></LabDate>
+        <LabTest DefaultValue="Semen Volume"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="46">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis4_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis4_Date"></LabDate>
+        <LabTest DefaultValue="Semen Concentration"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="47">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis4_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis4_Date"></LabDate>
+        <LabTest DefaultValue="Semen Motility"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="48">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis4_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis4_Date"></LabDate>
+        <LabTest DefaultValue="Semen Normal Morphology"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="49">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis4_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis4_Date"></LabDate>
+        <LabTest DefaultValue="Semen pH"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+    <LabTests RecordId="50">
+        <LabDateText DefaultSource="NoTable.SemenAnalysis4_DateText"></LabDateText>
+        <LabDate DefaultSource="NoTable.SemenAnalysis4_Date"></LabDate>
+        <LabTest DefaultValue="Semen Volume"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+    </LabTests>
+
+
+
+
+    <LabTests RecordId="51">
+        <LabDateText ></LabDateText>
+        <LabDate ></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits DefaultValue="ng/ml"></LabUnits>
+    </LabTests>
+    <LabTests RecordId="52">
+        <LabDateText ></LabDateText>
+        <LabDate ></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits DefaultValue="ng/ml"></LabUnits>
+    </LabTests>
+    <LabTests RecordId="53">
+        <LabDateText ></LabDateText>
+        <LabDate ></LabDate>
+        <LabTest DefaultValue="PSA"></LabTest>
+        <LabQuality DefaultValue="STD"></LabQuality>
+        <LabResult></LabResult>
+        <LabUnits DefaultValue="ng/ml"></LabUnits>
+    </LabTests>
+    
+    
+    
+    
+    
+    
+    
+
+
+    <Surveys RecordId="1">
+        <SurveyType DefaultValue="Mulhall Erection"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+
+        <SurveyItems RecordId="1">
+            <SurveyItem DefaultValue="Duration Post Tx" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="2">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="3">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="4">
+            <SurveyItem DefaultValue="Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="5">
+            <SurveyItem DefaultValue="Oral Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="6">
+            <SurveyItem DefaultValue="Peak Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="7">
+            <SurveyItem DefaultValue="Penile Rigidity Duration" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="8">
+            <SurveyItem DefaultValue="ICI Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="9">
+            <SurveyItem DefaultValue="Nocturnal Erections" ></SurveyItem>
+            <SurveyItemNum DefaultValue="9" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="10">
+            <SurveyItem DefaultValue="/ 10" ></SurveyItem>
+            <SurveyItemNum DefaultValue="10" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="11">
+            <SurveyItem DefaultValue="First noted months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="12" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="12">
+            <SurveyItem DefaultValue="ICI / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="11" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="13">
+            <SurveyItem DefaultValue="# Erections / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="13" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    <Surveys RecordId="2">
+        <SurveyType DefaultValue="Mulhall Erection"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+
+        <SurveyItems RecordId="14">
+            <SurveyItem DefaultValue="Duration Post Tx" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="15">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="16">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="17">
+            <SurveyItem DefaultValue="Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="18">
+            <SurveyItem DefaultValue="Oral Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="19">
+            <SurveyItem DefaultValue="Peak Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="20">
+            <SurveyItem DefaultValue="Penile Rigidity Duration" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="21">
+            <SurveyItem DefaultValue="ICI Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="22">
+            <SurveyItem DefaultValue="Nocturnal Erections" ></SurveyItem>
+            <SurveyItemNum DefaultValue="9" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="23">
+            <SurveyItem DefaultValue="/ 10" ></SurveyItem>
+            <SurveyItemNum DefaultValue="10" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="24">
+            <SurveyItem DefaultValue="First noted months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="12" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="25">
+            <SurveyItem DefaultValue="ICI / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="11" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="26">
+            <SurveyItem DefaultValue="# Erections / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="13" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Surveys RecordId="3">
+        <SurveyType DefaultValue="Mulhall Erection"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+
+        <SurveyItems RecordId="27">
+            <SurveyItem DefaultValue="Duration Post Tx" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="28">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="29">
+            <SurveyItem DefaultValue="Spontaneous Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="30">
+            <SurveyItem DefaultValue="Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="31">
+            <SurveyItem DefaultValue="Oral Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="32">
+            <SurveyItem DefaultValue="Peak Response %" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="33">
+            <SurveyItem DefaultValue="Penile Rigidity Duration" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="34">
+            <SurveyItem DefaultValue="ICI Erectile Function Domain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="35">
+            <SurveyItem DefaultValue="Nocturnal Erections" ></SurveyItem>
+            <SurveyItemNum DefaultValue="9" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="36">
+            <SurveyItem DefaultValue="/ 10" ></SurveyItem>
+            <SurveyItemNum DefaultValue="10" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="37">
+            <SurveyItem DefaultValue="First noted months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="12" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="38">
+            <SurveyItem DefaultValue="ICI / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="11" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="39">
+            <SurveyItem DefaultValue="# Erections / Week" ></SurveyItem>
+            <SurveyItemNum DefaultValue="13" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Surveys RecordId="4">
+        <SurveyType DefaultValue="Mulhall Penile Deformity Assessment"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="40">
+            <SurveyItem DefaultValue="Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult DefaultSource="Surveys.SurveyDateText,4"></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="41">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1a" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="42">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1b" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="43">
+            <SurveyItem DefaultValue="% Erection" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1c" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="44">
+            <SurveyItem DefaultValue="Primary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1d" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="45">
+            <SurveyItem DefaultValue="Secondary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1e" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="46">
+            <SurveyItem DefaultValue="Associated Deformities" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1f" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="47">
+            <SurveyItem DefaultValue="Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="48">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2a" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="49">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2b" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="50">
+            <SurveyItem DefaultValue="% Erection" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2c" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="51">
+            <SurveyItem DefaultValue="Primary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2d" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="52">
+            <SurveyItem DefaultValue="Secondary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2e" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="53">
+            <SurveyItem DefaultValue="Associated Deformities" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2f" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="54">
+            <SurveyItem DefaultValue="Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="55">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3a" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="56">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3b" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="57">
+            <SurveyItem DefaultValue="% Erection" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3c" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="58">
+            <SurveyItem DefaultValue="Primary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3d" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="59">
+            <SurveyItem DefaultValue="Secondary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3e" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="60">
+            <SurveyItem DefaultValue="Associated Deformities" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3f" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Surveys RecordId="5">
+        <SurveyType DefaultValue="Mulhall Ultrasound"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="61">
+            <SurveyItem DefaultValue="Clinician Performing Review:" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="62">
+            <SurveyItem DefaultValue="Indications:" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="63">
+            <SurveyItem DefaultValue="Patient Consented" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="64">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="65">
+            <SurveyItem DefaultValue="# Doses" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="66">
+            <SurveyItem DefaultValue="BQE" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="67">
+            <SurveyItem DefaultValue="Oral Agent Response" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="68">
+            <SurveyItem DefaultValue="ICI Response" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="69">
+            <SurveyItem DefaultValue="Dose 1: Right Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="9" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="70">
+            <SurveyItem DefaultValue="Dose 1: Left Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="10" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="71">
+            <SurveyItem DefaultValue="Dose 1: Right End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="11" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="72">
+            <SurveyItem DefaultValue="Dose 1: Left End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="12" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="73">
+            <SurveyItem DefaultValue="Dose 1: Right Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="13" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="74">
+            <SurveyItem DefaultValue="Dose 1: Left Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="14" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="75">
+            <SurveyItem DefaultValue="Dose 2: Right Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="15" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="76">
+            <SurveyItem DefaultValue="Dose 2: Left Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="16" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="77">
+            <SurveyItem DefaultValue="Dose 2: Right End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="17" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="78">
+            <SurveyItem DefaultValue="Dose 2: Left End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="18" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="79">
+            <SurveyItem DefaultValue="Dose 2: Right Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="19" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="80">
+            <SurveyItem DefaultValue="Dose 2: Left Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="20" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="81">
+            <SurveyItem DefaultValue="Dose 3: Right Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="21" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="82">
+            <SurveyItem DefaultValue="Dose 3: Left Peak Systolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="22" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="83">
+            <SurveyItem DefaultValue="Dose 3: Right End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="23" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="84">
+            <SurveyItem DefaultValue="Dose 3: Left End Diastolic Velocity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="24" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="85">
+            <SurveyItem DefaultValue="Dose 3: Right Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="25" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="86">
+            <SurveyItem DefaultValue="Dose 3: Left Resistive Index" ></SurveyItem>
+            <SurveyItemNum DefaultValue="26" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="87">
+            <SurveyItem DefaultValue="Curvature" ></SurveyItem>
+            <SurveyItemNum DefaultValue="27" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="88">
+            <SurveyItem DefaultValue="Location" ></SurveyItem>
+            <SurveyItemNum DefaultValue="28" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="89">
+            <SurveyItem DefaultValue="Degree" ></SurveyItem>
+            <SurveyItemNum DefaultValue="29" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="90">
+            <SurveyItem DefaultValue="Other Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="30" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="91">
+            <SurveyItem DefaultValue="Other Deformity Location" ></SurveyItem>
+            <SurveyItemNum DefaultValue="31" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="92">
+            <SurveyItem DefaultValue="Magnitude" ></SurveyItem>
+            <SurveyItemNum DefaultValue="32" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="93">
+            <SurveyItem DefaultValue="Stretched Flaccid Length (cm)" ></SurveyItem>
+            <SurveyItemNum DefaultValue="33" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="94">
+            <SurveyItem DefaultValue="Erect Length (cm)" ></SurveyItem>
+            <SurveyItemNum DefaultValue="34" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="95">
+            <SurveyItem DefaultValue="Neo-Synephrine Administration" ></SurveyItem>
+            <SurveyItemNum DefaultValue="35" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="96">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="36" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="97">
+            <SurveyItem DefaultValue="Diagnosis 1" ></SurveyItem>
+            <SurveyItemNum DefaultValue="37" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="98">
+            <SurveyItem DefaultValue="Diagnosis 2" ></SurveyItem>
+            <SurveyItemNum DefaultValue="38" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="99">
+            <SurveyItem DefaultValue="Diagnosis 3" ></SurveyItem>
+            <SurveyItemNum DefaultValue="39" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    <Surveys RecordId="6">
+        <SurveyType DefaultValue="Mulhall Peyronie's Disease"></SurveyType>
+        <SurveyDateText DefaultSource="Encounters.EncDateText,1"></SurveyDateText>
+        <SurveyDate DefaultSource="Encounters.EncDate,1"></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="100">
+            <SurveyItem DefaultValue="Peyronie's Disease" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="101">
+            <SurveyItem DefaultValue="Status: New" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="102">
+            <SurveyItem DefaultValue="Status: First Noted Months Postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="103">
+            <SurveyItem DefaultValue="Status: Change" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="104">
+            <SurveyItem DefaultValue="Degree" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="105">
+            <SurveyItem DefaultValue="Direction" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="106">
+            <SurveyItem DefaultValue="Direction: Combined" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="107">
+            <SurveyItem DefaultValue="Pain" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="108">
+            <SurveyItem DefaultValue="Pain Flaccid or Erect" ></SurveyItem>
+            <SurveyItemNum DefaultValue="9" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="109">
+            <SurveyItem DefaultValue="Penetration Ability" ></SurveyItem>
+            <SurveyItemNum DefaultValue="10" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="110">
+            <SurveyItem DefaultValue="Instability" ></SurveyItem>
+            <SurveyItemNum DefaultValue="11" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="111">
+            <SurveyItem DefaultValue="First Sign" ></SurveyItem>
+            <SurveyItemNum DefaultValue="12" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="112">
+            <SurveyItem DefaultValue="Treatments to Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="13" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="113">
+            <SurveyItem DefaultValue="Treatments to Date: Operative" ></SurveyItem>
+            <SurveyItemNum DefaultValue="14" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    <Surveys RecordId="7">
+        <SurveyType DefaultValue="Mulhall Orgasm Associated Incontinence"></SurveyType>
+        <SurveyDateText DefaultSource="Encounters.EncDateText,1"></SurveyDateText>
+        <SurveyDate DefaultSource="Encounters.EncDate,1"></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="114">
+            <SurveyItem DefaultValue="Orgasm Associated Incontinence" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="115">
+            <SurveyItem DefaultValue="Commenced: ___months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="116">
+            <SurveyItem DefaultValue="Ceased: ___months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="117">
+            <SurveyItem DefaultValue="Orgasm Associated Incontinence Frequency" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="118">
+            <SurveyItem DefaultValue="Orgasm Associated Incontinence Level" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="119">
+            <SurveyItem DefaultValue="Distress" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="120">
+            <SurveyItem DefaultValue="Treatments Attempted" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="121">
+            <SurveyItem DefaultValue="Improvement" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    <Surveys RecordId="8">
+        <SurveyType DefaultValue="Mulhall Arousal Incontinence"></SurveyType>
+        <SurveyDateText DefaultSource="Encounters.EncDateText,1"></SurveyDateText>
+        <SurveyDate DefaultSource="Encounters.EncDate,1"></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="122">
+            <SurveyItem DefaultValue="Arousal Incontinence" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="123">
+            <SurveyItem DefaultValue="Commenced: ___months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="2" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="124">
+            <SurveyItem DefaultValue="Ceased: ___months postop" ></SurveyItem>
+            <SurveyItemNum DefaultValue="3" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="125">
+            <SurveyItem DefaultValue="Arousal Incontinence Frequency" ></SurveyItem>
+            <SurveyItemNum DefaultValue="4" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="126">
+            <SurveyItem DefaultValue="Arousal Incontinence Level" ></SurveyItem>
+            <SurveyItemNum DefaultValue="5" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="127">
+            <SurveyItem DefaultValue="Distress" ></SurveyItem>
+            <SurveyItemNum DefaultValue="6" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="128">
+            <SurveyItem DefaultValue="Treatments Attempted" ></SurveyItem>
+            <SurveyItemNum DefaultValue="7" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="129">
+            <SurveyItem DefaultValue="Improvement" ></SurveyItem>
+            <SurveyItemNum DefaultValue="8" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    
+    <Surveys RecordId="9">
+        <SurveyType DefaultValue="Mulhall Penile Deformity Assessment"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="134">
+            <SurveyItem DefaultValue="Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult DefaultSource="Surveys.SurveyDateText,8"></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="135">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1a" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="136">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1b" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="137">
+            <SurveyItem DefaultValue="% Erection" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1c" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="138">
+            <SurveyItem DefaultValue="Primary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1d" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="139">
+            <SurveyItem DefaultValue="Secondary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1e" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="140">
+            <SurveyItem DefaultValue="Associated Deformities" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1f" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+    <Surveys RecordId="10">
+        <SurveyType DefaultValue="Mulhall Penile Deformity Assessment"></SurveyType>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyNotes></SurveyNotes>
+        <SurveyItems RecordId="141">
+            <SurveyItem DefaultValue="Date" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1" ></SurveyItemNum>
+            <SurveyItemResult DefaultSource="Surveys.SurveyDateText,9"></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="142">
+            <SurveyItem DefaultValue="Agent" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1a" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="143">
+            <SurveyItem DefaultValue="Dose" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1b" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="144">
+            <SurveyItem DefaultValue="% Erection" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1c" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="145">
+            <SurveyItem DefaultValue="Primary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1d" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="146">
+            <SurveyItem DefaultValue="Secondary Deformity" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1e" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="147">
+            <SurveyItem DefaultValue="Associated Deformities" ></SurveyItem>
+            <SurveyItemNum DefaultValue="1f" ></SurveyItemNum>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Diagnostics RecordId="1">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxPhysician></DxPhysician>
+    <DxIndication></DxIndication>
+    <DxNotes></DxNotes>
+    <DxQuality DefaultValue="STD"></DxQuality>
+  </Diagnostics>
+
+  <Diagnostics RecordId="2">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType DefaultValue="DEXA"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxQuality DefaultValue="STD"></DxQuality>
+      <DxImageFindings RecordId="1">
+          <ImgFindSite DefaultValue="Total Hip" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="2">
+          <ImgFindSite DefaultValue="Femoral Neck" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="3">
+          <ImgFindSite DefaultValue="Lumbar / Spine" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="4">
+          <ImgFindSite DefaultValue="Forearm" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+  </Diagnostics>
+  <Diagnostics RecordId="3">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType DefaultValue="DEXA"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxQuality DefaultValue="STD"></DxQuality>
+      <DxImageFindings RecordId="1">
+          <ImgFindSite DefaultValue="Total Hip" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="2">
+          <ImgFindSite DefaultValue="Femoral Neck" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="3">
+          <ImgFindSite DefaultValue="Lumbar / Spine" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="4">
+          <ImgFindSite DefaultValue="Forearm" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+  </Diagnostics>
+    <Diagnostics RecordId="4">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType DefaultValue="DEXA"></DxType>
+        <DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxQuality DefaultValue="STD"></DxQuality>
+        <DxImageFindings RecordId="1">
+            <ImgFindSite DefaultValue="Total Hip" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="2">
+            <ImgFindSite DefaultValue="Femoral Neck" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="3">
+            <ImgFindSite DefaultValue="Lumbar / Spine" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="4">
+            <ImgFindSite DefaultValue="Forearm" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+    </Diagnostics>
+  <Diagnostics RecordId="5">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType DefaultValue="DEXA"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxQuality DefaultValue="STD"></DxQuality>
+      <DxImageFindings RecordId="1">
+          <ImgFindSite DefaultValue="Total Hip" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="2">
+          <ImgFindSite DefaultValue="Femoral Neck" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="3">
+          <ImgFindSite DefaultValue="Lumbar / Spine" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId="4">
+          <ImgFindSite DefaultValue="Forearm" ></ImgFindSite>
+          <ImgFindResult></ImgFindResult>
+          <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+      </DxImageFindings>
+  </Diagnostics>
+    <Diagnostics RecordId="6">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType DefaultValue="DEXA"></DxType>
+        <DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxQuality DefaultValue="STD"></DxQuality>
+        <DxImageFindings RecordId="1">
+            <ImgFindSite DefaultValue="Total Hip" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="2">
+            <ImgFindSite DefaultValue="Femoral Neck" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="3">
+            <ImgFindSite DefaultValue="Lumbar / Spine" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+        <DxImageFindings RecordId="4">
+            <ImgFindSite DefaultValue="Forearm" ></ImgFindSite>
+            <ImgFindResult></ImgFindResult>
+            <ImgFindNotes DefaultValue="T-Score" ></ImgFindNotes>
+        </DxImageFindings>
+    </Diagnostics>
+    <Comorbidities RecordId="1">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="2">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="3">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="4">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="5">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="6">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="7">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="8">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="9">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="10">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="11">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="12">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="13">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="14">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="15">
+        <ComorbDateText></ComorbDateText>
+        <ComorbDate></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+
+    <NoTable>
+    
+        <ROS_Clinician></ROS_Clinician>
+        <Exam_Clinician_PANP></Exam_Clinician_PANP>
+        <Exam_Clinician_Fellow></Exam_Clinician_Fellow>
+        <Exam_Clinician_Attending></Exam_Clinician_Attending>
+        <GreaterThan50PercentTimeInCounseling></GreaterThan50PercentTimeInCounseling>
+        <TotalAttendingTime></TotalAttendingTime>
+        <CounselingDescription></CounselingDescription>
+        <LevelOfService></LevelOfService>
+        <Dictated></Dictated>
+        <MediDateText></MediDateText>
+        <MediDate></MediDate>
+        <MediDateText1></MediDateText1>
+        <MediDate1></MediDate1>
+        <MediDateText2></MediDateText2>
+        <MediDate2></MediDate2>
+        <ReviewedEMRforMedicalandSurgicalHx></ReviewedEMRforMedicalandSurgicalHx>
+        <AdditionalErectileFunctionComments></AdditionalErectileFunctionComments>
+        <Hypogonadism1_DateText></Hypogonadism1_DateText>
+        <Hypogonadism1_Date></Hypogonadism1_Date>
+        <Hypogonadism2_DateText></Hypogonadism2_DateText>
+        <Hypogonadism2_Date></Hypogonadism2_Date>
+        <Hypogonadism3_DateText></Hypogonadism3_DateText>
+        <Hypogonadism3_Date></Hypogonadism3_Date>
+        <Hypogonadism4_DateText></Hypogonadism4_DateText>
+        <Hypogonadism4_Date></Hypogonadism4_Date>
+
+
+        <SemenAnalysis1_DateText></SemenAnalysis1_DateText>
+        <SemenAnalysis1_Date></SemenAnalysis1_Date>
+        <SemenAnalysis1_Other></SemenAnalysis1_Other>
+        <SemenAnalysis2_DateText></SemenAnalysis2_DateText>
+        <SemenAnalysis2_Date></SemenAnalysis2_Date>
+        <SemenAnalysis2_Other></SemenAnalysis2_Other>
+        <SemenAnalysis3_DateText></SemenAnalysis3_DateText>
+        <SemenAnalysis3_Date></SemenAnalysis3_Date>
+        <SemenAnalysis3_Other></SemenAnalysis3_Other>
+        <SemenAnalysis4_DateText></SemenAnalysis4_DateText>
+        <SemenAnalysis4_Date></SemenAnalysis4_Date>
+        <SemenAnalysis4_Other></SemenAnalysis4_Other>
+
+        <ProtocolRisksDiscussed></ProtocolRisksDiscussed>
+        <TreatmentRisksDiscussed></TreatmentRisksDiscussed>
+
+        <PSA_Change></PSA_Change>
+        <Continence></Continence>
+
+    </NoTable>
+
+
+</eform>

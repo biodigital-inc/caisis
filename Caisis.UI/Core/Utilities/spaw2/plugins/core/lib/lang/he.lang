@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8" direction="rtl">
+  <block id="cut">
+    <message name="title">גזור</message>
+  </block>
+  <block id="copy">
+    <message name="title">העתק</message>
+  </block>
+  <block id="paste">
+    <message name="title">הדבק</message>
+  </block>
+  <block id="undo">
+    <message name="title">בטל</message>
+  </block>
+  <block id="redo">
+    <message name="title">בצע שוב</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">היפר קישור</message>
+    <message name="url">URL</message>
+    <message name="name">שם</message>
+    <message name="target">מטרה</message>
+    <message name="title_attr">כותרת</message>
+    <message name="a_type">סוג</message>
+    <message name="type_link">קישור</message>
+    <message name="type_anchor">עוגן</message>
+    <message name="type_link2anchor">קישור לעוגן</message>
+    <message name="anchors">עוגנים</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+  </block>
+  <block id="image_insert">
+    <message name="title">הכנס תמונה</message>
+    <message name="select">   בחר   </message>
+    <message name="delete">  מחיקה  </message>
+    <message name="cancel">   בטל   </message>
+    <message name="library">ספריה</message>
+    <message name="preview">תצוגה מקדימה</message>
+    <message name="images">תמונות</message>
+    <message name="upload">העלה תמונה</message>
+    <message name="upload_button">העלה</message>
+    <message name="error">שגיאה</message>
+    <message name="error_no_image">בחר תמונה</message>
+    <message name="error_uploading">ארעה שגיאה בעת העלאת התמונה. אנא נסה שוב מאוחר יותר.</message>
+    <message name="error_wrong_type">סוג קובץ תמונה שגוי</message>
+    <message name="error_no_dir">הספריה אינה קיימת</message>
+    <message name="error_cant_delete">שגיאה: המחיקה נכשלה!</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">אפשרויות תמונה</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+    <message name="source">מקור</message>
+    <message name="alt">טקסט אלטרנטיבי</message>
+    <message name="align">הצמדה</message>
+    <message name="justifyleft">שמאל</message>
+    <message name="justifyright">ימין</message>
+    <message name="top">למעלה</message>
+    <message name="middle">אמצע</message>
+    <message name="bottom">למטה</message>
+    <message name="absmiddle">מרכז</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">רוחב</message>
+    <message name="height">גובה</message>
+    <message name="border">קו גבול</message>
+    <message name="hspace">מרווח אפקי</message>
+    <message name="vspace">מרווח אנכי</message>
+    <message name="error">שגיאה</message>
+    <message name="error_width_nan">הרוחב אינו מספר</message>
+    <message name="error_height_nan">הגובה אינו מספר</message>
+    <message name="error_border_nan">הגבול אינו מספר</message>
+    <message name="error_hspace_nan">מרווח אפקי אינו מספר</message>
+    <message name="error_vspace_nan">מרווח אנכי אינו מספר</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">קו אפקי</message>
+  </block>
+  <block id="table_create">
+    <message name="title">צור טבלה</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">אפשרויות טבלה</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+    <message name="rows">שורות</message>
+    <message name="columns">עמודות</message>
+    <message name="css_class">CSS class</message>
+    <message name="width">רוחב</message>
+    <message name="height">גובה</message>
+    <message name="border">גבול</message>
+    <message name="pixels">פיקסלים</message>
+    <message name="cellpadding">דיפון תא</message>
+    <message name="cellspacing">ריווח תא</message>
+    <message name="bg_color">צבע רקע</message>
+    <message name="background">תמונת רקע</message>
+    <message name="error">שגיאה</message>
+    <message name="error_rows_nan">השורות אינן מספר</message>
+    <message name="error_columns_nan">העמודות אינן מספר</message>
+    <message name="error_width_nan">הרוחב אינן מספר</message>
+    <message name="error_height_nan">הגובה אינו מספר</message>
+    <message name="error_border_nan">הגבול אינו מספר</message>
+    <message name="error_cellpadding_nan">דיפון התא אינו מספר</message>
+    <message name="error_cellspacing_nan">ריווח התא אינו מספר</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">אפשרויות תא</message>
+    <message name="horizontal_align">הצמדה אפקית</message>
+    <message name="vertical_align">הצמדה אנכית</message>
+    <message name="width">רוחב</message>
+    <message name="height">גובה</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">ללא שבירת שורות</message>
+    <message name="bg_color">צבע רקע</message>
+    <message name="background">תמונת רקע</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+    <message name="justifyleft">שמאל</message>
+    <message name="justifycenter">מרכז</message>
+    <message name="justifyright">ימין</message>
+    <message name="top">למעלה</message>
+    <message name="middle">אמצע</message>
+    <message name="bottom">למטה</message>
+    <message name="baseline">קו התחלה</message>
+    <message name="error">שגיאה</message>
+    <message name="error_width_nan">הרוחב אינו מספר</message>
+    <message name="error_height_nan">גובה אינו מספר</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">הכנס רשומה</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">הכנס עמודה</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">מחק רשומה</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">מחק עמודה</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">מזג תאים ימינה</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">מזג תאים למטה</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">פצל תא אפקית</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">פצל תא אנכית</message>
+  </block>
+  <block id="style">
+    <message name="title">סגנון</message>
+  </block>
+  <block id="fontname">
+    <message name="title">גופן</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">גודל</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">פיסקה</message>
+  </block>
+  <block id="bold">
+    <message name="title">מודגש</message>
+  </block>
+  <block id="italic">
+    <message name="title">נטוי</message>
+  </block>
+  <block id="underline">
+    <message name="title">קו תחתי</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">רשימה ממוספרת</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">רשימה</message>
+  </block>
+  <block id="indent">
+    <message name="title">הכנס פנימה</message>
+  </block>
+  <block id="outdent">
+    <message name="title">הוצא</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">שמאל</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">מרכז</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">ימין</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">צבע קדמי</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">צבע רקע</message>
+  </block>
+  <block id="design">
+    <message name="title">עיצוב המסמך</message>
+  </block>
+  <block id="html">
+    <message name="title">ערוך קוד Html</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">בחר צבע</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+  </block>
+  <block id="cleanup">
+    <message name="title">ניקוי Html (הסר סגנונות)</message>
+    <message name="confirm">ביצוע פעולה זו יסיר את כל הסגנונות, גופנים וכל התאגים הלא שימושיים ממסמך זה. חלק או כל העיצובים יאבדו.</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">חיזוק גבולות</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">החלון עצמו (_self)</message>
+    <message name="_blank">חלון חדש (_blank)</message>
+    <message name="_top">פריים עליון (_top)</message>
+    <message name="_parent">פריים אב (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">תכונות שורה</message>
+    <message name="horizontal_align">הצמדה אופקית</message>
+    <message name="vertical_align">הצמדה אנכית</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">ללא שבירת שורות</message>
+    <message name="bg_color">צבע רקע</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+    <message name="justifyleft">שמאל</message>
+    <message name="justifycenter">מרכז</message>
+    <message name="justifyright">ימין</message>
+    <message name="top">למעלה</message>
+    <message name="middle">אמצע</message>
+    <message name="bottom">למטה</message>
+    <message name="baseline">קו התחלה</message>
+  </block>
+  <block id="symbols">
+    <message name="title">תווים מיוחדים</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+  </block>
+  <block id="templates">
+    <message name="title">תבניות</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">תכונות דף</message>
+    <message name="title_tag">כותרת</message>
+    <message name="charset">Charset</message>
+    <message name="background">תמונת רקע</message>
+    <message name="bgcolor">צבע רקע</message>
+    <message name="text">צבע טקסט</message>
+    <message name="link">צבע קישור</message>
+    <message name="vlink">צבע קישור שהיו בו כבר</message>
+    <message name="alink">צבע קישור פעיל</message>
+    <message name="leftmargin">שוליים שמאליים</message>
+    <message name="topmargin">שוליים עליונים</message>
+    <message name="css_class">CSS class</message>
+    <message name="ok">  המשך  </message>
+    <message name="cancel">  בטל  </message>
+  </block>
+  <block id="preview">
+    <message name="title">תצוגה מקדימה</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">תמונה קופצת</message>
+  </block>
+  <block id="zoom">
+    <message name="title">זום</message>
+  </block>
+  <block id="subscript">
+    <message name="title">כתב תחתון</message>
+  </block>
+  <block id="superscript">
+    <message name="title">כתב עליון</message>
+  </block>
+</messages>

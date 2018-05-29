@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Testis Surgery Details" displayName="Urology Testis Surgery Details">
+  <eformSection name="General">
+    <eformItem displayName="Surgery Date" controlName="ORDate"></eformItem>
+    <eformItem displayName="Case Surgeon" controlName="CaseSurgeon"></eformItem>
+    <eformItem displayName="Anesthesia" controlName="Anesthesia"></eformItem>
+  </eformSection>
+
+  <eformSection name="Nature of Operation">
+    <eformItem displayName="RPLND and Ancillary Procedures" controlName="RPLNDAndAncillaryProcedures"></eformItem>
+    <eformItem displayName="Other Procedures" controlName="OtherTestisProcedures"></eformItem>
+    <eformItem displayName="RPLND Details" controlName="RPLNDDetails"></eformItem>
+    <eformItem displayName="Orchiectomy Details" controlName="OrchiectomyDetails"></eformItem>
+  </eformSection>
+
+  <eformSection name="Pathology">
+    <eformItem displayName="Nodes" controlName="TestisNodes"></eformItem>
+    <eformItem displayName="RPLND Pathology" controlName="RPLNDPathology"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Surgical Details / Fluids">
+    <eformItem displayName="Surgical Details / Fluids" controlName="TestisSurgicalDetailsFluids"></eformItem>
+  </eformSection>
+
+
+  <OperatingRoomDetails>
+
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpDuration></OpDuration>
+    <OpAnesthesiaDuration></OpAnesthesiaDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpFluids></OpFluids>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpFFP_Transfused></OpFFP_Transfused>
+    <OpPlateletsTransfused></OpPlateletsTransfused>
+
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpPneumatics></OpPneumatics>
+    <OpNG_Tube></OpNG_Tube>
+    <OpPreOpAntibiotics></OpPreOpAntibiotics>
+    <OpIntraOpAntibiotics></OpIntraOpAntibiotics>
+    <OpPostOpAntibiotics></OpPostOpAntibiotics>
+    
+    <OpNotes></OpNotes>
+
+    <OpDifficulty></OpDifficulty>
+
+
+  </OperatingRoomDetails>
+
+
+  <Procedures  RecordId='1'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+
+    <RPLND_Proc RecordId='1'>
+      <ProcDissectionExtent></ProcDissectionExtent>
+      <ProcIncisionType></ProcIncisionType>
+      <ProcNerveSparing></ProcNerveSparing>
+      <ProcDesperation></ProcDesperation>
+    </RPLND_Proc>
+
+    <Pathology RecordId='1'>
+
+      <PathologyStageGrade RecordId='1'>
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageN></PathStageN>
+      </PathologyStageGrade>
+
+      <NodePathFinding RecordId='1'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='2'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='3'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='4'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='5'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='6'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='7'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='8'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='9'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='10'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='11'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='12'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+      <NodePathFinding RecordId='13'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindExtension></PathFindExtension>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+
+      <PathologyFinding RecordId='1'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='2'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='3'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='4'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='5'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='6'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='7'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='8'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='9'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='10'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='11'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='12'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      <PathologyFinding RecordId='13'>
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindResult></PathFindResult>
+      </PathologyFinding>
+      
+    </Pathology>
+    
+  </Procedures>
+  <Procedures  RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='3'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+
+    <Pathology RecordId='2'>
+
+      <PathHistology></PathHistology>
+      
+      <OrchiectomyPath RecordId='1'>
+        <PathVascularInv></PathVascularInv>
+        <PathSpermaticCordInv></PathSpermaticCordInv>
+        <PathScrotalInv></PathScrotalInv>
+        <PathEpididymisInv></PathEpididymisInv>
+        <PathReteTestisInv></PathReteTestisInv>
+        <PathTunicaAlbugineaInv></PathTunicaAlbugineaInv>
+        <PathCancerMaxDim></PathCancerMaxDim>
+        <PathCarcinomaInSitu></PathCarcinomaInSitu>
+        <PathOtherTestis></PathOtherTestis>
+      </OrchiectomyPath>
+    </Pathology>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='6'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='7'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='8'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='11'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='12'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='13'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='14'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='15'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='16'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='17'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='18'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite><ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='19'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='20'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='21'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='22'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='23'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+  </Procedures>
+  <Procedures  RecordId='24'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+  </Procedures>
+
+
+</eform>

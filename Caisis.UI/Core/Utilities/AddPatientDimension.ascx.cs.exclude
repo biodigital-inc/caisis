@@ -1,0 +1,100 @@
+using System;
+using System.Data;
+using System.Drawing;
+using System.Web;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+
+using Caisis.Controller;
+using Caisis.DataAccess;
+using Caisis.Model;
+
+using Caisis.UI.Core.Classes;
+
+namespace Caisis.UI.Core.Utilities
+{
+	/// <summary>
+	///		Summary description for AddPatientDimension.
+	/// </summary>
+	public partial class AddPatientDimension //: WorkflowControl
+	{
+				 
+
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			Page.RegisterArrayDeclaration("requiredFieldArray","");
+			Page.RegisterClientScriptBlock("changePatientInHeader", "<script language=JavaScript> top.changePatientInHeader('" + Session[SessionKey.PtFirstName] + "','" + Session[SessionKey.PtLastName] + "','"+ Session[SessionKey.PtMRN] + "');</script>");
+
+
+			//base.Page_Load (sender, e);
+			DataTable dt = (DataTable)Context.Items["temp"];
+			if (dt != null)  
+			{
+
+				dimension.DataSource = dt.DefaultView;
+				dimension.DataValueField = "value";
+				dimension.DataTextField = "value";
+				dimension.DataBind();
+			}
+		}
+
+		protected DataTable GetDimensions()
+		{
+			PatientController ct = (PatientController)this.GetController();
+			DataTable dt = ct.GetDimensionTable();
+			string dimValue = Request.Form[dimension.UniqueID];
+			string [] dimVals = dimValue.Split(',');
+			foreach (string dim in dimVals)  
+			{
+				string [] andVals = dim.Split('&');
+				foreach (string dimAnd in andVals)  
+				{
+					DataRow dr =dt.NewRow();
+					int locColon = dimAnd.IndexOf(':');
+					dr["type"] = dimAnd.Substring(0, locColon).Trim();
+					string afterCol = dimAnd.Substring(locColon+1, dimAnd.Length-locColon-1).Trim();
+					int indexSpace = afterCol.IndexOf(" ",0, afterCol.Length);
+					if (indexSpace > -1)  
+					{
+						dr["value"] = afterCol.Substring(0, indexSpace);
+						dr["value2"] = afterCol.Substring(indexSpace+1, afterCol.Length-indexSpace-1);
+					}
+					else 
+					{
+						dr["value"] = afterCol;
+					}
+
+					dt.Rows.Add(dr);
+				}
+			}
+			return dt;
+		}
+
+        // v4
+        /*
+		protected override DataEntryController GetController()
+		{
+			PatientController ct = new PatientController(new PatientDa());
+			return ct;
+		}
+        */
+
+		
+		public void SaveBtn_Click()
+		{
+			DataTable dt = this.GetDimensions();
+
+			try 
+			{
+				PatientController ct = (PatientController)this.GetController();
+				ct.InsertOrDatasetDimensions(dt, (int)Session[SessionKey.PatientId]);
+			}
+			catch (ClientException e)  
+			{
+                //2.0 this.commonFields.errMsg.Message= e.Message;
+				this._userError = true;
+				this.dimension.Visible = false;
+			}
+		}
+	}
+}

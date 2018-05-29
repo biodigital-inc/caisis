@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Oropharynx Procedure" displayName="Oropharynx Procedure">
+  
+  <eformSection name="Operative Details">
+    <eformItem displayName="Operative Details" title=" " controlName="OropharynxProcOperativeDetails"></eformItem>
+  </eformSection>
+  
+
+
+
+  <AbsentEvents RecordId="1">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="2">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="3">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="4">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+
+  <OperatingRoomDetails RecordId="1">
+    <OpDateText NotNull="True"></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+  </OperatingRoomDetails>
+
+  <Procedures  RecordId='1'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcPrimary></ProcPrimary>
+    <ProcIndication></ProcIndication>
+    <ProcApproach></ProcApproach>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcPrimary></ProcPrimary>
+    <ProcIndication></ProcIndication>
+    <ProcApproach></ProcApproach>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='3'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcPrimary></ProcPrimary>
+    <ProcIndication></ProcIndication>
+    <ProcApproach></ProcApproach>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcPrimary></ProcPrimary>
+    <ProcIndication></ProcIndication>
+    <ProcApproach></ProcApproach>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcPrimary></ProcPrimary>
+    <ProcIndication></ProcIndication>
+    <ProcApproach></ProcApproach>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  
+  <Procedures  RecordId='6'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='7'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='8'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+
+  <Procedures  RecordId='11'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcIndication></ProcIndication>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSubsite></ProcSubsite>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+  <Procedures  RecordId='12'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcIndication></ProcIndication>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcSubsite></ProcSubsite>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Modifier></ProcCPT_Modifier>
+    <ProcCPT_Description></ProcCPT_Description>
+  </Procedures>
+
+  <Procedures  RecordId='13'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='14'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+
+  <Procedures  RecordId='15'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='16'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='17'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+
+  <Procedures  RecordId='20'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='21'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='22'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='23'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='24'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='25'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='26'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='27'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='28'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+  <Procedures  RecordId='29'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+  </Procedures>
+
+
+  <NoTable>
+    <ProcApproachOpenOption_1></ProcApproachOpenOption_1>
+    <ProcApproachOpenOption_2></ProcApproachOpenOption_2>
+    <ProcApproachOpenOption_3></ProcApproachOpenOption_3>
+    <ProcApproachOpenOption_4></ProcApproachOpenOption_4>
+    <ProcApproachOpenOption_5></ProcApproachOpenOption_5>
+
+    <ProcApproachOption_1></ProcApproachOption_1>
+    <ProcApproachOption_2></ProcApproachOption_2>
+    <ProcApproachOption_3></ProcApproachOption_3>
+    <ProcApproachOption_4></ProcApproachOption_4>
+    <ProcApproachOption_5></ProcApproachOption_5>
+    
+
+    <BoneWorkRecorded></BoneWorkRecorded>
+    <LateralDissectDone></LateralDissectDone>
+    <ProcSubsiteCBL_11></ProcSubsiteCBL_11>
+    <ProcSubsiteCBL_12></ProcSubsiteCBL_12>
+    <AncillaryRecorded></AncillaryRecorded>
+    <ReconRecorded></ReconRecorded>
+  </NoTable>
+  
+</eform>

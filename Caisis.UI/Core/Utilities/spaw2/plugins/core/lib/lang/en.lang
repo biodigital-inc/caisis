@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Cut</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copy</message>
+  </block>
+  <block id="paste">
+    <message name="title">Paste</message>
+  </block>
+  <block id="undo">
+    <message name="title">Undo</message>
+  </block>
+  <block id="redo">
+    <message name="title">Redo</message>
+  </block>
+  <block id="image">
+    <message name="title">Quick insert image</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Image</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+    <message name="source">Source</message>
+    <message name="alt">Alternative text</message>
+    <message name="align">Align</message>
+    <message name="left">left</message>
+    <message name="right">right</message>
+    <message name="top">top</message>
+    <message name="middle">middle</message>
+    <message name="bottom">bottom</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Width</message>
+    <message name="height">Height</message>
+    <message name="border">Border</message>
+    <message name="hspace">Hor. space</message>
+    <message name="vspace">Vert. space</message>
+    <message name="dimensions">Dimensions</message>
+    <message name="reset_dimensions">Reset dimensions</message>
+    <message name="title_attr">Title</message>
+    <message name="constrain_proportions">constrain proportions</message>
+    <message name="css_class">CSS class</message>
+    <message name="error">Error</message>
+    <message name="error_width_nan">Width is not a number</message>
+    <message name="error_height_nan">Height is not a number</message>
+    <message name="error_border_nan">Border is not a number</message>
+    <message name="error_hspace_nan">Horizontal space is not a number</message>
+    <message name="error_vspace_nan">Vertical space is not a number</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+    <message name="source">Source</message>
+    <message name="width">Width</message>
+    <message name="height">Height</message>
+    <message name="error">Error</message>
+    <message name="error_width_nan">Width is not a number</message>
+    <message name="error_height_nan">Height is not a number</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontal rule</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Create table</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Table properties</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+    <message name="rows">Rows</message>
+    <message name="columns">Columns</message>
+    <message name="css_class">CSS class</message>
+    <message name="width">Width</message>
+    <message name="height">Height</message>
+    <message name="border">Border</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Cell padding</message>
+    <message name="cellspacing">Cell spacing</message>
+    <message name="bg_color">Background color</message>
+    <message name="background">Background image</message>
+    <message name="error">Error</message>
+    <message name="error_rows_nan">Rows is not a number</message>
+    <message name="error_columns_nan">Columns is not a number</message>
+    <message name="error_width_nan">Width is not a number</message>
+    <message name="error_height_nan">Height is not a number</message>
+    <message name="error_border_nan">Border is not a number</message>
+    <message name="error_cellpadding_nan">Cell padding is not a number</message>
+    <message name="error_cellspacing_nan">Cell spacing is not a number</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Cell properties</message>
+    <message name="horizontal_align">Horizontal align</message>
+    <message name="vertical_align">Vertical align</message>
+    <message name="width">Width</message>
+    <message name="height">Height</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Background color</message>
+    <message name="background">Background image</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+    <message name="left">Left</message>
+    <message name="center">Center</message>
+    <message name="right">Right</message>
+    <message name="top">Top</message>
+    <message name="middle">Middle</message>
+    <message name="bottom">Bottom</message>
+    <message name="baseline">Baseline</message>
+    <message name="error">Error</message>
+    <message name="error_width_nan">Width is not a number</message>
+    <message name="error_height_nan">Height is not a number</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Insert row</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Insert column</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Delete row</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Delete column</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Merge right</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Merge down</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Split cell horizontally</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Split cell vertically</message>
+  </block>
+  <block id="style">
+    <message name="title">Style</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Size</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragraph</message>
+  </block>
+  <block id="bold">
+    <message name="title">Bold</message>
+  </block>
+  <block id="italic">
+    <message name="title">Italic</message>
+  </block>
+  <block id="underline">
+    <message name="title">Underline</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Strikethrough</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Ordered list</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Bulleted list</message>
+  </block>
+  <block id="indent">
+    <message name="title">Indent</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Unindent</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Left</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Center</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Right</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Justify</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Fore color</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Background color</message>
+  </block>
+  <block id="design">
+    <message name="title">Switch to WYSIWYG (design) mode</message>
+  </block>
+  <block id="html">
+    <message name="title">Switch to HTML (code) mode</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Color picker</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML cleanup (remove styles)</message>
+    <message name="confirm">Performing this action will remove all styles, fonts and useless tags from the current content. Some or all your formatting may be lost.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Toggle borders</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hyperlink</message>
+    <message name="url">URL</message>
+    <message name="name">Name</message>
+    <message name="target">Target</message>
+    <message name="title_attr">Title</message>
+    <message name="a_type">Type</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Anchor</message>
+    <message name="type_link2anchor">Link to anchor</message>
+    <message name="anchors">Anchors</message>
+    <message name="quick_links">Quick links</message> <!-- new in 2.0.6 -->
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">same frame (_self)</message>
+    <message name="_blank">new empty window (_blank)</message>
+    <message name="_top">top frame (_top)</message>
+    <message name="_parent">parent frame (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Remove hyperlink</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Row properties</message>
+    <message name="horizontal_align">Horizontal align</message>
+    <message name="vertical_align">Vertical align</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Background color</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+    <message name="left">Left</message>
+    <message name="center">Center</message>
+    <message name="right">Right</message>
+    <message name="top">Top</message>
+    <message name="middle">Middle</message>
+    <message name="bottom">Bottom</message>
+    <message name="baseline">Baseline</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Special characters</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+  </block>
+  <block id="templates">
+    <message name="title">Templates</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Page properties</message>
+    <message name="title_tag">Title</message>
+    <message name="charset">Charset</message>
+    <message name="background">Background image</message>
+    <message name="bgcolor">Background color</message>
+    <message name="text">Text color</message>
+    <message name="link">Link color</message>
+    <message name="vlink">Visited link color</message>
+    <message name="alink">Active link color</message>
+    <message name="leftmargin">Left margin</message>
+    <message name="topmargin">Top margin</message>
+    <message name="css_class">CSS class</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancel</message>
+  </block>
+  <block id="preview">
+    <message name="title">Preview</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Image popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subscript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superscript</message>
+  </block>
+</messages>

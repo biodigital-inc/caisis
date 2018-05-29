@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Cortar</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copiar</message>
+  </block>
+  <block id="paste">
+    <message name="title">Pegar</message>
+  </block>
+  <block id="undo">
+    <message name="title">Desfacer</message>
+  </block>
+  <block id="redo">
+    <message name="title">Refacer</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Ligazón</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Insertar imaxe</message>
+    <message name="select">Seleccionar</message>
+    <message name="cancel">Cancelar</message>
+    <message name="library">Libreria</message>
+    <message name="preview">Previsualizar</message>
+    <message name="images">Imáxenes</message>
+    <message name="upload">Subir imaxe</message>
+    <message name="upload_button">Subir</message>
+    <message name="error">Error</message>
+    <message name="error_no_image">Por favor, selecciona unha imaxe</message>
+    <message name="error_uploading">Ocurriu un erro ó subir a imaxe, inténteo de novo</message>
+    <message name="error_wrong_type">Tipo de imaxe incorrecto.</message>
+    <message name="error_no_dir">A libreria non existe</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Propiedades da imaxe</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="source">Fonte</message>
+    <message name="alt">Texto alternativo</message>
+    <message name="align">Alineación</message>
+    <message name="justifyleft">esquerda</message>
+    <message name="justifyright">dereita</message>
+    <message name="top">superior</message>
+    <message name="middle">medio</message>
+    <message name="bottom">inferior</message>
+    <message name="absmiddle">medio absoluto</message>
+    <message name="texttop">Texto superior</message>
+    <message name="baseline">Liña Base</message>
+    <message name="width">Ancho</message>
+    <message name="height">Alto</message>
+    <message name="border">Borde</message>
+    <message name="hspace">Marxe hor.</message>
+    <message name="vspace">Marxe vert.</message>
+    <message name="error">Erro</message>
+    <message name="error_width_nan">a altura ten que ser un número</message>
+    <message name="error_height_nan">o ancho ten que ser un número</message>
+    <message name="error_border_nan">o borde ten que ser un número</message>
+    <message name="error_hspace_nan">a marxe horizontal ten que ser un número</message>
+    <message name="error_vspace_nan">a marxe vertical ten que ser un número</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Liña horizontal</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Crear táboa</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Propiedades de la tabla</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="rows">Filas</message>
+    <message name="columns">Columnas</message>
+    <message name="width">Ancho</message>
+    <message name="height">Alto</message>
+    <message name="border">Borde</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Recheo da celda</message>
+    <message name="cellspacing">Espaciado da celda</message>
+    <message name="bg_color">Color de fondo</message>
+    <message name="error">Erro</message>
+    <message name="error_rows_nan">As filas teñen que ser un número</message>
+    <message name="error_columns_nan">As columnas teñen que ser un número</message>
+    <message name="error_width_nan">O ancho ten que ser un número</message>
+    <message name="error_height_nan">O alto ten que ser un número</message>
+    <message name="error_border_nan">O borde ten que ser un número</message>
+    <message name="error_cellpadding_nan">O recheo ten que ser un número</message>
+    <message name="error_cellspacing_nan">O espaciado ten que ser un número</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Propiedades da celda</message>
+    <message name="horizontal_align">Alineación horizontal</message>
+    <message name="vertical_align">Alineación vertical</message>
+    <message name="width">Ancho</message>
+    <message name="height">Alto</message>
+    <message name="css_class">Estilo CSS</message>
+    <message name="no_wrap">non envolver</message>
+    <message name="bg_color">Color de fondo</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="justifyleft">Esquerda</message>
+    <message name="justifycenter">Centro</message>
+    <message name="justifyright">Dereita</message>
+    <message name="top">Arriba</message>
+    <message name="middle">Medio</message>
+    <message name="bottom">Abaixo</message>
+    <message name="baseline">Liña Base</message>
+    <message name="error">Erro</message>
+    <message name="error_width_nan">O ancho ten que ser un número</message>
+    <message name="error_height_nan">O alto ten que ser un número</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Insertar fila</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Insertar columna</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Borrar fila</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Borrar columna</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Combinar as celdas da esqueda</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Combinar as celdas de abaixo</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Dividir as celdas horizontalmente</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Dividir as celdas verticalmente</message>
+  </block>
+  <block id="style">
+    <message name="title">Estilo</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Fonte</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Tamaño</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Párrafo</message>
+  </block>
+  <block id="bold">
+    <message name="title">Negriña</message>
+  </block>
+  <block id="italic">
+    <message name="title">Cursiva</message>
+  </block>
+  <block id="underline">
+    <message name="title">Subraiado</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Lista ordeada</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Lista con marca</message>
+  </block>
+  <block id="indent">
+    <message name="title">Sangría</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Anular sangría</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Esquerda</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centro</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Dereita</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Color da fonte</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Color de fondo</message>
+  </block>
+  <block id="design">
+    <message name="title">Cambiar ó modo WYSIWYG (deseño)</message>
+  </block>
+  <block id="html">
+    <message name="title">Cambiar ó modo HTML (código)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Selecciona color</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+</messages>

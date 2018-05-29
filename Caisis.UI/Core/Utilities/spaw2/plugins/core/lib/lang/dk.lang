@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Klip</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopier</message>
+  </block>
+  <block id="paste">
+    <message name="title">Sæt ind</message>
+  </block>
+  <block id="undo">
+    <message name="title">Fortryd</message>
+  </block>
+  <block id="redo">
+    <message name="title">Gentag</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Indsæt billede</message>
+    <message name="select">Vælg</message>
+    <message name="delete">Slet</message>
+    <message name="cancel">Annuller</message>
+    <message name="library">Bibliotek</message>
+    <message name="preview">Eksempel</message>
+    <message name="images">Billeder</message>
+    <message name="upload">Upload billede</message>
+    <message name="upload_button">Upload</message>
+    <message name="error">Fejl</message>
+    <message name="error_no_image">Vælg et billede</message>
+    <message name="error_uploading">En fejl skete under upload af billede. Prøv igen senere</message>
+    <message name="error_wrong_type">Forkert billedeformat</message>
+    <message name="error_no_dir">Biblioteket findes ikke</message>
+    <message name="error_cant_delete">Kunne ikke slette</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Billede egenskaber</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+    <message name="source">Kilde</message>
+    <message name="alt">Alternativ tekst</message>
+    <message name="align">Juster</message>
+    <message name="justifyleft">venstre</message>
+    <message name="justifyright">højre</message>
+    <message name="top">top</message>
+    <message name="middle">midten</message>
+    <message name="bottom">bunden</message>
+    <message name="absmiddle">absolut midte</message>
+    <message name="texttop">teksttop</message>
+    <message name="baseline">bundlinie</message>
+    <message name="width">Bredde</message>
+    <message name="height">Højde</message>
+    <message name="border">Kant</message>
+    <message name="hspace">Horisontalt mellemrum</message>
+    <message name="vspace">Vertikalt mellemrum</message>
+    <message name="error">Fejl</message>
+    <message name="error_width_nan">Bredde er ikke et tal</message>
+    <message name="error_height_nan">Højden er ikke et tal</message>
+    <message name="error_border_nan">Kanten er ikke et tal</message>
+    <message name="error_hspace_nan">Horisontalt mellemrum er ikke et tal</message>
+    <message name="error_vspace_nan">Vertikalt mellemrum er ikke et tal</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horisontal linie</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Opret tabel</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabel egenskaber</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+    <message name="rows">Rækker</message>
+    <message name="columns">Kolonner</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="width">Bredde</message>
+    <message name="height">Højde</message>
+    <message name="border">Kant</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Celle forskydning</message>
+    <message name="cellspacing">Celle mellemrum</message>
+    <message name="bg_color">Baggrundsfarve</message>
+    <message name="background">Baggrundsbillede</message>
+    <message name="error">Fejl</message>
+    <message name="error_rows_nan">Rækken er ikke et tal</message>
+    <message name="error_columns_nan">Kollonnen er ikke et tal</message>
+    <message name="error_width_nan">Bredden er ikke et tal</message>
+    <message name="error_height_nan">Højden er ikke et tal</message>
+    <message name="error_border_nan">Kanten er ikke et tal</message>
+    <message name="error_cellpadding_nan">Celle forskydning er ikke et tal</message>
+    <message name="error_cellspacing_nan">Celle mellemrum er ikke et tal</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Celle indstillinger</message>
+    <message name="horizontal_align">Horisontal placering</message>
+    <message name="vertical_align">Vertikal placering</message>
+    <message name="width">Bredde</message>
+    <message name="height">Højde</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="no_wrap">Ingen tekstombrydning</message>
+    <message name="bg_color">Baggrundsfarve</message>
+    <message name="background">Baggrundsbillede</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+    <message name="justifyleft">Venstre</message>
+    <message name="justifycenter">Centrer</message>
+    <message name="justifyright">Højre</message>
+    <message name="top">Top</message>
+    <message name="middle">Midten</message>
+    <message name="bottom">Bunden</message>
+    <message name="baseline">Bundlinie</message>
+    <message name="error">Fejl</message>
+    <message name="error_width_nan">Bredden er ikke et tal</message>
+    <message name="error_height_nan">Højden er ikke et tal</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Indsæt række</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Indsæt kolonne</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Slet række</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Slet kolonne</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Flet celler mod højre</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Flet celler nedad</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Split celle horisontalt</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Split celle vertikalt</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Skrifttype</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Størrelse</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Afsnit</message>
+  </block>
+  <block id="bold">
+    <message name="title">Fed</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursiv</message>
+  </block>
+  <block id="underline">
+    <message name="title">Understreget</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Nummereret liste</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Punktopstilling</message>
+  </block>
+  <block id="indent">
+    <message name="title">Forøg indrykning</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Formindsk indrykning</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Venstre</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centrer</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Højre</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Lige højre margin</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Forgrundsfarve</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Baggrundsfarve</message>
+  </block>
+  <block id="design">
+    <message name="title">Skift til WYSIWYG (design) visning</message>
+  </block>
+  <block id="html">
+    <message name="title">Skift til HTML (kodnings) visning</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Farvevælger</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML renser (fjerner stilen)</message>
+    <message name="confirm">Dette vil fjerne alle stile, skrifte og ubrugelige koder fra indholdet. Dele af eller hele din formatering går måske tabt.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Kanter til/fra</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hyperlink</message>
+    <message name="url">URL</message>
+    <message name="name">Navn</message>
+    <message name="target">Destination</message>
+    <message name="title_attr">Titel</message>
+    <message name="a_type">Type</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Anker</message>
+    <message name="type_link2anchor">Link til anker</message>
+    <message name="anchors">Ankre</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">Samme ramme (_self)</message>
+    <message name="_blank">Nyt vindue (_blank)</message>
+    <message name="_top">Top ramme (_top)</message>
+    <message name="_parent">Forældre ramme (_parent)</message>
+  </block>
+  <block id="internal_link">
+    <message name="title">Internt link</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Række egenskaber</message>
+    <message name="horizontal_align">Horisontal placering</message>
+    <message name="vertical_align">Vertikal placering</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="no_wrap">Ingen tekstombrydning</message>
+    <message name="bg_color">Baggrundsfarve</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+    <message name="justifyleft">Venstre</message>
+    <message name="justifycenter">Centrer</message>
+    <message name="justifyright">Højre</message>
+    <message name="top">Top</message>
+    <message name="middle">Midten</message>
+    <message name="bottom">Bunden</message>
+    <message name="baseline">Bundlinie</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Specialtegn</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+  </block>
+  <block id="templates">
+    <message name="title">Skabeloner</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Side egenskaber</message>
+    <message name="title_tag">Titel</message>
+    <message name="charset">Tegnsæt</message>
+    <message name="background">Baggrundsbillede</message>
+    <message name="bgcolor">Baggrundsfarve</message>
+    <message name="text">Tekstfarve</message>
+    <message name="link">Link farve</message>
+    <message name="vlink">Besøgt link farve</message>
+    <message name="alink">Aktivt link farve</message>
+    <message name="leftmargin">Venstre margen</message>
+    <message name="topmargin">Top margen</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuller</message>
+  </block>
+  <block id="preview">
+    <message name="title">Eksempel</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Billede popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

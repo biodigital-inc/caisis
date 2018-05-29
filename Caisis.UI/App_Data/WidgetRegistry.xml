@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--  this file contains a list of User widgets and their related configurations
+      Attribute List: 
+        name="The class name of the widget" (required)
+        active="true|false: represents is the widget is active/available" (default false)
+        title="The widget title" (default "")
+        description="The description of the widget" (default "")
+        helpText="The optional help text for the widget" (default "")
+        defaultState="opened|collapsed|hidden: the inital state of the widget" (default ""=="opened")
+                      NOTE: default state is overriden by user prefences (when set)
+        module="a list of appliable modules", i.e., user can only view widget if they have access to module
+ -->
+<widgets>
+    <widget name="UserPatientViewWidget"
+             active="true"
+             module="Patient Data"
+             title="Recently Viewed Patients"
+             description="Listing of the last 20 patients you have viewed."
+             helpText="select a patient to view data"
+             defaultState="opened">
+    </widget>
+    <widget name="UserEformsWidget"
+           module="EForms" active="true"
+           title="Recently Viewed Eforms"
+           description="Listing of the last EForms you have viewed."
+           helpText="select an eform to view."
+           defaultState="opened">
+    </widget>
+    <widget name="PendingEFormsWidget"
+           module="EForms" active="true"
+           title="Pending Eforms"
+           description="Listing of pending (unapproved) EForms."
+           helpText="select an eform to view."
+           defaultState="opened">
+    </widget>
+    <widget name="YourDataSetsWidget"
+          active="true"
+          title="Patient Accrual by Dataset"
+          description="The number of patients added by Dataset in the past year."
+          helpText="Patients entered in the past year."
+          defaultState="opened">
+    </widget>
+    <widget name="PhysicianClinicListWidget"
+           module="Patient Data" active="true"
+           title="Patients for Today's Clinic"
+           description="A list of patients for today's clinic."
+           helpText="select a patient to view."
+           defaultState="opened">
+    </widget>
+    <widget name="UserReportWidget"
+           module="Data Analysis"
+           active="true"
+           title="Recently Viewed Reports"
+           description="Listing of the reports you have viewed recently."
+           helpText="select a report to view."
+           defaultState="opened">
+    </widget>
+   
+
+</widgets>

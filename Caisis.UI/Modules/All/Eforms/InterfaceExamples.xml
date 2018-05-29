@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="InterfaceExamples" displayName="Interface Examples">
+
+		<eformSection name="Textboxes">
+      <eformItem displayName="Examples" controlName="ExampleTextboxes"></eformItem>
+
+    </eformSection>
+
+
+  <eformSection name="Selects and Combobox">
+    <eformItem displayName="Examples" controlName="ExampleSelectsAndCombos"></eformItem>
+
+  </eformSection>
+
+  <eformSection name="Textarea">
+    <eformItem displayName="Examples" controlName="ExampleTextAreas"></eformItem>
+
+  </eformSection>
+
+  <eformSection name="Radiobuttons and Checkboxes">
+    <eformItem displayName="Examples" controlName="ExampleRadiosAndCheckboxes"></eformItem>
+
+  </eformSection>
+
+  <eformSection name="Delete button">
+    <eformItem displayName="Examples" controlName="ExampleDeleteButton"></eformItem>
+
+  </eformSection>
+
+
+
+  <NoTable>
+    <TextboxSimple></TextboxSimple>
+    <TextboxDateText></TextboxDateText>
+    <TextboxDate></TextboxDate>
+    <TextboxNumPad></TextboxNumPad>
+    <TextboxNotes></TextboxNotes>
+
+    <Select></Select>
+    <DropDownList></DropDownList>
+    <Combobox></Combobox>
+
+    <Textarea></Textarea>
+
+    <ExtendedRadioButtonList></ExtendedRadioButtonList>
+    <ExtendedRadioButtonListWithOther></ExtendedRadioButtonListWithOther>
+    <RadioButtonGroup></RadioButtonGroup>
+
+    <CheckboxSimple></CheckboxSimple>
+    <ExtendedCheckBoxList></ExtendedCheckBoxList>
+
+  </NoTable>
+
+
+</eform>
+
+
+

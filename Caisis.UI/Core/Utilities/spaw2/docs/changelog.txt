@@ -1,0 +1,96 @@
+2008-04-10 v.2.0.7.1
+--------------------
+- BUGFIX: there was an error is Safari detection code causing exception when 
+  accessed via Safari.
+
+2008-04-04 v.2.0.7
+------------------
+- FEATURE ADDED: when inserting a hyperlink and nothing is selected, hyperlink 
+  title is used for linked text (if title is not set href url is used)
+- CHANGE: reworked CSS class application algorithm: now if nothing is selected 
+  CSS class is set on the parent tag of the current cursor position, plus style 
+  changes are applied to the same span tag rather than creating a new one
+- CHANGE: font name and font sizes are now applied with custom code rather than 
+  browser features allowing for wider variety of valid settings
+- CHANGE: JavaScript API: refactored style setting methods: moved style setting 
+  to editor methods applyStyleToSelection and removeStyleFrom, so they could be 
+  called from various other methods (like font settings, etc.)
+- BUGFIX/WORKAROUND: empty paragraphs were multiplying in IE when DOM tree or 
+  HTML had paragraph inside of a paragraph
+- BUGFIX/WORKAROUND: when content started with script or style tag it was 
+  removed under IE
+- BUGFIX: inner contents of style tag was stripped under IE
+- BUGFIX: insertHtmlAtSelection method wasn't working correctly in IE when 
+  "control" (image, etc.) was selected
+- BUGFIX: SpawFm plugin: fixed automatic uploaded file/created directory selection
+- LANGUAGE FILE ADDED: Romanian (Lari Corifeanu)
+- LANGUAGE FILE ADDED: SpawFM: Turkish (Sitki Ozkurt)
+- LANGUAGE FILE ADDED: core and SpawFM: Celtic (Alan Davies)
+- LANGUAGE FILE ADDED: SpawFM: Slovak (Martin Svec)
+- LANGUAGE FILE UPDATED: Slovak (Martin Svec)
+- LANGUAGE FILE UPDATED: Italian (fabrix)
+
+
+2008-01-03 v.2.0.6
+------------------
+- BUGFIX: Exception was generated during saving of state when editor with 
+  single page was invisible.
+- BUGFIX: substitute images for flash content were missing
+- BUGFIX: Theme class was attempting to use default CSS style when actually 
+  default CSS class was defined in theme config
+- BUGFIX: Toolbar class was attempting to use custom CSS style when actually 
+  custom CSS class was defined in theme config
+- DOCUMENTATION ADDED: Plugin Developer's Guide
+- DOCUMENTATION UPDATED: updated integrator's guide
+
+
+2007-12-20 v.2.0.6 Release Candidate
+------------------------------------
+- FEATURE ADDED: CSS class in image properties dialog
+- FEATURE ADDED: added SpawFMConfiguration class to streamline access to File 
+  Manager configuration
+- FEATURE ADDED: pages (documents/tabs) could be added through designer/markup
+- BUGFIX: substitute toolbars were not used
+- BUGFIX: there were errors when maintainScrollPositionOnPostback="true" was 
+  set globally in Web.Config file
+- BUGFIX: Floating/shared toolbars didn't work as expected when several SPAWs 
+  were inside naming container (like master pages etc.). They still have to be 
+  inside single parent to set controlling toolbar through ToolbarFromID property. 
+  ToolbarFrom could be assigned from code to overcome this limitation.
+- BUGFIX: it is now possible to use application root-relative paths (~/) in file 
+  manager configuration
+- BUGFIX: it is now possible to use application root-relative paths (~/) to 
+  specify stylesheet 
+- BUGFIX: .NET framework was trying to apply themes to spaw.js.aspx file and 
+  failed in websites using application wide themes
+- FIX: made Text property bindable (can't find a reason why can't set bind 
+  expression through "Edit Bindings" dialog)
+- BUGFIX: fixed (hopefully) long-standing bug with content doubling under IE in
+  some invalid HTML cases
+- BUGFIX: calls to getPageHtml were destroying DOM tree
+- BUGFIX: in some cases <br /> was multiplying empty lines in source code under 
+  Firefox
+- BUGFIX: html mode textareas where set to zero width when switching between tabs
+- BUGFIX: spaces between tags were completely removed
+- BUGFIX: inputName variable name was mistyped in editor.class.php
+
+
+2007-11-24 v.2.0.5.1 Release Candidate
+--------------------------------------
+- FEATURE ADDED: Quick links in hyperlink dialog
+- BUGFIX: Text property wasn't updated when SPAW was used with MasterPages, etc.
+- BUGFIX: paths were not correctly calculated when SPAW was used in applications
+  residing in web site root directory
+- BUGFIX: it wasn't possible to use SPAW when session state was stored in State 
+  Server or SQL Server (non-serializable data was stored in Session)
+- BUGFIX (not verified): on some installations there was "The Controls collection
+  cannot be modified because the control contains code blocks (i.e. <% ... %>)." 
+  exception generated in all dialogs.
+- INTERNAL CHANGE: only "secure" configuration settings are saved in Session now
+- LANGUAGE FILES FIXED: html entities were not defined in Spanish, 
+  Brazilian Portuguese and French language files
+
+
+2007-09-30 v.2.0.5 Beta
+-----------------------
+- First public .NET Edition v.2 release

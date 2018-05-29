@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Lõike</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopeeri</message>
+  </block>
+  <block id="paste">
+    <message name="title">Kleebi</message>
+  </block>
+  <block id="undo">
+    <message name="title">Samm Tagasi</message>
+  </block>
+  <block id="redo">
+    <message name="title">Samm Edasi</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hüperlink</message>
+    <message name="url">URL</message>
+    <message name="name">Nimi</message>
+    <message name="target">Sihtmärk</message>
+    <message name="title_attr">Tiitel</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Lisa Pilt</message>
+    <message name="select">Vali</message>
+    <message name="cancel">Loobu</message>
+    <message name="library">Teek</message>
+    <message name="preview">Eelvaade</message>
+    <message name="images">Pildid</message>
+    <message name="upload">Pildi üleslaadimine</message>
+    <message name="upload_button">Üleslaadimine</message>
+    <message name="error">Viga</message>
+    <message name="error_no_image">Palun valige pilt</message>
+    <message name="error_uploading">Viga faili üleslaadimisega. Proovige hiljem uuesti</message>
+    <message name="error_wrong_type">Valge pildi failitüüp</message>
+    <message name="error_no_dir">Teek ei eksisteeri füüsiliselt</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Pildi Seaded</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+    <message name="source">Lähe</message>
+    <message name="alt">Alternatiivne Tekst</message>
+    <message name="align">Joondamine</message>
+    <message name="justifyleft">vasak</message>
+    <message name="justifyright">parem</message>
+    <message name="top">ülal</message>
+    <message name="middle">keskel</message>
+    <message name="bottom">põhjas</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">äärejoon</message>
+    <message name="width">Laius</message>
+    <message name="height">Kõrgus</message>
+    <message name="border">Serv</message>
+    <message name="hspace">Hor. vahe</message>
+    <message name="vspace">Vert. vahe</message>
+    <message name="error">Viga</message>
+    <message name="error_width_nan">Laius ei ole number</message>
+    <message name="error_height_nan">Kõrgus ei ole number</message>
+    <message name="error_border_nan">Serv ei ole number</message>
+    <message name="error_hspace_nan">Horisontaalide vahe ei ole number</message>
+    <message name="error_vspace_nan">Vertikaalide vahe ei ole number</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horisontaalide Reegel</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Loo tabel</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabeli seaded</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+    <message name="rows">Ridu</message>
+    <message name="columns">Tulpi</message>
+    <message name="width">Laius</message>
+    <message name="height">Kõrgus</message>
+    <message name="border">Serv</message>
+    <message name="pixels">pikselit</message>
+    <message name="cellpadding">Elemendi polsterdus</message>
+    <message name="cellspacing">Elementide vahe</message>
+    <message name="bg_color">Taustavärv</message>
+    <message name="error">Viga</message>
+    <message name="error_rows_nan">Ridade arv ei ole number</message>
+    <message name="error_columns_nan">Tulpade arv ei ole number</message>
+    <message name="error_width_nan">Laius ei ole number</message>
+    <message name="error_height_nan">Kõrgus ei ole number</message>
+    <message name="error_border_nan">Serv ei ole number</message>
+    <message name="error_cellpadding_nan">Elemendi polsterdus ei ole number</message>
+    <message name="error_cellspacing_nan">Elementide vahe ei ole number</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Elemendi seaded</message>
+    <message name="horizontal_align">Horisontaalne joondamine</message>
+    <message name="vertical_align">Vertikaalne joondamine</message>
+    <message name="width">Laius</message>
+    <message name="height">Kõrgus</message>
+    <message name="css_class">CSS klass</message>
+    <message name="no_wrap">Mähkimine väljas</message>
+    <message name="bg_color">Tausta värv</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+    <message name="justifyleft">Vasakul</message>
+    <message name="justifycenter">Keskel</message>
+    <message name="justifyright">Paremal</message>
+    <message name="top">Ülal</message>
+    <message name="middle">Keskel</message>
+    <message name="bottom">Põhjas</message>
+    <message name="baseline">Äärejoon</message>
+    <message name="error">Viga</message>
+    <message name="error_width_nan">Laius ei ole number</message>
+    <message name="error_height_nan">Kõrgus ei ole number</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Lisa rida</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Lisa tulp</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Kustuta rida</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Kustuta tulp</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Sulandu/Ühine paremale</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Sulandu/Ühine alla</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Poolita element horisontaalselt</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Poolita element vertikaalselt</message>
+  </block>
+  <block id="style">
+    <message name="title">Stiil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Kirjastiil</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Suurus</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragrahv</message>
+  </block>
+  <block id="bold">
+    <message name="title">Rasvane</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kaldkiri</message>
+  </block>
+  <block id="underline">
+    <message name="title">Allajoonitud</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Korrapärane Nimekiri</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Täppidega Nimekiri</message>
+  </block>
+  <block id="indent">
+    <message name="title">Süvendatud</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Süvendamata</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Vasakul</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Keskel</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Paremal</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Pealmine värv</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Tausta värv</message>
+  </block>
+  <block id="design">
+    <message name="title">Lülitu WYSIWYG (kujundus) moodi</message>
+  </block>
+  <block id="html">
+    <message name="title">Lülitu HTML (kood) moodi</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Värvivalija</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML puhastamine (eemaldab stiilid)</message>
+    <message name="confirm">Selle tegemine eemaldab stiilid, kirjastiilid ja ebavajalikud tag-id, mõned või kõik vormindused võivad kaotsi minna.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Servad</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Rea seaded</message>
+    <message name="horizontal_align">Horisontaalne joondamine</message>
+    <message name="vertical_align">Vertikaalne joondamine</message>
+    <message name="css_class">CSS klass</message>
+    <message name="no_wrap">Mähkimine väljas</message>
+    <message name="bg_color">Tausta värv</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+    <message name="justifyleft">Vasakul</message>
+    <message name="justifycenter">Keskel</message>
+    <message name="justifyright">Paremal</message>
+    <message name="top">Ülal</message>
+    <message name="middle">Keskel</message>
+    <message name="bottom">Põhjas</message>
+    <message name="baseline">Äärejoon</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Spetsiaalsed tähemärgid</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+  </block>
+  <block id="templates">
+    <message name="title">Mallid</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Lehe seaded</message>
+    <message name="title_tag">Tiitel</message>
+    <message name="charset">Märgistik</message>
+    <message name="background">Taustapilt</message>
+    <message name="bgcolor">Taustavärv</message>
+    <message name="text">Teksti värv</message>
+    <message name="link">Lingi värv</message>
+    <message name="vlink">Külastatud lingi värv</message>
+    <message name="alink">Aktiivse lingi värv</message>
+    <message name="leftmargin">Piiraja Vasemal</message>
+    <message name="topmargin">Piiraja Ülal</message>
+    <message name="css_class">CSS klass</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Loobu</message>
+  </block>
+  <block id="preview">
+    <message name="title">Eelvaade</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Pildi popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Suurendus</message>
+  </block>
+</messages>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">剪切</message>
+  </block>
+  <block id="copy">
+    <message name="title">复制</message>
+  </block>
+  <block id="paste">
+    <message name="title">粘贴</message>
+  </block>
+  <block id="undo">
+    <message name="title">恢复</message>
+  </block>
+  <block id="redo">
+    <message name="title">重做</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">超链接</message>
+    <message name="url">网址</message>
+    <message name="name">名称</message>
+    <message name="target">目标</message>
+    <message name="title_attr">主题</message>
+    <message name="a_type">类型</message>
+    <message name="type_link">链接</message>
+    <message name="type_anchor">锚点</message>
+    <message name="type_link2anchor">锚点链接</message>
+    <message name="anchors">锚点</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">插入图片</message>
+    <message name="select">选取</message>
+    <message name="delete">删除</message>
+    <message name="cancel">取消</message>
+    <message name="library">资料夹</message>
+    <message name="preview">预览</message>
+    <message name="images">图片</message>
+    <message name="upload">上传图片</message>
+    <message name="upload_button">上传</message>
+    <message name="error">错误</message>
+    <message name="error_no_image">请选定图片</message>
+    <message name="error_uploading">文件上传发生错误. 请稍后重传</message>
+    <message name="error_wrong_type">文件格式不符</message>
+    <message name="error_no_dir">找不到资料夹</message>
+    <message name="error_cant_delete">删除失败</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">图片属性</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+    <message name="source">来源</message>
+    <message name="alt">文字提示</message>
+    <message name="align">对齐</message>
+    <message name="justifyleft">左</message>
+    <message name="justifyright">右</message>
+    <message name="top">上</message>
+    <message name="middle">中</message>
+    <message name="bottom">下</message>
+    <message name="absmiddle">绝对中央</message>
+    <message name="texttop">文字顶端</message>
+    <message name="baseline">基准线</message>
+    <message name="width">宽度</message>
+    <message name="height">高度</message>
+    <message name="border">边框宽度</message>
+    <message name="hspace">水平间距</message>
+    <message name="vspace">垂直间距</message>
+    <message name="error">错误</message>
+    <message name="error_width_nan">宽度不是数字</message>
+    <message name="error_height_nan">高度不是数字</message>
+    <message name="error_border_nan">边框宽度不是数字</message>
+    <message name="error_hspace_nan">水平间距不是数字</message>
+    <message name="error_vspace_nan">垂直间距不是数字</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">水平规线</message>
+  </block>
+  <block id="table_create">
+    <message name="title">新增表格</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">表格属性</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+    <message name="rows">列数</message>
+    <message name="columns">行数</message>
+    <message name="css_class">CSS class</message>
+    <message name="width">宽度</message>
+    <message name="height">高度</message>
+    <message name="border">边框宽度</message>
+    <message name="pixels">px</message>
+    <message name="cellpadding">文框间距</message>
+    <message name="cellspacing">框线间距</message>
+    <message name="bg_color">背景颜色</message>
+    <message name="background">背景图像</message>
+    <message name="error">错误</message>
+    <message name="error_rows_nan">列数不是数字</message>
+    <message name="error_columns_nan">行数不是数字</message>
+    <message name="error_width_nan">宽度不是数字</message>
+    <message name="error_height_nan">高度不是数字</message>
+    <message name="error_border_nan">边框宽度不是数字</message>
+    <message name="error_cellpadding_nan">文框间距不是数字</message>
+    <message name="error_cellspacing_nan">框线间距不是数字</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">储存格属性</message>
+    <message name="horizontal_align">水平对齐</message>
+    <message name="vertical_align">垂直对齐</message>
+    <message name="width">宽度</message>
+    <message name="height">高度</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">文字不换行</message>
+    <message name="bg_color">背景颜色</message>
+    <message name="background">背景图像</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+    <message name="justifyleft">左</message>
+    <message name="justifycenter">中</message>
+    <message name="justifyright">右</message>
+    <message name="top">顶</message>
+    <message name="middle">中央</message>
+    <message name="bottom">底</message>
+    <message name="baseline">基准线</message>
+    <message name="error">错误</message>
+    <message name="error_width_nan">宽度不是数字</message>
+    <message name="error_height_nan">高度不是数字</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">插入横列</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">插入直行</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">删除横列</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">删除直行</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">合并右侧</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">合并下方</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">水平分割</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">垂直分割</message>
+  </block>
+  <block id="style">
+    <message name="title">Style</message>
+  </block>
+  <block id="fontname">
+    <message name="title">字体</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">字号</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragraph</message>
+  </block>
+  <block id="bold">
+    <message name="title">粗体</message>
+  </block>
+  <block id="italic">
+    <message name="title">斜体</message>
+  </block>
+  <block id="underline">
+    <message name="title">加底线</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">序号表列</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">点号表列</message>
+  </block>
+  <block id="indent">
+    <message name="title">增加缩排</message>
+  </block>
+  <block id="outdent">
+    <message name="title">减少缩排</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">靠左切齐</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">置中对齐</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">靠右切齐</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">字体颜色</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">背景颜色</message>
+  </block>
+  <block id="design">
+    <message name="title">切换 WYSIWYG (直观) 模式</message>
+  </block>
+  <block id="html">
+    <message name="title">切换 HTML (源码) 模式</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">调色盘</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">清除HTML (移除网页格式)</message>
+    <message name="confirm">这个操作将会清除所有的网页格式，请注意.</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">切换边线</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">同一框架 (_self)</message>
+    <message name="_blank">新建窗口 (_blank)</message>
+    <message name="_top">整体框架 (_top)</message>
+    <message name="_parent">父框架 (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">横列属性</message>
+    <message name="horizontal_align">水平对齐</message>
+    <message name="vertical_align">垂直对齐</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">不换行</message>
+    <message name="bg_color">背景颜色</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+    <message name="justifyleft">左</message>
+    <message name="justifycenter">中</message>
+    <message name="justifyright">右</message>
+    <message name="top">顶</message>
+    <message name="middle">中央</message>
+    <message name="bottom">底部</message>
+    <message name="baseline">基线</message>
+  </block>
+  <block id="symbols">
+    <message name="title">特殊符号</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+  </block>
+  <block id="templates">
+    <message name="title">模板</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">网页属性</message>
+    <message name="title_tag">主题</message>
+    <message name="charset">文字编码</message>
+    <message name="background">背景图片</message>
+    <message name="bgcolor">背景颜色</message>
+    <message name="text">文字颜色</message>
+    <message name="link">连结颜色</message>
+    <message name="vlink">参观过的连结颜色</message>
+    <message name="alink">正在执行的连结颜色</message>
+    <message name="leftmargin">左边界</message>
+    <message name="topmargin">上方边界</message>
+    <message name="css_class">CSS class</message>
+    <message name="ok">   确定   </message>
+    <message name="cancel">取消</message>
+  </block>
+  <block id="preview">
+    <message name="title">预览</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">图片弹出</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subscript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superscript</message>
+  </block>
+</messages>

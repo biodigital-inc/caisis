@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Neuro Details EForm" displayName="Neuro Details EForm">
+
+  <eformSection name="Clinical Exam Information">
+    <eformItem displayName="Encounters" controlName="EncountersNeuro"></eformItem>
+    <eformItem displayName="Diagnosis &amp; FU Status" controlName="StatusNeuro"></eformItem>
+    <eformItem displayName="Diagnostics &amp; Actions" controlName="DiagnosticsNeuro"></eformItem>
+  </eformSection>
+
+  <eformSection name="Procedure and Pathology">
+    <eformItem controlName="ProcPath1Neuro"></eformItem>
+  </eformSection>
+
+  <eformSection name="Therapies">
+    <eformItem displayName="Radiation Therapy" controlName="RadiationTxNeuro"></eformItem>
+    <eformItem displayName="Medical Therapy" controlName="MedicalTxNeuro"></eformItem>
+  </eformSection>
+
+
+  <Encounters RecordId="1">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="2">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="3">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="4">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="5">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="6">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="7">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="8">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="9">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+  <Encounters RecordId="10">
+    <EncPending></EncPending>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType NotNull="True"></EncType>
+    <EncPhysician></EncPhysician>
+    <EncKPS></EncKPS>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncQuality DefaultValue="STD"></EncQuality>
+  </Encounters>
+
+  <Status RecordId="1">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="2">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="3">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="4">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="5">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  
+  <Status RecordId="6">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease DefaultValue="Brain"></StatusDisease>
+    <Status NotNull="True" DefaultValue="Alive"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <MedicalTherapy RecordId="1">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="2">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="3">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="4">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="5">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="6">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="7">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="8">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="9">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="10">
+    <ProtocolId></ProtocolId>
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease DefaultValue="Brain"></MedTxDisease>
+    <MedTxSite DefaultValue="Brain"></MedTxSite>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxDose></MedTxDose>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxCycle></MedTxCycle>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+
+  <OperatingRoomDetails RecordId="1">
+    <OpDateText DefaultSource="Procedures.PainLocation1,1"></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="1">
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+
+      <Pathology RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathInstitution></PathInstitution>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSite></PathSite>
+        <PathSide></PathSide>
+        <PathNum></PathNum>
+        <PathHistology></PathHistology>
+        <PathHistology2></PathHistology2>
+        <PathResult></PathResult>
+        <Pathologist></Pathologist>
+        <PathNotes></PathNotes>
+        <PathInstitution></PathInstitution>
+        <PathQuality></PathQuality>
+
+        <PathologyStageGrade RecordId="1">
+          <PathStageDisease></PathStageDisease>
+          <PathGrade></PathGrade>
+          <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+        <PathTest RecordId="1">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="2">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="3">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="4">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="5">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="16">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="17">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="18">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="19">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="20">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+      </Pathology>  
+      
+      <Pathology RecordId="2">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathInstitution></PathInstitution>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSite></PathSite>
+        <PathSide></PathSide>
+        <PathNum></PathNum>
+        <PathHistology></PathHistology>
+        <PathHistology2></PathHistology2>
+        <PathResult></PathResult>
+        <Pathologist></Pathologist>
+        <PathNotes></PathNotes>
+        <PathInstitution></PathInstitution>
+        <PathQuality></PathQuality>
+
+        <PathologyStageGrade RecordId="2">
+          <PathStageDisease></PathStageDisease>
+          <PathGrade></PathGrade>
+          <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+        <PathTest RecordId="6">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="7">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="8">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="9">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="10">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>        
+      </Pathology>
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="2">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="2">
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+
+      <Pathology RecordId="3">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathInstitution></PathInstitution>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSite></PathSite>
+        <PathSide></PathSide>
+        <PathNum></PathNum>
+        <PathHistology></PathHistology>
+        <PathHistology2></PathHistology2>
+        <PathResult></PathResult>
+        <Pathologist></Pathologist>
+        <PathNotes></PathNotes>
+        <PathInstitution></PathInstitution>
+        <PathQuality></PathQuality>
+
+        <PathologyStageGrade RecordId="3">
+          <PathStageDisease></PathStageDisease>
+          <PathGrade></PathGrade>
+          <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+        <PathTest RecordId="11">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="12">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="13">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="14">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+        <PathTest RecordId="15">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathNotes></PathNotes>
+          <PathQuality></PathQuality>
+        </PathTest>
+       
+      </Pathology>      
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <RadiationTherapy RecordId="1">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="2">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="3">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="4">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="5">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="6">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="7">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="8">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="9">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="10">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease DefaultValue="Brain"></RadTxDisease>
+    <RadTxSite DefaultValue="Brain"></RadTxSite>
+    <RadTxTarget></RadTxTarget>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxPhysician></RadTxPhysician>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>  
+
+  <Diagnostics RecordId="1">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease DefaultValue="Brain"></DxDisease>
+    <DxSite DefaultValue="Brain"></DxSite>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="2">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease DefaultValue="Brain"></DxDisease>
+    <DxSite DefaultValue="Brain"></DxSite>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="3">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease DefaultValue="Brain"></DxDisease>
+    <DxSite DefaultValue="Brain"></DxSite>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="4">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease DefaultValue="Brain"></DxDisease>
+    <DxSite DefaultValue="Brain"></DxSite>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="5">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease DefaultValue="Brain"></DxDisease>
+    <DxSite DefaultValue="Brain"></DxSite>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+
+  <Actions RecordId="1">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="2">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="3">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+
+  <AbsentEvents RecordId="1">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+  <AbsentEvents RecordId="2">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+  <AbsentEvents RecordId="3">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+  <NoTable>
+    <RadTxDone></RadTxDone>
+    <MedTxDone></MedTxDone>
+    <ProcDone></ProcDone>
+  </NoTable>
+
+</eform>

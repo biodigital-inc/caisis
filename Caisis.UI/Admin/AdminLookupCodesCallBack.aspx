@@ -1,0 +1,1 @@
+<%@ Page Language="C#" EnableViewState="false" AutoEventWireup="true" CodeFile="AdminLookupCodesCallBack.aspx.cs" Inherits="Caisis.UI.Admin.AdminLookupCodesCallBack" %>

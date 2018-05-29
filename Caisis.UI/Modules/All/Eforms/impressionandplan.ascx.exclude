@@ -1,0 +1,42 @@
+<%@ Control CodeBehind="ImpressionAndPlan.ascx.cs" Language="c#" AutoEventWireup="false" Inherits="Caisis.UI.Modules.All.Eforms.ImpressionAndPlan" %>
+<%@ Register TagPrefix="euc" Namespace="Caisis.UI.Core.Classes.CustomControls" Assembly="Caisis.UI" %>
+<link href="../../../StyleSheets/EformStyles.css" rel="stylesheet" type="text/css">
+<a name="ImpressionAndPlan" />
+<span class="controlBoxTitle">Impression & Plan</span><br />
+
+
+
+
+<table width="650" border="0" cellspacing="0" cellpadding="5" class="eformLargePopulatedTable" style="background-position: 0 20;">
+  <tr>
+    <td width="6%" class="controlBoxDataGridHeaderFirstCol">&nbsp;</td>
+    <td width="47%" class="controlBoxDataGridHeaderFirstCol">Diagnoses / Problem List </td>
+    <td width="47%" class="controlBoxDataGridHeaderFirstCol">Plan</td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-bottom: solid 1px #cccccc;"><strong>1</strong></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemName" Rows="4" Cols="32" Runat="server" RecordId="1" ID="ProblemName_1"/></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemPlan" Rows="4" Cols="32" Runat="server" RecordId="1" ID="ProblemPlan_1"/></td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-bottom: solid 1px #cccccc;"><strong>2</strong></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemName" Rows="4" Cols="32" Runat="server" RecordId="2" ID="ProblemName_2"/></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemPlan" Rows="4" Cols="32" Runat="server" RecordId="2" ID="ProblemPlan_2"/></td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-bottom: solid 1px #cccccc;"><strong>3</strong></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemName" Rows="4" Cols="32" Runat="server" RecordId="3" ID="ProblemName_3"/></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemPlan" Rows="4" Cols="32" Runat="server" RecordId="3" ID="ProblemPlan_3"/></td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-bottom: solid 1px #cccccc;"><strong>4</strong></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemName" Rows="4" Cols="32" Runat="server" RecordId="4" ID="ProblemName_4"/></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemPlan" Rows="4" Cols="32" Runat="server" RecordId="4" ID="ProblemPlan_4"/></td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-bottom: solid 1px #cccccc;"><strong>5</strong></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemName" Rows="4" Cols="32" Runat="server" RecordId="5" ID="ProblemName_5"/></td>
+    <td class="ControlBoxLinedRows"><euc:EformTextArea TextMode="MultiLine" TABLE="EncProblems" FIELD="ProblemPlan" Rows="4" Cols="32" Runat="server" RecordId="5" ID="ProblemPlan_5"/></td>
+  </tr>
+</table>
+<br/><br/><br/>

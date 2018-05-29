@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Tallar</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copiar</message>
+  </block>
+  <block id="paste">
+    <message name="title">Enganxar</message>
+  </block>
+  <block id="undo">
+    <message name="title">Desfer</message>
+  </block>
+  <block id="redo">
+    <message name="title">Refer</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Enllaç</message>
+    <message name="url">URL</message>
+    <message name="name">Nom</message>
+    <message name="target">Destí</message>
+    <message name="title_attr">Títol</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Afegir imatge</message>
+    <message name="select">Seleccionar</message>
+    <message name="cancel">Cancelar</message>
+    <message name="library">Llibreria</message>
+    <message name="preview">Previsualitzar</message>
+    <message name="images">Imatges</message>
+    <message name="upload">Pujar imatge</message>
+    <message name="upload_button">Pujar</message>
+    <message name="error">Error</message>
+    <message name="error_no_image">Si us plau, selecciona una imatge</message>
+    <message name="error_uploading">Hi ha hagut un error al pujar la imatge, intenta-ho de nou</message>
+    <message name="error_wrong_type">Tipus de imatge incorrecte.</message>
+    <message name="error_no_dir">La llibreria no existeix</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Propietats de la imatge</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="source">Codi</message>
+    <message name="alt">text alternatiu</message>
+    <message name="align">Alineació</message>
+    <message name="justifyleft">esquerra</message>
+    <message name="justifyright">dreta</message>
+    <message name="top">superior</message>
+    <message name="middle">mitg</message>
+    <message name="bottom">inferior</message>
+    <message name="absmiddle">mitg absolut</message>
+    <message name="texttop">text superior</message>
+    <message name="baseline">Linea Base</message>
+    <message name="width">ample</message>
+    <message name="height">Alçada</message>
+    <message name="border">Contorn</message>
+    <message name="hspace">Espai hor.</message>
+    <message name="vspace">Espaco vert.</message>
+    <message name="error">Error</message>
+    <message name="error_width_nan">la alçada ha de ser un número</message>
+    <message name="error_height_nan">el ample ha de ser un número</message>
+    <message name="error_border_nan">el contorn ha de ser un número</message>
+    <message name="error_hspace_nan">el espaiat horizontal ha de ser un número</message>
+    <message name="error_vspace_nan">el espaiat vertical ha de ser un número</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Línia horizontal</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Crear taula</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Propietats de la taula</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="rows">Files</message>
+    <message name="columns">Columnes</message>
+    <message name="width">Ample</message>
+    <message name="height">Alçada</message>
+    <message name="border">Contorn</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Contorn de les celes</message>
+    <message name="cellspacing">Espai entre celes</message>
+    <message name="bg_color">Color de fons</message>
+    <message name="error">Error</message>
+    <message name="error_rows_nan">Files ha de ser un número</message>
+    <message name="error_columns_nan">Columnes ha de ser un número</message>
+    <message name="error_width_nan">Ample ha de ser un número</message>
+    <message name="error_height_nan">Alçada ha de ser un número</message>
+    <message name="error_border_nan">Contorn ha de ser un número</message>
+    <message name="error_cellpadding_nan">Relleno ha de ser un número</message>
+    <message name="error_cellspacing_nan">Espaiat ha de ser un número</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Propietats de la cela</message>
+    <message name="horizontal_align">Alineació horizontal</message>
+    <message name="vertical_align">Alineació vertical</message>
+    <message name="width">Ample</message>
+    <message name="height">Alçada</message>
+    <message name="css_class">Estil CSS</message>
+    <message name="no_wrap">No Dividir Linees</message>
+    <message name="bg_color">Color de fons</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="justifyleft">Esquerra</message>
+    <message name="justifycenter">Centre</message>
+    <message name="justifyright">Dreta</message>
+    <message name="top">Sobre</message>
+    <message name="middle">mitg</message>
+    <message name="bottom">Sota</message>
+    <message name="baseline">Línea Base</message>
+    <message name="error">Error</message>
+    <message name="error_width_nan">Ample ha de ser un número</message>
+    <message name="error_height_nan">Alçada ha de ser un número</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Insertar fila</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Insertar columna</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Esborrar fila</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Esborrar columna</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Combinar amb la cela de la dreta</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Combinar amb la cela de asota</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Dividir celes horizontalment</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Dividir celes verticalment</message>
+  </block>
+  <block id="style">
+    <message name="title">Estil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Mida</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paràgraf</message>
+  </block>
+  <block id="bold">
+    <message name="title">Negreta</message>
+  </block>
+  <block id="italic">
+    <message name="title">Cursiva</message>
+  </block>
+  <block id="underline">
+    <message name="title">Subratllat</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Llista ordenada</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Llista amb marca</message>
+  </block>
+  <block id="indent">
+    <message name="title">Sangria</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Anular sangria</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Esquerra</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centre</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Dreta</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Color de la lletra</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Color de fons</message>
+  </block>
+  <block id="design">
+    <message name="title">Cambiar a mode WYSIWYG (diseny)</message>
+  </block>
+  <block id="html">
+    <message name="title">Cambiar a mode HTML (codi)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Selecciona color</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Esborrar HTML (esborra els estils)</message>
+    <message name="confirm">Amb aquesta acció s'esborraran tots els estils, tipus de lletra i tags menys utilizats. Algunes característiques del teu format poden desapareixer.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Cambiar Contorn</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Propietats de la fila</message>
+    <message name="horizontal_align">Alineació horizontal</message>
+    <message name="vertical_align">Alineació vertical</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="no_wrap">Sense separació</message>
+    <message name="bg_color">Color de fons</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+    <message name="justifyleft">Esquerra</message>
+    <message name="justifycenter">Centre</message>
+    <message name="justifyright">Dreta</message>
+    <message name="top">A sobre</message>
+    <message name="middle">Al mitg</message>
+    <message name="bottom">A sota</message>
+    <message name="baseline">Línea de Base</message>
+  </block>
+  <block id="symbols">
+    <message name="title">caràcters especials</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="templates">
+    <message name="title">Plantilles</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Propietats de la pàgina</message>
+    <message name="title_tag">Títol</message>
+    <message name="charset">Joc de caràcters</message>
+    <message name="background">Imatge de fons</message>
+    <message name="bgcolor">Color de fons</message>
+    <message name="text">Color text</message>
+    <message name="link">Color enllaç</message>
+    <message name="vlink">Color enllaç visitat</message>
+    <message name="alink">Color enllaç activat</message>
+    <message name="leftmargin">Marge esquerra</message>
+    <message name="topmargin">Marge superior</message>
+    <message name="css_class">Clase CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Cancelar</message>
+  </block>
+  <block id="preview">
+    <message name="title">Previsualitzar</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Finestra de imatge</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

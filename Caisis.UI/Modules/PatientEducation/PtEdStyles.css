@@ -1,0 +1,273 @@
+﻿/*  Visit Type Stages Timeline  */
+table.stages 
+{
+	width:80%;
+	border:solid 1px #3D556D;
+	padding:0px 0px 0px 0px;
+	height:18px;
+	float: right;
+}
+
+td.pastStage 
+{
+	text-align:center;
+	width:25%;
+	color:#dddddd;
+	background-color:#7085A2;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+td.currentStagePrev 
+{
+	text-align:center;
+	width:25%;
+	color:#333333;
+	background-color:#e5e5e5;
+	font-weight:bold;
+	background-image: url(Images/currentStage_prevArrow.gif);
+	background-repeat:no-repeat;
+	background-position: top right;
+	cursor:pointer;
+}
+td.currentStage 
+{
+	text-align:center;
+	width:25%;
+	color:#ffffff;
+	background-color:#3D556D;
+	font-weight:bold;
+	background-image: url(Images/currentStage_arrow.gif);
+	background-repeat:no-repeat;
+	background-position: top right;
+	cursor:pointer;
+}
+td.currentStageLast 
+{
+	text-align:center;
+	width:25%;
+	color:#ffffff;
+	background-color:#3D556D;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+td.validStage
+{
+	text-align:center;
+	width:25%;
+	color:#333333;
+	background-color:#e5e5e5;
+	font-weight:bold;
+	background-image: url(Images/validStage_arrow.gif);
+	background-repeat:no-repeat;
+	background-position: top right;
+	cursor:pointer;
+}
+
+td.validStageLast
+{
+	text-align:center;
+	width:25%;
+	color:#333333;
+	background-color:#e5e5e5;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+td.noVisitTypeBoxCurrent
+{
+	text-align:center;
+	width:25px;
+	background-color: #ffffff;/*#3D556D;*/
+	font-weight:bold;
+	border-right:solid 1px #666666;
+	cursor:pointer;
+}
+td.noVisitTypeBox
+{
+	text-align:center;
+	width:25px;
+	background-color:#e5e5e5;
+	font-weight:bold;
+	border-right:solid 1px #666666;
+	cursor:pointer;
+}
+
+/* 
+// START - Printing Container Styles 
+*/
+
+
+
+
+
+
+/* 
+// END - Printing Container Styles
+*/
+
+.selectedNode
+{
+	color:#8d282c;
+}
+
+.manageNode
+{
+	color:Blue;
+}
+.selectedManageNode
+{
+	color:#8d282c;
+	font-weight:bold;
+}
+
+.largeUneditableHeading
+{
+	color:#999999;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Helvetica;
+    margin-bottom:10px;
+    display:block;
+}
+
+.mediumUneditableHeading
+{
+	color:#666666;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:10px;
+    display:block;
+}
+
+.sectionTreeNode
+{
+	color:#999999;
+    font-size:15px;
+    font-weight:bold;
+    font-family:Helvetica;	
+}
+
+.topicTreeNode
+{
+	color:#999999;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Helvetica;
+}
+
+.subTopicTreeNode
+{
+	color:#999999;
+    font-size:13px;
+    font-family:Helvetica;
+}
+.smallGrayText
+{
+	font-size:11px;
+	color:#666666;
+}
+
+
+
+.sectionTreeNode
+{
+	color:#3E526D;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica;	
+	padding-top:5px;
+}
+.topicTreeNode
+{
+	color:#333333;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial, Helvetica;	
+}
+.subTopicTreeNode
+{
+	color:#333333;
+	font-size:11px;
+	font-family:Arial, Helvetica;	
+}
+
+.nodePathTitle
+{
+	color:#3D556D;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.btnImageLink
+{
+	margin:0px; 
+	border:none;
+	cursor: pointer;
+}
+
+
+
+
+/* Tabs */
+.activeTab
+{
+    white-space: nowrap;
+	height:14px; 
+	background-color: #004256; color:#ffffff; 
+	font-size: 9px;
+	border: solid 1px #666666; border-bottom: none;
+	margin-right:10px; padding:5px; 
+	font-weight:bold; text-align:center; 
+	cursor:default;
+	
+}
+.tab
+{
+    white-space: nowrap;
+	height:14px; 
+	background-color:#ffffff; color:#333333;
+	font-size: 9px;
+	border: solid 1px #cccccc; border-bottom: none;
+	padding:5px; 
+	text-align:center;
+	cursor:pointer;
+}
+
+
+
+/* Profile List */
+.RepeaterRowHeader
+{
+    background-color: #00668d;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.RepeaterRow
+{
+    color: #00668d;
+    background-color: #ffffff;
+}
+.RepeaterRowOver
+{
+    background-color: #e9d5d6;
+    color: #000000;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.ListManDataTableRowSelected
+{
+    background-color: #d8c4c5;
+    color: #000000;
+    cursor: default;
+}
+
+span.boldSpan
+{
+	font-weight:bold;
+}

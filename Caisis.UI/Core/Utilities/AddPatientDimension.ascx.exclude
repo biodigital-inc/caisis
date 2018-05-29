@@ -1,0 +1,5 @@
+<%@ Control Language="c#" Inherits="Caisis.UI.Core.Utilities.AddPatientDimension" CodeFile="AddPatientDimension.ascx.cs" %>
+
+
+
+<select id="dimension" runat="server" multiple></select>

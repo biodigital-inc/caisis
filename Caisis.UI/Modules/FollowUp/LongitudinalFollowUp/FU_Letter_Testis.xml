@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+  <letter>
+    <greeting>
+      Dear
+    </greeting>
+    <body>
+      <p>
+        I certainly hope that this letter finds you well.  It has been awhile since your surgery for testicular cancer, and I am interested in hearing about your state of health since our last contact. If you could complete the following questionnaire and return it to us in the enclosed, postage-paid envelope, I would be very grateful.
+      </p>
+      <br/>
+      <p>
+        In the event that your cancer has recurred, I would like your permission to ask your physician for a copy of your medical records. I assure you that your information will be kept confidential in accordance with the Health Insurance Portability and Accountability Act of 1996.
+      </p>
+      <br/>
+      <p>
+        Thank you very much for your kind cooperation.  I believe that your participation will benefit you and others in the future by helping us to continuously improve the quality of treatment for testicular cancer.  I look forward to hearing from you.
+      </p>
+      <br/>
+      <p>
+        If you have any questions, please feel free to jot them down at the bottom of the letter.  You may also telephone my office at <PHYS_PHONE></PHYS_PHONE>.
+      </p>
+    </body>
+    <complimentaryClose>
+      My best personal regards,
+    </complimentaryClose>
+  </letter>
+</XML>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Taglia</message>
+  </block>
+  <block id="copy">
+    <message name="title">Copia</message>
+  </block>
+  <block id="paste">
+    <message name="title">Incolla</message>
+  </block>
+  <block id="undo">
+    <message name="title">Annulla</message>
+  </block>
+  <block id="redo">
+    <message name="title">Ripeti</message>
+  </block>
+  <block id="image">
+    <message name="title">Inserisci Immagine</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Collegamento ipertestuale</message>
+    <message name="url">URL</message>
+    <message name="name">Name</message>
+    <message name="target">Target (finestra di destinazione)</message>
+    <message name="title_attr">Title (al passaggio del mouse)</message>
+    <message name="a_type">Tipo</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Anchor</message>
+    <message name="type_link2anchor">Link all'anchor</message>
+    <message name="anchors">Anchor</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Inserisci immagine</message>
+    <message name="select">Seleziona</message>
+    <message name="cancel">Esci</message>
+    <message name="delete">Elimina</message>
+    <message name="library">Libreria</message>
+    <message name="preview">Anteprima</message>
+    <message name="images">Immagini</message>
+    <message name="upload">Caricamento immagine</message>
+    <message name="upload_button">Carica</message>
+    <message name="error">Errore</message>
+    <message name="error_no_image">Immagine non selezionata</message>
+    <message name="error_uploading">Si è verificato un errore durante il caricamento dell'immagine.</message>
+    <message name="error_wrong_type">Formato immagine errato</message>
+    <message name="error_no_dir">La cartella delle immagini non esiste</message>
+    <message name="error_cant_delete">Eliminazione fallita</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Proprietà immagine</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+    <message name="source">File</message>
+    <message name="alt">Testo al passaggio del mouse (ALT TAG)</message>
+    <message name="align">Allineamento</message>
+    <message name="justifyleft">Sinistra</message>
+    <message name="justifyright">Destra</message>
+    <message name="top">In alto</message>
+    <message name="middle">Centro</message>
+    <message name="bottom">In Basso</message>
+    <message name="absmiddle">Centrato alla riga</message>
+    <message name="texttop">In alto al testo</message>
+    <message name="baseline">Alla Base della riga</message>
+    <message name="width">Larghezza</message>
+    <message name="height">Altezza</message>
+    <message name="border">Bordo</message>
+    <message name="hspace">Spaziatura orizzontale</message>
+    <message name="vspace">Spaziatura verticale</message>
+    <message name="error">Errore</message>
+    <message name="error_width_nan">Larghezza: numero non valido</message>
+    <message name="error_height_nan">Altezza: numero non valido</message>
+    <message name="error_border_nan">Bordo: numero non valido</message>
+    <message name="error_hspace_nan">Spaziatura orizzontale: numero non valido</message>
+    <message name="error_vspace_nan">Spaziatura verticale: numero non valido</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Barra orizzontale</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Inserisci tabella</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Proprietà tabella</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+    <message name="rows">Righe</message>
+    <message name="columns">Colonne</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="width">Larghezza</message>
+    <message name="height">Altezza</message>
+    <message name="border">Bordo</message>
+    <message name="pixels">pixel</message>
+    <message name="cellpadding">Bordatura celle</message>
+    <message name="cellspacing">Spaziatura celle</message>
+    <message name="bg_color">Colore bordo</message>
+    <message name="background">Immagine di sfondo</message>
+    <message name="error">Errore</message>
+    <message name="error_rows_nan">Righe: non è un numero valido</message>
+    <message name="error_columns_nan">Colonne: non è un numero valido</message>
+    <message name="error_width_nan">Larghezza: non è un numero valido</message>
+    <message name="error_height_nan">Altezza: non è un numero valido</message>
+    <message name="error_border_nan">Bordo: non è un numero valido</message>
+    <message name="error_cellpadding_nan">Bordatura celle: non è un numero valido</message>
+    <message name="error_cellspacing_nan">Spaziatura celle: non è un numero valido</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Proprietà cella</message>
+    <message name="horizontal_align">Allineamento orizontale</message>
+    <message name="vertical_align">Allineamento verticale</message>
+    <message name="width">Larghezza</message>
+    <message name="height">Altezza</message>
+    <message name="css_class">classe CSS</message>
+    <message name="no_wrap">No a capo automatico</message>
+    <message name="bg_color">Colore sfondo</message>
+    <message name="background">Immagine di sfondo</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+    <message name="justifyleft">Sinistra</message>
+    <message name="justifycenter">Centro</message>
+    <message name="justifyright">Destra</message>
+    <message name="top">Sopra</message>
+    <message name="middle">Centrato</message>
+    <message name="bottom">Sotto</message>
+    <message name="baseline">Alla base</message>
+    <message name="error">Errore</message>
+    <message name="error_width_nan">Larghezza: numero non valido</message>
+    <message name="error_height_nan">Altezza: numero non valido</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Inserisci righa</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Inserisci colonna</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Elimina righa</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Elimina colonna</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Unisci righe</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Unisci sotto</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Dividi le celle orizontalmente</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Dividi le celle verticalmente</message>
+  </block>
+  <block id="style">
+    <message name="title">Stile</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Carattere</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Dimensione</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragrafo</message>
+  </block>
+  <block id="bold">
+    <message name="title">Grassetto</message>
+  </block>
+  <block id="italic">
+    <message name="title">Corsivo</message>
+  </block>
+  <block id="underline">
+    <message name="title">Sottolineato</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Barrato</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Elenco numerato</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Elenco puntato</message>
+  </block>
+  <block id="indent">
+    <message name="title">Rientro a destra</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Rientro a sinistra</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Allinea a sinistra</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Allinea al centro</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Allinea a destra</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Giustifica</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Colore carattere</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Colore sfondo</message>
+  </block>
+  <block id="design">
+    <message name="title">Visualizza in modalità WYSIWYG (grafica)</message>
+  </block>
+  <block id="html">
+    <message name="title">Visualizza in modalità HTML (codice)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Palette colori</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Pulizia codice HTML</message>
+    <message name="confirm">Questa azione pulirà il codice HTML rimuovendo i marcatori inutili. Alcuni stili e formattazioni potrebbero andare persi.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Visualizza/Nascondi bordi</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">Stessa finestra (_self)</message>
+    <message name="_blank">Nuova finestra (_blank)</message>
+    <message name="_top">Frame corrente (_top)</message>
+    <message name="_parent">Intero FrameSet (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Rimuovi Collegamento</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Proprietà riga</message>
+    <message name="horizontal_align">Allineamento orizzontale</message>
+    <message name="vertical_align">Allineamento verticale</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="no_wrap">No a capo automatico</message>
+    <message name="bg_color">Colore Sfondo</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+    <message name="justifyleft">Sinistra</message>
+    <message name="justifycenter">Centro</message>
+    <message name="justifyright">Destra</message>
+    <message name="top">In alto</message>
+    <message name="middle">Centro</message>
+    <message name="bottom">In basso</message>
+    <message name="baseline">Alla base</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Mappa dei caratteri</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+  </block>
+  <block id="templates">
+    <message name="title">Templates</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Proprietà della Pagina</message>
+    <message name="title_tag">Titolo</message>
+    <message name="charset">Set dei caratteri (Charset)</message>
+    <message name="background">Immagine sfondo</message>
+    <message name="bgcolor">Colore sfondo</message>
+    <message name="text">Colore testo</message>
+    <message name="link">Colore collegamento ipertestuale</message>
+    <message name="vlink">Colore collegamento ipertestuale già visitato</message>
+    <message name="alink">Colore collegamento ipertestuale cliccato</message>
+    <message name="leftmargin">Margine sinistro</message>
+    <message name="topmargin">Margin superiore</message>
+    <message name="css_class">Classe CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Esci</message>
+  </block>
+  <block id="preview">
+    <message name="title">Anteprima</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Finestra Popup immagine</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Pedice</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Apice</message>
+  </block>
+</messages>

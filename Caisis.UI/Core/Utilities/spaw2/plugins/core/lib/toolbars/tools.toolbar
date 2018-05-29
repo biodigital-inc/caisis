@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="tools" module="core">
+  <button name="cleanup" onEnabledCheck="isInDesignMode"
+        onClick="codeCleanupClick" />
+  <button name="toggle_borders" onEnabledCheck="isInDesignMode"
+        onPushedCheck="toggleBordersPushed" onClick="toggleBordersClick" />
+  <image name="separator" />
+</toolbar>

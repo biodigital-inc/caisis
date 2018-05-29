@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Klipp ut</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopiera</message>
+  </block>
+  <block id="paste">
+    <message name="title">Klistra in</message>
+  </block>
+  <block id="undo">
+    <message name="title">Ångra</message>
+  </block>
+  <block id="redo">
+    <message name="title">Gör om</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Infoga länk</message>
+    <message name="url">Adress</message>
+    <message name="name">Namn</message>
+    <message name="target">Fönster</message>
+    <message name="title_attr">Titel</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Infoga bild</message>
+    <message name="select">Infoga</message>
+    <message name="cancel">Avbryt</message>
+    <message name="library">Bildbibliotek</message>
+    <message name="preview">Förhandsgranska</message>
+    <message name="images">Bilder</message>
+    <message name="upload">Ladda upp bild</message>
+    <message name="upload_button">Ladda upp</message>
+    <message name="error">Fel</message>
+    <message name="error_no_image">Välj en bild</message>
+    <message name="error_uploading">Ett fel uppstod vid fil-uppladdningen. Var god försök igen senare.</message>
+    <message name="error_wrong_type">Fel bildtyp</message>
+    <message name="error_no_dir">Bildbiblioteket finns inte</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Bildegenskaper</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="source">Källa</message>
+    <message name="alt">Beskrivning</message>
+    <message name="align">Justering</message>
+    <message name="justifyleft">vänster</message>
+    <message name="justifyright">höger</message>
+    <message name="top">toppen</message>
+    <message name="middle">mitten</message>
+    <message name="bottom">botten</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Bredd</message>
+    <message name="height">Höjd</message>
+    <message name="border">Kantlinje</message>
+    <message name="hspace">Horisontell marginal</message>
+    <message name="vspace">Vertikal marginal</message>
+    <message name="error">Fel</message>
+    <message name="error_width_nan">Bredd är inte ett nummer</message>
+    <message name="error_height_nan">Höjd är inte ett nummer</message>
+    <message name="error_border_nan">Kantlinje är inte ett nummer</message>
+    <message name="error_hspace_nan">Horisontell marginal är inte ett nummer</message>
+    <message name="error_vspace_nan">Vertikal marginal är inte ett nummer</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horisontell linje</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Skapa tabell</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabellegenskaper</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="rows">Rader</message>
+    <message name="columns">Kolumner</message>
+    <message name="width">Bredd</message>
+    <message name="height">Höjd</message>
+    <message name="border">Kantlinje</message>
+    <message name="pixels">pixlar</message>
+    <message name="cellpadding">Fältmarginal</message>
+    <message name="cellspacing">Fältavstånd</message>
+    <message name="bg_color">Bakgrundsfärg</message>
+    <message name="error">Fel</message>
+    <message name="error_rows_nan">Rader är inte ett nummer</message>
+    <message name="error_columns_nan">Kolumner är inte ett nummer</message>
+    <message name="error_width_nan">Bredd är inte ett nummer</message>
+    <message name="error_height_nan">Höjd är inte ett nummer</message>
+    <message name="error_border_nan">Kantlinje är inte ett nummer</message>
+    <message name="error_cellpadding_nan">Fältmarginal är inte ett nummer</message>
+    <message name="error_cellspacing_nan">Fältavstånd är inte ett nummer</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Fältegenskaper</message>
+    <message name="horizontal_align">Horisontell justering</message>
+    <message name="vertical_align">Vertikal justering</message>
+    <message name="width">Bredd</message>
+    <message name="height">Höjd</message>
+    <message name="css_class">CSS-klass</message>
+    <message name="no_wrap">Ej automatisk radbrytning</message>
+    <message name="bg_color">Bakgrundsfärg</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="justifyleft">Vänster</message>
+    <message name="justifycenter">Mitten</message>
+    <message name="justifyright">Höger</message>
+    <message name="top">Toppen</message>
+    <message name="middle">Mitten</message>
+    <message name="bottom">Botten</message>
+    <message name="baseline">Baslinje</message>
+    <message name="error">Fel</message>
+    <message name="error_width_nan">Bredd är inte ett nummer</message>
+    <message name="error_height_nan">Höjd är inte ett nummer</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Infoga rad</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Infoga kolumn</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Radera rad</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Radera kolumn</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Sammanfoga till höger</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Sammanfoga nedåt</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Dela fält horisontellt</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Dela fält vertikalt</message>
+  </block>
+  <block id="style">
+    <message name="title">Stilmall</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Teckensnitt</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Storlek</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Stycke</message>
+  </block>
+  <block id="bold">
+    <message name="title">Fetstil</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursiv</message>
+  </block>
+  <block id="underline">
+    <message name="title">Understruken</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Sorterad lista</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Osorterad lista</message>
+  </block>
+  <block id="indent">
+    <message name="title">Indrag</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Ta bort indrag</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Vänster</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Mitten</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Höger</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Förgrundsfärg</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Bakgrundsfärg</message>
+  </block>
+  <block id="design">
+    <message name="title">Byt till layout-läge</message>
+  </block>
+  <block id="html">
+    <message name="title">Byt till HTML-läge</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Färgväljare</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Rensa HTML</message>
+    <message name="confirm">Detta rensar dokumentet från överflödiga stilformateringar och uppmärkningar. Vissa eller alla stilformateringar kan försvinna.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Visa/göm kantlinjer</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Radegenskaper</message>
+    <message name="horizontal_align">Horisontell justering</message>
+    <message name="vertical_align">Vertikal justering</message>
+    <message name="css_class">CSS-klass</message>
+    <message name="no_wrap">Ej automatisk radbrytning</message>
+    <message name="bg_color">Bakgrundsfärg</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+    <message name="justifyleft">Vänster</message>
+    <message name="justifycenter">Mitten</message>
+    <message name="justifyright">Höger</message>
+    <message name="top">Toppen</message>
+    <message name="middle">Mitten</message>
+    <message name="bottom">Botten</message>
+    <message name="baseline">Baslinje</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Speciella tecken</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="templates">
+    <message name="title">Mallar</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Sidegenskaper</message>
+    <message name="title_tag">Titel</message>
+    <message name="charset">Teckenuppsättning</message>
+    <message name="background">Bakgrundsbild</message>
+    <message name="bgcolor">Bakgrundsfärg</message>
+    <message name="text">Textfärg</message>
+    <message name="link">Länkfärg</message>
+    <message name="vlink">Färg på besökta länkar</message>
+    <message name="alink">Färg på markerade länkar</message>
+    <message name="leftmargin">Vänstermarginal</message>
+    <message name="topmargin">Topmarginal</message>
+    <message name="css_class">CSS-klass</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Avbryt</message>
+  </block>
+  <block id="preview">
+    <message name="title">Förhandsgranska</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Bild-popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

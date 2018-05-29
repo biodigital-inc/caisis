@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="format" module="core">
+  <button name="bold" onEnabledCheck="isStandardFunctionEnabled" 
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick" />
+  <button name="italic" onEnabledCheck="isStandardFunctionEnabled"
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick" />
+  <button name="underline" onEnabledCheck="isStandardFunctionEnabled"
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick" />
+  <button name="strikethrough" onEnabledCheck="isStandardFunctionEnabled"
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick" />
+  <image name="separator" />
+</toolbar>

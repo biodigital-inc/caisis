@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Iškirpti</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopijuoti</message>
+  </block>
+  <block id="paste">
+    <message name="title">Įterpti</message>
+  </block>
+  <block id="undo">
+    <message name="title">Atšaukti</message>
+  </block>
+  <block id="redo">
+    <message name="title">Pakartoti</message>
+  </block>
+  <block id="image">
+    <message name="title">Greitai įterpti iliustraciją</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Iliustracija</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+    <message name="source">Šaltinis</message>
+    <message name="alt">Alternatyvus tekstas</message>
+    <message name="align">Lygiavimas</message>
+    <message name="left">left (kairė)</message>
+    <message name="right">right (dešinė)</message>
+    <message name="top">top (viršus)</message>
+    <message name="middle">middle (vidurys)</message>
+    <message name="bottom">bottom (apačia)</message>
+    <message name="absmiddle">absmiddle (bendras vidurys)</message>
+    <message name="texttop">texttop (teksto viršus)</message>
+    <message name="baseline">baseline (teksto apačia)</message>
+    <message name="width">Plotis</message>
+    <message name="height">Aukštis</message>
+    <message name="border">Rėmelio plotis</message>
+    <message name="hspace">Hor. laukelis</message>
+    <message name="vspace">Vert. laukelis</message>
+    <message name="dimensions">Išmatavimai</message>
+    <message name="reset_dimensions">Atstatyti išmatavimus</message>
+    <message name="title_attr">Antraštė</message>
+    <message name="constrain_proportions">išlaikyti proporcijas</message>
+    <message name="css_class">CSS klasė</message>
+    <message name="error">Klaida</message>
+    <message name="error_width_nan">Nurodytas plotis nėra skaičius</message>
+    <message name="error_height_nan">Nurodytas aukštis nėra skaičius</message>
+    <message name="error_border_nan">Nurodytas rėmelio plotis nėra skaičius</message>
+    <message name="error_hspace_nan">Nurodytas horizontalaus laukelio plotis nėra skaičius</message>
+    <message name="error_vspace_nan">Nurodytas vertikalaus laukelio plotis nėra skaičius</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+    <message name="source">Šaltinis</message>
+    <message name="width">Plotis</message>
+    <message name="height">Aukštis</message>
+    <message name="error">Klaida</message>
+    <message name="error_width_nan">Nurodytas plotis nėra skaičius</message>
+    <message name="error_height_nan">Nurodytas aukštis nėra skaičius</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontalus skirtukas</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Sukurti lentelę</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Lentelės parametrai</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+    <message name="rows">Eilučių</message>
+    <message name="columns">Stulpelių</message>
+    <message name="css_class">CSS klasė</message>
+    <message name="width">Plotis</message>
+    <message name="height">Aukštis</message>
+    <message name="border">Rėmelio plotis</message>
+    <message name="pixels">tašk.</message>
+    <message name="cellpadding">Laukelio atitraukimas (padding)</message>
+    <message name="cellspacing">Tarpas tarp laukelių</message>
+    <message name="bg_color">Fono spalva</message>
+    <message name="background">Fono iliustracija</message>
+    <message name="error">Klaida</message>
+    <message name="error_rows_nan">Nurodytas eilučių kiekis nėra skaičius</message>
+    <message name="error_columns_nan">Nurodytas stulpelių kiekis nėra skaičius</message>
+    <message name="error_width_nan">Nurodytas plotis nėra skaičius</message>
+    <message name="error_height_nan">Nurodytas aukštis nėra skaičius</message>
+    <message name="error_border_nan">Nurodytas rėmelio plotis nėra skaičius</message>
+    <message name="error_cellpadding_nan">Nurodytas laukelio atitraukimas nėra skaičius</message>
+    <message name="error_cellspacing_nan">Nurodytas tarpas tarp laukelių nėra skaičius</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Laukelio parametrai</message>
+    <message name="horizontal_align">Vertikalus lygiavimas</message>
+    <message name="vertical_align">Horizontalus lygiavimas</message>
+    <message name="width">Plotis</message>
+    <message name="height">Aukštis</message>
+    <message name="css_class">CSS klasė</message>
+    <message name="no_wrap">Neperkeliamas</message>
+    <message name="bg_color">Fono spalva</message>
+    <message name="background">Fono iliustracija</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+    <message name="left">Kairė</message>
+    <message name="center">Centras</message>
+    <message name="right">Dešinė</message>
+    <message name="top">Viršus</message>
+    <message name="middle">Vidurys</message>
+    <message name="bottom">Apačia</message>
+    <message name="baseline">Teksto apačia</message>
+    <message name="error">Klaida</message>
+    <message name="error_width_nan">Nurodytas plotis nėra skaičius</message>
+    <message name="error_height_nan">Nurodytas aukštis nėra skaičius</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Įterpti eilutę</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Įterpti stulpelį</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Pašalinti eilutę</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Pašalinti stulpelį</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Sujungti laukelius į dešinę</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Sujungti laukelius apačion</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Padalinti laukelį horizontaliai</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Padalinti laukelį vertikaliai</message>
+  </block>
+  <block id="style">
+    <message name="title">Stilius</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Šriftas</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Dydis</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragrafas</message>
+  </block>
+  <block id="bold">
+    <message name="title">Stambus šriftas (Bold)</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursyvas (Italic)</message>
+  </block>
+  <block id="underline">
+    <message name="title">Pabrauktas (Underline)</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Perbrauktas (Strikethrough)</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numeruotas sąrašas</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Sąrašas</message>
+  </block>
+  <block id="indent">
+    <message name="title">Stumti į dešinę</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Stumti į kairę</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Kairė</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Centras</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Dešinė</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Plotis</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Teksto spalva</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Fono spalva</message>
+  </block>
+  <block id="design">
+    <message name="title">Perjungti į grafinio redagavimo režimą</message>
+  </block>
+  <block id="html">
+    <message name="title">Perjungti į HTML kodo redagavimo režimą</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Spalvos pasirinkimas</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML valymas (panaikinti stilius)</message>
+    <message name="confirm">Atlikus šį veiksmą bus panaikinti visi tekste naudojami stiliai, šriftai ir nenaudojamos žymos. Dalis ar visas formatavimas gali būti prarastas.</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Įjungti/išjungti rėmelius</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Nuoroda</message>
+    <message name="url">Adresas</message>
+    <message name="name">Vardas</message>
+    <message name="target">Kur atidaryti</message>
+    <message name="title_attr">Pavadinimas</message>
+    <message name="a_type">Tipas</message>
+    <message name="type_link">Nuoroda</message>
+    <message name="type_anchor">Inkaras</message>
+    <message name="type_link2anchor">Nuoroda į inkarą</message>
+    <message name="anchors">Inkarai</message>
+    <message name="quick_links">Greitos nuorodos</message> <!-- new in 2.0.6 -->
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">tame pačiame lange (_self)</message>
+    <message name="_blank">naujame tuščiame lange (_blank)</message>
+    <message name="_top">pagrindiniame lange (_top)</message>
+    <message name="_parent">tėviniame lange (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Pašalinti nuorodą</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Eilutės parametrai</message>
+    <message name="horizontal_align">Horizontalus lygiavimas</message>
+    <message name="vertical_align">Vertikalus lygiavimas</message>
+    <message name="css_class">CSS klasė</message>
+    <message name="no_wrap">Neperkeliamas</message>
+    <message name="bg_color">Fono spalva</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+    <message name="left">Kairė</message>
+    <message name="center">Centras</message>
+    <message name="right">Dešinė</message>
+    <message name="top">Viršus</message>
+    <message name="middle">Vidurys</message>
+    <message name="bottom">Apačia</message>
+    <message name="baseline">Teksto apačia</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Specialūs simboliai</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Atšaukti</message>
+  </block>
+  <block id="templates">
+    <message name="title">Šablonai</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Puslapio parametrai</message>
+    <message name="title_tag">Pavadinimas</message>
+    <message name="charset">Simbolių rinkinys (Charset)</message>
+    <message name="background">Fono paveiksliukas</message>
+    <message name="bgcolor">Fono spalva</message>
+    <message name="text">Teksto spalva</message>
+    <message name="link">Nuorodos spalva</message>
+    <message name="vlink">Aplankytos nuorodos spalva</message>
+    <message name="alink">Aktyvios nuorodos spalva</message>
+    <message name="leftmargin">Paraštė kairėje</message>
+    <message name="topmargin">Paraštė viršuje</message>
+    <message name="css_class">CSS klasė</message>
+    <message name="ok">   GERAI   </message>
+    <message name="cancel">Nutraukti</message>
+  </block>
+  <block id="preview">
+    <message name="title">Peržiūra</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Iššokantis paveiksliukas</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Mastelis</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Nuleistas tekstas</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Pakeltas tekstas</message>
+  </block>
+</messages>

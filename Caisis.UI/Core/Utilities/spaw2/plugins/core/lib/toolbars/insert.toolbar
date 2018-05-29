@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="insert" module="core">
+  <button name="insertorderedlist" onEnabledCheck="isStandardFunctionEnabled"
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick"
+          showInContextMenu="true" />
+  <button name="insertunorderedlist" onEnabledCheck="isStandardFunctionEnabled"
+          onPushedCheck="isStandardFunctionPushed" onClick="standardFunctionClick"
+          showInContextMenu="true" />
+  <image name="separator" />
+
+  <button name="hyperlink" onEnabledCheck="isInDesignMode"
+          onClick="hyperlinkClick"
+          showInContextMenu="true" />
+  <button name="unlink" onEnabledCheck="isStandardFunctionEnabled"
+          onClick="standardFunctionClick"
+          showInContextMenu="true" />
+  <button name="image" onEnabledCheck="isInDesignMode"
+          onClick="imageClick"
+          showInContextMenu="true" />
+  <button name="image_prop" onEnabledCheck="isInDesignMode"
+          onClick="imagePropClick"
+          showInContextMenu="true" />
+  <button name="flash_prop" onEnabledCheck="isInDesignMode"
+          onClick="flashPropClick"
+          showInContextMenu="true" />
+  <button name="inserthorizontalrule" onEnabledCheck="isStandardFunctionEnabled"
+          onClick="insertHorizontalRuleClick"
+          showInContextMenu="true" />
+  <image name="separator" />
+</toolbar>

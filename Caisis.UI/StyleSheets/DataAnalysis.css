@@ -1,0 +1,553 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #ffffff;
+}
+.TopModuleBar_OuterContainer
+{
+	background-image: url(../Images/TopModuleBar_Left.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 41px;
+	margin-bottom: 20px;
+}
+.TopModuleBar_InnerContainer
+{
+	background-image: url(../Images/TopModuleBar_Right.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: 41px;
+	padding: 0px 26px 0px 16px;
+	white-space: nowrap;
+}
+.GrayContainerBox_TopLeft
+{
+	background-image: url(../Images/GrayBox_TopLeft.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.GrayContainerBox_TopRight
+{
+	background-image: url(../Images/GrayBox_TopRight.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.GrayContainerBox_BottomLeft
+{
+	background-image: url(../Images/GrayBox_BottomLeft.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.GrayContainerBox_BottomRight
+{
+	background-image: url(../Images/GrayBox_BottomRight.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.GrayContainerBox_InnerContainer
+{
+	padding: 0px 10px 10px 10px;
+}
+#ResultsToggleContainer
+{
+	margin-left: -10px;
+}
+.buttonActive
+{
+	cursor: pointer;
+}
+.buttonInactive
+{
+	cursor: default;
+}
+#TableToggleBtn.buttonActive
+{
+    background-image: url(../Images/ToggleViewAsTable_on.png);
+    width: 96px; height: 16px;
+}
+#GraphToggleBtn.buttonActive
+{
+    background-image: url(../Images/ToggleViewAsGraph_on.png);
+    width: 99px; height: 16px;
+}
+#TableToggleBtn.buttonInactive
+{
+    background-image: url(../Images/ToggleViewAsTable.png);
+    width: 96px; height: 16px;
+}
+#GraphToggleBtn.buttonInactive
+{
+    background-image: url(../Images/ToggleViewAsGraph.png);
+    width: 99px; height: 16px;
+}
+
+#PrintReport
+{
+	float: right;
+	margin: 0px 9px 2px 0px;
+}
+#GraphContainer
+{
+	width: 580px;
+	margin: 10px auto 10px auto;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #eeeeee;
+}
+#DataAnalysisResults
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	width: 580px;
+	margin: 0px auto 0px auto;
+}
+#DataAnalysisResultsTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8C2A2C;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#DataAnalysisParametersTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #111111;
+	margin: 0px 0px 5px 2px;
+}
+#DataAnalysisResultsTable
+{
+	margin-top: 20px;
+}
+#DataAnalysisResultsTable td 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 20px;
+}
+.DataAnalysisResults_ItemName
+{
+	background-image: url(../Images/Bullet_Arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+#DataAnalysisResultsTable td.DataAnalysisResults_AdditionalInfo
+{
+	font-weight: normal;
+	padding-left: 14px;
+}
+.DataAnalysisHighlightText
+{
+	color: #C41426;
+}
+#ResultsContainer
+{
+	margin-left: 15px;
+	margin-right: 325px;
+	z-index: 100;
+}
+#ParametersContainer
+{
+	margin-right: 25px;
+	width: 275px;
+	float: right;
+	z-index: 200;
+}
+.ParametersTable
+{
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    border-collapse: collapse;
+}
+.ParametersTable input[type="text"],.ParametersTable select
+{
+    min-width: 125px;
+}
+#ParametersTable td
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 4px;
+}
+.ParameterNumber
+{
+	font-weight: bold;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+.ParameterText
+{
+	font-weight: normal;
+	vertical-align: top;
+	border-bottom: solid 1px #EEEEEE;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+.ParameterHelp
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+}
+#ParametersTable td.ParameterOption
+{
+	vertical-align: top;
+}
+#ParametersTable td.ParameterOptionText
+{
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+#ParameterScroller
+{
+	overflow: auto;
+}
+.TopModuleBarTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3D526C;
+	padding-right: 26px;
+	background-image: url(../Images/TopModuleBar_WidgetRight.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	
+}
+.TopModuleBar_SelectorLeft
+{
+	background-image: url(../Images/TopModuleBar_SelectorLeft.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 24px;
+    min-width: 187px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+	font-weight: bold;
+	padding-left: 11px;
+	cursor: pointer;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	white-space: nowrap;
+}
+.TopModuleBar_SelectorRight
+{
+	background-image: url(../Images/TopModuleBar_SelectorRight.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 24px;
+	width: 26px;
+	font-size: 1px;
+	line-height: 1px;
+	cursor: pointer;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.TopModuleBar_SelectorMenuTopLeft
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuTopLeft.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	min-width: 190px;
+	width: 190px;
+	height: 28px;
+	vertical-align: top;
+	padding: 8px 0px 0px 16px;
+}
+.TopModuleBar_SelectorMenuMidRight
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuTopRight.png);
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+	width: 33px;
+}
+.TopModuleBar_SelectorMenuMidLeft
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuTopLeft.png);
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+	padding: 4px 0px 4px 11px;
+	font-size: 13px;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+tr.TopModuleBar_SelectorMenuRow:hover td.TopModuleBar_SelectorMenuMidLeft
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuHoverLeft.png);
+	background-repeat: repeat-y;
+	padding: 4px 0px 4px 11px;
+	font-size: 13px;
+	color: #0a0a0a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+tr.TopModuleBar_SelectorMenuRow:hover td.TopModuleBar_SelectorMenuMidRight
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuHoverRight.png);
+	background-repeat: repeat-y;
+	width: 33px;
+}
+
+.TopModuleBar_SelectorMenuTopRight
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuTopRight.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	width: 33px;
+}
+.TopModuleBar_SelectorMenuBottomRight
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuBottomRight.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	width: 33px;
+	height: 24px;
+}
+.TopModuleBar_SelectorMenuBottomLeft
+{
+	background-image: url(../Images/TopModuleBar_SelectorMenuBottomLeft.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	height: 24px;
+}
+#DataAnalysisSelectAReportTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #111111;
+	letter-spacing: 1px;
+	margin: 0px 0px 5px 2px;
+}
+#ReportListContainer
+{
+	width: 840px;
+	margin-left:  auto;
+	margin-right: auto;
+	z-index: 100;
+	
+}
+.ReportList_ReportOuterContainer
+{
+	padding: 0px 0px 0px 0px;
+}
+.ReportList_ReportOuterContainer:hover
+{
+	background-image: url(../Images/ReportListHoverBackground.png);
+	background-repeat: no-repeat;
+}
+.ReportList_ReportInnerContainer
+{
+	min-height: 43px;
+	height: auto;
+	width: 804px;
+	padding: 8px 9px 4px 9px;
+	margin: 0px 0px 0px 0px;
+}
+.ReportList_ReportOuterContainer:hover div.ReportList_ReportInnerContainer
+{
+	background-image: url(../Images/ReportListHoverBorder_Top.png);
+	background-repeat: no-repeat;
+	min-height: 43px;
+	height: auto;
+	width: 804px;
+	padding: 8px 9px 4px 9px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+.ReportList_ReportInnerContainer img
+{
+	float: left;
+	margin-right: 11px;
+	margin-top: 1px;
+}
+.ReportList_ReportContainerBottom
+{
+	line-height: 1px;
+	font-size: 1px;
+	height: 5px;
+}
+.ReportList_ReportOuterContainer:hover div.ReportList_ReportContainerBottom
+{
+	background-image: url(../Images/ReportListHoverBorder_Bottom.png);
+	background-repeat: no-repeat;
+	line-height: 1px;
+	font-size: 1px;
+	height: 5px;
+}
+.ReportList_ReportText
+{
+	z-index: 1000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 42px;
+	width: 740px;
+}
+.ReportList_ReportTitle
+{
+	color: #000000;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+}
+.ReportList_Separator
+{
+	width: 80%;
+	margin: 6px auto 0px auto;
+	border-top: solid 1px #eeeeee;
+	height: 6px;
+}
+.ReportMenuIcon
+{
+	width: 16px;
+	margin-right: 7px;
+	vertical-align: text-top;
+	border: none;
+}
+.GraphResultsExplanation
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+}
+.GraphResultsPersonalExplanation
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.GraphResultsAxisContainer
+{
+    margin: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+}
+.GraphResultsAxisExplanation
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 1px;
+}
+.GraphResultsRate
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+	/*margin-left: 10px;*/
+
+}
+.GraphResultsRanking
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+    width: 150px;
+	/*margin-left: 10px;*/
+}
+.GraphResultsErrorMessage
+{
+    
+}
+.GraphResultsMethodExplanation 
+{
+    text-align:center;
+    /*margin: 5px;*/
+}
+.GraphResultsLegalese
+{
+    color: #bbbbbb;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.reportsBg
+{
+	background-color:#fafafa; 
+}
+.ReportList_small_ReportOuterContainer
+{
+	padding: 0px 0px 0px 0px;
+	width: 704px;
+}
+.ReportList_small_ReportOuterContainer:hover
+{
+	background-image: url(../Images/ReportListHoverBackground.png);
+	background-repeat: no-repeat;
+}
+.ReportList_small_ReportInnerContainer
+{
+	min-height: 43px;
+	height: auto;
+	width: 704px;
+	padding: 8px 9px 4px 9px;
+	margin: 0px 0px 0px 0px;
+}
+.ReportList_small_ReportOuterContainer:hover div.ReportList_small_ReportInnerContainer
+{
+	background-image: url(../Images/ReportListHoverBorder_small_Top.png);
+	background-repeat: no-repeat;
+	min-height: 43px;
+	height: auto;
+	width: 704px;
+	padding: 8px 9px 4px 9px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+.ReportList_small_ReportInnerContainer img
+{
+	float: left;
+	margin-right: 11px;
+	margin-top: 1px;
+}
+.ReportList_small_ReportContainerBottom
+{
+	line-height: 1px;
+	font-size: 1px;
+	height: 5px;
+}
+.ReportList_small_ReportOuterContainer:hover div.ReportList_small_ReportContainerBottom
+{
+	background-image: url(../Images/ReportListHoverBorder_small_Bottom.png);
+	background-repeat: no-repeat;
+	line-height: 1px;
+	font-size: 1px;
+	height: 5px;
+}
+.ReportList_small_ReportText
+{
+	z-index: 1000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 42px;
+	width: 640px;
+}

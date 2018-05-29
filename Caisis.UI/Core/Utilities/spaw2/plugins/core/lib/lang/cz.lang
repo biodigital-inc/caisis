@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Vyjmout</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopírovat</message>
+  </block>
+  <block id="paste">
+    <message name="title">Vložit</message>
+  </block>
+  <block id="undo">
+    <message name="title">Zpět</message>
+  </block>
+  <block id="redo">
+    <message name="title">Znovu</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Odkaz</message>
+    <message name="url">URL</message>
+    <message name="name">Jméno</message>
+    <message name="target">Cíl</message>
+    <message name="title_attr">Popisek</message>
+    <message name="a_type">Typ</message>
+    <message name="type_link">Odkaz</message>
+    <message name="type_anchor">Kotva</message>
+    <message name="type_link2anchor">Odkaz na kotvu</message>
+    <message name="anchors">Kotvy</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Vložit obrázek</message>
+    <message name="select">Vybrat</message>
+    <message name="delete">Smazat</message>
+    <message name="cancel">Zrušit</message>
+    <message name="library">Knihovna</message>
+    <message name="preview">Náhled</message>
+    <message name="images">Obrázek</message>
+    <message name="upload">Poslat obrázek</message>
+    <message name="upload_button">Poslat</message>
+    <message name="error">Chyba</message>
+    <message name="error_no_image">Vyberte prosím obrázek</message>
+    <message name="error_uploading">V průběhu uploadu došlo k chybě. Opakujte akci znovu</message>
+    <message name="error_wrong_type">Chybný formát obrázku</message>
+    <message name="error_no_dir">Knihovna fyzicky neexistuje</message>
+    <message name="error_cant_delete">Obrázek nebylo možno smazat</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Vlastnosti obrázku</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+    <message name="source">Zdroj</message>
+    <message name="alt">Alternativní text</message>
+    <message name="align">Zarovnání</message>
+    <message name="justifyleft">Vlevo</message>
+    <message name="justifyright">Vpravo</message>
+    <message name="top">Nahoru</message>
+    <message name="middle">Doprostřed</message>
+    <message name="bottom">Dolů</message>
+    <message name="absmiddle">Absolutní střed</message>
+    <message name="texttop">Text nahoru</message>
+    <message name="baseline">Základní linka</message>
+    <message name="width">Šířka</message>
+    <message name="height">Výška</message>
+    <message name="border">Okraje</message>
+    <message name="hspace">Vod. okraj</message>
+    <message name="vspace">Svisl. okraj</message>
+    <message name="error">Chyba</message>
+    <message name="error_width_nan">Šířka není číslo</message>
+    <message name="error_height_nan">Výška není číslo</message>
+    <message name="error_border_nan">Okraj není číslo</message>
+    <message name="error_hspace_nan">Horizontální rozteč není číslo</message>
+    <message name="error_vspace_nan">Vertikální rozteč není číslo</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Vodorovná čára</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Vytvoř tabulku</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Vlastnosti tabulky</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+    <message name="rows">Řádků</message>
+    <message name="columns">Sloupců</message>
+    <message name="width">Šířka</message>
+    <message name="height">Výška</message>
+    <message name="border">Okraje</message>
+    <message name="pixels">pixelů</message>
+    <message name="css_class">Třída CSS</message>
+    <message name="background">Obrázek pozadí</message>
+    <message name="cellpadding">Odsazení v buňce</message>
+    <message name="cellspacing">Vzdálenost buněk</message>
+    <message name="bg_color">Barva pozadí</message>
+    <message name="error">Chyba</message>
+    <message name="error_rows_nan">Řádky nejsou číslo</message>
+    <message name="error_columns_nan">Sloupce nejsou číslo</message>
+    <message name="error_width_nan">Šířka není číslo</message>
+    <message name="error_height_nan">Výška není číslo</message>
+    <message name="error_border_nan">Okraje nejsou číslo</message>
+    <message name="error_cellpadding_nan">Odsazení v buňce není číslo</message>
+    <message name="error_cellspacing_nan">Vzdálenost buňek není číslo</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Vlastnosti buňky</message>
+    <message name="horizontal_align">Horizontální zarovnání</message>
+    <message name="vertical_align">Vertikální zarovnání</message>
+    <message name="width">Šířka</message>
+    <message name="height">Výška</message>
+    <message name="css_class">Třída CSS</message>
+    <message name="no_wrap">Nezalamovat</message>
+    <message name="bg_color">Barva pozadí</message>
+    <message name="background">Obrázek pozadí</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Zrušit</message>
+    <message name="justifyleft">Vlevo</message>
+    <message name="justifycenter">Na střed</message>
+    <message name="justifyright">Vpravo</message>
+    <message name="top">Nahoru</message>
+    <message name="middle">Doprostřed</message>
+    <message name="bottom">Dolů</message>
+    <message name="baseline">Základní linka</message>
+    <message name="error">Chyba</message>
+    <message name="error_width_nan">Šířka není číslo</message>
+    <message name="error_height_nan">Výška není číslo</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Vložit řádek</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Vložit sloupec</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Vymaž řádek</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Vymaž sloupec</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Sloučit vpravo</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Sloučit dolů</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Rozdělit buňku horizontálně</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Rozdělit buňku vertikálně</message>
+  </block>
+  <block id="style">
+    <message name="title">Styl</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Velikost</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Odstavec</message>
+  </block>
+  <block id="bold">
+    <message name="title">Tučné</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kurzíva</message>
+  </block>
+  <block id="underline">
+    <message name="title">Podtržení</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Číslování</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Odrážky</message>
+  </block>
+  <block id="indent">
+    <message name="title">Zvětšit odsazení</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Zmenšit odsazení</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Vlevo</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Na střed</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Vpravo</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Barva popředí</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Barva pozadí</message>
+  </block>
+  <block id="design">
+    <message name="title">Přepnout do WYSIWYG režimu</message>
+  </block>
+  <block id="html">
+    <message name="title">Přepnout do HTML režimu</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Paleta barev</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Vyčištění HTML (odstranit styly)</message>
+    <message name="confirm">Provedením akce odstraníte všechny styly, fonty a zbytečné tagy z aktuálního obsahu. Vaše formátování bude částečně či úplně odstraněno.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Přepnout okraje</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">Stejný rámec (_self)</message>
+    <message name="_blank">Nové okno (_blank)</message>
+    <message name="_top">Vrchní rámec (_top)</message>
+    <message name="_parent">Nadřazený rámec (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Vlastnosti řádku</message>
+    <message name="horizontal_align">Horizontální zarovnání</message>
+    <message name="vertical_align">Vertikální zarovnání</message>
+    <message name="css_class">Třída CSS</message>
+    <message name="no_wrap">Nezalamovat</message>
+    <message name="bg_color">Barva pozadí</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+    <message name="justifyleft">Vlevo</message>
+    <message name="justifycenter">Na střed</message>
+    <message name="justifyright">Vpravo</message>
+    <message name="top">Nahoru</message>
+    <message name="middle">Doprostřed</message>
+    <message name="bottom">Dolů</message>
+    <message name="baseline">Základní linka</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Speciální znaky</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+  </block>
+  <block id="templates">
+    <message name="title">Šablony</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Vlastnosti stránky</message>
+    <message name="title_tag">Název</message>
+    <message name="charset">Znaková sada</message>
+    <message name="background">Obrázek pozadí</message>
+    <message name="bgcolor">Barva pozadí</message>
+    <message name="text">Barva textu</message>
+    <message name="link">Barva odkazu</message>
+    <message name="vlink">Barva navštíveného odkazu</message>
+    <message name="alink">Barva aktivního odkazu</message>
+    <message name="leftmargin">Levý okraj</message>
+    <message name="topmargin">Horní okraj</message>
+    <message name="css_class">Třída CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Storno</message>
+  </block>
+  <block id="preview">
+    <message name="title">Náhled</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Odkaz na obrázek v novém okně</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Přiblížení</message>
+  </block>
+</messages>

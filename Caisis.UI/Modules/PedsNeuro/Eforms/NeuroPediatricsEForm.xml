@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Neuro Pediatrics EForm" displayName="Neuro Pediatrics EForm">
+
+  <eformSection name="Clinical Exam Information">
+    <eformItem displayName="Encounters" controlName="EncountersPedsNeuro"></eformItem>
+    <eformItem displayName="Status" controlName="StatusPedsNeuro"></eformItem>
+    <eformItem displayName="Diagnostics" controlName="DiagnosticsPedsNeuro"></eformItem>
+    <eformItem displayName="Referring Physicians" controlName="RefPhysiciansPedsNeuro"></eformItem>
+    <eformItem displayName="Medications" controlName="MedsPedsNeuro"></eformItem>
+  </eformSection>
+
+  <eformSection name="Procedure and Pathology">
+    <eformItem controlName="ProcPathPedsNeuro"></eformItem>
+  </eformSection>
+
+
+  <Encounters RecordId="1">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="1">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="2">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="3">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="4">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="2">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="5">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="6">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="7">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="8">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>    
+  </Encounters>
+  
+  <Encounters RecordId="3">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="9">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="10">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="11">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="12">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="4">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="13">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="14">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="15">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="16">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="5">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="17">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="18">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="19">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="20">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="6">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="21">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="22">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="23">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="24">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="7">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="25">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="26">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="27">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="28">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="8">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="29">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="30">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="31">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="32">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="9">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="33">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="34">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="35">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="36">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+  
+  <Encounters RecordId="10">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+    <EncReviewOfSystems RecordId="37">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="38">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="39">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="40">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+
+  <Status RecordId="1">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="2">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="3">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="4">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="5">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <Diagnostics RecordId="1">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxIndication></DxIndication>
+    <DxSide></DxSide>
+    <DxTarget></DxTarget>    
+    <DxResult></DxResult>
+    <DxPhysician></DxPhysician>
+    <DxInstitution></DxInstitution>    
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>  
+  <Diagnostics RecordId="2">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxIndication></DxIndication>
+    <DxSide></DxSide>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxPhysician></DxPhysician>
+    <DxInstitution></DxInstitution>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="3">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxIndication></DxIndication>
+    <DxSide></DxSide>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxPhysician></DxPhysician>
+    <DxInstitution></DxInstitution>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="4">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxIndication></DxIndication>
+    <DxSide></DxSide>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxPhysician></DxPhysician>
+    <DxInstitution></DxInstitution>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="5">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxDisease></DxDisease>
+    <DxIndication></DxIndication>
+    <DxSide></DxSide>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxPhysician></DxPhysician>
+    <DxInstitution></DxInstitution>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+
+  <PatientPhysicians RecordId='1'>
+    <PhysicianId></PhysicianId>
+    <PtPhRole></PtPhRole>
+    <PtPhContactStatus></PtPhContactStatus>
+    <PtPhNotes></PtPhNotes>
+  </PatientPhysicians>
+  <PatientPhysicians RecordId='2'>
+    <PhysicianId></PhysicianId>
+    <PtPhRole></PtPhRole>
+    <PtPhContactStatus></PtPhContactStatus>
+    <PtPhNotes></PtPhNotes>
+  </PatientPhysicians>
+  <PatientPhysicians RecordId='3'>
+    <PhysicianId></PhysicianId>
+    <PtPhRole></PtPhRole>
+    <PtPhContactStatus></PtPhContactStatus>
+    <PtPhNotes></PtPhNotes>
+  </PatientPhysicians>
+  <PatientPhysicians RecordId='4'>
+    <PhysicianId></PhysicianId>
+    <PtPhRole></PtPhRole>
+    <PtPhContactStatus></PtPhContactStatus>
+    <PtPhNotes></PtPhNotes>
+  </PatientPhysicians>
+  <PatientPhysicians RecordId='5'>
+    <PhysicianId></PhysicianId>
+    <PtPhRole></PtPhRole>
+    <PtPhContactStatus></PtPhContactStatus>
+    <PtPhNotes></PtPhNotes>
+  </PatientPhysicians>
+
+  <Medications RecordId='1'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication></Medication>
+    <MedDose></MedDose>
+    <MedTotalDose></MedTotalDose>
+    <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId='2'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication></Medication>
+    <MedDose></MedDose>
+    <MedTotalDose></MedTotalDose>
+    <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId='3'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication></Medication>
+    <MedDose></MedDose>
+    <MedTotalDose></MedTotalDose>
+    <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId='4'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication></Medication>
+    <MedDose></MedDose>
+    <MedTotalDose></MedTotalDose>
+    <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId='5'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication></Medication>
+    <MedDose></MedDose>
+    <MedTotalDose></MedTotalDose>
+    <MedUnits></MedUnits>
+    <MedQuality></MedQuality>
+  </Medications>
+  
+  <Procedures  RecordId='1'>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='2'>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='3'>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcSide></ProcSide>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+
+  <Pathology RecordId="1">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathInstitution></PathInstitution>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSite></PathSite>
+    <PathSide></PathSide>
+    <PathNum></PathNum>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <Pathologist></Pathologist>
+    <PathNotes></PathNotes>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+  </Pathology>
+  <Pathology RecordId="2">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathInstitution></PathInstitution>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSite></PathSite>
+    <PathSide></PathSide>
+    <PathNum></PathNum>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <Pathologist></Pathologist>
+    <PathNotes></PathNotes>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+  </Pathology>
+  <Pathology RecordId="3">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathInstitution></PathInstitution>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSite></PathSite>
+    <PathSide></PathSide>
+    <PathNum></PathNum>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <Pathologist></Pathologist>
+    <PathNotes></PathNotes>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+  </Pathology>
+  <Pathology RecordId="4">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathInstitution></PathInstitution>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSite></PathSite>
+    <PathSide></PathSide>
+    <PathNum></PathNum>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <Pathologist></Pathologist>
+    <PathNotes></PathNotes>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+  </Pathology>
+  <Pathology RecordId="5">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathInstitution></PathInstitution>
+    <PathSpecimenType></PathSpecimenType>
+    <PathSite></PathSite>
+    <PathSide></PathSide>
+    <PathNum></PathNum>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <Pathologist></Pathologist>
+    <PathNotes></PathNotes>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+  </Pathology>
+
+</eform>

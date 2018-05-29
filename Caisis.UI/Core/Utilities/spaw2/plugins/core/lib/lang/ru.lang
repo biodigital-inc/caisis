@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Вырезать</message>
+  </block>
+  <block id="copy">
+    <message name="title">Копировать</message>
+  </block>
+  <block id="paste">
+    <message name="title">Вставить</message>
+  </block>
+  <block id="undo">
+    <message name="title">Отменить</message>
+  </block>
+  <block id="redo">
+    <message name="title">Повторить</message>
+  </block>
+  <block id="image">
+    <message name="title">Быстрая вставка изображения</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Изображение</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+    <message name="source">Источник</message>
+    <message name="alt">Краткое описание</message>
+    <message name="align">Выравнивание</message>
+    <message name="left">слева (left)</message>
+    <message name="right">справа (right)</message>
+    <message name="top">сверху (top)</message>
+    <message name="middle">в центре (middle)</message>
+    <message name="bottom">снизу (bottom)</message>
+    <message name="absmiddle">абс. центр (absmiddle)</message>
+    <message name="texttop">сверху (texttop)</message>
+    <message name="baseline">снизу (baseline)</message>
+    <message name="width">Ширина</message>
+    <message name="height">Высота</message>
+    <message name="border">Рамка</message>
+    <message name="hspace">Гор. поля</message>
+    <message name="vspace">Верт. поля</message>
+    <message name="dimensions">Размеры</message>
+    <message name="reset_dimensions">Восстановить размеры</message>
+    <message name="title_attr">Заголовок</message>
+    <message name="constrain_proportions">сохранять пропорции</message>
+    <message name="css_class">Стиль</message>
+    <message name="error">Ошибка</message>
+    <message name="error_width_nan">Ширина не является числом</message>
+    <message name="error_height_nan">Высота не является числом</message>
+    <message name="error_border_nan">Рамка не является числом</message>
+    <message name="error_hspace_nan">Горизонтаьные поля не является числом</message>
+    <message name="error_vspace_nan">Вертикальные поля не является числом</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+    <message name="source">Источник</message>
+    <message name="width">Ширина</message>
+    <message name="height">Высота</message>
+    <message name="error">Ошибка</message>
+    <message name="error_width_nan">Ширина не является числом</message>
+    <message name="error_height_nan">Высота не является числом</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Горизонтальная линия</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Создать таблицу</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Параметры таблицы</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+    <message name="rows">Строки</message>
+    <message name="columns">Столбцы</message>
+    <message name="css_class">Стиль</message>
+    <message name="width">Ширина</message>
+    <message name="height">Высота</message>
+    <message name="border">Рамка</message>
+    <message name="pixels">пикс.</message>
+    <message name="cellpadding">Отступ от рамки</message>
+    <message name="cellspacing">Растояние между ячейками</message>
+    <message name="bg_color">Цвет фона</message>
+    <message name="background">Фоновое изображение</message>
+    <message name="error">Ошибка</message>
+    <message name="error_rows_nan">Строки не является числом</message>
+    <message name="error_columns_nan">Столбцы не является числом</message>
+    <message name="error_width_nan">Ширина не является числом</message>
+    <message name="error_height_nan">Высота не является числом</message>
+    <message name="error_border_nan">Рамка не является числом</message>
+    <message name="error_cellpadding_nan">Отступ от рамки не является числом</message>
+    <message name="error_cellspacing_nan">Растояние между ячейками не является числом</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Параметры ячейки</message>
+    <message name="horizontal_align">Горизонтальное выравнивание</message>
+    <message name="vertical_align">Вертикальное выравнивание</message>
+    <message name="width">Ширина</message>
+    <message name="height">Высота</message>
+    <message name="css_class">Стиль</message>
+    <message name="no_wrap">Без переноса</message>
+    <message name="bg_color">Цвет фона</message>
+    <message name="background">Фоновое изображение</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+    <message name="left">Слева</message>
+    <message name="center">В центре</message>
+    <message name="right">Справа</message>
+    <message name="top">Сверху</message>
+    <message name="middle">В центре</message>
+    <message name="bottom">Снизу</message>
+    <message name="baseline">Базовая линия текста</message>
+    <message name="error">Ошибка</message>
+    <message name="error_width_nan">Ширина не является числом</message>
+    <message name="error_height_nan">Высота не является числом</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Вставить строку</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Вставить столбец</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Удалить строку</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Удалить столбец</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Объединить вправо</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Объединить влево</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Разделить по горизонтали</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Разделить по вертикали</message>
+  </block>
+  <block id="style">
+    <message name="title">Стиль</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Шрифт</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Размер</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Абзац</message>
+  </block>
+  <block id="bold">
+    <message name="title">Жирный</message>
+  </block>
+  <block id="italic">
+    <message name="title">Курсив</message>
+  </block>
+  <block id="underline">
+    <message name="title">Подчеркнутый</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Перечеркнутый</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Упорядоченный список</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Неупорядоченный список</message>
+  </block>
+  <block id="indent">
+    <message name="title">Увеличить отступ</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Уменьшить отступ</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Выравнивание слева</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Выравнивание по центру</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Выравнивание справа</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Выравнивание по ширине</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Цвет текста</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Цвет фона</message>
+  </block>
+  <block id="design">
+    <message name="title">Переключиться в режим макетирования (WYSIWYG)</message>
+  </block>
+  <block id="html">
+    <message name="title">Переключиться в режим редактирования кода (HTML)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Выбор цвета</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Чистка HTML</message>
+    <message name="confirm">Эта операция уберет все стили, шрифты и ненужные тэги из текущего содержимого редактора. Часть или все ваше форматиолвание может быть утеряно.</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Включить рамки</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Гиперссылка</message>
+    <message name="url">Адрес</message>
+    <message name="name">Имя</message>
+    <message name="target">Открыть</message>
+    <message name="title_attr">Название</message>
+    <message name="a_type">Тип</message>
+    <message name="type_link">Ссылка</message>
+    <message name="type_anchor">Якорь</message>
+    <message name="type_link2anchor">Ссылка на якорь</message>
+    <message name="anchors">Быстрые ссылки</message> <!-- new in 2.0.6 -->
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">в том же фрейме (_self)</message>
+    <message name="_blank">в новом окне (_blank)</message>
+    <message name="_top">на все окно (_top)</message>
+    <message name="_parent">в родительском фрейме (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Убрать гиперссылку</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Параметры строки</message>
+    <message name="horizontal_align">Горизонтальное выравнивание</message>
+    <message name="vertical_align">Вертикальное выравнивание</message>
+    <message name="css_class">Стиль</message>
+    <message name="no_wrap">Без переноса</message>
+    <message name="bg_color">Цвет фона</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+    <message name="left">Слева</message>
+    <message name="center">В центре</message>
+    <message name="right">Справа</message>
+    <message name="top">Сверху</message>
+    <message name="middle">В центре</message>
+    <message name="bottom">Снизу</message>
+    <message name="baseline">Базовая линия текста</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Спец. символы</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+  </block>
+  <block id="templates">
+    <message name="title">Шаблоны</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Параметры страницы</message>
+    <message name="title_tag">Заголовок</message>
+    <message name="charset">Набор символов</message>
+    <message name="background">Фоновое изображение</message>
+    <message name="bgcolor">Цвет фона</message>
+    <message name="text">Цвет текста</message>
+    <message name="link">Цвет ссылок</message>
+    <message name="vlink">Цвет посщенных ссылок</message>
+    <message name="alink">Цвет активных ссылок</message>
+    <message name="leftmargin">Отступ слева</message>
+    <message name="topmargin">Отступ сверху</message>
+    <message name="css_class">Стиль</message>
+    <message name="ok">ГОТОВО</message>
+    <message name="cancel">Отменить</message>
+  </block>
+  <block id="preview">
+    <message name="title">Предварительный просмотр</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup изображения</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Увеличение</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Нижний индекс</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Верхний индекс</message>
+  </block>
+</messages>

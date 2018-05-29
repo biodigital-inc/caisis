@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Surveys>
+    <!-- DEFINITIONS -->
+    <ScaleDefinitions>
+        <!-- Reconstruction -->
+        <Scale
+            name="Satisfaction with Breasts"
+            scaleName="eRecPre1"
+            numbers="1a,1b,1c,1d">
+        </Scale>
+        <Scale
+            name="Psychosocial well-being"
+            scaleName="eRecPre2"
+            numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j">
+        </Scale>
+        <Scale
+            name="Physical well-being: chest and upper body"
+            scaleName="eRecPre3"
+            numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n,6o,6p">
+        </Scale>
+        <Scale
+            name="Physical well-being: abdomen"
+            scaleName="eRecPre4"
+            numbers="7a,7b,7c,7d,7e">
+        </Scale>
+        <Scale
+            name="Satisfaction with abdominal appearance"
+            scaleName="eRecPre5"
+            numbers="8a,8d">
+        </Scale>
+        <Scale
+            name="Sexual well-being"
+            scaleName="eRecPre6"
+            numbers="5a,5b,5c,5d,5e,5f">
+        </Scale>
+        <Scale
+          name="Satisfaction with Breasts"
+          scaleName="eRecPost1"
+          numbers="1a,1b,1c,1d,1e,1f,1g,1h,1i,1j,1k,1l,1m,1n,1o,1p">
+        </Scale>
+        <Scale
+          name="Satisfaction with Breasts-implant only numbers"
+          scaleName="eRecPost2"
+          numbers="2a,2b">
+        </Scale>
+        <Scale
+          name="Satisfaction with Outcome"
+          scaleName="eRecPost3"
+          numbers="3a,3b,3c,3d,3e,3f,3g">
+        </Scale>
+        <Scale
+          name="Psychosocial well-being"
+          scaleName="eRecPost4"
+          numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j">
+        </Scale>
+        <Scale
+          name="Sexual well-being"
+          scaleName="eRecPost5"
+          numbers="5a,5b,5c,5d,5e,5f">
+        </Scale>
+        <Scale
+            name="Physical well-being: chest and upper body"
+            scaleName="eRecPost6"
+            numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n,6o,6p">
+        </Scale>
+        <Scale
+            name="Physical well-being: abdomen"
+            scaleName="eRecPost7"
+            numbers="7a,7b,7c,7d,7e,7f,7g,7h">
+        </Scale>
+        <Scale
+            name="Satisfaction with abdominal appearance"
+            scaleName="eRecPost8"
+            numbers="8a,8b,8c">
+        </Scale>
+        <Scale
+            name="abdomen now cp to before"
+            scaleName="eRecPost9"
+            numbers="9a,9b">
+        </Scale>
+        <Scale
+           name="Satisfaction with nipple reconstruction"
+           scaleName="eRecPost10"
+           numbers="10a,10b,10c,10d,10e">
+        </Scale>
+        <Scale
+           name="Satisfaction with information"
+           scaleName="eRecPost11"
+           numbers="11a,11b,11c,11d,11e,11f,11g,11h,11i,11j,11k,11l,11m,11n,11o">
+        </Scale>
+        <Scale
+           name="Satisfaction with Surgeon"
+           scaleName="eRecPost12"
+           numbers="12a,12b,12c,12d,12e,12f,12g,12h,12i,12j,12k,12l">
+        </Scale>
+        <Scale
+           name="Satisfaction with Surgeon"
+           scaleName="eRecPost99"
+           numbers="99a,99b,99c,99d,99e,99f,99g,99h,99i,99j,99l">
+        </Scale>
+        <Scale
+           name="Satisfaction with medical team"
+           scaleName="eRecPost13"
+           numbers="13a,13b,13c,13d,13e,13f,13g">
+        </Scale>
+        <Scale
+           name="Satisfaction with Office staff"
+           scaleName="eRecPost14"
+           numbers="14a,14b,14c,14d,14e,14f,14g">
+        </Scale>
+        <!-- Reduction -->
+        <Scale
+           name="Satisfaction with Breasts"
+           scaleName="eRedPre1"
+           numbers="1a,1b,1c,1d,1e,1f,1g,1h,1i,1j,1k">
+        </Scale>
+        <Scale
+           name="PsychoSocial Well-being"
+           scaleName="eRedPre2"
+           numbers="2a,2b,2c,2d,2e,2f,2g,2h,2i">
+        </Scale>
+        <Scale
+           name="Sexual Well-being"
+           scaleName="eRedPre3"
+           numbers="3a,3b,3c,3d,3e">
+        </Scale>
+        <Scale
+           name="Physical Well-being"
+           scaleName="eRedPre4"
+           numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j,4k,4l,4m,4n">
+        </Scale>
+        <Scale
+          name="Satisfaction with Breasts"
+          scaleName="eRedPost1"
+          numbers="1a,1b,1c,1d,1e,1f,1g,1h,1i,1j,1k,1l,1m">
+        </Scale>
+        <Scale
+          name="Satisfaction with Outcome"
+          scaleName="eRedPost2"
+          numbers="2a,2b,2c,2d,2e,2f,2g,2h">
+        </Scale>
+        <Scale
+          name="PsychoSocial Well-being"
+          scaleName="eRedPost3"
+          numbers="3a,3b,3c,3d,3e,3f,3g,3h,3i">
+        </Scale>
+        <Scale
+          name="Sexual Well-being"
+          scaleName="eRedPost4"
+          numbers="4a,4b,4c,4d,4e">
+        </Scale>
+        <Scale
+          name="Physical Well-being"
+          scaleName="eRedPost5"
+          numbers="5a,5b,5c,5d,5e,5f,5g,5h,5i,5j,5k,5l,5m,5n">
+        </Scale>
+        <Scale
+          name="Satisfaction with information"
+          scaleName="eRedPost6"
+          numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m">
+        </Scale>
+        <Scale
+          name="Satisfaction with Nipples"
+          scaleName="eRedPost7"
+          numbers="7a,7b,7c,7d,7e">
+        </Scale>
+        <Scale
+          name="Satisfaction with Surgeon"
+          scaleName="eRedPost8"
+          numbers="8a,8b,8c,8d,8e,8f,8g,8h,8i">
+        </Scale>
+        <Scale
+          name="Satisfaction with medical team"
+          scaleName="eRedPost9"
+          numbers="9a,9b,9c,9d,9e,9f,9g">
+        </Scale>
+        <Scale
+          name="Satisfaction with Office staff"
+          scaleName="eRedPost10"
+          numbers="10a,10b,10c,10d,10e,10f,10g">
+        </Scale>
+        <!-- Augmentation -->
+        <Scale
+          name="Satisfaction with Breast"
+          scaleName="eAugPre1"
+          numbers="1a,1b,1c,1d,1e,1f">
+        </Scale>
+        <Scale
+          name="Psychosocial Well-being"
+          scaleName="eAugPre2"
+          numbers="2a,2b,2c,2d,2e,2f,2g,2h,2i">
+        </Scale>
+        <Scale
+          name="Physical Well-being"
+          scaleName="eAugPre3"
+          numbers="3a,3b,3c,3d,3e">
+        </Scale>
+        <Scale
+          name="Sexual Well-being"
+          scaleName="eAugPre4"
+          numbers="4a,4b,4c,4d,4e">
+        </Scale>
+        <Scale
+          name="Satisfaction with Breasts"
+          scaleName="eAugPost1"
+          numbers="1a,1b,1c,1d,1e,1f,1g,1h,1i,1j,1k.1l,1m,1n,1o,1p,1q">
+        </Scale>
+        <Scale
+          name="Satisfaction with Outcome"
+          scaleName="eAugPost2"
+          numbers="2a,2b,2c,2d,2e,2f,2g,2h">
+        </Scale>
+        <Scale
+          name="Psychosocial Well-being"
+          scaleName="eAugPost3"
+          numbers="3a,3b,3c,3d,3e,3f,3g,3h,3i">
+        </Scale>
+        <Scale
+          name="Sexual Well-being"
+          scaleName="eAugPost4"
+          numbers="4a,4b,4c,4d,4e">
+        </Scale>
+        <Scale
+          name="Physical Well-being"
+          scaleName="eAugPost5"
+          numbers="5a,5b,5c,5d,5e,5f,5g">
+        </Scale>
+        <Scale
+          name="Satisfaction with Information"
+          scaleName="eAugPost6"
+          numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n,6o,6p">
+        </Scale>
+        <Scale
+          name="Satisfaction with Surgeon"
+          scaleName="eAugPost7"
+          numbers="7a,7b,7c,7d,7e,7f,7g,7h,7i,7j,7k,7l">
+        </Scale>
+        <Scale
+          name="Satisfaction with Medical Team"
+          scaleName="eAugPost8"
+          numbers="8a,8b,8c,8d,8e,8f,8g">
+        </Scale>
+        <Scale
+          name="Satisfaction with Office staff"
+          scaleName="eAugPost9"
+          numbers="9a,9b,9c,9d,9e,9f,9g">
+        </Scale>
+        <Scale
+            name="Satisfaction with Office staff"
+            scaleName="eAugPost9"
+            numbers="9a,9b,9c,9d,9e,9f,9g">
+        </Scale>
+        <!-- Lumpectomy -->
+        <Scale 
+            name="Satisfaction with Breasts" 
+            scaleName="eLumPost1" 
+            numbers="1a,1b,1c,1d,1f,1g,1h,1j,1k,1l,1n">
+        </Scale>
+        <Scale 
+            name="Sexual Well-Being" 
+            scaleName="eLumPost2" 
+            numbers="5a,5b,5c,5d,5e,5f,5h,5i"></Scale>
+        <Scale 
+            name="Satisfaction with Lumpectomy" 
+            scaleName="eLumPost3" 
+            numbers="2a,2b,2c,2d,2e,2f,2g,2h,2i,2j,2k"></Scale>
+        <Scale 
+            name="Physical Well-Being" 
+            scaleName="eLumPost4" 
+            numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n"></Scale>
+        <Scale 
+            name="Satisfaction with Information" 
+            scaleName="eLumPost5" 
+            numbers="7a,7b,7c,7d,7e,7f,7g,7h,7i,7j,7k,7l"></Scale>
+        <Scale
+            name="Psychosocial well-being"
+            scaleName="eLumPost6"
+            alias="eRecPost4"
+            numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j">
+        </Scale>
+      <!-- 
+        <Scale
+             name="Satisfaction with Surgeon"
+             scaleName="eLumPost7"
+             alias="eRecPost12"
+             numbers="7a,7b,7c,7d,7e,7f,7g,7h,7i,7j,7k,7l">
+        </Scale> -->
+        <!-- temporary stand in. Same scale identifier as reconstruction, but question k has been dropped.-->
+        <Scale
+             name="Satisfaction with Surgeon"
+             scaleName="eLumPost7"
+             alias="eRecPost12"
+             numbers="9a,9b,9c,9d,9e,9f,9g,9h,9i,9j,9k,9l">
+        </Scale>
+        <Scale
+             name="Satisfaction with medical team"
+             scaleName="eLumPost8"
+             alias="eRecPost13"
+             numbers="11a,11b,11c,11d,11e,11f,11g">
+        </Scale>
+        <Scale
+           name="Satisfaction with Office staff"
+           scaleName="eLumPost9"
+           alias="eRecPost14"
+           numbers="12a,12b,12c,12d,12e,12f,12g">
+        </Scale>
+        <!-- Mastectomy (based off Reconstruction Scales -->
+        <Scale
+          name="Satisfaction with Breasts"
+          scaleName="eMasPre1"
+          alias="eRecPre1"
+          numbers="1a,1b,1c,1d">
+        </Scale>
+        <Scale
+          name="Psychosocial Well-Being"
+          scaleName="eMasPre2"
+          alias="eRecPre2"
+          numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j">
+        </Scale>
+        <!--numbers="2a,2b,2c,2d,2e,2f,2g,2h,2i,2j"-->
+        <Scale
+          name="Physical Well-Being"
+          scaleName="eMasPre3"
+          alias="eRecPost6"
+          numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n,6o,6p">
+        </Scale>
+        <!--numbers="3a,3b,3c,3d,3e,3f,3g,3h,3i,3j,3k,3l,3m,3n,3o,3p"-->
+        <Scale
+          name="Sexual Well-Being"
+          scaleName="eMasPre4"
+          alias="eRecPre6"
+          numbers="5a,5b,5c,5d,5e,5f">
+        </Scale>
+        <!--numbers="4a,4b,4c,4d,4e,4f"-->
+        <Scale
+          name="Satisfaction with Breasts"
+          scaleName="eMasPost1"
+          alias="eRecPre1"
+          numbers="1a,1b,1c,1d">
+      </Scale>
+      <Scale
+          name="Psychosocial Well-Being"
+          scaleName="eMasPost2"
+          alias="eRecPost4"
+          numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j">
+      </Scale>
+        <!--numbers="2a,2b,2c,2d,2e,2f,2g,2h,2i,2j"-->
+        <Scale
+          name="Physical Well-Being"
+          scaleName="eMasPost3"
+          alias="eRecPost6"
+          numbers="6a,6b,6c,6d,6e,6f,6g,6h,6i,6j,6k,6l,6m,6n,6o,6p">
+        </Scale>
+        <!--numbers="3a,3b,3c,3d,3e,3f,3g,3h,3i,3j,3k,3l,3m,3n,3o,3p"-->
+      <Scale
+          name="Sexual Well-Being"
+          scaleName="eMasPost4"
+          alias="eRecPost5"
+          numbers="5a,5b,5c,5d,5e,5f">>
+      </Scale>
+        <!--numbers="4a,4b,4c,14d,4e,4f"-->
+        <Scale
+          name="Satisfaction with Surgeon"
+          scaleName="eMasPost5"
+          alias="eRecPost12"
+          numbers="12a,12b,12c,12d,12e,12f,12g,12h,12i,12j,12k,12l">
+        </Scale>
+        <!--numbers="5a,5b,5c,5d,5e,5f,5g,5h,5i,5j,5k,5l"-->
+        <Scale
+          name="Satisfaction with Medical Team"
+          scaleName="eMasPost6"
+          alias="eRecPost13"
+          numbers="13a,13b,13c,13d,13e,13f,13g">
+        </Scale>
+        <!--numbers="6a,6b,6c,6d,6e,6f,6g"-->
+        <Scale
+          name="Satisfaction with Office Staff"
+          scaleName="eMasPost7"
+          alias="eRecPost14"
+          numbers="14a,14b,14c,14d,14e,14f,14g">
+        </Scale>
+        <!--numbers="7a,7b,7c,7d,7e,7f,7g"-->
+        <!-- Face Q-->
+      <Scale
+          name ="Satisfaction with Facial Appearance"
+          scaleName="eFacPost1"
+          numbers="1a,1b,1c,1d,1e,1f,1g,1h,1i,1j">
+      </Scale>
+      <Scale
+          name ="Social Function"
+          scaleName="eFacPost2"
+          numbers="2a,2b,2c,2d,2e,2f,2g,2h">
+      </Scale>
+      <Scale
+          name ="Psychological Well-being"
+          scaleName="eFacPost3"
+          numbers="3a,3b,3c,3d,3e,3f,3g,3h,3i,3j">
+      </Scale>
+      <Scale
+          name ="Recovery Early Life Impact"
+          scaleName="eFacPost4"
+          numbers="4a,4b,4c,4d,4e,4f,4g,4h,4i,4j,4k,4l">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Outcome"
+          scaleName="eFacPost5"
+          numbers="5a,5b,5c,5d,5e,5f">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Decision"
+          scaleName="eFacPost6"
+          numbers="6a,6b,6c,6d,6e,6f">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Lips"
+          scaleName="eFacPost7"
+          numbers="7a,7b,7c,7d,7e,7f,7g,7h,7i,7j">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Lines-Lips"
+          scaleName="eFacPost8"
+          numbers="8a,8b,8c,8d,8e,8f">
+      </Scale>
+      <Scale
+          name ="Appraisal of Neck Scale"
+          scaleName="eFacPost9"
+          numbers="9a,9b,9c,9d,9e,9f,9g,9h,9i,9j">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Lower Face and Jawline"
+          scaleName="eFacPost10"
+          numbers="10a,10b,10c,10d,10e">
+      </Scale>
+      <Scale
+          name ="Satisfaction with Cheeks"
+          scaleName="eFacPost11"
+          numbers="11a,11b,11c,11d,11e">
+      </Scale>
+      <Scale
+          name ="Appraisal of Area Under Chin"
+          scaleName="eFacPost12"
+          numbers="12a,12b,12c,12d,12e">
+      </Scale>
+      <Scale
+          name ="Appraisal of Nasolabial Folds"
+          scaleName="eFacPost13"
+          numbers="13a,13b,13c,13d,13e">
+      </Scale>
+      <Scale
+          name =" Aging Appearance Appraisal"
+          scaleName="eFacPost14"
+          numbers="14a,14b,14c,14d,14e,14f,14g">
+      </Scale>
+
+
+    </ScaleDefinitions>
+    <!-- Tram Preoperation -->
+    <Survey type="BreastQ" match="Breast Q: Tram Preoperation">
+        <Scales>
+            <Scale scaleName="eRecPre1"></Scale>
+            <Scale scaleName="eRecPre2"></Scale>
+            <Scale scaleName="eRecPre3"></Scale>
+            <Scale scaleName="eRecPre4"></Scale>
+            <Scale scaleName="eRecPre5"></Scale>
+            <Scale scaleName="eRecPre6"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tram 2 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Tram 2 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost7"></Scale>
+            <Scale scaleName="eRecPost8"></Scale>
+            <Scale scaleName="eRecPost9"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tram 6 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Tram 6 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost7"></Scale>
+            <Scale scaleName="eRecPost8"></Scale>
+            <Scale scaleName="eRecPost9"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tram 3 months -->
+    <Survey type="BreastQ" match="Breast Q: Tram 3 months">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost7"></Scale>
+            <Scale scaleName="eRecPost8"></Scale>
+            <Scale scaleName="eRecPost9"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tram 6 months -->
+    <Survey type="BreastQ" match="Breast Q: Tram 6 months">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost7"></Scale>
+            <Scale scaleName="eRecPost8"></Scale>
+            <Scale scaleName="eRecPost9"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tram yearly -->
+    <Survey type="BreastQ" match="Breast Q: Tram yearly">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost7"></Scale>
+            <Scale scaleName="eRecPost8"></Scale>
+            <Scale scaleName="eRecPost9"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+        </Scales>
+    </Survey>
+
+    <!-- Tissue Expander Preoperation -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander Preoperation">
+        <Scales>
+            <Scale scaleName="eRecPre1"></Scale>
+            <Scale scaleName="eRecPre2"></Scale>
+            <Scale scaleName="eRecPre3"></Scale>
+            <Scale scaleName="eRecPre6"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 2 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 2 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 6 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 6 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 6 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 3 months">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 6 months -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 6 months">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 1 year -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 1 year">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Tissue Expander 18 months -->
+    <Survey type="BreastQ" match="Breast Q: Tissue Expander 18 months">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Implants 2 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Implants 2 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Implants 6 weeks -->
+    <Survey type="BreastQ" match="Breast Q: Implants 6 weeks">
+        <Scales>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Implants 3 months -->
+    <Survey type="BreastQ" match="Breast Q: Implants 3 months">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost2"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Implants 6 months -->
+    <Survey type="BreastQ" match="Breast Q: Implants 6 months">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost2"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+            <Scale scaleName="eRecPost11"></Scale>
+            <Scale scaleName="eRecPost12"></Scale>
+            <Scale scaleName="eRecPost13"></Scale>
+            <Scale scaleName="eRecPost14"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Implants yearly -->
+    <Survey type="BreastQ" match="Breast Q: Implants yearly">
+        <Scales>
+            <Scale scaleName="eRecPost1"></Scale>
+            <Scale scaleName="eRecPost2"></Scale>
+            <Scale scaleName="eRecPost3"></Scale>
+            <Scale scaleName="eRecPost4"></Scale>
+            <Scale scaleName="eRecPost5"></Scale>
+            <Scale scaleName="eRecPost6"></Scale>
+            <Scale scaleName="eRecPost10"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Reduction PRE -->
+    <Survey type="BreastQ" match="Breast Q: Reduction Pre">
+        <Scales>
+            <Scale scaleName="eRedPre1"></Scale>
+            <Scale scaleName="eRedPre2"></Scale>
+            <Scale scaleName="eRedPre3"></Scale>
+            <Scale scaleName="eRedPre4"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Reduction POST -->
+    <Survey type="BreastQ" match="Breast Q: Reduction Post">
+        <Scales>
+            <Scale scaleName="eRedPost1"></Scale>
+            <Scale scaleName="eRedPost2"></Scale>
+            <Scale scaleName="eRedPost3"></Scale>
+            <Scale scaleName="eRedPost4"></Scale>
+            <Scale scaleName="eRedPost5"></Scale>
+            <Scale scaleName="eRedPost6"></Scale>
+            <Scale scaleName="eRedPost7"></Scale>
+            <Scale scaleName="eRedPost8"></Scale>
+            <Scale scaleName="eRedPost9"></Scale>
+            <Scale scaleName="eRedPost10"></Scale>
+        </Scales>
+    </Survey>
+    <!-- Augmentation PRE -->
+    <Survey type="BreastQ" match="Breast Q: Augmentation Pre">
+      <Scales>
+        <Scale scaleName="eAugPre1"></Scale>
+        <Scale scaleName="eAugPre2"></Scale>
+        <Scale scaleName="eAugPre3"></Scale>
+        <Scale scaleName="eAugPre4"></Scale>
+      </Scales>
+    </Survey>
+    <!-- Augmentation POST -->
+    <Survey type="BreastQ" match="Breast Q: Augmentation Post">
+      <Scales>
+        <Scale scaleName="eAugPost1"></Scale>
+        <Scale scaleName="eAugPost2"></Scale>
+        <Scale scaleName="eAugPost3"></Scale>
+        <Scale scaleName="eAugPost4"></Scale>
+        <Scale scaleName="eAugPost5"></Scale>
+        <Scale scaleName="eAugPost6"></Scale>
+        <Scale scaleName="eAugPost7"></Scale>
+        <Scale scaleName="eAugPost8"></Scale>
+        <Scale scaleName="eAugPost9"></Scale>
+      </Scales>
+    </Survey>
+    <!--<Scale scaleName="eLumPost1"></Scale>
+      <Scale scaleName="eLumPost2"></Scale>
+      <Scale scaleName="eLumPost3"></Scale>
+      <Scale scaleName="eLumPost4"></Scale>
+      <Scale scaleName="eLumPost5"></Scale>
+      <Scale scaleName="eLumPost6"></Scale>
+      <Scale scaleName="eLumPost7"></Scale>
+      <Scale scaleName="eLumPost8"></Scale>
+      <Scale scaleName="eLumPost9"></Scale>-->
+    <Survey type="BreastQ" match="Lumpectomy Preop">
+        <Scales>
+            <Scale scaleName="eLumPost1"></Scale>
+            <Scale scaleName="eLumPost2"></Scale>
+            <Scale scaleName="eLumPost4"></Scale>
+            <Scale scaleName="eLumPost6"></Scale>
+        </Scales>
+    </Survey>
+    <Survey type="BreastQ" match="Lumpectomy 2 Weeks">
+        <Scales>
+            <Scale scaleName="eLumPost4"></Scale>
+        </Scales>
+    </Survey>
+    <Survey type="BreastQ" match="Lumpectomy 6 Weeks">
+        <Scales>
+            <Scale scaleName="eLumPost1"></Scale>
+            <Scale scaleName="eLumPost2"></Scale>
+            <Scale scaleName="eLumPost4"></Scale>
+            <Scale scaleName="eLumPost5"></Scale>
+            <Scale scaleName="eLumPost6"></Scale>
+            <Scale scaleName="eLumPost7"></Scale>
+            <Scale scaleName="eLumPost8"></Scale>
+            <Scale scaleName="eLumPost9"></Scale>
+        </Scales>
+    </Survey>
+    <Survey type="BreastQ" match="Lumpectomy 3 Months">
+        <Scales>
+            <Scale scaleName="eLumPost1"></Scale>
+            <Scale scaleName="eLumPost2"></Scale>
+            <Scale scaleName="eLumPost3"></Scale>
+            <Scale scaleName="eLumPost4"></Scale>
+            <Scale scaleName="eLumPost5"></Scale>
+            <Scale scaleName="eLumPost6"></Scale>
+            <Scale scaleName="eLumPost7"></Scale>
+            <Scale scaleName="eLumPost8"></Scale>
+            <Scale scaleName="eLumPost9"></Scale>
+        </Scales>
+    </Survey>
+    <Survey type="BreastQ" match="Lumpectomy 6 Months">
+        <Scales>
+            <Scale scaleName="eLumPost1"></Scale>
+            <Scale scaleName="eLumPost2"></Scale>
+            <Scale scaleName="eLumPost3"></Scale>
+            <Scale scaleName="eLumPost4"></Scale>
+            <Scale scaleName="eLumPost5"></Scale>
+            <Scale scaleName="eLumPost6"></Scale>           
+            <Scale scaleName="eLumPost7"></Scale>
+            <Scale scaleName="eLumPost8"></Scale>
+            <Scale scaleName="eLumPost9"></Scale>
+        </Scales>
+    </Survey>
+    <Survey type="BreastQ" match="Lumpectomy Yearly">
+        <Scales>
+            <Scale scaleName="eLumPost1"></Scale>
+            <Scale scaleName="eLumPost2"></Scale>
+            <Scale scaleName="eLumPost3"></Scale>
+            <Scale scaleName="eLumPost4"></Scale>
+            <Scale scaleName="eLumPost6"></Scale>
+        </Scales>
+    </Survey>
+  <Survey type="BreastQ" match="Breast Q: Mastectomy Pre">
+    <Scales>
+      <Scale scaleName="eMasPre1"></Scale>
+      <Scale scaleName="eMasPre2"></Scale>
+      <Scale scaleName="eMasPre3"></Scale>
+      <Scale scaleName="eMasPre4"></Scale>
+    </Scales>
+  </Survey>
+  <Survey type="BreastQ" match="Breast Q: Mastectomy Post">
+    <Scales>
+      <Scale scaleName="eMasPost1"></Scale>
+      <Scale scaleName="eMasPost2"></Scale>
+      <Scale scaleName="eMasPost3"></Scale>
+      <Scale scaleName="eMasPost4"></Scale>
+      <Scale scaleName="eMasPost5"></Scale>
+      <Scale scaleName="eMasPost6"></Scale>
+      <Scale scaleName="eMasPost7"></Scale>
+    </Scales>
+  </Survey>
+  <Survey type="BreastQ" match="Face Q: Post">
+    <Scales>
+      <Scale scaleName="eFacPost1"></Scale>
+      <Scale scaleName="eFacPost2"></Scale>
+      <Scale scaleName="eFacPost3"></Scale>
+      <Scale scaleName="eFacPost4"></Scale>
+      <Scale scaleName="eFacPost5"></Scale>
+      <Scale scaleName="eFacPost6"></Scale>
+      <Scale scaleName="eFacPost7"></Scale>
+      <Scale scaleName="eFacPost8"></Scale>
+      <Scale scaleName="eFacPost9"></Scale>
+      <Scale scaleName="eFacPost10"></Scale>
+      <Scale scaleName="eFacPost11"></Scale>
+      <Scale scaleName="eFacPost12"></Scale>
+      <Scale scaleName="eFacPost13"></Scale>
+      <Scale scaleName="eFacPost14"></Scale>
+    </Scales>
+  </Survey>
+</Surveys>

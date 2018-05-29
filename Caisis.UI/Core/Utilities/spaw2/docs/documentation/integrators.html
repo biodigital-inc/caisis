@@ -1,0 +1,681 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>SPAW Editor PHP Edition v.2 Integrators Documentation</title>
+    <link href="documentation.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1 xml:lang="en-us">SPAW Editor .NET Edition v.2 Integrator's Guide</h1>
+    <h2><a id="toc">
+        Table of Contents</a></h2>
+    <ul>
+        <li><a href="#about">About</a> </li>
+        <li><a href="#requirements">System Requirements</a> </li>
+        <li><a href="#installation">Installation</a>
+            </li>
+        <li><a href="#configuration">Configuration </a>
+            <ul><li><a href="#core_settings">Core Configuration Settings </a>
+                <ul><li><a href="#defaults">Editor Defaults</a> </li>
+                <li><a href="#engine_settings">SPAW Engine Settings</a> </li>
+                <li><a href="#dropdown_data">Dropdown Data</a> </li>
+                <li><a href="#toolbar_sets">Toolbar Sets</a></li>
+                <li><a href="#colorpicker_colors">Colorpicker Predefined Colors</a></li></ul>
+                </li>
+            <li><a href="#spawfm_settings">SPAW File Manager Plugin Settings</a></li></ul>
+            </li>
+        <li><a href="#usage">Usage</a>
+            <ul>
+            <li><a href="#add_vs2005">Adding SPAW Editor through Visual Studio 2005 Designer</a></li>
+            <li><a href="#add_aspnet">Adding SPAW Editor through a Tag In ASP .NET Source</a></li>
+            <li><a href="#add_csharp">Adding SPAW Editor at run-time (C#)</a></li>
+                <li><a href="#runtime_config">Changing Configuration At Runtime</a>
+                </li>
+            <li><a href="#pages">Adding Pages</a> </li>
+            <li><a href="#toolbars">Toolbars</a>
+                <ul><li><a href="#using_toolbars">Using Toolbars</a> </li>
+                <li><a href="#floating">Floating and/or Shared Toolbars</a> </li>
+                <li><a href="#custom_toolbars">Custom Toolbars</a></li></ul></li>
+            <li><a href="#fm_settings">FileManager Settings</a></li></ul>
+    </li>
+    </ul>
+    <h2><a id="about">
+        About</a></h2>
+    <p>SPAW Editor .NET Edition is a web based WYSIWYG HTML editor control used to replace
+        standard textarea fields in Content Management Systems (CMS) and other web based
+        solutions requiring advanced, non-technical user friendly HTML snippet editing.</p>
+    <p>This document is a guide for CMS developers describing aspects of SPAW Editor integration
+        in their respective systems. This guide doesn't contain any information on development
+        of SPAW Editor plug-ins, visual skins, localization or client usage. For a complete
+        guide, please, visit documentation section of our web site.</p>
+    <h2><a id="requirements">System Requirements</a></h2>
+    <p>SPAW Editor .NET Edition v.2 runs on ASP .NET version 2.0 setup (including medium
+        trust environments like shared hosting accounts, etc.).</p>
+    <h2><a id="installation">Installation</a></h2>
+    <p>Installation is as simple as extracting files from the archive and uploading them
+        to your web server/copying to a subdirectory in your website project. If this is a new SPAW v.2 installation then you also have to
+        copy (or rename) configuration file <em>spaw2.default.config</em> to <em>spaw2.config</em> in config subdirectory.
+        This step is necessary so you don't accidentally overwrite your configuration file
+        when upgrading to a newer version.</p>
+    <p>
+        In case you are installing SPAW Editor to a subdirectory other than "spaw2" in your
+        application root, copy contents of the <em>Bin</em> directory to <em>Bin</em> directory
+        of your application and add following setting to your <em>Web.config</em> file:</p>
+    <p>
+    <code>
+        &lt;appSettings&gt;<br />
+        &nbsp;&nbsp;&lt;add key="spaw_dir" value="~/path/to/spaw2/" /&gt;<br />
+        &lt;/appSettings&gt;
+    </code>
+    </p>
+    <p>
+        where <em>value</em> is a path to a directory where you copied contents of the <em>spaw2</em>
+        directory</p>
+    <p>
+        You should be able to see a working instance of SPAW
+        Editor v.2 by pointing your browser to demo/demo.aspx script under your SPAW directory.</p>
+    <h2><a id="configuration">
+        Configuration</a></h2>
+    <p>
+        SPAW Editor is initially configured by setting values in <em>config/spaw2.config</em>
+        file. This is an XML file where each "simple" setting is an element with <em>name</em>
+        and <em>value</em> attribute. You set a <em>value</em> attribute in this file to
+        change a configuration option described by <em>name</em>. Most of the configuration
+        options can be changed through code at design or run time. Configuration API is described in greater detail in plugin
+        developers guide.</p>
+    <p>
+        Plugins can have their own configuration settings which can be included in the global
+        configuration file (config/spaw2.config) or in a local config file in config subdirectory
+        of plugins folder. It is safe to move plugin configuration settings from local config
+        files to the global config file for better maintainability (unless otherwise specified
+        by plugins author).</p>
+    <h3><a id="core_settings">
+        Core Configuration Settings</a></h3>
+    <p>
+        This section describes static (default for all instances) configuration settings
+        for features that come with core SPAW Editor .NET Edition v.2 distribution. You can
+        change values of these configuration parameters by modifying them in config/spaw2.config
+        file. You can also modify these settings on per instance basis in your code (see
+        chapter on usage). Plugin related settings are described in their respective documentation.</p>
+    <h4><a id="defaults">
+        Editor Defaults</a></h4>
+    <p>
+        These editor settings are used when certain properties aren't specified for SPAW
+        instance</p>
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <p>
+                    Name</p>
+            </td>
+            <td>
+                <p>
+                    Description</p>
+            </td>
+        </tr>
+        </thead>
+        <tr>
+            <td>
+                default_output_charset</td>
+            <td>
+                Specifies character set to use for output. If empty string is specified charset
+                specified in language file will be used.</td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    default_theme</p>
+            </td>
+            <td>
+                <p>
+                    Specifies default GUI theme (skin)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    default_toolbarset</p>
+            </td>
+            <td>
+                <p>
+                    Specifies default toolbar set. Note: toolbar concept has changed dramatically from
+                    v.1.x.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    default_stylesheet</p>
+            </td>
+            <td>
+                <p>
+                    Specifies path to the default CSS stylesheet file to be used for editing area</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    default_width</p>
+            </td>
+            <td>
+                <p>
+                    Specifies default editor width</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    default_height</p>
+            </td>
+            <td>
+                <p>
+                    Specifies default editor height</p>
+            </td>
+        </tr>
+    </table>
+    <h4><a id="engine_settings">
+        SPAW Engine Settings</a></h4>
+    <p>
+        These settings determine inner behavior of various SPAW engine components</p>
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <p>
+                    Name</p>
+            </td>
+            <td>
+                <p>
+                    Description</p>
+            </td>
+        </tr>
+        </thead>
+        <tr>
+            <td>
+                rendering_mode</td>
+            <td>
+                Specifies which HTML rendering method should be used. Applicable values are "xhtml"
+                and "builtin". "xhtml" mode uses SPAW's own rendering engine to produce well-formed
+                XHTML across browsers. "builtin" uses browsers internal engine which works faster
+                but produces different results across browsers.</td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    beautify_xhtml_output</p>
+            </td>
+            <td>
+                <p>
+                    If set to true specifies that XHTML rendering subsystem should "beautify" output
+                    html structure by using indentation, etc.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                base_href</td>
+            <td>
+                Specifies protocol, host and port part (like http://mydomain.com) to be added to
+                urls returned from file manager. Use in conjunction with 'strip_absolute_urls' to
+                force absolute urls.</td>
+        </tr>
+        <tr>
+            <td>
+                strip_absolute_urls</td>
+            <td>
+                If set to true, SPAW will strip domain and path parts from all "local" (pointing
+                to the current web site and/or directory) urls in hyperlinks and images. Note: Microsoft
+                Internet Explorer converts all urls to absolute so this is a workaround to get rid
+                of the absolute part apended to the relative urls users enter.</td>
+        </tr>
+        <tr>
+            <td>
+                resizing_directions</td>
+            <td>
+                Specifies allowed direction in which users resize editor window. Allowed values:
+                none, horizontal, vertical, both</td>
+        </tr>
+        <tr>
+            <td>
+                convert_html_entities</td>
+            <td>
+                Specifies that special characters should be converted to the respective html entities
+                like &amp;copy; etc.</td>
+        </tr>
+    </table>
+    <h4><a id="dropdown_data">
+        Dropdown Data</a></h4>
+    <p>
+        These items hold data used to populate dropdown lists in the toolbars and dialogs.
+        <em>&lt;setting&gt; </em>elements here contain child XML <em>&lt;setting&gt;</em>
+        nodes. Value of <em>name </em>attribute goes to dropdowns option value, value of
+        <em>value </em>attribute is displayed as dropdown text.</p>
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <p>Name</p>
+            </td>
+            <td>
+                <p>Description</p>
+            </td>
+        </tr>
+        </thead>
+        <tr>
+            <td>
+                <p>
+                    dropdown_data_core_style</p>
+            </td>
+            <td>
+                <p>
+                    List of CSS classes for the Styles dropdown. Empty string value removes class attribute
+                    from the HTML element</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                table_styles</td>
+            <td>
+                List of CCS classes used in table properties dialog</td>
+        </tr>
+        <tr>
+            <td>
+                dropdown_data_core_fontname</td>
+            <td>
+                List of font names for Fonts dropdown</td>
+        </tr>
+        <tr>
+            <td>
+                dropdown_data_core_fontsize</td>
+            <td>
+                List of font sizes for Fontsize dropdown</td>
+        </tr>
+        <tr>
+            <td>
+                dropdown_data_core_formatBlock</td>
+            <td>
+                List of paragraph styles for Paragraph dropdown</td>
+        </tr>
+        <tr>
+            <td>
+                a_targets</td>
+            <td>
+                List of hyperlink targets for Hyperlink dialog</td>
+        </tr>
+    </table>
+    <h4><a id="toolbar_sets">
+        Toolbar Sets</a></h4>
+    <p>
+        Toolbar sets are just lists of toolbars. You can specify toolbars to be shown in
+        your instance one by one or you can specify a toolbar set that contains all the
+        toolbars you need.&nbsp; The following table contains a list of predefined toolbar
+        sets. You can create your own toolbar sets. Standard toolbar names are: edit, format,
+        font, insert, table, tools and plugins. Theme developers specify places for specific
+        toolbars but you can substitute "standard" toolbar with your own. To substitute
+        a standard toolbar in toolbarset you set <em>name </em>attribute of <em>toolbar</em>
+        element to standard toolbar name (like
+        format) and add <em>substitute</em> attribute
+        which is set to your substitute toolbar name (like format_mini). See
+        "mini" toolbar set definition in default config file for a sample. Toolbar set config
+        item names start with "toolbarset_" followed by toolbar name. For detailed explanation
+        of toolbar customization read toolbar customization section below.</p>
+        <table>
+            <thead>
+            <tr>
+                <td>
+                    <p>
+                        Name</p>
+                </td>
+                <td>
+                    <p>
+                        Description</p>
+                </td>
+            </tr>
+            </thead>
+            <tr>
+                <td>
+                    toolbarset_standard</td>
+                <td>
+                    <p>
+                        Includes all standard toolbars except "font"</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    toolbarset_all</td>
+                <td>
+                    Includes all standard toolbars</td>
+            </tr>
+            <tr>
+                <td>
+                    toolbarset_mini</td>
+                <td>
+                    Includes edit and tools toolbars and smaller version of format toolbar</td>
+            </tr>
+        </table>
+
+    <h4><a id="colorpicker_colors">
+        Colorpicker Predefined Colors</a></h4>
+    <p>
+        You can customize predefined colors in colorpicker dialog.
+        To do that you set config item called "colorpicker_predefined_colors". This setting should contain 16 child
+        <em>&lt;color&gt;</em> nodes with <em>value</em> attribute representing color in CSS compatible format.</p>
+    
+    <h3><a id="spawfm_settings">
+        SPAW File Manager Plugin Settings</a></h3>
+    <p>
+        File Manager plugin allows managing files on the server and selecting
+        them for embedding into the text being edited (i.e. images, flash movies). It's task also is
+        to let you control how your users access these files and what they can do with them.<br /> 
+        To configure SPAW File Manager to match your needs you have to specify two main setting nodes: a "global" settings which specifies what can be done with the directories
+        accessible to SPAW File Manager, and a directories list. The global settings can be 
+        overriden for each specific directory so you can allow handling only images 
+        in your "Images" directory, only flash movies in your "Flash movies" directory and so on.
+        Here is the detailed description for each of these two main parameters:
+    
+    </p>
+        <table>
+            <thead>
+            <tr>
+                <td>
+                    <p>
+                        Name</p>
+                </td>
+                <td>
+                    <p>
+                        Description</p>
+                </td>
+            </tr>
+            </thead>
+            <tr>
+                <td>PG_SPAWFM_SETTINGS</td>
+                <td>
+                    <p>"Global" settings for all directories, specified as attributes of <em>&lt;settings&gt;</em>
+                        child node and <em>&lt;allowedFileTypes&gt;</em> and <em>&lt;forbiddenExtensions&gt;</em>
+                        elements:<br />
+                    </p>
+                      <ul>
+                      <li><em>allowUpload</em> - boolean value, specifies files upload possibility, "false" by default;<br />
+                      <li><em>maxUploadFilesize</em> - integer value, specifies max file size in 
+                      bytes to be uploaded, or zero to ignore (default value);<br />
+                      <li><em>maxImgWidth</em> - integer value, specifies max uploaded image width allowed, or zero to ignore (default value);<br />
+                      <li><em>maxImgHeight</em> - integer value, specifies max uploaded image height allowed, or zero to ignore (default value);<br />
+                      <li><em>allowModify</em> - boolean value, specifies if deleting files is allowed, "false" by default;<br />
+                      <li><em>allowedFileTypes</em> - list of allowed file types specified as child <em>&lt;fileType&gt;</em>
+                          nodes with value attribute set to file type name: images/flash/documents/audio/video/archives.
+                          It specifies
+                      files of which type(s) will be listed/allowed to upload. You can add
+                      your own filetypes or edit existing by adding/removing extensions
+                      in file /plugins/spawfm/config/spawfm.config.
+                          If you set to true attriubte named <em>any</em> on <em>allowedFileTypes</em> element,
+                          files of all types are allowed. All defined filetypes
+                      are allowed by default;<br />
+                      <li><em>recursive</em> - boolean value, specifies if viewing/opening subdirectories is allowed, "false" by default;<br />
+                      <li><em>allowCreateSubdirectories</em> - boolean value, specifies if creating subdirectories is allowed ("recursive" setting must be true), "false" by default;<br />
+                      <li><em>allowModifySubdirectories</em> - boolean value, specifies if renaming/deleting subdirectories is allowed ("recursive" setting must be true), "false" by default;<br />
+                      <li><em>forbiddenExtensions</em> - list of extensions which are forbidden for upload
+                          for security or other reasons independenlty of other settings;<br />
+                      </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>PG_SPAWFM_DIRECTORIES</td>
+                <td>
+                  <p>Specific directories to be accessible by SPAW File Manager. Child nodes are &lt;directory&gt;
+                      elements each defining a specific directory and it's settings. Each <em>&lt;directory&gt;</em>
+                      attribute can have <em>&lt;allowedFileTypes&gt;</em> and <em>&lt;settings&gt;</em>
+                      child elements which override defaults set in PG_SPAWFM_SETTINGS setting. <em>&lt;directory</em>&gt;
+                      attribute has following attirbutes:<br />
+                  </p>
+                  <ul>
+                  <li><em>path</em> - directory path. This attribute is mandatory.<br />
+                  <li><em>caption</em> - directory title to be seen by users in SPAW File Manager.
+                  Plain directory path will be shown if this is not specified, so 
+                  this is optional parameter.<br />
+                  <li><em>defaultDirectory</em> - if set to <em>true</em>
+                      this directory will be selected by default when File Manager loads and no directory
+                      is specified.</ul>
+                </td>
+            </tr>
+        </table> 
+        
+    <h2><a id="usage">
+        Usage</a></h2>
+    <p>
+        You can add SPAW Editor to your page in 3 ways</p>
+    <ol>
+        <li>Through Visual Studio 2005 designer;</li>
+        <li>By adding declarative tag in your ASP .NET web form/user control;</li>
+        <li>From code at runtime.</li>
+    </ol>
+    <p>
+        <em>Note</em>: check out source code of demo/demo.aspx and demo/demo2.aspx for usage
+        samples</p>
+    <h3><a id="add_vs2005">
+        Adding SPAW Editor through Visual Studio 2005 Designer</a></h3>
+    <p>
+        Add Editor control to your toolbox (if it's not already there):</p>
+    <ul>
+        <li>right-click somewhere in your toolbox;</li>
+        <li>click "Choose Items..." in the context menu;</li>
+        <li>"Choose Toolbox Items" dialog opens;</li>
+        <li>in the tab ".NET Framework Components" click "Browse..." button;</li>
+        <li>navigate to <em>Bin</em> directory of your project, select <em>Solmetra.Spaw2.dll</em>
+            and click <em>Open;</em></li>
+        <li>click "OK"</li>
+    </ul>
+    <p>
+        Now you should be able to drag-and-drop Editor control from your toolbox on to your
+        Web Form. You can modify various properties through <em>Properties</em> panel in
+        Visual Studio</p>
+    <h3><a id="add_aspnet">
+        Adding SPAW Editor through a Tag In ASP .NET Source</a></h3>
+    <p>
+        First you'll need to register SPAW Editor in your page. To do that add @Register
+        directive at the top of your page like this:</p>
+    <p>
+        <code>&lt;%@ Register TagPrefix="spaw" Namespace="Solmetra.Spaw2" Assembly="Solmetra.Spaw2"
+        %&gt;</code></p>
+    <p>
+        Now you can place SPAW Editor's tag where you want it in your web form like this:</p>
+    <p>
+        <code>&lt;spaw:Editor ID="Editor1" runat="server" /&gt;</code></p>
+    <h3><a id="add_csharp">
+        Adding SPAW Editor at run-time (C#)</a></h3>
+    <p>
+        Add using directive:</p>
+    <p>
+        <code>using Solmetra.Spaw2;</code></p>
+    <p>
+        Create Editor control and add it to your page:</p>
+    <p>
+        <code>Editor spaw1 = new Editor();<br />
+        spaw1.ID = "Editor1";<br />
+        Page.Controls.Add(spaw1);</code></p>
+    <h3>
+        Setting and Retrieving The Content</h3>
+    <p>
+        You can set initial SPAW Editor's content and retrieve the edited content on post-back
+        as you would normally do with a standard TextBox control - using Text property.</p>
+    <p>
+        <em></em>
+    </p>
+    <p>
+    </p>
+    <h3>
+        <a id="runtime_config">Changing Configuration At Design or Runtime</a></h3>
+    <p>
+        You can override configuration settings at runtime on
+        per-instance basis. Many of
+        the configuration options described in the section of configuration are represented
+        by their respective properties of Editor class. Use Visual Studio properties sheet
+        or Intellisense in the code editor to set any of them.</p>
+    <p>
+        When a configuration setting has no respective property in Editor class (plugin
+        configuration settings don't), you can access configuration settings directly through
+        Configuation property of Editor object. This code</p>
+    <p>
+        <code>spaw1.Configuration["PG_SAMPLEPLUGIN_COLOR"].Value = "Red";</code></p>
+    <p>
+        sets value of the configuration property named <em>PG_SAMPLEPLUGIN_COLOR</em> to
+        <em>"Red"</em></p>
+    <h3><a id="pages">
+        Adding Pages</a></h3>
+    <p>
+        You can edit multiple documents (html snippets) with a single instance of SPAW Editor
+        v.2. 
+    </p>
+    <p>
+        Pages could be added using Visual Studio dialogs, declaratively or through code.</p>
+    <p>
+        This snippet</p>
+    <p>
+    <code>
+        &lt;spaw:Editor ID="spaw1" runat="server"&gt;<br />
+        &nbsp;&lt;Pages&gt;<br />
+        &nbsp;&nbsp;&nbsp; &lt;spaw:EditorPage Caption="English text" ClientID="spaw1" /&gt;<br />
+        &nbsp;&nbsp;&nbsp; &lt;spaw:EditorPage Caption="Lithianian translation" ClientID="spaw1_2" /&gt;<br />
+        &nbsp; &lt;/Pages&gt;<br />
+        &lt;/spaw:Editor&gt;
+        </code>
+    </p>
+    <p>
+        specifies that SPAW Editor "spaw1" should have 2 pages (tabs): English text and
+        Lithuanian translation. <em>ClientID</em> attribute of the first page should be
+        equal to the ID of editor instance. <em>Caption</em> attribute specifies text visible
+        to users as title on the "tabs". You can also set initial content by setting <em>Text
+        </em>property of the page.</p>
+    <p>
+        To add pages through code you add EditorPage objectes to Pages collection of the
+        Editor object like this</p>
+    <p>
+        <code>spaw1.Pages.Add(new EditorPage("spaw1_2",
+        "Lithianian translation", initialContent));</code></p>
+    <p>
+        First parameter is page's <em>ClientID</em>, second - <em>Caption</em>, third -
+        initial content (html snippet). Note that the first page (with the same ClientID
+        as editor's ID) is added automatically. You can modify it's properties (caption
+        and text) by accessing respective properties of the first EditorPage object in Pages
+        collection like this:</p>
+    <p>
+        <code>spaw1.Pages[0].Text = dbvalue1;<br />
+        spaw1.Pages[0].Caption = "First page";</code></p>
+    <p>
+        Pages can be accessed by their ClientID too:</p>
+    <p>
+        <span style="font-family: Courier New; background-color: #eeeeee">spaw1.Pages["spaw1_2"].Caption
+            = "Second page";</span></p>
+    <p>
+        To read modified page content after the page is submitted you just access the Text
+        property of the EditorPage object:</p>
+    <p>
+        <span style="font-family: Courier New; background-color: #eeeeee">string myValue = spaw1.Pages["spaw1_2"].Text;</span></p>
+    <p>
+        Text property of the Editor object always returns Text property value of the first
+        page.</p>
+    <p>
+        Note: see source code of demo/demo2.aspx for a samples</p>
+    <h3><a id="toolbars">
+        Toolbars</a></h3>
+    <h4><a id="using_toolbars">
+        Using Toolbars</a></h4>
+        <p>
+            You can control which toolbars are included with your instance by adding a toolbar
+            set to your instance. You define toolbar sets in the config file (see section on
+            Toolbarset configuration) and the specify which toolbar set you want to use by setting
+            <em>ToolbarSet</em> property of Editor object</p>
+    <p>
+        <code>spaw1.ToolbarSet = "mini";</code></p>
+    <p>
+    </p>
+    <h4><a id="floating">
+        Floating and/or Shared Toolbars</a></h4>
+    <p>
+        In SPAW Editor v.2 single toolbar can control one or several editor instances. It
+        can either be attached to one of the instances or floating around.</p>
+    <p>
+        To enable floating toolbar you set <em>FloatingMode</em> property to <em>true</em>.
+    </p>
+    <p>
+        If you set <em>ToolbarFromID </em>property to ID of another instance of <em>Editor</em>
+        object this editor will be controlled by toolbar of specified editor instance. Instead
+        of setting <em>ToolbarFromID</em> you can assign actual Editor instance of the master
+        toolbar to <em>ToolbarFrom</em> property.</p>
+    <p>
+        <code>spaw2.ToolbarFrom = spaw1;</code></p>
+    <h4><a id="custom_toolbars">
+        Custom Toolbars</a></h4>
+    <p>
+        You can create custom toolbars by copying one of the standard toolbars in plugins/core/lib/toolbars/
+        subdirectory and removing/adding toolbar items in that file. Unless you are a plugin
+        developer (see plugin developers documentation) you only need to copy/paste or delete
+        rows in these files. Theme designers can designate special placements for standard
+        toolbars so, if you want your custom toolbar to appear in a place of standard toolbar
+        you should use the toolbar substitute concept described earlier</p>
+    
+
+
+
+    <h3><a id="fm_settings">
+        FileManager Settings</a></h3>
+    <p>
+        To modify File Manager settings at runtime you use a special helper class called
+        <em>SpawFMConfiguration</em> in <em>Solmetra.Spaw2.SpawFM</em>. To get current File
+        Manager configuration you use static methods <em>GetFileManagerConfiguration(Editor
+            editor)</em> and pass your Editor instance as a parameter</p>
+    <p>
+        <code>SpawFMConfiguration fmcfg2 = SpawFMConfiguration.GetFileManagerConfiguration(spaw2);</code></p>
+    <p>
+        <em>GlobalSettings</em> property of <em>SpawFMConfiguration</em> object provides
+        access to global settings of the File Manager configuration specified in <em>PG_SPAWFM_SETTINGS</em>
+        configuration setting. For example to allow browsing of subdirectories across all
+        directories defined in config file (unless otherwise specified on per-directory
+        level) you set <code>fmcfg2.GlobalSettings.Recursive = true;</code></p>
+    <p>
+        <em>Directories </em>property holds a collection (<em>DirectoryCollection</em>)
+        of <em>Directory </em>objects representing each directory configured for File Manager
+        access. <em>Settings </em>property provides access to directory-level settings overriding
+        global settings set through <em>SpawFMConfiguration.GlobalSettings</em> property.</p>
+    <p>
+        <strong>Important:</strong> changes to directories and settings aren't applied immediately
+        as they are set. After you have finished changing File Manager configuration you
+        should call <em>Apply()</em> method like this <span style="font-family: Courier New;
+            background-color: #eeeeee">fmcfg2.Apply()</span></p>
+    <p>
+        The following example taken from Demo #2 (demo/demo2.aspx) removes all the directories
+        except "Images" from the spaw2 instance of Editor and allows browsing of subdirectories
+        of Images in that instance (other instances on the same or other pages aren't affected)</p>
+    <p><code>
+        // we retrieve file manager configuration for the spaw2 instance
+        <br />
+        SpawFMConfiguration fmcfg2 = SpawFMConfiguration.GetFileManagerConfiguration(spaw2);<br />
+        // We look for Images directory configured in default config file (this will fail
+        if config file has been modified in this section)<br />
+        if (fmcfg2.Directories.IndexOf(Solmetra.Spaw2.Configuration.SpawDirectory + "uploads/images/")
+        &gt; -1)
+        <br />
+        {
+        <br />
+        &nbsp; // we get the Directory object
+        <br />
+        &nbsp; Directory d = fmcfg2.Directories[fmcfg2.Directories.IndexOf(Solmetra.Spaw2.Configuration.SpawDirectory
+        + "uploads/images/")];
+        <br />
+        &nbsp; // and set Recursive setting on it
+        <br />
+        &nbsp; d.Settings.Recursive = true;
+        <br />
+        &nbsp; // we remove all the other directories from configuration<br />
+        &nbsp; fmcfg2.Directories.Clear();<br />
+        &nbsp; // and add only the Images directory (retrieved above)<br />
+        &nbsp; fmcfg2.Directories.Add(d);
+        <br />
+        &nbsp; // then we apply the configuration
+        <br />
+        &nbsp; fmcfg2.Apply();<br />
+        }</code></p>
+    <p>
+        Note: see source code of demo/demo2.aspx for a sample</p>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA472326-FB3C-4403-943F-909BC8F22C09}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Caisis.DataAccess</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Caisis.DataAccess</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caisis.Nomogram, Version=1.0.2748.21360, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <ProjectReference Include="..\Caisis.Security\Caisis.Security.csproj">
+      <Name>Caisis.Security</Name>
+      <Project>{AFC51501-7C9A-422A-ABA5-6493E96D0E0E}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActiveSurveillanceDa.cs" />
+    <Compile Include="AdminReportsDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AllergyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppConfigDa.cs" />
+    <Compile Include="AppointmentDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AuditLogDa.cs" />
+    <Compile Include="BaseDA.cs" />
+    <Compile Include="BiopsyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BiopsyProstateDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BrachyTherapyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CategoryDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChronoDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClinicalStageDa.cs" />
+    <Compile Include="ComorbidityDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Connectivity.cs" />
+    <Compile Include="ContactsDa.cs" />
+    <Compile Include="DynamicNomogramDa.cs" />
+    <Compile Include="HospitalizationDa.cs" />
+    <Compile Include="CTCAEDa.cs" />
+    <Compile Include="NephrectomyDa.cs" />
+    <Compile Include="PathologyDa.cs" />
+    <Compile Include="PatientOutcomesDa.cs" />
+    <Compile Include="ProcedureDa.cs" />
+    <Compile Include="CytologyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccesHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataSetDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeidentifyOptions.cs" />
+    <Compile Include="DiagnosticDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DietaryIntakeDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DietaryIntakeItemDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DiseaseDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FollowUpDa.cs" />
+    <Compile Include="ICDDa.cs" />
+    <Compile Include="NotificationDa.cs" />
+    <Compile Include="PatientEducationDa.cs" />
+    <Compile Include="PatientProtocolResponseDa.cs" />
+    <Compile Include="ProjectManagementDa.cs" />
+    <Compile Include="ProtocolMgmtDa.cs" />
+    <Compile Include="QueryBuilder.cs" />
+    <Compile Include="EFormsDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EncBimanualExamDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EncExamDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EncounterDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EncRectalExamDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EndoscopyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EndoscopyPathologyFindingDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorLogDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExportRestrictions.cs" />
+    <Compile Include="FamilyMemberDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FilesDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupDatasetDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HelpDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDataAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IdentifierDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageProstateDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InPatientDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InstitutionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LabTestDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LookupCodeDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LookupCodeDataIntegrityDa.cs" />
+    <Compile Include="MedicalTherapyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MedicationDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MetadataDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MetadataNewDa.cs" />
+    <Compile Include="MetaDataPM.cs" />
+    <Compile Include="NarrativeDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NodeDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NomogramDa.cs" />
+    <Compile Include="PatientDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatientDiseaseDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatientInstitutionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatientPhysicianDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatientProblemDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatientProtocolDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PermissionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicianDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProstatectomyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProstatectomyPathologySectionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProtocolDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QOL_TherapyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RadiationTherapyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RelatedRecordsDa.cs" />
+    <Compile Include="ReportDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoleDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RolePermissionDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeedAssignedDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeedAssignedLogDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeedDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SocialHistoryDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecimenManagerDa.cs" />
+    <Compile Include="SpecimenTrackerDa.cs" />
+    <Compile Include="SqlBuilder.cs" />
+    <Compile Include="SqlCommandUtils.cs" />
+    <Compile Include="StatusDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurveyDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TechnicalException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TimelineSqlBuilder.cs" />
+    <Compile Include="ToxicityDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserConcurrencyException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserExportDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserExportPatientsDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserGroupDa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebServiceDa.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

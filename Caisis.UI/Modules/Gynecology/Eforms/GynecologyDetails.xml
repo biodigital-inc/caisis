@@ -1,0 +1,1332 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Gynecology Details" displayName="Gynecology Details">
+
+  <eformSection name="Edit Operative Details/Pathology">
+    <eformItem displayName="Operative Details/Pathology" controlName="ORGynEdit"></eformItem>
+  </eformSection>
+
+  <eformSection name="Add Operative Details/Pathology">
+    <eformItem displayName="Operative Details/Pathology" controlName="ORGynAdd"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Comorbidities">
+    <eformItem controlName="ComorbidityGyn"></eformItem>
+  </eformSection>
+
+  <eformSection name="Family Hx, Status, Medications">
+    <eformItem controlName="FamHxStatusMedsGyn"></eformItem>
+  </eformSection>
+
+
+
+
+  <Pathology RecordId="2">
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathSite></PathSite>
+    <PathSubsite></PathSubsite>
+    <PathSide></PathSide>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathResult></PathResult>
+    <PathInstitution></PathInstitution>
+    <PathQuality></PathQuality>
+    <PathDataSource></PathDataSource>
+
+    <PathologyFinding RecordId="6">
+      <PathFindSide></PathFindSide>
+      <PathFindSite></PathFindSite>
+      <PathFindSubsite></PathFindSubsite>
+      <PathFindHistology></PathFindHistology>
+    </PathologyFinding>
+    <PathologyFinding RecordId="7">
+      <PathFindSide></PathFindSide>
+      <PathFindSite></PathFindSite>
+      <PathFindSubsite></PathFindSubsite>
+      <PathFindHistology></PathFindHistology>
+    </PathologyFinding>
+    <PathologyFinding RecordId="8">
+      <PathFindSide></PathFindSide>
+      <PathFindSite></PathFindSite>
+      <PathFindSubsite></PathFindSubsite>
+      <PathFindHistology></PathFindHistology>
+    </PathologyFinding>
+    <PathologyFinding RecordId="9">
+      <PathFindSide></PathFindSide>
+      <PathFindSite></PathFindSite>
+      <PathFindSubsite></PathFindSubsite>
+      <PathFindHistology></PathFindHistology>
+    </PathologyFinding>
+    <PathologyFinding RecordId="10">
+      <PathFindSide></PathFindSide>
+      <PathFindSite></PathFindSite>
+      <PathFindSubsite></PathFindSubsite>
+      <PathFindHistology></PathFindHistology>
+    </PathologyFinding>
+  </Pathology>
+
+  <Procedures  RecordId='6'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="21">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="22">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="23">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="24">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='7'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="25">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="26">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="27">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="28">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='8'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="29">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="30">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="31">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="32">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='9'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="33">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="34">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="35">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="36">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='10'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="37">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="38">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="39">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="40">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='11'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="41">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="42">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="43">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="44">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='12'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="45">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="46">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="47">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="48">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='13'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="49">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="50">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="51">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="52">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='14'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="53">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="54">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="55">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="56">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='15'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="57">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="58">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="59">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="60">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='26'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="97">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="98">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="99">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="100">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+
+  <Procedures  RecordId='27'>
+    <OperatingRoomDetailId></OperatingRoomDetailId>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcCPT_Code></ProcCPT_Code>
+    <ProcCPT_Description></ProcCPT_Description>
+    <ProcInstitution></ProcInstitution>
+    <ProcService></ProcService>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcQuality></ProcQuality>
+    <ProcDataSource></ProcDataSource>
+
+    <ProcedureAssistants RecordId="101">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="102">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="103">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+    <ProcedureAssistants RecordId="104">
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcAccreditation></ProcAccreditation>
+    </ProcedureAssistants>
+  </Procedures>
+  
+  <OperatingRoomDetails RecordId='1'>
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpAdmitStatus></OpAdmitStatus>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpPreOpSummary></OpPreOpSummary>
+    <OpPostOpSummary></OpPostOpSummary>
+    <OpQuality></OpQuality>
+    <OpDataSource></OpDataSource>
+
+    <Pathology RecordId="1">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathSite></PathSite>
+      <PathSubsite></PathSubsite>
+      <PathSide></PathSide>
+      <PathHistology></PathHistology>
+      <PathHistology2></PathHistology2>
+      <PathResult></PathResult>
+      <PathInstitution></PathInstitution>
+      <PathQuality></PathQuality>
+      <PathDataSource></PathDataSource>
+
+      <PathologyFinding RecordId="1">
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+      </PathologyFinding>
+      <PathologyFinding RecordId="2">
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+      </PathologyFinding>
+      <PathologyFinding RecordId="3">
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+      </PathologyFinding>
+      <PathologyFinding RecordId="4">
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+      </PathologyFinding>
+      <PathologyFinding RecordId="5">
+        <PathFindSide></PathFindSide>
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+      </PathologyFinding>
+    </Pathology>
+
+    <Procedures  RecordId='1'>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="1">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="2">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="3">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="4">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='2'>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="5">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="6">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="7">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="8">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='3'>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="9">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="10">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="11">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="12">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='4'>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="13">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="14">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="15">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="16">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='5'>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="17">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="18">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="19">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="20">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='16'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="61">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="62">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="63">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="64">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='17'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="65">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="66">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="67">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="68">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='18'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="69">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="70">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="71">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="72">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='19'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="73">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="74">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="75">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="76">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='20'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="77">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="78">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="79">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="80">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='21'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="81">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="82">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="83">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="84">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+
+    <Procedures  RecordId='22'>
+      <OperatingRoomDetailId></OperatingRoomDetailId>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <ProcedureAssistants RecordId="85">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="86">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="87">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+      <ProcedureAssistants RecordId="88">
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcAccreditation></ProcAccreditation>
+      </ProcedureAssistants>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+ 
+
+  <Comorbidities RecordId='1'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='2'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='3'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='4'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='5'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='6'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='7'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='8'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='9'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='10'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='11'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='12'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='13'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='14'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='15'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='16'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='17'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='18'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='19'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+  <Comorbidities RecordId='20'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+    <ComorbDataSource></ComorbDataSource>
+  </Comorbidities>
+
+
+  <FamilyMembers RecordId = '1'>
+    <FamMemRelation></FamMemRelation>
+    <FamilyMemberDiagnosis RecordId = '1'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '2'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '3'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '4'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '5'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '6'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '7'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '8'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '9'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = '10'>
+      <FamMemDiagnosis></FamMemDiagnosis>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  
+
+  <Status RecordId="1">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="2">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="3">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="4">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="5">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+
+  <Medications RecordId="1">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId="2">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId="3">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId="4">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId="5">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <Medication></Medication>
+  </Medications>
+
+  <NoTable>
+    <NewORYesNo></NewORYesNo>
+    <AssoProcYesNo></AssoProcYesNo>
+  </NoTable>
+  
+</eform>

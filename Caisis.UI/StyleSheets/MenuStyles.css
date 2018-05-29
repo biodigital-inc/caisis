@@ -1,0 +1,145 @@
+﻿/*
+** GLOBAL MENU Styles - Applied through all levels
+**/
+#menu * { padding: 0px; margin: 0px; list-style: none; }
+ul#menu { padding: 0px; margin: 0px; list-style: none; }
+#menu * img { display: inline-block; margin-right: 3px; }
+
+#menu a { text-decoration: none; outline: none; }
+#menu li a { color: #ffffff; }
+/* Used to set top level item links */
+#menu li.top_item_hover a { color: #8c2829; }
+#menu li.top_item_hover * a { color: #39556b;}
+/**/
+#menu li  { padding: 0px 0px 0px 6px;}
+#menu li * a { color: #39556b; display: block; white-space: nowrap; margin: 0px; padding: 2px 1px 2px 5px;}
+#menu li.sub_item_hover { background-color: #8c2829; }
+#menu li.sub_item_hover a { color:#ffffff; }
+#menu li.sub_item_hover * a { color: #39556b;}
+#menu li * a:hover { color: #ffffff; background-color: #8c2829;}
+
+/* Top Level Styling */
+#menu li 
+{
+    float: left;
+    position: relative;
+    width: 8em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+    display: block;
+    text-align: center;
+}
+
+#menu li.top_item_hover
+{
+    color: #8c2829;
+    background-color: #ffffff;
+}
+
+#menu img.MenuItemIcon
+{
+    margin-right: 6px;
+    margin-left: -2px;
+    height: 11px;
+    width: 11px;
+}
+
+
+	
+/* 2nd Level Styling */
+#menu * li 
+{ 
+    padding: 0em 0em 0em 0em;
+	text-align: left;
+	width: 100%;
+	list-style: none inside;
+}
+
+#menu li.top_item_hover ul
+{
+	display: block;
+	padding: 0em;
+	position: absolute;
+	top: 22px; /* distance from top to start of sub menu */
+	left:0em;
+}
+
+
+/* Top Level SubMenus (ul) */
+#menu ul
+{
+    list-style: none;
+    display: none;
+    position: absolute; 
+    top: 10px;
+    left: 0em;
+    background-color: #ffffff;
+    border: 1px solid #39556b;
+    padding: 0px;
+    color: #39556b;
+}
+
+	
+/*  n-tier menus */
+#menu li.top_item_hover * ul 
+{
+    display: none;
+    position: absolute;
+	top: -1px;
+	left: 16em;
+	float: left;
+}
+
+#menu li.sub_item_hover ul 
+{
+	display: block;
+}
+/* suppress sub menu icons */
+#menu li.sub_item_hover ul * img
+{
+    display: none;
+}
+
+.MenuContainter
+{
+    background-color: #3d556d;
+    height: 23px;
+    border-bottom:solid 1px #666666;
+}
+.AjaxMenu
+{
+    width: 100px;
+}
+
+.AjaxMenu * a
+{
+    background-image: url('../Images/GlobalSubMenuWidget.gif');
+    background-repeat: no-repeat;
+    background-position: center right; 
+}
+
+.AjaxMenu * a:hover
+{
+    background-image: url('../Images/GlobalSubMenuWidgetOn.gif');
+    background-repeat: no-repeat;
+    background-position: center right; 
+}
+
+.AjaxMenu li * a
+{
+    background-image: none;
+}
+.AjaxMenu li * a:hover
+{
+    background-image: none;
+}
+.AjaxMenuItemClicked
+{
+    color: #ffffff;
+    background-color: #8d2a2c;
+    background-image: url('../Images/GlobalSubMenuWidgetOn.gif');
+    background-repeat: no-repeat;
+    background-position: center right; 
+}
+

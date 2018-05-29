@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<surveys>
+  
+  <survey name="EVU Pre-Treatment QOL" page="EVUPreTxQOLSurvey.aspx"></survey>
+  <survey name="EVU Early-Treatment QOL" page="EVUEarlyTxQOLSurvey.aspx"></survey>
+  <survey name="EVU Late-Treatment QOL" page="EVUPostTxQOLSurvey.aspx"></survey>
+  <survey name="EPIC" page="EVUEPICQOLSurvey.aspx"></survey>
+  
+</surveys>

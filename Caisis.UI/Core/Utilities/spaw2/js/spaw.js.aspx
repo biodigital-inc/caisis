@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="spaw.js.aspx.cs" Inherits="Solmetra.Spaw2.spaw2_js" ContentType="application/x-javascript" ResponseEncoding="utf-8" EnableTheming="false" Theme="" StylesheetTheme="" MaintainScrollPositionOnPostback="false" %>

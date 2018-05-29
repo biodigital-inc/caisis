@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+	**************************************************************************************************
+	
+	DATASETS ALLOW YOU TO SEGREGATE SETS OF PATIENTS BY ANY OF THE FOLLOWING CRITERIA:
+   
+  Institution
+	Physician
+	Protocol
+	Disease
+	All
+   
+  Using INSTITUTION IS MOST COMMON (can also be used to separate patients by service/dept). 
+  	
+	The "All" Dataset has access to all patients in the database. Should be used by System Administrators 
+	if you have multiple datasets. 
+   
+  Please note, at minimum you MUST have at least one dataset defined in the XML below. The dataset id
+	defined there MUST match the dataset id in the database DataSets table.
+	
+	SQL used to create patient datasets is based on the XML below. <dim Group=""> creates AND/OR 
+	relationship in SQL string.
+
+	The physician dimension can take two values: physician last name and physician first name.
+  <dimension type="Physician" value="Jones" value2="Tom"/>
+	All other dimensions take one value only. 
+  <dimension type="Institution" value="MSK"/>
+	
+	A workflow to facilitate the administration of this system is being built, in the meantime see the
+  documentation on the caisis.org/WIKI or email CaisisAdmin@mskcc.org with questions. 
+	
+ 
+	****************************************************************************************************
+-->
+
+<datasets>
+
+  <!-- Select * From Patients : FOR SYS ADMIN USE ONLY -->
+  <dataset id="1" name="All Patients">
+    <dimension type="All" value=""/>
+  </dataset>
+
+  <!-- From patients, institutions where institution = "MSK" :  REPLACE WITH YOUR INSTITUTION ABBREVIATION ON INSTALL -->
+  <dataset id="2" name="MSK Patients">
+    <dimension type="Institution" value="MSK"/>
+  </dataset>  
+  
+</datasets>
+
+
+

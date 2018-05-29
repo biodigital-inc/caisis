@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<messages charset="iso-8859-1">
+  <block id="cut">
+    <message name="title">Knippen</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopiëren</message>
+  </block>
+  <block id="paste">
+    <message name="title">Plakken</message>
+  </block>
+  <block id="undo">
+    <message name="title">Ongedaan maken</message>
+  </block>
+  <block id="redo">
+    <message name="title">Opnieuw</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hyperlink</message>
+    <message name="url">URL</message>
+    <message name="name">Naam</message>
+    <message name="target">Doel</message>
+    <message name="title_attr">Titel</message>
+    <message name="a_type">Type</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Anker</message>
+    <message name="type_link2anchor">Link naar anker</message>
+    <message name="anchors">Anker</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Afbeelding eigenschappen</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+    <message name="source">Bron</message>
+    <message name="alt">Alternatieve tekst</message>
+    <message name="align">Uitlijnen</message>
+    <message name="left">linkerkant</message>
+    <message name="right">rechterkant</message>
+    <message name="top">bovenkant</message>
+    <message name="middle">midden</message>
+    <message name="bottom">bottom</message>
+    <message name="absmiddle">absolute midden</message>
+    <message name="texttop">bovenkant tekst</message>
+    <message name="baseline">Onderste lijn</message>
+    <message name="width">Breedte</message>
+    <message name="height">Hoogte</message>
+    <message name="border">Rand</message>
+    <message name="hspace">Hor. ruimte</message>
+    <message name="vspace">Vert. ruimte</message>
+    <message name="error">Fout</message>
+    <message name="error_width_nan">Breedte is geen getal</message>
+    <message name="error_height_nan">Hoogte is geen getal</message>
+    <message name="error_border_nan">Rand is geen getal</message>
+    <message name="error_hspace_nan">Horizontale ruimte is geen getal</message>
+    <message name="error_vspace_nan">Verticale ruimte is geen getal</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+    <message name="source">Bron</message>
+    <message name="width">Breedte</message>
+    <message name="height">Hoogte</message>
+    <message name="error">Fout</message>
+    <message name="error_width_nan">Breedte is geen getal</message>
+    <message name="error_height_nan">Hoogte is geen getal</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontale liniëring</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Tabel crëeren</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabel eigenschappen</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+    <message name="rows">Rijen</message>
+    <message name="columns">Kolommen</message>
+    <message name="width">Breedte</message>
+    <message name="height">Hoogte</message>
+    <message name="border">Rand</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Cel opvulling</message>
+    <message name="cellspacing">Cel opvulling</message>
+    <message name="bg_color">Achtergrond kleur</message>
+    <message name="error">Fout</message>
+    <message name="background">Achtergrond afbeelding</message>
+    <message name="error_rows_nan">Opgegeven rij(en) zijn geen getallen</message>
+    <message name="error_columns_nan">Opgegeven kolom(men) zijn geen getallen</message>
+    <message name="error_width_nan">Breedte is geen getal</message>
+    <message name="error_height_nan">Hoogte is geen getal</message>
+    <message name="error_border_nan">Rand is geen getal</message>
+    <message name="error_cellpadding_nan">Cel opvulling is geen getal</message>
+    <message name="error_cellspacing_nan">Cel opvulling is geen getal</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Cel eigenschappen</message>
+    <message name="horizontal_align">Horizontale uitlijning</message>
+    <message name="vertical_align">Verticale uitlijning</message>
+    <message name="width">Breedte</message>
+    <message name="height">Hoogte</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="no_wrap">Regels niet afbreken</message>
+    <message name="bg_color">Achtergrond kleur</message>
+    <message name="background">Achtergrond afbeelding</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+    <message name="left">Linkerkant</message>
+    <message name="center">Centreren</message>
+    <message name="right">Rechterkant</message>
+    <message name="top">Bovenkant</message>
+    <message name="middle">Midden</message>
+    <message name="bottom">Onderkant</message>
+    <message name="baseline">Onderste lijn</message>
+    <message name="error">Fout</message>
+    <message name="error_width_nan">Breedte is geen getal</message>
+    <message name="error_height_nan">Hoogte is geen getal</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Rij invoeren</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Kolom invoeren</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Rij verwijderen</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Kolom verwijderen</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Naar rechts samenvoegen</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Naar beneden samenvoegen</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Cellen horizontaal splitsen</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Cellen vertikaal splitsen</message>
+  </block>
+  <block id="style">
+    <message name="title">Opmaak</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Lettertype</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Grootte</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Alinea</message>
+  </block>
+  <block id="bold">
+    <message name="title">Vet</message>
+  </block>
+  <block id="italic">
+    <message name="title">Schuingedrukt</message>
+  </block>
+  <block id="underline">
+    <message name="title">Onderstrepen</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Genummerde opsomming</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Ongesorteerde opsomming</message>
+  </block>
+  <block id="indent">
+    <message name="title">Inspringen</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Terugspringen</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Links</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Midden</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Rechts</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Justify</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Voorgrond kleur</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Achtergrond kleur</message>
+  </block>
+  <block id="design">
+    <message name="title">Schakel over naar WYSIWYG (ontwerp) modus</message>
+  </block>
+  <block id="html">
+    <message name="title">Schakel over naar HTML (code) modus</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Kleur selecteren</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML opruimen (verwijder opmaak)</message>
+    <message name="confirm">Als u deze actie uitvoert, zal alle opmaak, lettertypen en onnodige tags worden verwijdert van de huidige opmaak. Een deel of de gehele opmaak van uw tekst zal verloren gaan.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Overschakeleren rand</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">dit frame (_self)</message>
+    <message name="_blank">nieuw scherm (_blank)</message>
+    <message name="_top">top frame (_top)</message>
+    <message name="_parent">ouderlijk frame (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Verwijder hyperlink</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Rij eigenschappen</message>
+    <message name="horizontal_align">Horizontaal uitlijnen</message>
+    <message name="vertical_align">Verticaal uitlijnen</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="no_wrap">Tekst niet uitvullen</message>
+    <message name="bg_color">Achtergrond kleur</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+    <message name="left">Links</message>
+    <message name="center">Midden</message>
+    <message name="right">Rechts</message>
+    <message name="top">Bovenkant</message>
+    <message name="middle">Midden</message>
+    <message name="bottom">Onderkant</message>
+    <message name="baseline">Onderste lijn</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Speciale karakters</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+  </block>
+  <block id="templates">
+    <message name="title">Sjablonen</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Pagina instellingen</message>
+    <message name="title_tag">Titel</message>
+    <message name="charset">Karakterset</message>
+    <message name="background">Achtergrond afbeelding</message>
+    <message name="bgcolor">Achtergrond kleur</message>
+    <message name="text">Tekst kleur</message>
+    <message name="link">Link leuk</message>
+    <message name="vlink">Bezochte link kleur</message>
+    <message name="alink">Actieve link kleur</message>
+    <message name="leftmargin">Marge linkerkant</message>
+    <message name="topmargin">Marge bovenkant</message>
+    <message name="css_class">CSS klasse</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Annuleren</message>
+  </block>
+  <block id="preview">
+    <message name="title">Voorbeeld</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Afbeelding popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom in</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subschrift</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superschrift</message>
+  </block>
+</messages>

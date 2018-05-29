@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Thyroid Surgery Eform" displayName="Thyroid Surgery EForm">
+
+		<eformSection name="Head and Neck">
+      <eformItem displayName="Date and Surgeon" controlName="ORDateAndCaseSurgeon"></eformItem>
+      <eformItem displayName="Procedure Type" controlName="HeadNeckProcedureType"></eformItem>
+    </eformSection>
+
+  
+
+  <eformSection name="Operative Findings">
+    <eformItem displayName="Thyroid Status" controlName="ThyroidStatus"></eformItem>
+    <eformItem displayName="Regional Lymph Nodes" controlName="RegionalLymphNodes"></eformItem>
+  </eformSection>
+
+  <eformSection name="Operative Procedure">
+    <eformItem displayName="Operative Details" controlName="ThyroidOperativeDetails"></eformItem>
+    <eformItem displayName="Operative Notes" controlName="ProcedureNotes"></eformItem>
+  </eformSection>
+
+
+
+
+  <OperatingRoomDetails>
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+
+    <OpASA></OpASA>
+    <OpAnesthesiaDuration></OpAnesthesiaDuration>
+    <OpAnesthesiaType></OpAnesthesiaType>
+
+    <OpDifficulty></OpDifficulty>
+    <OpEstBloodLoss></OpEstBloodLoss>
+
+    <OpNotes></OpNotes>
+
+    <OpPresenceStatement></OpPresenceStatement>
+    <OpPresenceKeyPortions></OpPresenceKeyPortions>
+    <OpCaseSurgeon></OpCaseSurgeon>
+  </OperatingRoomDetails>
+
+  <Procedures  RecordId='1'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcSite>Thyroid</ProcSite>
+
+
+    <HeadNeckProc>
+      <ProcResult></ProcResult>
+      <ProcType></ProcType>
+      <ProcReconstruction></ProcReconstruction>
+      <ProcPathType></ProcPathType>
+    </HeadNeckProc>
+
+    <ThyroidProc>
+      <ProcTotalThyroidectomy></ProcTotalThyroidectomy>
+      <ProcR_Lobe></ProcR_Lobe>
+      <ProcL_Lobe></ProcL_Lobe>
+      <ProcIsthmus></ProcIsthmus>
+      <ProcR_SuperiorParathyroid></ProcR_SuperiorParathyroid>
+      <ProcR_InferiorParathyroid></ProcR_InferiorParathyroid>
+      <ProcL_SuperiorParathyroid></ProcL_SuperiorParathyroid>
+      <ProcL_InferiorParathyroid></ProcL_InferiorParathyroid>
+      <ProcTracheaMgmt></ProcTracheaMgmt>
+      <ProcTracheaReconstruct></ProcTracheaReconstruct>
+      <ProcTracheostomy></ProcTracheostomy>
+      <ProcLarynxMgmt></ProcLarynxMgmt>
+      <ProcEsophagusPharynxMgmt></ProcEsophagusPharynxMgmt>
+      <ProcEsophagusPharynxReconstruct></ProcEsophagusPharynxReconstruct>
+      <ProcLaryngealNerveLeft></ProcLaryngealNerveLeft>
+      <ProcLaryngealNerveRight></ProcLaryngealNerveRight>
+      <ProcStrapMuscle></ProcStrapMuscle>
+      <ProcDrain></ProcDrain>
+      <ProcNodeDissection></ProcNodeDissection>
+    </ThyroidProc>
+
+    <ProcedureFinding  RecordId='1'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='2'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='3'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='4'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='5'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='6'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='7'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='8'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='9'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='10'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='11'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+   </Procedures>
+  
+  <Procedures  RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    <ProcSite></ProcSite>
+
+    <ProcedureFinding  RecordId='1'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='2'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='3'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='4'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='5'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='6'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='7'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='8'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='9'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='10'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='11'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='12'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='13'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='14'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='15'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='16'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='17'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+    <ProcedureFinding  RecordId='18'>
+      <ProcFinding></ProcFinding>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSite></ProcFindSite>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+      <ProcFindExtension></ProcFindExtension>
+      <ProcFindEncapsulation></ProcFindEncapsulation>
+      <ProcFindDiseaseExtent></ProcFindDiseaseExtent>
+      <ProcFindStatus></ProcFindStatus>
+    </ProcedureFinding>
+  </Procedures>
+
+  <NoTable >
+    <CentralCompartmentNodes></CentralCompartmentNodes>
+    <LateralNeckNodes></LateralNeckNodes>
+  </NoTable>
+
+
+
+</eform>
+
+
+

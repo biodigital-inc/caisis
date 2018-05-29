@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Colorectal Intake EForm" displayName="Colorectal Intake EForm">
+
+		<eformSection name="General">
+      <eformItem displayName="Appointment" controlName="ColorectalAppointment"></eformItem>
+      <eformItem displayName="Family History Questionnaire" controlName="ColorectalFamilyHistorySurvey"></eformItem>      
+    </eformSection>
+
+  <eformSection name="Biopsy of Lesion">
+    <eformItem displayName="Biopsy Details" controlName="ColorectalBiopsy"></eformItem>
+
+  </eformSection>
+
+  <eformSection name="Polypectomy / Local Excision">
+    <eformItem displayName="Polypectomy Details" controlName="PolypectomyDetails"></eformItem>
+  </eformSection>
+
+  <eformSection name="Resection">
+    <eformItem displayName="Primary Resection Details" controlName="PrimaryResectionColorectal"></eformItem>
+    <eformItem displayName="Additional Resection Details" controlName="AdditionalResectionColorectal"></eformItem>
+  </eformSection>
+
+
+
+
+
+  <Encounters>
+    <EncDate></EncDate>
+    <EncDateText></EncDateText>
+    <EncPhysician></EncPhysician>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncType></EncType>
+    <EncNotes></EncNotes>
+  </Encounters>
+
+
+    <Surveys RecordId='1'>
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyType></SurveyType>
+        <SurveyQuality></SurveyQuality>
+
+        <SurveyItems RecordId='1'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='2'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='3'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='4'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='5'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='6'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='7'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId='8'>
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+
+
+  <Procedures RecordId='1'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcNotes></ProcNotes>
+    <ProcQuality></ProcQuality>
+
+    <Pathology RecordId='1'>
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathNum></PathNum>
+      <PathQuality></PathQuality>
+      <PathHistology></PathHistology>
+
+      <PathologyStageGrade  RecordId='1'>
+        <PathStageDisease></PathStageDisease>
+        <PathGrade></PathGrade>
+      </PathologyStageGrade>
+      
+      <ColorectalPath RecordId='1'>
+        <PathDiseaseExtent></PathDiseaseExtent>
+      </ColorectalPath>
+
+      <ColorectalPathFinding  RecordId='1'>
+        <PathFindVascularInv></PathFindVascularInv>
+        <PathFindPerineuralInv></PathFindPerineuralInv>
+        <PathFindGrade></PathFindGrade>
+      </ColorectalPathFinding>
+
+    </Pathology>
+  </Procedures>
+  
+  <Procedures RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+    <ProcNotes></ProcNotes>
+    <ProcQuality></ProcQuality>
+
+    <Pathology RecordId='2'>
+      <PathNum></PathNum>
+      <PathQuality></PathQuality>
+      <PathHistology></PathHistology>
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+
+      <PathologyStageGrade  RecordId='2'>
+        <PathStageDisease></PathStageDisease>
+        <PathGrade></PathGrade>
+        <PathStageT></PathStageT>
+      </PathologyStageGrade>
+
+      <PolypectomyPath>
+        <PathConfiguration></PathConfiguration>
+        <PathPolypMaxDim></PathPolypMaxDim>
+        <PathVascularInv></PathVascularInv>
+        <PathPerineuralInv></PathPerineuralInv>
+        <PathStalkMargin></PathStalkMargin>
+        <PathLateralMargin></PathLateralMargin>
+        <PathDeepMargin></PathDeepMargin>
+      </PolypectomyPath>
+
+      <ColorectalPathFinding  RecordId='2'>
+        <PathFindGrade></PathFindGrade>
+      </ColorectalPathFinding>
+
+    </Pathology>
+  </Procedures>
+
+  <Procedures RecordId='3'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcInstitution></ProcInstitution>
+    <ProcSite></ProcSite>
+    <ProcQuality></ProcQuality>
+    
+    <Pathology RecordId='3'>
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathSite></PathSite>
+      <PathResult></PathResult>
+      <PathInstitution></PathInstitution>
+      <PathQuality></PathQuality>
+      <PathHistology></PathHistology>
+      <PathNum></PathNum>
+      <PathNotes></PathNotes>
+
+      <ColorectalPath RecordId='2'>
+        <PathDiseaseExtent></PathDiseaseExtent>
+        <PathICD9_Code></PathICD9_Code>
+      </ColorectalPath>
+
+      <ColorectalPathFinding RecordId='3'>
+        <PathFindConfiguration></PathFindConfiguration>
+        <PathFindTumorMaxDim></PathFindTumorMaxDim>
+        <PathFindProximalMargin></PathFindProximalMargin>
+        <PathFindLateralMargin></PathFindLateralMargin>
+        <PathFindDistalMargin></PathFindDistalMargin>
+        <PathDistalMarginSize></PathDistalMarginSize>
+        <PathFindGrade></PathFindGrade>
+        <PathFindVascularInv></PathFindVascularInv>
+        <PathFindPerineuralInv></PathFindPerineuralInv>
+        <PathFindNonNeoplasticBowel></PathFindNonNeoplasticBowel>
+        <PathFindPolypsAwayFromCancer></PathFindPolypsAwayFromCancer>
+        <PathFindPolypAwayNum></PathFindPolypAwayNum>
+        <PathFindPolypAwayType></PathFindPolypAwayType>
+        <PathFindPolypPreExisting></PathFindPolypPreExisting>
+        <PathFindPolypPreExistingNum></PathFindPolypPreExistingNum>
+        <PathFindPolypPreExistingType></PathFindPolypPreExistingType>
+      </ColorectalPathFinding>
+
+      <NodePathFinding RecordId='1'>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+
+      <PathologyStageGrade RecordId='3'>
+        <PathStageDisease></PathStageDisease>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+      </PathologyStageGrade>
+
+    </Pathology>    
+  </Procedures>
+
+
+  <Procedures RecordId='4'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcInstitution></ProcInstitution>
+    <ProcSite></ProcSite>
+    <ProcQuality></ProcQuality>
+
+    <Pathology RecordId='4'>
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathSite></PathSite>
+      <PathResult></PathResult>
+      <PathInstitution></PathInstitution>
+      <PathQuality></PathQuality>
+      <PathHistology></PathHistology>
+      <PathNum></PathNum>
+      <PathNotes></PathNotes>
+
+      <ColorectalPath RecordId='3'>
+        <PathDiseaseExtent></PathDiseaseExtent>
+        <PathICD9_Code></PathICD9_Code>
+      </ColorectalPath>
+
+      <ColorectalPathFinding RecordId='4'>
+        <PathFindConfiguration></PathFindConfiguration>
+        <PathFindTumorMaxDim></PathFindTumorMaxDim>
+        <PathFindProximalMargin></PathFindProximalMargin>
+        <PathFindLateralMargin></PathFindLateralMargin>
+        <PathFindDistalMargin></PathFindDistalMargin>
+        <PathDistalMarginSize></PathDistalMarginSize>
+        <PathFindGrade></PathFindGrade>
+        <PathFindVascularInv></PathFindVascularInv>
+        <PathFindPerineuralInv></PathFindPerineuralInv>
+        <PathFindNonNeoplasticBowel></PathFindNonNeoplasticBowel>
+        <PathFindPolypsAwayFromCancer></PathFindPolypsAwayFromCancer>
+        <PathFindPolypAwayNum></PathFindPolypAwayNum>
+        <PathFindPolypAwayType></PathFindPolypAwayType>
+        <PathFindPolypPreExisting></PathFindPolypPreExisting>
+        <PathFindPolypPreExistingNum></PathFindPolypPreExistingNum>
+        <PathFindPolypPreExistingType></PathFindPolypPreExistingType>
+      </ColorectalPathFinding>
+
+      <NodePathFinding RecordId='2'>
+        <PathFindPosNodes></PathFindPosNodes>
+        <PathFindNumNodes></PathFindNumNodes>
+      </NodePathFinding>
+
+      <PathologyStageGrade RecordId='4'>
+        <PathStageDisease></PathStageDisease>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+      </PathologyStageGrade>
+
+    </Pathology>
+  </Procedures>
+
+  <NoTable>
+    <BxSiteOther></BxSiteOther>
+    <DisExtent></DisExtent>
+    <ColoPathType></ColoPathType>
+    <DisSite></DisSite>
+  </NoTable>
+  
+  </eform>

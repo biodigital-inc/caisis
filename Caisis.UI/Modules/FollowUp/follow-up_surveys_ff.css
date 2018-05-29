@@ -1,0 +1,547 @@
+body { background-color:#ffffff; font-size:20px; font-family: Arial, Helvetica, sans-serif; }
+
+/* CSS Document */
+div.surveyTitle_v1
+{ 
+	background-color:#CCCCCC;
+	border: #333333 solid 2px;
+	width:500px;
+	margin:0 auto;
+	padding:15px;
+	text-align:center;
+	font:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:20px;
+}
+
+div.surveySummary_v1
+{ 
+	width:700px; 
+	margin:0 auto;
+	padding:50px;
+	text-align:left;
+	font:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:16px;
+}
+
+div.surveyPatientForm
+{ 
+	border: #000000 solid thick;
+	width:500px;
+	margin:0 auto;
+	padding:15px;
+	text-align:center;
+	font:"Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+div.surveySectionTitle
+{ 
+	background-color:#CCCCCC;
+	border: #333333 solid 2px;
+	width:750px;
+	margin:0 auto;
+	padding:15px;
+	text-align:left;
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+}
+
+
+div.surveyForm
+{ 
+	width:770px; /*875*/
+	margin:0 auto;
+	padding:0px;
+	border: 0px solid black;
+}
+div.surveyFormLeft
+{ 
+	background-color:#ffffff;
+	width:750px;
+	padding:0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	float:left;
+	
+}
+div.surveyFormRight
+{ 
+	/*background-color:#ffffff;*/
+	border-left:#333333 solid 1px;
+	width:40px;
+	padding:0px;
+	padding-left:0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	float:right;
+}
+
+div.surveyRightFinePrint
+{
+	font-size:12px;
+	padding-left:3px;
+	padding-bottom:25px;
+	/*background-color:red;*/
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	text-align:left;
+}
+
+div.surveyAnswerOption
+{
+	padding-left:30px;
+	padding-bottom:5px;
+}
+
+div.surveyTallyOption
+{
+	padding-left:0px;
+	padding-top:2px;
+	padding-bottom:5px;
+}
+div.surveyTallyOptionSpacer
+{
+	padding-left:0px;
+	padding-top:10px;
+	padding-bottom:8px;
+}
+
+td 
+{
+	text-align:center;
+}
+
+
+
+/* Pre, Early Post and Post Quality of Life Surveys */
+div.instructions
+{
+	width:770px; /* 870 */
+	margin:0 auto;
+	text-align:left;
+	font:"Times New Roman", Times, serif;
+	font-size:17px;
+}
+div.boxedQuestion
+{
+	border: #333333 solid thick;
+	width:715px; /* 850 */
+	margin:0 auto;
+	margin-top:-10px; 
+	padding:0px; padding-left:10px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+div.boxedQuestion li
+{
+	margin:-10px; 
+	width:670px;
+}
+div.boxedSmallerQuestion
+{
+	border: #333333 solid thick;
+	width:715px; /* 850 */
+	margin:0 0;
+	padding:0px; padding-left:10px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+div.boxedSmallerQuestion li
+{
+	margin:-10px; 
+	width:620px;
+}
+div.question
+{
+	width:765px; /*870*/
+	margin:0px; margin-top:-5px; 
+	padding:0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:17px;
+}
+.noTopMargin { margin-top: 0px; }
+td.circleIns
+{
+    font-family: "Times New Roman", Times, serif;
+    width:175px;
+    font-size:12px;
+    text-align:center;
+}
+div.blockHeaderBlackBg
+{
+	width:740px; /* 800 */
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:20px;
+}
+div.blockHeaderBlackBgBigFont
+{
+	width:740px;	/* 800 */
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:20px;
+}
+div.blockHeaderWhiteBg
+{
+	width:740px;	/* 800 */
+	margin:0 auto;
+	padding:10px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+div.blockHeaderWhiteBgBigFont
+{
+	width:740px; /* 800 */
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+
+table.questionsGrid
+{
+	width:725px; /*850*/
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	text-align:left;
+	padding:0px;
+	margin:0px; margin-left:30px; margin-top:-5px;
+}
+table.questionsGrid td
+{
+    font-size:15px;
+    padding:-2px;
+}
+table.questionsGrid td.header
+{
+    font-size:13px;
+}
+table.questionsGridR
+{
+	width:725px; /*850*/
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	margin:0px; margin-left:25px;
+	padding:0px;
+	text-align:left;
+}
+table.questionsGridR td
+{
+    font-size:15px;
+}
+table.questionsGridR td.header
+{
+    font-size:13px;
+    vertical-align:middle;
+}
+
+td.questionHeader
+{
+	background-color: #cccccc;
+	padding:10px;
+}
+td.questionOption
+{
+	text-align:left;
+	padding:10px;
+	padding-left:15px;
+	vertical-align:top;
+}
+td.questionOptionShorter
+{
+	text-align:left;
+	padding:5px;
+	padding-left:15px;
+	vertical-align:top;
+}
+td.questionAnswerOption
+{
+	text-align:center;
+	vertical-align:top;
+	padding:10px;
+}
+span.tmrFont
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+}
+span.uFont
+{
+	text-decoration:underline;
+}
+span.tmrTinyFont
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+}
+table.smallQuestionsGridR
+{
+	width:725px; /* 780 */
+	border: 0px #000000 solid;
+	border-collapse: collapse;
+	margin-left:30px;
+	margin-top:-15px;
+	padding:0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.smallQuestionsGridR td
+{
+    text-align:left;
+    font-size:17px;
+}
+
+table.smallerQuestionsGridR
+{
+	width:725px; /* 780 */
+	border: 0px #000000 solid;
+	border-collapse: collapse;
+	margin-left:30px;
+	margin-top:0px;
+	padding:0px; 
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+table.smallerQuestionsGrid td
+{
+    text-align:left;
+    font-size:14px;
+}
+
+div.coverPage
+{
+	border:#000000 solid thick;
+	width:760px; /* 800 */
+	margin:0 0;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+div.coverPageNoBorder
+{
+	width:770px; /*870*/
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:75px;
+	padding:0px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+
+table.footer { font-size:11px; font-family:"Times New Roman", Times, serif; width:770px;} /*870*/
+td.pageNumber { font-size:12px; font-weight:bold; }
+.surveyTitleMedium { font-size:26px; }
+.surveyTitleBigger { font-size:32px; }
+.serifFont { font-family:"Times New Roman", Times, serif }
+div.surveyTitle
+{
+	width:690px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:28px;
+	line-height:40px;
+	border:0px solid;
+	font-weight:bold;
+	margin:0 auto;
+}
+
+div.surveyTitleDesc
+{ 	
+	width:690px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:28px;
+	margin-top:20px;
+	border:0px solid;
+	font-weight:bold;
+}
+div.surveyTitleShadedBox
+{
+	background-color:#DDDDDD;
+	border: 2px solid #000000;
+	width:700px;
+	margin:0 auto;
+}
+
+div.surveyBoxedPatientInfo
+{
+	width:600px;
+	border: 3px #000000 solid;
+	background-color:#FFFFFF;
+	padding:10px;
+	text-align:left;
+	font-size:17px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto auto;
+}
+.surveyEmptyBox
+{
+	width:185px;
+	border: 1px #000000 solid;
+}
+.surveyEmptyUnderlinedSpace { border-bottom:1px solid black; width:111px; }
+.underlined { border-bottom: 1px solid black; }
+.leftaligned { text-align: left; }
+div.surveyPatientBox
+{
+	width:350px;
+	border: 1px #000000 solid;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	padding:5px;
+	text-align:left;
+	font-size:17px;
+	float:left;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+div.surveyInfoRight
+{
+	float:right;
+	text-align:right;
+	width:175px;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	padding-right:25px;
+}
+div.surveyDateBox
+{
+	width:200px;
+	border: 1px #000000 solid;
+	background-color:#FFFFFF;
+	margin:0 auto;
+	margin-top:12px;
+	padding:5px;
+	text-align:center;
+	font-size:13px;
+	font-family:"Times New Roman", Times, serif;
+}
+div.surveySummary
+{
+	padding:0px;
+	width:720px;
+	margin: 0 auto;
+	font-size:22px;
+	padding-left:15px; padding-right:20px;
+}
+div.SurveyProgressInfo
+{
+	width:400px;
+	margin: 0 auto;
+	font-size:16px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/* survey printout spacing */
+div.topSpacer { height:7px; }
+div.bottomSpacer { height:10px; }
+div.bottomMedSpacer { height:75px; }
+
+
+/* Styles for Follow Up Letter */
+.surveyLetterStyle
+{
+	font-family:Arial, Verdana;
+	font-size:11pt;
+	text-align:left;
+	margin-top:40px;
+}
+.returnAddress
+{
+	text-transform:uppercase;
+	font-size:10pt;
+	text-align:left;
+}
+div.insideAddress
+{
+	text-transform:uppercase;
+	font-size:11pt;
+	text-align:left;
+}
+div.letterBody
+{
+	padding-right:35px;
+	text-align:justify;
+}
+.sideNames
+{
+	font-size:6pt;
+	text-align:left;
+}
+.bigFont
+{
+	font-size:11pt;
+}
+
+
+/* Styles for PrintConfirmation Div */
+div.popUpConfirmationBoxTitle
+{
+	background-color:#8d2a2c;
+	height:15px;
+	font-weight:bold;
+	color:#ffffff;
+	padding: 2px 2px 2px 4px;
+	text-align:left;
+	font-size:12px;
+}
+div.popUpConfirmationBox
+{
+	background-color:#ffffff;
+	color:#000000;
+	/*display: visible; */
+	width:350; 
+	height:150; 
+	position:absolute; 
+	left:325px; 
+	top:200px; 
+	border:solid 1px black;
+	text-align:center;
+	font-size:14px;
+}
+div.BlankPageText
+{
+	color: #cccccc;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:17px;
+	page-break-after:always;
+	padding-top:400px;
+}
+
+
+/*  CSS for Print Labels page */
+.PtAddressItem
+{
+    width: 31%;
+    margin: 3px 1% 0px 1%;
+    padding: 28px 0px 0px 0px;
+    height: 65px;
+    border: 1px solid #cccccc;
+    float: left;
+    text-align: center;
+}

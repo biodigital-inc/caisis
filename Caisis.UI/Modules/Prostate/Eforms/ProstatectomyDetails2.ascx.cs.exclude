@@ -1,0 +1,146 @@
+namespace Caisis.UI.Modules.Prostate.Eforms
+{
+	using System;
+	using System.Data;
+	using System.Drawing;
+	using System.Web;
+	using System.Web.UI.WebControls;
+	using System.Web.UI.HtmlControls;
+	
+	using Caisis.Model;
+	using Caisis.UI.Core.Classes;
+	using Caisis.UI.Core.Classes.CustomControls;
+
+	/// <summary>
+	///		Summary description for ProstatectomyDetails.
+	/// </summary>
+	public partial class ProstatectomyDetails2 : BaseEFormControl
+	{
+
+		protected EformDropDownList       OpBladderClosureLocation;
+
+
+		//protected EformRadioButton OpSuspVeinComplexYes, OpSuspVeinComplexNo, OpBladderClosureNo, OpBladderClosureYes;
+		//protected EformRadioButton OpCathTractionNone, OpCathTractionImmediate, OpCathTractionDelayed;
+		//protected EformRadioButton OpCathTractionTime12, OpCathTractionTime24, OpCathTractionTime48, OpCathTractionTime48Plus;
+	
+		// no table
+
+
+		protected override void Page_Load(object sender, System.EventArgs e)
+		{
+			
+		//	LeftDrain.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpL_Drain, "1", "1", false);
+			//RightDrain.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpR_Drain, "1", "1", false);
+		//	AnteriorDrain.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpA_Drain, "1", "1", false);
+		//	PosteriorDrain.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpP_Drain, "1", "1", false);
+
+			// Frank's Test
+			/*
+			PageUtil.FillLkpDropDown(LeftDrain, "DataQuality", ViewState); //create lookup code	
+			PageUtil.FillLkpDropDown(RightDrain, "DataQuality", ViewState); 
+			PageUtil.FillLkpDropDown(AnteriorDrain, "DataQuality", ViewState); 
+			PageUtil.FillLkpDropDown(PosteriorDrain, "DataQuality", ViewState); 
+			*/
+			
+			// brandon: EformControls are now (mostly) WebControls
+			// TODO: test to see if these methods "autoselect" - probably not
+			PageUtil.FillLkpDropDown(LeftDrain, "DataQuality"); //create lookup code	
+			PageUtil.FillLkpDropDown(RightDrain, "DataQuality"); 
+			PageUtil.FillLkpDropDown(AnteriorDrain, "DataQuality"); 
+			PageUtil.FillLkpDropDown(PosteriorDrain, "DataQuality"); 
+
+
+
+			//OpAnastQuality.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpAnastQuality, null, null, false);
+			//OpAnastNumSutures.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpAnastNumSutures, null, null, false);
+			//OpAnastSuturePattern.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpAnastSuturePattern, null, null, false);
+			//OpBN_Diam.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpBN_Diam, null, null, false);
+			//OpBN_DegreeEversion.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpBN_DegreeEversion, null, null, false);
+			
+			//OpSuspVeinComplexYes.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpSuspVeinComplex, null, null, false);
+			//OpSuspVeinComplexNo.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpSuspVeinComplex, null, null, false);
+
+			//OpBladderClosureNo.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpBladderClosure, null, null, false);
+			//OpBladderClosureYes.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpBladderClosure, null, null, false);
+//			OpBladderClosureLocation.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpBladderClosureLocation, null, null, false);
+
+			//OpCathTractionNone.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTraction, null, null, false);
+			//OpCathTractionImmediate.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTraction, null, null, false);
+			//OpCathTractionDelayed.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTraction, null, null, false);
+
+			//OpCathTractionTime12.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTractionTime, null, null, false);
+			//OpCathTractionTime24.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTractionTime, null, null, false);
+			//OpCathTractionTime48.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTractionTime, null, null, false);
+			//OpCathTractionTime48Plus.SetProperties(Prostatectomy.Table_ProcProstatectomiesOp, Prostatectomy.OpCathTractionTime, null, null, false);
+			
+			/*
+			SurgOperatingTime.SetProperties(Surgery.Table_Surgeries, Surgery.SurgOperatingTime, null, null, false);
+			SurgAnesthesiaTime.SetProperties(Surgery.Table_Surgeries, Surgery.SurgAnesthesiaTime, null, null, false);
+			SurgEstBloodLoss.SetProperties(Surgery.Table_Surgeries, Surgery.SurgEstBloodLoss, null, null, false);
+
+
+			SurgAutoAvailable.SetProperties(Surgery.Table_Surgeries, Surgery.SurgAutoAvailable, null, null, false);
+			SurgRBC_Available.SetProperties(Surgery.Table_Surgeries, Surgery.SurgRBC_Available, null, null, false);
+			
+			
+
+
+			SurgAutoTransfused.SetProperties(Surgery.Table_Surgeries, Surgery.SurgAutoTransfused, null, null, false);
+			SurgRBC_Transfused.SetProperties(Surgery.Table_Surgeries, Surgery.SurgRBC_Transfused, null, null, false);
+			SurgFFP_Transfused.SetProperties(Surgery.Table_Surgeries, Surgery.SurgFFP_Transfused, null, null, false);
+			
+			SurgRBC_IntraOp.SetProperties(Surgery.Table_Surgeries, Surgery.SurgRBC_IntraOp, null, null, false);
+			
+			SurgRBC_PostOp.SetProperties(Surgery.Table_Surgeries, Surgery.SurgRBC_PostOp, null, null, false);
+			
+			SurgHGB_Admit.SetProperties(Surgery.Table_Surgeries, Surgery.SurgHGB_Admit, null, null, false);
+			SurgHCT_Admit.SetProperties(Surgery.Table_Surgeries, Surgery.SurgHCT_Admit, null, null, false);
+			SurgHGB_IntraOp.SetProperties(Surgery.Table_Surgeries, Surgery.SurgHGB_IntraOp, null, null, false);
+			SurgHCT_IntraOp.SetProperties(Surgery.Table_Surgeries, Surgery.SurgHCT_IntraOp, null, null, false);
+
+			// fields set below this comment have NO TABLE
+			QualityBladderSparing.SetProperties("NoTable", "QualityBladderSparing", null, null, false);
+			UrethralStumpScore.SetProperties("NoTable", "UrethralStumpScore", null, null, false);
+			PostOpPrediction_Continence.SetProperties("NoTable", "PostOpPrediction_Continence", null, null, false);
+			PostOpPrediction_Potency.SetProperties("NoTable", "PostOpPrediction_Potency", null, null, false);
+			Crystalloid.SetProperties("NoTable", "Crystalloid", null, null, false);
+			Colloid.SetProperties("NoTable", "Crystalloid", null, null, false);
+
+			// still no table
+			SurgFFP_Available.SetProperties("NoTable", "SurgFFP_Available", null, null, false);
+			SurgCellsaver_Available.SetProperties("NoTable", "SurgFFP_Available", null, null, false);
+			
+			SurgCellsaver_Transfused.SetProperties("NoTable", "SurgCellsaver_Transfused", null, null, false);
+			
+			SurgAuto_IntraOp.SetProperties("NoTable", "SurgAuto_IntraOp", null, null, false);
+			SurgFFP_IntraOp.SetProperties("NoTable", "SurgFFP_IntraOp", null, null, false);
+			SurgCellsaver_IntraOp.SetProperties("NoTable", "SurgCellsaver_IntraOp", null, null, false);
+			
+			SurgAuto_PostOp.SetProperties("NoTable", "SurgAuto_PostOp", null, null, false);
+			SurgFFP_PostOp.SetProperties("NoTable", "SurgFFP_PostOp", null, null, false);
+			SurgCellsaver_PostOp.SetProperties("NoTable", "SurgCellsaver_PostOp", null, null, false);
+			*/
+			base.Page_Load(sender, e);
+		}
+
+		#region Web Form Designer generated code
+		override protected void OnInit(EventArgs e)
+		{
+			//
+			// CODEGEN: This call is required by the ASP.NET Web Form Designer.
+			//
+			InitializeComponent();
+			base.OnInit(e);
+		}
+		
+		/// <summary>
+		///		Required method for Designer support - do not modify
+		///		the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+		}
+		#endregion
+	}
+}

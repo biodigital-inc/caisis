@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Uro Kidn Neph FU" displayName="Urology Nephrectomy Follow-Up Patient">
+
+    <eformSection name="Presenting Details">
+        <eformItem displayName="Chief Complaint" controlName="ChiefComplaintWActiveSurveillance2"></eformItem>
+        <eformItem displayName="HPI" controlName="HPI_Kidney"></eformItem>
+        <eformItem displayName="Interval History" controlName="IntervalHistoryWithComplications"></eformItem>
+        <eformItem displayName="Allergies" controlName="AllergiesWithNKAAndUnchanged"></eformItem>
+        <eformItem displayName="Comorbidities" controlName="Comorbidities_NephFU"></eformItem>
+        <eformItem displayName="Family History" controlName="FamilyHistory_NephFU"></eformItem>
+        <eformItem displayName="Social History" controlName="PatientsSocialHistories"></eformItem>
+        <eformItem displayName="Disease State" controlName="DiseaseState_Kidney"></eformItem>
+        <eformItem displayName="Lab Tests" controlName="LabTests_Kidney"></eformItem>
+        <eformItem displayName="Imaging" controlName="Imaging_Kidney"></eformItem>
+    </eformSection>
+
+    <eformSection name="Other Treatments">
+        <eformItem displayName="Procedures" controlName="ProcedureHistory"></eformItem>
+        <eformItem displayName="Medical Therapy" controlName="MedicalTherapy"></eformItem>
+        <eformItem displayName="Radiation Therapy" controlName="RadiationTherapy"></eformItem>
+        <eformItem displayName="Cryotherapy" controlName="Cryotherapy"></eformItem>
+    </eformSection>
+
+
+    <eformSection name="Systems Review and Exam">
+        <eformItem displayName="Review Of Systems" controlName="ReviewOfSystems_NephFU"></eformItem>
+        <eformItem displayName="Vital Signs" controlName="VitalSigns"></eformItem>
+        <eformItem displayName="Exam" controlName="Exam_NephFU"></eformItem>
+    </eformSection>
+
+
+
+    <eformSection name="Plan and Disposition">
+        <eformItem displayName="Problems And Plans" controlName="ProblemsAndPlans"></eformItem>
+        <eformItem displayName="Patient Consent" controlName="PatientConsentStatements"></eformItem>
+        <eformItem displayName="Disposition" controlName="Disposition_FU"></eformItem>
+    </eformSection>
+
+
+
+
+    <NoTable PutDataInTable="Encounters" PutDataInField="EncNotes">
+
+        <EncChiefComplaint_PresetOption></EncChiefComplaint_PresetOption>
+
+        <ROS_Clinician></ROS_Clinician>
+
+        <Exam_Clinician></Exam_Clinician>
+        <Exam_Clinician_PA></Exam_Clinician_PA>
+        <Exam_Clinician_NP></Exam_Clinician_NP>
+        <Exam_Clinician_Fellow></Exam_Clinician_Fellow>
+        <Exam_Clinician_Attending></Exam_Clinician_Attending>
+
+        <Prescriptions RecordId="1">
+            <PrescriptionNewRefill></PrescriptionNewRefill>
+            <PrescriptionType></PrescriptionType>
+        </Prescriptions>
+        <Prescriptions RecordId="2">
+            <PrescriptionNewRefill></PrescriptionNewRefill>
+            <PrescriptionType></PrescriptionType>
+        </Prescriptions>
+
+        <ProtocolNumber></ProtocolNumber>
+        <ProtocolConsidered></ProtocolConsidered>
+        <ProtocolConsentObtained></ProtocolConsentObtained>
+        <ProtocolRegistered></ProtocolRegistered>
+
+        <GreaterThan50PercentTimeInCounseling></GreaterThan50PercentTimeInCounseling>
+        <TotalAttendingTime></TotalAttendingTime>
+        <CounselingDescription></CounselingDescription>
+
+        <LevelOfService></LevelOfService>
+        <Dictated></Dictated>
+
+        <AdditionalProblemPlanNotes></AdditionalProblemPlanNotes>
+
+        <IntervalHistory></IntervalHistory>
+        <ComplicationsPresent></ComplicationsPresent>
+        <ComplicationDetails></ComplicationDetails>
+
+        <ProtocolRisksDiscussed></ProtocolRisksDiscussed>
+        <TreatmentRisksDiscussed></TreatmentRisksDiscussed>
+
+        <Allergies_NKA></Allergies_NKA>
+        <Allergies_UnchangedSinceLastVisit></Allergies_UnchangedSinceLastVisit>
+		
+		<DiseaseState_Change></DiseaseState_Change>
+        <Imaging_Notes></Imaging_Notes>
+        <FamilyMembers_Notes></FamilyMembers_Notes>
+
+
+    </NoTable>
+
+
+
+    <Encounters RecordId="1">
+        <EncDate></EncDate>
+        <EncDateText></EncDateText>
+        <EncChiefComplaint></EncChiefComplaint>
+        <EncPhysician></EncPhysician>
+        <EncFellow></EncFellow>
+        <EncNurse></EncNurse>
+        <EncSystolic></EncSystolic>
+        <EncDiastolic></EncDiastolic>
+        <EncPulse></EncPulse>
+        <EncTemp></EncTemp>
+        <EncRespiration></EncRespiration>
+        <EncHeight></EncHeight>
+        <EncWeight></EncWeight>
+        <EncBSA></EncBSA>
+        <EncBMI></EncBMI>
+        <EncKPS></EncKPS>
+        <EncNotes></EncNotes>
+        <EncType></EncType>
+        <EncQuality DefaultValue="STD"></EncQuality>
+
+        <EncExams RecordId="1">
+            <ExamSystem DefaultValue="Constitution"></ExamSystem>
+            <Exam DefaultValue="Well Developed / Well Nourished"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="2">
+            <ExamSystem DefaultValue="Constitution"></ExamSystem>
+            <Exam DefaultValue="No Acute Distress"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="3">
+            <ExamSystem DefaultValue="Constitution"></ExamSystem>
+            <Exam DefaultValue="Alert and Oriented"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="4">
+            <ExamSystem DefaultValue="Eyes"></ExamSystem>
+            <Exam DefaultValue="No Scleral Icterus"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="5">
+            <ExamSystem DefaultValue="Eyes"></ExamSystem>
+            <Exam DefaultValue="No Mucositis"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="6">
+            <ExamSystem DefaultValue="Eyes"></ExamSystem>
+            <Exam DefaultValue="No Thrush"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="7">
+            <ExamSystem DefaultValue="Eyes"></ExamSystem>
+            <Exam DefaultValue="Extraocular Movements Intact"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="8">
+            <ExamSystem DefaultValue="Eyes"></ExamSystem>
+            <Exam DefaultValue="Pupils Equal, Round, Reactive to Light"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="9">
+            <ExamSystem DefaultValue="Ears / Nose / Throat"></ExamSystem>
+            <Exam DefaultValue="Mucous Membranes Moist"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="10">
+            <ExamSystem DefaultValue="Head and Neck"></ExamSystem>
+            <Exam DefaultValue="Neck Supple and Mobile"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="11">
+            <ExamSystem DefaultValue="Head and Neck"></ExamSystem>
+            <Exam DefaultValue="Carotid Bruits"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="12">
+            <ExamSystem DefaultValue="Nodes"></ExamSystem>
+            <Exam DefaultValue="No Cervical"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="13">
+            <ExamSystem DefaultValue="Nodes"></ExamSystem>
+            <Exam DefaultValue="No Supraclavicular"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="14">
+            <ExamSystem DefaultValue="Nodes"></ExamSystem>
+            <Exam DefaultValue="No Axillary"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="15">
+            <ExamSystem DefaultValue="Nodes"></ExamSystem>
+            <Exam DefaultValue="No Groin"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="16">
+            <ExamSystem DefaultValue="Respiratory"></ExamSystem>
+            <Exam DefaultValue="Clear to Percusion and Auscultation"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="17">
+            <ExamSystem DefaultValue="Cardiovascular"></ExamSystem>
+            <Exam DefaultValue="No Edema"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="18">
+            <ExamSystem DefaultValue="Cardiovascular"></ExamSystem>
+            <Exam DefaultValue="Regular Rate and Rhythm"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="19">
+            <ExamSystem DefaultValue="Cardiovascular"></ExamSystem>
+            <Exam DefaultValue="No Murmurs"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="20">
+            <ExamSystem DefaultValue="Abdomen"></ExamSystem>
+            <Exam DefaultValue="Soft Non-Tender"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="21">
+            <ExamSystem DefaultValue="Abdomen"></ExamSystem>
+            <Exam DefaultValue="Normal Bowel Sounds"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="22">
+            <ExamSystem DefaultValue="Abdomen"></ExamSystem>
+            <Exam DefaultValue="No Hepatosplenomegaly"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="23">
+            <ExamSystem DefaultValue="Abdomen"></ExamSystem>
+            <Exam DefaultValue="No Ascites"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="24">
+            <ExamSystem DefaultValue="Back"></ExamSystem>
+            <Exam DefaultValue="No Spinal Tenderness"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="25">
+            <ExamSystem DefaultValue="Back"></ExamSystem>
+            <Exam DefaultValue="No CVA Tenderness"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="26">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="Normal Penis"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="27">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="Normal Meatus"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="28">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="Testes Without Tenderness or Masses"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="29">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="No Urethral Masses"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="30">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="Normal Prostate Exam"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="31">
+            <ExamSystem DefaultValue="Genitourinary"></ExamSystem>
+            <Exam DefaultValue="No Pelvic or Rectal Masses"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="32">
+            <ExamSystem DefaultValue="Musculoskeletal"></ExamSystem>
+            <Exam DefaultValue="No Clubbing or Cyanosis"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="33">
+            <ExamSystem DefaultValue="Musculoskeletal"></ExamSystem>
+            <Exam DefaultValue="No Leg Swelling"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="34">
+            <ExamSystem DefaultValue="Neurological"></ExamSystem>
+            <Exam DefaultValue="Normal Motor Function"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="35">
+            <ExamSystem DefaultValue="Neurological"></ExamSystem>
+            <Exam DefaultValue="Normal Sensation"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="36">
+            <ExamSystem DefaultValue="Skin"></ExamSystem>
+            <Exam DefaultValue="No Rash or Ulcers"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="37">
+            <ExamSystem DefaultValue="Skin"></ExamSystem>
+            <Exam DefaultValue="No Nodules"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="38">
+            <ExamSystem DefaultValue="Breast"></ExamSystem>
+            <Exam DefaultValue="Normal Breast Exam"></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="39">
+            <ExamSystem ></ExamSystem>
+            <Exam ></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+        <EncExams RecordId="40">
+            <ExamSystem ></ExamSystem>
+            <Exam ></Exam>
+            <ExamResult NotNull="True"></ExamResult>
+            <ExamNotes></ExamNotes>
+            <ExamAttendingPerformed></ExamAttendingPerformed>
+        </EncExams>
+
+
+        <EncReviewOfSystems RecordId="1">
+            <ROS_System DefaultValue="Constitution"></ROS_System>
+            <ROS_Symptom DefaultValue="Fatigue"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="2">
+            <ROS_System DefaultValue="Constitution"></ROS_System>
+            <ROS_Symptom DefaultValue="Fever"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="3">
+            <ROS_System DefaultValue="Dermatology / Skin"></ROS_System>
+            <ROS_Symptom DefaultValue="Wounds"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="4">
+            <ROS_System DefaultValue="Pulmonary"></ROS_System>
+            <ROS_Symptom DefaultValue="Cough"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="5">
+            <ROS_System DefaultValue="Pulmonary"></ROS_System>
+            <ROS_Symptom DefaultValue="Dyspnea"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="6">
+            <ROS_System DefaultValue="Cardiovascular (General)"></ROS_System>
+            <ROS_Symptom DefaultValue="Edema"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="7">
+            <ROS_System DefaultValue="Cardiovascular (General)"></ROS_System>
+            <ROS_Symptom DefaultValue="Chest Pain"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="8">
+            <ROS_System DefaultValue="Gastrointestinal"></ROS_System>
+            <ROS_Symptom DefaultValue="Dyspepsia"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="9">
+            <ROS_System DefaultValue="Gastrointestinal"></ROS_System>
+            <ROS_Symptom DefaultValue="Diarrhea"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="10">
+            <ROS_System DefaultValue="Gastrointestinal"></ROS_System>
+            <ROS_Symptom DefaultValue="Nausea / Vomiting"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="11">
+            <ROS_System DefaultValue="Gastrointestinal"></ROS_System>
+            <ROS_Symptom DefaultValue="Flank Pain"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="12">
+            <ROS_System DefaultValue="Genitourinary"></ROS_System>
+            <ROS_Symptom DefaultValue="Hematuria"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="13">
+            <ROS_System DefaultValue="Genitourinary"></ROS_System>
+            <ROS_Symptom DefaultValue="Dysuria"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="14">
+            <ROS_System DefaultValue="Genitourinary"></ROS_System>
+            <ROS_Symptom DefaultValue="Frequency"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="15">
+            <ROS_System DefaultValue="Psychiatric"></ROS_System>
+            <ROS_Symptom DefaultValue="Depression"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="16">
+            <ROS_System DefaultValue="Neurology"></ROS_System>
+            <ROS_Symptom DefaultValue="Numbness / Tingling"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="17">
+            <ROS_System DefaultValue="Neurology"></ROS_System>
+            <ROS_Symptom DefaultValue="Headaches"></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="18">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="19">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="20">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="21">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="22">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+        <EncReviewOfSystems RecordId="23">
+            <ROS_System></ROS_System>
+            <ROS_Symptom></ROS_Symptom>
+            <ROS_Result></ROS_Result>
+            <ROS_RelatedTo></ROS_RelatedTo>
+            <ROS_Notes></ROS_Notes>
+        </EncReviewOfSystems>
+
+    </Encounters>
+
+
+
+    <Allergies RecordId="1">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="2">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="3">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="4">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="5">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="6">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="7">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+    <Allergies RecordId="8">
+        <Allergen NotNull="True"></Allergen>
+        <AllergyResponse></AllergyResponse>
+    </Allergies>
+
+
+
+
+    <Comorbidities RecordId="1">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="2">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="3">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="4">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="5">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="6">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="7">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="8">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="9">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="10">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="11">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="12">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="13">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="14">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+    <Comorbidities RecordId="15">
+        <ComorbDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true" ></ComorbDateText>
+        <ComorbDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true" ></ComorbDate>
+        <Comorbidity NotNull="True"></Comorbidity>
+        <ComorbNotes></ComorbNotes>
+    </Comorbidities>
+
+
+
+    <FamilyMembers RecordId = "1">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "2">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "3">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "4">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "5">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "6">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "7">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "8">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "9">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId = "10">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId = "1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId = "3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+
+
+    <SocialHistories RecordId="1">
+        <SocHxOccupation></SocHxOccupation>
+        <SocHxMaritalStatus></SocHxMaritalStatus>
+        <SocHxChildren></SocHxChildren>
+        <SocHxTobaccoType></SocHxTobaccoType>
+        <SocHxTobaccoPacksPerDay></SocHxTobaccoPacksPerDay>
+        <SocHxTobaccoYears></SocHxTobaccoYears>
+        <SocHxTobaccoQuitYear></SocHxTobaccoQuitYear>
+        <SocHxAlcohol></SocHxAlcohol>
+        <SocHxCarcinogen></SocHxCarcinogen>
+        <SocHxQuality></SocHxQuality>
+        <SocHxMenarcheAge></SocHxMenarcheAge>
+        <SocHxMenopauseAge></SocHxMenopauseAge>
+        <SocHxParity></SocHxParity>
+        <SocHxFirstBirthAge></SocHxFirstBirthAge>
+        <SocHxDataSource></SocHxDataSource>
+    </SocialHistories>
+
+
+
+    <Procedures  RecordId="1">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+
+        <NephrectomyProc>
+            <ProcPlannedType></ProcPlannedType>
+            <ProcPartialReason></ProcPartialReason>
+            <ProcConversionReason></ProcConversionReason>
+
+
+
+
+            <ProcPartialIceSlush></ProcPartialIceSlush>
+
+            <ProcPreOpDiagnosis></ProcPreOpDiagnosis>
+            <ProcPostOpDiagnosis></ProcPostOpDiagnosis>
+
+            <ProcTumorLocation></ProcTumorLocation>
+            <ProcNumTumors></ProcNumTumors>
+            <ProcCompleteResection></ProcCompleteResection>
+            <ProcExcisionTechnique></ProcExcisionTechnique>
+            <ProcIntraOpUS></ProcIntraOpUS>
+            <ProcIntraOpUS_Lesions></ProcIntraOpUS_Lesions>
+            <ProcIVC_Inv></ProcIVC_Inv>
+            <ProcPartialIschemia></ProcPartialIschemia>
+            <ProcPartialClampDuration></ProcPartialClampDuration>
+
+            <ProcHypothermia></ProcHypothermia>
+            <ProcRenalHypothermiaType></ProcRenalHypothermiaType>
+            <ProcUreteralStent></ProcUreteralStent>
+
+            <ProcCollectingSystemEntry></ProcCollectingSystemEntry>
+            <ProcCollectingSystemRepair></ProcCollectingSystemRepair>
+            <ProcRenalVeinClamping></ProcRenalVeinClamping>
+            <ProcNumRenalArteries></ProcNumRenalArteries>
+            <ProcNumRenalArteriesOccluded></ProcNumRenalArteriesOccluded>
+            <ProcSinusFatExtension></ProcSinusFatExtension>
+            <ProcFrozenSections></ProcFrozenSections>
+            <ProcAddTissue></ProcAddTissue>
+
+
+            <ProcDrains></ProcDrains>
+            <ProcCO2_PressureDuration></ProcCO2_PressureDuration>
+            <ProcPercKidneySpared></ProcPercKidneySpared>
+            <ProcComplication></ProcComplication>
+
+
+            <ProcNephrectomyTypeConversionReason/>
+            <ProcInfusionType></ProcInfusionType>
+            <ProcInfusionBeforeClamping></ProcInfusionBeforeClamping>
+            <ProcInfusionToRenalVeinClampingTime></ProcInfusionToRenalVeinClampingTime>
+            <ProcInfusionDetails></ProcInfusionDetails>
+
+
+        </NephrectomyProc>
+
+
+    </Procedures>
+    <Procedures  RecordId="2">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+
+
+    </Procedures>
+    <Procedures  RecordId="3">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="4">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="5">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="6">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="7">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="8">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="9">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="10">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="11">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <ProcSite></ProcSite>
+    </Procedures>
+
+    <Procedures  RecordId="61">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True" DefaultValue="Cryotherapy"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcSide></ProcSide>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="62">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True" DefaultValue="Cryotherapy"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcSide></ProcSide>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="63">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True" DefaultValue="Cryotherapy"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcSide></ProcSide>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="64">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True" DefaultValue="Cryotherapy"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcSide></ProcSide>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="65">
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True" DefaultValue="Cryotherapy"></ProcName>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcSide></ProcSide>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+    </Procedures>
+
+    <Medications RecordId="1">
+        <MedDateText></MedDateText>
+        <MedDate></MedDate>
+        <Medication></Medication>
+    </Medications>
+    <Medications RecordId="2">
+        <MedDateText></MedDateText>
+        <MedDate></MedDate>
+        <Medication></Medication>
+    </Medications>
+    <Medications RecordId="3">
+        <MedDateText></MedDateText>
+        <MedDate></MedDate>
+        <Medication></Medication>
+        <Medications RecordId="4">
+            <MedDateText></MedDateText>
+            <MedDate></MedDate>
+            <Medication></Medication>
+        </Medications>
+        <Medications RecordId="5">
+            <MedDateText></MedDateText>
+            <MedDate></MedDate>
+            <Medication></Medication>
+        </Medications>
+    </Medications>
+
+    <Status RecordId="1">
+        <StatusDateText DefaultSource="Encounters.EncDateText,1" TriggeredBySiblings="true"></StatusDateText>
+        <StatusDate DefaultSource="Encounters.EncDate,1" TriggeredBySiblings="true"></StatusDate>
+        <Status NotNull="True"></Status>
+        <StatusDisease DefaultValue="Kidney"></StatusDisease>
+        <StatusNotes></StatusNotes>
+    </Status>
+
+
+    <LabTests RecordId="1">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="2">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="3">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="4">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="5">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="6">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="7">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="8">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="9">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="10">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="11">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="12">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="13">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="14">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="15">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="16">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="17">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="18">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="19">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId="20">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality><LabNotes></LabNotes>
+    </LabTests>
+
+
+    <Diagnostics RecordId="1">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="1">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="2">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="2">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="3">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="3">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="4">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="4">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="5">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="5">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="6">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="6">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="7">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="7">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+    <Diagnostics RecordId="8">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType><DxTarget></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxImageFindingsKidney RecordId="8">
+            <ImgFindSide></ImgFindSide>
+            <ImgFindLength></ImgFindLength>
+            <ImgFindTumorType></ImgFindTumorType>
+        </DxImageFindingsKidney>
+    </Diagnostics>
+
+    <PatientProblems RecordId="1">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+    <PatientProblems RecordId="2">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+    <PatientProblems RecordId="3">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+    <PatientProblems RecordId="4">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+    <PatientProblems RecordId="5">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+    <PatientProblems RecordId="6">
+        <ProblemName></ProblemName>
+        <ProblemStatus></ProblemStatus>
+        <ProblemNotes></ProblemNotes>
+
+        <ProblemPlans RecordId="1">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="2">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="3">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="4">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+        <ProblemPlans RecordId="5">
+            <PlanName></PlanName>
+            <PlanStatus></PlanStatus>
+            <PlanType></PlanType>
+        </ProblemPlans>
+
+    </PatientProblems>
+
+
+    <MedicalTherapy RecordId="1">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="2">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="3">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="4">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="5">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="6">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="7">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="8">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="9">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+    <MedicalTherapy RecordId="10">
+        <MedTxDateText></MedTxDateText>
+        <MedTxDate></MedTxDate>
+        <MedTxType NotNull="True"></MedTxType>
+        <MedTxStopDateText></MedTxStopDateText>
+        <MedTxStopDate></MedTxStopDate>
+        <MedTxAgent></MedTxAgent>
+        <MedTxDose></MedTxDose>
+        <MedTxUnits></MedTxUnits>
+        <MedTxInstitution></MedTxInstitution>
+        <MedTxNotes></MedTxNotes>
+    </MedicalTherapy>
+
+
+    <RadiationTherapy RecordId="1">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="2">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="3">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="4">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="5">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="6">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="7">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="8">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="9">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+    <RadiationTherapy RecordId="10">
+        <RadTxDateText></RadTxDateText>
+        <RadTxDate></RadTxDate>
+        <RadTxType NotNull="True"></RadTxType>
+        <RadTxTarget></RadTxTarget>
+        <RadTxTotalDose></RadTxTotalDose>
+        <RadTxInstitution></RadTxInstitution>
+        <RadTxNotes></RadTxNotes>
+    </RadiationTherapy>
+
+    <BrachyTherapy RecordId="1">
+        <BrachyDateText></BrachyDateText>
+        <BrachyDate></BrachyDate>
+        <BrachyPrescribedDose></BrachyPrescribedDose>
+        <BrachyIsotope></BrachyIsotope>
+        <BrachyInstitution></BrachyInstitution>
+        <BrachyNotes></BrachyNotes>
+    </BrachyTherapy>
+    <BrachyTherapy RecordId="2">
+        <BrachyDateText></BrachyDateText>
+        <BrachyDate></BrachyDate>
+        <BrachyPrescribedDose></BrachyPrescribedDose>
+        <BrachyIsotope></BrachyIsotope>
+        <BrachyInstitution></BrachyInstitution>
+        <BrachyNotes></BrachyNotes>
+    </BrachyTherapy>
+    <BrachyTherapy RecordId="3">
+        <BrachyDateText></BrachyDateText>
+        <BrachyDate></BrachyDate>
+        <BrachyPrescribedDose></BrachyPrescribedDose>
+        <BrachyIsotope></BrachyIsotope>
+        <BrachyInstitution></BrachyInstitution>
+        <BrachyNotes></BrachyNotes>
+    </BrachyTherapy>
+
+    <Toxicities RecordId="1">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="2">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="3">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="4">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="5">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="6">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="7">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+    <Toxicities RecordId="8">
+        <ToxDateText></ToxDateText>
+        <ToxDate></ToxDate>
+        <ToxName></ToxName>
+        <ToxGrade></ToxGrade>
+        <ToxNotes></ToxNotes>
+    </Toxicities>
+</eform>
+
+
+

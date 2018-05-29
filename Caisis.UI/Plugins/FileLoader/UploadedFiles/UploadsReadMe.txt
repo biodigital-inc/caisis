@@ -1,0 +1,1 @@
+To enable uploading of images and document files, you must grant the application write permission to this folder (or whatever folder is specified to hold uploaded files in the web.config file).

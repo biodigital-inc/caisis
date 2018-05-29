@@ -1,0 +1,4277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Liver Surgery" displayName="Liver Surgery">
+
+  <eformSection name="History of Present Illness">
+    <eformItem displayName="Date of Diagnosis" title="Date of Diagnosis" controlName="LiverSurgeryStatusDiagnosis" ></eformItem>
+    <eformItem displayName="Demographics" title="Demographics"  controlName="LiverSurgeryDemographics"></eformItem>
+    <eformItem displayName="Chief Complaint / Presentation" title="Chief Complaint / Presentation"  controlName="LiverSurgeryChiefComplaintPresentation"></eformItem>
+  </eformSection>
+
+
+  <eformSection name="Past Medical History">
+    <eformItem displayName="Underlying Liver Disease" title="Underlying Liver Disease" controlName="LiverSurgeryComorbidities"></eformItem>
+    <eformItem displayName="Social History" title="Social History" controlName="PatientsSocialHistoriesWithAbsentRecord"></eformItem>
+    <eformItem displayName="Family History" title="Family History" controlName="PatientsFamilyMembersWithAbsentRecord"></eformItem>
+  </eformSection>
+
+
+  
+  <eformSection name="Assessment/ECOG">
+	  <eformItem displayName="Encounter" title="Encounter" controlName="LiverSurgeryEncountersVitalSigns3" ></eformItem>
+	  <eformItem displayName="Assessment" title="Assessment" controlName="LiverSurgeryEncountersAssessment" ></eformItem>
+  </eformSection>
+	
+  
+  <eformSection name="Imaging">
+    <eformItem displayName="Imaging" title="Imaging" controlName="LiverSurgeryImaging"></eformItem>
+    <eformItem displayName="Biopsy Performed" title="Biopsy Performed" controlName="LiverSurgeryProceduresBiopsy"></eformItem>
+  </eformSection>
+
+  <eformSection name="Labs">
+    <eformItem displayName="Lab Tests" title="Lab Tests" controlName="LiverSurgeryDiagnosticsLabTests"></eformItem>
+    <eformItem displayName="Child-Pugh Score" title="Child-Pugh Score" controlName="EncountersSurveysChildPugh"></eformItem>
+  </eformSection>
+ 
+  <eformSection name="Interventional Radiology">
+
+    <eformItem displayName="Interventional Radiology" title="Interventional Radiology" controlName="LiverSurgeryInterventionalRadiology" overrideLookupCodes="Procedures.ProcApproach.NYULiverProcApproach,Procedures.ProcSurgeon.NYULiverProcSurgeon"></eformItem>
+
+  </eformSection>
+  
+  <eformSection name="Operative Details">
+    <eformItem displayName="Surgery Detail" title="Surgery Detail" controlName="LiverSurgeryProceduresPrimary" overrideLookupCodes="OperatingRoomDetails.OpCaseSurgeon.NYULiverProcSurgeon,Procedures.ProcSurgeon.NYULiverProcSurgeon,Procedures.ProcName.NYULiverProcName,Procedures.ProcApproach.NYULiverProcApproach2"></eformItem>
+  </eformSection>
+ 
+  <eformSection name="Post-Operative Course">
+    <eformItem displayName="Hospitalization" title="Hospitalization" controlName="LiverSurgeryHospitalization"></eformItem>
+    <eformItem displayName="Post-op Labs" title="Post-op Labs" controlName="LiverSurgeryDiagnosticsLabTestsPostOp"></eformItem>
+    <eformItem displayName="Post-op Complications" title="Post-op Complications" controlName="LiverSurgeryLateComplications2" ></eformItem>
+  </eformSection>
+  
+  <eformSection name="Pathology">
+    <eformItem displayName="Pathology Report" title="Pathology Report" controlName="LiverSurgeryProceduresPath"></eformItem>
+  </eformSection>
+
+  <eformSection name="Post-Operative Treatment">
+    <eformItem displayName="Medical Therapies" title="Medical Therapies" controlName="LiverSurgeryMedicalTherapy2"></eformItem>
+    <eformItem displayName="Radiation Therapies" title="Radiation Therapies" controlName="RadiationTherapy2"></eformItem>    
+  </eformSection>
+
+  <eformSection name="Outcome">
+    <eformItem displayName="Last Contact Status" controlName="LiverSurgeryStatusLastContact"></eformItem>
+    <eformItem displayName="Recurrence" title="Recurrence Status" controlName="LiverSurgeryStatusRecurrenceDate"></eformItem>
+    <eformItem displayName="Patient Death" title="Patient Death" controlName="PatientDeathDate"></eformItem>
+  </eformSection>
+
+  <AbsentEvents RecordId="1">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="2">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="3">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="4">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="5">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="6">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="10">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="11">
+    <AbsentDateText ></AbsentDateText>
+    <AbsentDate ></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  
+  <Comorbidities RecordId='1'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='2'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='3'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='4'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='5'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='6'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='7'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='8'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='9'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='10'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='11'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='12'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='13'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='14'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='15'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+
+  <Diagnostics RecordId='1'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+        <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+ </Diagnostics>
+
+  <Diagnostics RecordId='2'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='3'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+      <DxImageFindings RecordId='10'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='11'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='12'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='13'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='14'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='15'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+   
+  </Diagnostics>
+
+  <Diagnostics RecordId='4'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+      <DxImageFindings RecordId='10'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='11'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='12'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='13'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='14'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+      <DxImageFindings RecordId='15'>
+        <ImgFindSiteNum></ImgFindSiteNum>
+        <ImgFindSite></ImgFindSite>
+        <ImgFindSubsite></ImgFindSubsite>
+        <ImgFindResult></ImgFindResult>
+        <ImgFindHeight></ImgFindHeight>
+        <ImgFindWidth></ImgFindWidth>
+        <ImgFindLength></ImgFindLength>
+        <ImgFindNotes></ImgFindNotes>
+      </DxImageFindings>
+   
+  </Diagnostics>
+
+  <Diagnostics RecordId='5'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='6'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='7'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='8'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='9'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='10'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='11'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+  <Diagnostics RecordId='12'>
+    <DxDateText NotNull="True"></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxSummary></DxSummary>
+    <DxTarget></DxTarget>
+    <DxTotalNumTumors></DxTotalNumTumors>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxImageFindings RecordId='1'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite ></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='2'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='3'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='4'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='5'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='6'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='7'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='8'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='9'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='10'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='11'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='12'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='13'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='14'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+    <DxImageFindings RecordId='15'>
+      <ImgFindSiteNum></ImgFindSiteNum>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindNotes></ImgFindNotes>
+    </DxImageFindings>
+  </Diagnostics>
+
+
+  <Encounters RecordId='1'>
+    <EncDate ></EncDate>
+    <EncDateText NotNull="True"></EncDateText>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncNurse></EncNurse>
+    <EncSystolic></EncSystolic>
+    <EncDiastolic></EncDiastolic>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncECOG_Score></EncECOG_Score>
+    <EncNotes></EncNotes>
+    <EncType></EncType>
+    <EncInstitution></EncInstitution>
+    
+    <EncExams RecordId='1'>
+      <ExamSystem NotNull="True"></ExamSystem>
+      <Exam></Exam>
+      <ExamResult NotNull="True"></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId='2'>
+      <ExamSystem NotNull="True"></ExamSystem>
+      <Exam></Exam>
+      <ExamResult NotNull="True"></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId='3'>
+      <ExamSystem NotNull="True"></ExamSystem>
+      <Exam></Exam>
+      <ExamResult NotNull="True"></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    <EncExams RecordId='4'>
+      <ExamSystem NotNull="True"></ExamSystem>
+      <Exam></Exam>
+      <ExamResult NotNull="True"></ExamResult>
+      <ExamNotes></ExamNotes>
+      <ExamAttendingPerformed></ExamAttendingPerformed>
+    </EncExams>
+    
+  </Encounters>
+
+  <FamilyMembers RecordId = "1">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation NotNull="True"></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId = "2">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation NotNull="True"></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId = "3">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation NotNull="True"></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId = "1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId = "3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  
+  <Hospitalizations RecordId='1' >
+    <HospAdmitDate ></HospAdmitDate>
+    <HospAdmitDateText ></HospAdmitDateText>
+    <HospAdmitReason ></HospAdmitReason>
+    <HospInstitution></HospInstitution>
+    <HospLivingArrangmentPre ></HospLivingArrangmentPre>
+    <HospLivingArrangmentPost ></HospLivingArrangmentPost>
+    <HospNotes ></HospNotes>
+    <HospDischargeDate ></HospDischargeDate>
+    <HospDischargeDateText ></HospDischargeDateText>
+    <HospDischargeStatus></HospDischargeStatus>
+    <HospICUStay></HospICUStay>
+  </Hospitalizations>
+
+  <Identifiers RecordId='1'>
+    <Identifier></Identifier>
+    <IdType></IdType>
+  </Identifiers>
+  <Identifiers RecordId='2'>
+    <Identifier></Identifier>
+    <IdType></IdType>
+  </Identifiers>
+  <Identifiers RecordId='3'>
+    <Identifier></Identifier>
+    <IdType></IdType>
+  </Identifiers>
+  
+  <LabTests RecordId='1'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='2'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='3'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='4'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='5'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='6'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='7'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='8'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='9'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='10'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='11'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='12'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='13'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='14'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='15'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='16'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='17'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='18'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='19'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='20'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='21'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='22'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='35'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='36'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='37'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='38'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='39'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='40'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='41'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+
+
+  <LabTests RecordId='23'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='24'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+    <LabTests RecordId='25'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+      <LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId='26'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+      <LabNotes></LabNotes>
+    </LabTests>
+    <LabTests RecordId='27'>
+      <LabDate></LabDate>
+      <LabDateText></LabDateText>
+      <LabTest NotNull="True"></LabTest>
+      <LabResult></LabResult>
+      <LabUnits></LabUnits>
+      <LabQuality></LabQuality>
+      <LabNotes></LabNotes>
+    </LabTests>
+  <LabTests RecordId='28'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='29'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='30'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='31'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='32'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='33'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+  <LabTests RecordId='34'>
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits></LabUnits>
+    <LabQuality></LabQuality>
+    <LabNotes></LabNotes>
+  </LabTests>
+
+  <MedicalTherapy RecordId='1'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='2'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='3'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='4'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='5'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='6'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='7'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='8'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='9'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='10'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='11'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='12'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='13'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='14'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='15'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='16'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='17'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='18'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='19'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='20'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+  </MedicalTherapy>
+
+  <MedicalTherapy RecordId='21'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxAgent></MedTxAgent>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+
+  <OperatingRoomDetails RecordId='40'>
+    <OpDateText NotNull="True" ></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpDifficulty></OpDifficulty>
+    <OpNotes></OpNotes>
+    <OpRBC_PostOp></OpRBC_PostOp>
+    <OpPostOpSummary></OpPostOpSummary>
+
+    <Procedures  RecordId='40'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+
+      <Pathology RecordId='40'>
+        <PathDateText NotNull="True"></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <Pathologist></Pathologist>
+        <PathHistology></PathHistology>
+        <PathNotes></PathNotes>
+        <LiverPath RecordId="1">
+          <PathMultifocal></PathMultifocal>
+          <PathTumorMaxDim></PathTumorMaxDim>
+          <PathNumTotalTumors></PathNumTotalTumors>
+          <PathClosestMarginDistance></PathClosestMarginDistance>
+          <PathMargin></PathMargin>
+          <PathParenchymalMargin></PathParenchymalMargin>
+          <PathBileDuctMargin></PathBileDuctMargin>
+          <PathVascularInv></PathVascularInv>
+        </LiverPath>
+        <PathologyFinding RecordId='1' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='2' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='3' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='4' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='5' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='6' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='7' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='8' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='9' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId='10' >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <NodePathFinding RecordId='1'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='2'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='3'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='4'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='5'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='6'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='7'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='8'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='9'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+        <NodePathFinding RecordId='10'>
+          <PathFindSite></PathFindSite>
+          <PathFindMaxDim></PathFindMaxDim>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+        </NodePathFinding>
+      </Pathology>
+    </Procedures>
+    <Procedures  RecordId='41'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='42'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='43'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='44'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+  
+  <OperatingRoomDetails RecordId='2'>
+    <OpDateText NotNull="True"></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpDifficulty></OpDifficulty>
+    <OpNotes></OpNotes>
+    <OpRBC_PostOp></OpRBC_PostOp>
+    <OpPostOpSummary></OpPostOpSummary>
+
+    <Procedures  RecordId='45'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='46'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='47'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='48'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='49'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    </OperatingRoomDetails>
+  
+  <OperatingRoomDetails RecordId='3'>
+    <OpDateText NotNull="True"></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpDifficulty></OpDifficulty>
+    <OpNotes></OpNotes>
+    <OpRBC_PostOp></OpRBC_PostOp>
+    <OpPostOpSummary></OpPostOpSummary>
+
+    <Procedures  RecordId='50'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='51'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='52'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='53'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='54'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+  </OperatingRoomDetails>
+  
+  <OperatingRoomDetails RecordId='4'>
+    <OpDateText NotNull="True"></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpDifficulty></OpDifficulty>
+    <OpNotes></OpNotes>
+    <OpRBC_PostOp></OpRBC_PostOp>
+    <OpPostOpSummary></OpPostOpSummary>
+
+    <Procedures  RecordId='55'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='56'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='57'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='58'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+    <Procedures  RecordId='59'>
+      <ProcName NotNull="True"></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcApproach></ProcApproach>
+    </Procedures>
+  </OperatingRoomDetails>
+  
+    <OperatingRoomDetails RecordId='5'>
+    <OpDateText NotNull="True"></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpASA></OpASA>
+      <OpAnesthesiaType></OpAnesthesiaType>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpDifficulty></OpDifficulty>
+    <OpNotes></OpNotes>
+    <OpRBC_PostOp></OpRBC_PostOp>
+     <OpPostOpSummary></OpPostOpSummary>
+
+      <Procedures  RecordId='60'>
+        <ProcName NotNull="True"></ProcName>
+        <ProcPrimary></ProcPrimary>
+        <ProcDateText NotNull="True"></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcApproach></ProcApproach>
+      </Procedures>
+      <Procedures  RecordId='61'>
+        <ProcName NotNull="True"></ProcName>
+        <ProcPrimary></ProcPrimary>
+        <ProcDateText NotNull="True"></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcApproach></ProcApproach>
+      </Procedures>
+      <Procedures  RecordId='62'>
+        <ProcName NotNull="True"></ProcName>
+        <ProcPrimary></ProcPrimary>
+        <ProcDateText NotNull="True"></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcApproach></ProcApproach>
+      </Procedures>
+      <Procedures  RecordId='63'>
+        <ProcName NotNull="True"></ProcName>
+        <ProcPrimary></ProcPrimary>
+        <ProcDateText NotNull="True"></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcApproach></ProcApproach>
+      </Procedures>
+      <Procedures  RecordId='64'>
+        <ProcName NotNull="True"></ProcName>
+        <ProcPrimary></ProcPrimary>
+        <ProcDateText NotNull="True"></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcSurgeon></ProcSurgeon>
+        <ProcSurgeonType></ProcSurgeonType>
+        <ProcAssistant></ProcAssistant>
+        <ProcAssistantType></ProcAssistantType>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcApproach></ProcApproach>
+      </Procedures>
+    </OperatingRoomDetails>
+  
+  
+
+
+  <Patients>
+   <PtNotes></PtNotes>
+</Patients>
+
+
+  <Procedures  RecordId='16'>
+    <ProcName NotNull="True" ></ProcName>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcApproach NotNull="True"></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='21'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='22'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='23'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+    <Procedures  RecordId='24'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+    <Procedures  RecordId='25'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+    <Procedures  RecordId='26'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+    <Procedures  RecordId='27'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='28'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='29'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='30'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='31'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='32'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='33'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='34'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='35'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures>
+
+
+
+
+
+
+  <Procedures  RecordId='65'>
+    <ProcName NotNull="True"></ProcName>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcApproach></ProcApproach>
+  </Procedures> 
+  
+  
+  
+  <RadiationTherapy RecordId='1'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='2'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='3'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='4'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='5'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='6'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='7'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='8'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='9'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='10'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='11'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='12'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='13'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='14'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='15'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='16'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='17'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='18'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='19'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='20'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+
+  <SocialHistories RecordId="1">
+    <SocHxOccupation></SocHxOccupation>
+    <SocHxMaritalStatus></SocHxMaritalStatus>
+    <SocHxChildren></SocHxChildren>
+    <SocHxTobaccoType></SocHxTobaccoType>
+    <SocHxTobaccoPacksPerDay></SocHxTobaccoPacksPerDay>
+    <SocHxTobaccoPacksPerYear></SocHxTobaccoPacksPerYear>
+    <SocHxTobaccoYears></SocHxTobaccoYears>
+    <SocHxTobaccoQuitYear></SocHxTobaccoQuitYear>
+    <SocHxAlcohol></SocHxAlcohol>
+    <SocHxCarcinogen></SocHxCarcinogen>
+    <SocHxDataSource></SocHxDataSource>
+    <SocHxNotes></SocHxNotes>
+    <SocHxAlcoholDrinksPerDay></SocHxAlcoholDrinksPerDay>
+    <SocHxAlcoholYears></SocHxAlcoholYears>
+    <SocHxAlcoholQuitYear></SocHxAlcoholQuitYear>
+  </SocialHistories>
+
+  <Status RecordId='11'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='12'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='13'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='14'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='15'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='16'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='17'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='18'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='19'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='20'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='21'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='22'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+  <Status RecordId='23'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+  </Status>
+
+  <Surveys RecordId='1'>
+    <SurveyDateText NotNull="True"></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType NotNull="True"></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyTotal></SurveyTotal>
+    <SurveyNotes></SurveyNotes>
+    <SurveyItems RecordId ='1'>
+      <SurveyItem NotNull="True"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+      <SurveyItemTotal></SurveyItemTotal>
+      <SurveyItemNotes></SurveyItemNotes>
+    </SurveyItems>
+    <SurveyItems RecordId ='2'>
+      <SurveyItem NotNull="True"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+      <SurveyItemTotal></SurveyItemTotal>
+      <SurveyItemNotes></SurveyItemNotes>
+    </SurveyItems>
+    <SurveyItems RecordId ='3'>
+      <SurveyItem NotNull="True"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+      <SurveyItemTotal></SurveyItemTotal>
+      <SurveyItemNotes></SurveyItemNotes>
+    </SurveyItems>
+    <SurveyItems RecordId ='4'>
+      <SurveyItem NotNull="True"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+      <SurveyItemTotal></SurveyItemTotal>
+      <SurveyItemNotes></SurveyItemNotes>
+    </SurveyItems>
+    <SurveyItems RecordId ='5'>
+      <SurveyItem NotNull="True"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+      <SurveyItemTotal></SurveyItemTotal>
+      <SurveyItemNotes></SurveyItemNotes>
+    </SurveyItems>
+  </Surveys>
+
+  <Surveys RecordId='2'>
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+    <SurveyQuality></SurveyQuality>
+
+    <SurveyItems RecordId='1'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='2'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='3'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='4'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  </Surveys>
+  
+  
+  <Toxicities RecordId='1'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='2'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='3'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='4'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='5'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='6'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='7'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='8'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='9'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId='10'>
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  
+  <NoTable>
+
+    <EnterSsnRBL></EnterSsnRBL>
+    
+    <CurrentStatus_NED_11></CurrentStatus_NED_11>
+    <CurrentStatus_AWD_12></CurrentStatus_AWD_12>
+    <CurrentStatus_AWD_Local_Recurrence_13></CurrentStatus_AWD_Local_Recurrence_13>
+    <CurrentStatus_AWD_Distant_Metastasis_14></CurrentStatus_AWD_Distant_Metastasis_14>
+    <CurrentStatus_AWD_Local_and_Metastasis_15></CurrentStatus_AWD_Local_and_Metastasis_15>
+    <CurrentStatus_Lost_to_Follow_up_16></CurrentStatus_Lost_to_Follow_up_16>
+    <CurrentStatus_DeadofDisease_17></CurrentStatus_DeadofDisease_17>
+    <CurrentStatus_Other1_18></CurrentStatus_Other1_18>
+    <CurrentStatus_Other2_19></CurrentStatus_Other2_19>
+    <CurrentStatus_Other3_20></CurrentStatus_Other3_20>
+    
+    <CurrentStatus_Death_Date_23></CurrentStatus_Death_Date_23>
+
+    <Duration_of_Pringle_min_40></Duration_of_Pringle_min_40>
+    <Duration_of_Pringle_min_2></Duration_of_Pringle_min_2>
+    <Duration_of_Pringle_min_3></Duration_of_Pringle_min_3>
+    <Duration_of_Pringle_min_4></Duration_of_Pringle_min_4>
+    <Duration_of_Pringle_min_5></Duration_of_Pringle_min_5>    
+       
+    <ProcApproachGlobal_40></ProcApproachGlobal_40>
+    <ProcApproachGlobal_2></ProcApproachGlobal_2>
+    <ProcApproachGlobal_3></ProcApproachGlobal_3>
+    <ProcApproachGlobal_4></ProcApproachGlobal_4>
+    <ProcApproachGlobal_5></ProcApproachGlobal_5>
+
+    <LengthOfStay></LengthOfStay>
+    
+    <ComorbRecorded></ComorbRecorded>
+    <AntiviralRecorded></AntiviralRecorded>
+    <RecurrenceRecorded></RecurrenceRecorded>
+    <NoRecurrence_Date_StatusDateText_22 ></NoRecurrence_Date_StatusDateText_22>
+    <Recurrence_Detection></Recurrence_Detection>
+    <Recurrence_Location></Recurrence_Location>
+    <DeathRecorded></DeathRecorded>
+    <NoDeath_Date_StatusDateText_23></NoDeath_Date_StatusDateText_23>
+    <SocialHxRecorded></SocialHxRecorded>
+    <FamHxRecorded></FamHxRecorded>
+    <SurgDetailRecorded></SurgDetailRecorded>
+    <PathReportRecorded></PathReportRecorded>
+    <ImagingRecorded></ImagingRecorded>
+  </NoTable>
+
+</eform>
+

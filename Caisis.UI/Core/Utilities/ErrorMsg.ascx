@@ -1,0 +1,2 @@
+<%@ Control Language="c#" Inherits="Caisis.UI.Core.Utilities.ErrorMsg" CodeFile="ErrorMsg.ascx.cs" CodeFileBaseClass="Caisis.UI.Core.Classes.BaseControl" %>
+		<font color="red"><span class="blackBoldText"><%= _errMsg%> </span></font>

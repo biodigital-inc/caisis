@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Head Neck Surgery Eform" displayName="Head and Neck Surgery EForm">
+
+	<eformSection name="Nature of Operation">
+    <eformItem controlName="ORDateAndCaseSurgeon"></eformItem>
+		<eformItem displayName="Procedures" controlName="HeadNeckPrimaryProcedure"></eformItem>			
+		<eformItem displayName="Reconstruction" controlName="HeadNeckReconstruction"></eformItem>
+		<eformItem displayName="Neck Dissection" controlName="HeadNeckDissection"></eformItem>
+		<eformItem displayName="Procedure Comments" controlName="HeadNeckProcComments" />
+	</eformSection>
+
+
+
+	<NoTable>
+		<ProcSubsite></ProcSubsite>
+		<ProcName></ProcName>
+    <PrimaryRecorded></PrimaryRecorded>
+		<ProcFindSubsiteRecorded></ProcFindSubsiteRecorded>		
+    <SurgicalMarginRecorded></SurgicalMarginRecorded>
+    <FrozenSectionRecorded></FrozenSectionRecorded>
+		<ReconstructionRecorded></ReconstructionRecorded>
+		<NeckDissecitonRecorded></NeckDissecitonRecorded>
+		<LevelsDissRight></LevelsDissRight>
+		<LevelsDissLeft></LevelsDissLeft>
+		<LevelsDissRightPrimary></LevelsDissRightPrimary>
+		<LevelsDissLeftPrimary></LevelsDissLeftPrimary>
+        <AncillaryProcedureRecorded></AncillaryProcedureRecorded>
+	
+	</NoTable>
+
+
+
+
+  
+
+<OperatingRoomDetails RecordId='1'>
+	<OpDateText ></OpDateText>
+	<OpDate></OpDate>
+  <OpCaseSurgeon></OpCaseSurgeon>
+</OperatingRoomDetails>
+  
+		
+	<Procedures  RecordId='1'>
+
+		<ProcPrimary></ProcPrimary>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+		<ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>		
+		<ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>
+		<ProcNotes></ProcNotes>		
+		<ProcSide></ProcSide>
+		<ProcSite></ProcSite>
+		<ProcSubsite></ProcSubsite>		
+	    <ProcName Required="True"></ProcName>
+		<ProcApproach></ProcApproach>
+		<ProcService></ProcService>
+	    <ProcInstitution></ProcInstitution>		
+	    <ProcQuality></ProcQuality>		
+		
+			
+		<ProcedureFinding RecordId='1'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='4'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='5'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='6'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='7'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='8'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='9'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='10'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='11'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='12'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='13'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='14'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='15'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='16'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='17'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='18'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='19'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='20'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='21'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='22'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='23'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='24'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='25'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='26'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='27'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='28'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='29'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='30'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+		</ProcedureFinding>
+		
+		<ProcedureFinding RecordId='2'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+			<ProcFindNotes></ProcFindNotes>
+		</ProcedureFinding>
+		<ProcedureFinding  RecordId='3'>
+			<ProcFindPrimaryDimension></ProcFindPrimaryDimension>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+			<ProcFindDissection></ProcFindDissection>
+			<ProcFinding></ProcFinding>
+			<ProcFindFrozen></ProcFindFrozen>
+      <ProcFindNotes></ProcFindNotes>
+		</ProcedureFinding>
+		<ProcedureFinding RecordId='40'>
+			<ProcFinding></ProcFinding>
+			<ProcFindSide></ProcFindSide>
+			<ProcFindSite></ProcFindSite>
+			<ProcFindSubsite></ProcFindSubsite>
+			<ProcFindNotes></ProcFindNotes>
+		</ProcedureFinding>
+		
+		
+  </Procedures>
+	
+
+	
+	
+	
+  <Procedures  RecordId='2'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>	
+		<ProcSide></ProcSide>
+		<ProcSite></ProcSite>
+		<ProcSubsite></ProcSubsite>
+		<ProcName NotNull="True"></ProcName>
+		<ProcApproach></ProcApproach>
+  </Procedures>
+	
+  <Procedures  RecordId='3'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>  
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='6'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='7'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon> 
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='8'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon> 
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>  
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+    <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+    <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"></ProcSurgeon>
+	  <ProcSide></ProcSide>
+	  <ProcSite></ProcSite>
+	  <ProcSubsite></ProcSubsite>
+	  <ProcName NotNull="True"></ProcName>
+	  <ProcApproach></ProcApproach>
+  </Procedures>
+
+
+	
+
+		<Procedures  RecordId='17'>
+			<ProcDateText ></ProcDateText>
+			<ProcDate></ProcDate>
+			<ProcSite></ProcSite>
+			<ProcSubsite></ProcSubsite>
+			<ProcSide></ProcSide>
+			<ProcName NotNull='True'></ProcName>
+			<ProcQuality></ProcQuality>
+
+			<ProcedureFinding RecordId='1'>
+				<ProcFinding></ProcFinding>
+				<ProcFindSide></ProcFindSide>
+				<ProcFindSite></ProcFindSite>
+				<ProcFindSubsite></ProcFindSubsite>
+			</ProcedureFinding>
+			<ProcedureFinding RecordId='2'>
+				<ProcFinding></ProcFinding>
+				<ProcFindSide></ProcFindSide>
+				<ProcFindSite></ProcFindSite>
+				<ProcFindSubsite></ProcFindSubsite>
+			</ProcedureFinding>
+			<ProcedureFinding RecordId='3'>
+				<ProcFinding></ProcFinding>
+				<ProcFindSide></ProcFindSide>
+				<ProcFindSite></ProcFindSite>
+				<ProcFindSubsite></ProcFindSubsite>
+			</ProcedureFinding>
+			<ProcedureFinding RecordId='4'>
+				<ProcFinding></ProcFinding>
+				<ProcFindSide></ProcFindSide>
+				<ProcFindSite></ProcFindSite>
+				<ProcFindSubsite></ProcFindSubsite>
+			</ProcedureFinding>
+
+		</Procedures>
+
+	<Procedures  RecordId='18'>
+		<ProcDateText ></ProcDateText>
+		<ProcDate></ProcDate>
+		<ProcSurgeon></ProcSurgeon>		
+		<ProcName NotNull="True"></ProcName>
+		<ProcService></ProcService>
+		<ProcInstitution></ProcInstitution>
+		<ProcQuality></ProcQuality>
+	</Procedures>
+  <Procedures  RecordId='19'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='20'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='21'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='22'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='23'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='24'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='25'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='26'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='27'>
+    <ProcDateText ></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcName NotNull="True"></ProcName>
+    <ProcService></ProcService>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  
+</eform>
+
+
+

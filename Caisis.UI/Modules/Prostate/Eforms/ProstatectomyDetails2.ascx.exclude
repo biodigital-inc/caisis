@@ -1,0 +1,505 @@
+<%@ Control Language="c#" Inherits="Caisis.UI.Modules.Prostate.Eforms.ProstatectomyDetails2" CodeFile="ProstatectomyDetails2.ascx.cs" CodeFileBaseClass="Caisis.UI.Core.Classes.BaseEFormControl" %>
+<%@ Register TagPrefix="euc" Namespace="Caisis.UI.Core.Classes.CustomControls" %>
+
+
+    <!-- BEGIN Drains -->
+
+<a name="ProstatectomyDetails2" />
+  <span class="controlBoxTitle">&nbsp;&nbsp;Drains</span>
+<br />
+  <table width="260" border="0" cellpadding="0" cellspacing="0" class="controlBoxDataGridTable">
+    <tr> 
+      <td width="2" valign="top" class="controlBoxDataGridFirstColumn"><img src="../../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td  width="130" height="25" class="controlBoxDataGridHeaderFirstCol">&nbsp;</td>
+      <td class="controlBoxDataGridHeader">Type</td>
+      <td width="2" align="right" valign="top" class="controlBox"><img src="../../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+    </tr>
+    <tr>
+      <td class="controlBoxDataGridFirstColumn"><img src="../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Left Drain&nbsp;</td>
+      <td colspan="2" align="center"><euc:EformDropDownList runat=server ID="LeftDrain"></euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Right 
+        Drain&nbsp;</td>
+      <td colspan="2" align="center"><euc:EformDropDownList runat=server ID="RightDrain"></euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Anterior 
+        Drain&nbsp; </td>
+      <td colspan="2" align="center"><euc:EformDropDownList runat=server ID="AnteriorDrain"></euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Posterior 
+        Drain&nbsp; </td>
+      <td colspan="2" align="center"><euc:EformDropDownList runat=server ID="PosteriorDrain"></euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td align="right" valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+      <td colspan="2" align="center"><img src="../Images/shim.gif" width="1" height="1" /></td>
+    </tr>
+  </table>  <br/><br/><br/>
+  
+  
+    <!-- END Drains -->
+    
+    
+    
+    
+    <!-- BEGIN Vesicourethral Anastamosis -->
+    
+    <span class="controlBoxTitle">&nbsp;&nbsp;Vesicourethral Anastomosis</span><br />
+  <table width="460" border="0" cellpadding="0" cellspacing="0" class="controlBoxDataGridTable">
+    <tr> 
+      <td width="2" valign="top" class="controlBoxDataGridFirstColumn"><img src="../../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Quality<font size="1"> 
+        (Surgeon's Judgement)</font> </td>
+      <td  width="6" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td width="6" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td class="controlBoxDataGridTitleColumn">
+      
+      <euc:EformDropDownList runat=server ID="OpAnastQuality">
+         
+          <%-- 2.0 
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">4+</option>--%>
+          
+        </euc:EformDropDownList>
+        
+        </td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridValueColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridValueColumn">Number 
+        of Sutures</td>
+      <td align="right" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td class="controlBoxDataGridValueColumn"> 
+      
+      <euc:EformTextBox ID="OpAnastNumSutures" runat="server"  class="InputText" ></euc:EFormTextBox>
+      
+      
+      </td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Suture 
+        Pattern </td>
+      <td align="right" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td class="controlBoxDataGridTitleColumn"> 
+      
+            <euc:EformTextBox ID="OpAnastSuturePattern" runat="server"  class="InputText" ></euc:EFormTextBox>
+
+      
+	</td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridValueColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridValueColumn">Diameter 
+        of Bladder Neck</td>
+      <td align="right" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td class="controlBoxDataGridValueColumn"> 
+      
+      
+      <euc:EformTextBox ID="OpBN_Diam" runat="server"  class="InputText" ></euc:EFormTextBox>
+
+      </td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Degree 
+        of Eversion</td>
+      <td align="right" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td class="controlBoxDataGridTitleColumn"> 
+      
+      
+      <euc:EformDropDownList runat=server ID="OpBN_DegreeEversion">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">4+</option>
+        </euc:EformDropDownList>
+        
+        </td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridValueColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridValueColumn">Suspension 
+        of Venous Complex</td>
+      <td align="right" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td class="controlBoxDataGridValueColumn">
+      
+              <euc:EformRadioButton id="OpSuspVeinComplexYes" Text="Yes" GroupName="OpSuspVeinComplex" runat="server"/>
+              <euc:EformRadioButton id="OpSuspVeinComplexNo" Text="No" GroupName="OpSuspVeinComplex" runat="server"/>
+
+      
+      </td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Quality 
+        of Bladder Sparing</td>
+      <td align="right" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td class="controlBoxDataGridTitleColumn"> 
+		<euc:EformDropDownList name="QualityBladderSparing" size="1" id="QualityBladderSparing" runat=server>
+          <option value=""></option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">4+</option>
+        </euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridValueColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridValueColumn">Subjective 
+        Score of Urethral Stump</td>
+      <td align="right" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridValueColumn">&nbsp;</td>
+      <td class="controlBoxDataGridValueColumn"> 
+		<euc:EformDropDownList name="UrethralStumpScore" size="1" id="UrethralStumpScore" runat=server>
+          <option value=" "></option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">4+</option>
+        </euc:EformDropDownList></td>
+    </tr>
+    <tr> 
+      <td class="controlBoxDataGridFirstColumn"><img src="../../Images/shim.gif" width="1" height="1" /></td>
+      <td height="35" align="right" class="controlBoxDataGridTitleColumn">Bladder 
+        Closure</td>
+      <td align="right" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td class="controlBoxDataGridTitleColumn"> 
+      
+              <euc:EformRadioButton id="OpBladderClosureYes" Text="Yes" GroupName="OpBladderClosure" runat="server"/>
+              <euc:EformRadioButton id="OpBladderClosureNo" Text="No" GroupName="OpBladderClosure" runat="server"/>
+             
+      <%--
+        <euc:EformDropDownList runat=server ID="OpBladderClosureLocation">
+          <option>Posterior</option>
+          <option>Anterior</option>
+        </euc:EformDropDownList>
+        
+      --%>
+      
+      
+      
+        </td>
+    </tr>
+    <tr> 
+      <td valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td align="right" valign="bottom" class="controlBoxDataGridTitleColumn"><img src="../../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+      <td align="right" valign="bottom" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+      <td align="center" class="controlBoxDataGridTitleColumn">&nbsp;</td>
+    </tr>
+  </table>  <br/><br/><br/>
+
+
+    <!-- END Vesicourethral Anastamosis -->
+
+
+
+
+    <!-- BEGIN PostOp Prediction -->
+
+
+<span class="controlBoxTitle">&nbsp;&nbsp;PostOp Prediction</span><br />
+  <table width="520" border="0" cellpadding="0" cellspacing="0" class="controlBox">
+    <tr> 
+      <td width="2" valign="top"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td  width="516">&nbsp;</td>
+      <td width="2" valign="top" align="right"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+    </tr>
+    <tr> 
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+      <td><table width="516" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+            <td width="100" height="18" align="right" class="controlBoxFieldTitle">Continence</td>
+            <td class="controlBoxFieldOption"> <label> 
+              <euc:EformTextBox class="InputText" id="PostOpPrediction_Continence" size="6" runat=server/>
+              &nbsp;&nbsp;(0-100%, 0%= Incontinent, 100%= Continent)</label></td>
+          </tr>
+          <tr> 
+            <td height="18" align="right" class="controlBoxFieldTitle">Potency</td>
+            <td class="controlBoxFieldOption">
+				<euc:EformTextBox class="InputText" id="PostOpPrediction_Potency" size="6" runat=server />
+              &nbsp;&nbsp;(0-100%, 0%= Impotent, 100%= Potent)</td>
+          </tr>
+        </table></td>
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+    </tr>
+    <tr> 
+      <td valign="bottom"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td>&nbsp;</td>
+      <td valign="bottom" align="right"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+    </tr>
+  </table>  <br/><br/><br/>
+  
+  
+  
+      <!-- END PostOp Prediction -->
+      
+      
+   
+   
+      <!-- BEGIN Catheter -->
+
+      
+  <span class="controlBoxTitle">&nbsp;&nbsp;Catheter</span><br />
+  <table width="480" border="0" cellpadding="0" cellspacing="0" class="controlBox">
+    <tr> 
+      <td width="2" valign="top"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td  width="576">&nbsp;</td>
+      <td width="2" valign="top" align="right"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+    </tr>
+    <tr> 
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+      <td><table width="476" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+            <td width="160" height="18" align="right" class="controlBoxFieldTitle">Catheter 
+              on Traction?</td>
+            <td class="controlBoxFieldOption"> 
+				<euc:EformRadioButton id="OpCathTractionNone" GroupName="OpCathTraction" Text="None" runat=server/>
+				&nbsp;&nbsp;&nbsp; 
+				<euc:EformRadioButton id="OpCathTractionImmediate" GroupName="OpCathTraction"  Text="Immediate"  runat=server/>
+				&nbsp;&nbsp;&nbsp; 
+				<euc:EformRadioButton id="OpCathTractionDelayed" GroupName="OpCathTraction"  Text="Delayed"  runat=server/>
+				</td>
+          </tr>
+          <tr> 
+            <td height="18" align="right" class="controlBoxFieldTitle">Duration 
+              of Traction&nbsp; </td>
+            <td class="controlBoxFieldOption"> 
+              <euc:EformRadioButton ID="OpCathTractionTime12" GroupName="OpCathTractionTime" Text="&lt;12" runat=server/>
+              &nbsp;&nbsp;&nbsp; 
+              <euc:EformRadioButton ID="OpCathTractionTime24" GroupName="OpCathTractionTime" Text="12-24" runat=server/>
+              &nbsp;&nbsp;&nbsp; 
+              <euc:EformRadioButton ID="OpCathTractionTime48" GroupName="OpCathTractionTime" Text="24-48" runat=server/>
+              
+             &nbsp;&nbsp;&nbsp; <euc:EformRadioButton ID="OpCathTractionTime48Plus" Text="48+" runat=server/>
+             </td>
+          </tr>
+        </table></td>
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+    </tr>
+    <tr> 
+      <td valign="bottom"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td>&nbsp;</td>
+      <td valign="bottom" align="right"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+    </tr>
+  </table>  <br/><br/><br/>
+  
+  
+  <!-- END Catheter -->
+
+
+
+
+
+  <!-- BEGIN Surgical Details / Fluids -->
+
+
+<span class="controlBoxTitle">&nbsp;&nbsp;Surgical Details / Fluids</span><br />
+  <table width="520" border="0" cellpadding="0" cellspacing="0" class="controlBox">
+    <tr> 
+      <td width="2" valign="top"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td  width="516">&nbsp;</td>
+      <td width="2" valign="top" align="right"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+    </tr>
+    <tr> 
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+      <td><table width="516" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+            <td width="230" height="18" align="right" class="controlBoxFieldTitle">Operating Time (Skin to Skin) &nbsp; </td>
+            <td class="controlBoxFieldOption">  
+				 <euc:EformTextBox ID="SurgOperatingTime" runat="server"  class="InputText" ></euc:EFormTextBox>(hh:mm)  
+             </td>
+          </tr>
+          <tr> 
+            <td height="18" align="right" class="controlBoxFieldTitle">Anesthesia Time &nbsp; </td>
+            <td class="controlBoxFieldOption">
+				<euc:EformTextBox ID="SurgAnesthesiaTime" runat="server"  class="InputText" ></euc:EFormTextBox>(hh:mm)
+			</td>
+          </tr>
+          <tr> 
+            <td height="18" align="right" class="controlBoxFieldTitle">Estimated Blood Loss &nbsp; </td>
+            <td class="controlBoxFieldOption">
+				<euc:EformTextBox ID="SurgEstBloodLoss" runat="server"  class="InputText" ></euc:EFormTextBox> cc </td>
+          </tr>
+        </table></td>
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+    </tr>
+    <tr> 
+      <td valign="bottom"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td>&nbsp;</td>
+      <td valign="bottom" align="right"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+    </tr>
+  </table>
+
+        <table width="520" border="0" cellpadding="0" cellspacing="0" class="controlBoxDataGridTable">
+          <tr> 
+            <td width="2" valign="top" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+            <td  width="150" height="25" class="controlBoxDataGridHeaderFirstCol">&nbsp;</td>
+            <td class="controlBoxDataGridHeader">Auto</td>
+            <td class="controlBoxDataGridHeader">PRBC</td>
+            <td class="controlBoxDataGridHeader">FFP</td>
+            <td class="controlBoxDataGridHeader">Cellsaver</td>
+            <td width="2" align="right" valign="top" class="controlBox"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn"><img src="../Images/shim.gif" width="1" height="1" /></td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;
+            Units Available </td>
+            <td align="center"> <euc:EformTextBox ID="SurgAutoAvailable" runat="server"  size="10" class="InputText" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgRBC_Available" runat="server"  size="10" class="InputText" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgFFP_Available" class="InputText" size="10" runat="server" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgCellsaver_Available" class="InputText" size="10" runat="server" /></td>
+            <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn"><img src="../Images/shim.gif" width="1" height="1" /></td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;
+            Units Transfused</td>
+            <td align="center"> <euc:EformTextBox ID="SurgAutoTransfused" runat="server"  size="10" class="InputText" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgRBC_Transfused" runat="server"  size="10" class="InputText" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgFFP_Transfused" runat="server"  size="10" class="InputText" /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgCellsaver_Transfused" runat="server" class="InputText" size="10" /></td>
+            <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn"><img src="../Images/shim.gif" width="1" height="1" /></td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Intraoperative</td>
+            <td align="center"> <euc:EformTextBox ID="SurgAuto_IntraOp" class="InputText" size="10" runat=server/></td>
+            <td align="center"> <euc:EformTextBox ID="SurgRBC_IntraOp" runat="server"  size="10" class="InputText" runat=server></td>
+            <td align="center"> <euc:EformTextBox ID="SurgFFP_IntraOp" class="InputText" size="10" runat=server /></td>
+            <td align="center"> <euc:EformTextBox ID="SurgCellsaver_IntraOp" class="InputText" size="10" runat=server/></td>
+            <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn"><img src="../Images/shim.gif" width="1" height="1" /></td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PACU / PostOp</td>
+            <td align="center"> <euc:EformTextBox ID="SurgAuto_PostOp" class="InputText" size="10" runat="server"/></td>
+            <td align="center"> <euc:EformTextBox ID="SurgRBC_PostOp"  size="10" class="InputText" runat="server"></td>
+            <td align="center"> <euc:EformTextBox ID="SurgFFP_PostOp" class="InputText" size="10" runat="server"/></td>
+            <td align="center"> <euc:EformTextBox ID="SurgCellsaver_PostOp" class="InputText" size="10" runat="server"/></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr> 
+            <td valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+            <td align="right" valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+          </tr>
+        </table><br/>
+        <table width="300" border="0" cellpadding="0" cellspacing="0" class="controlBoxDataGridTable">
+          <tr> 
+            <td width="2" valign="top" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+            <td  width="90" height="25" class="controlBoxDataGridHeaderFirstCol">Date</td>
+            <td width="60" class="controlBoxDataGridHeader">Var</td>
+            <td class="controlBoxDataGridHeader">Value</td>
+            <td width="2" align="right" valign="top" class="controlBox"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn">&nbsp;</td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;Admission</td>
+            <td align="center" class="controlBoxFieldOption"><a href="#">HGB</a> 
+            </td>
+            <td align="center"> <euc:EformTextBox ID="SurgHGB_Admit" runat="server"  size="10" class="InputText" ></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn">&nbsp;</td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;Admission</td>
+            <td align="center" class="controlBoxFieldOption"><a href="#">HCT</a> 
+            </td>
+            <td align="center"> <euc:EformTextBox ID="SurgHCT_Admit" runat="server"  size="10" class="InputText" ></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn">&nbsp;</td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;IntraOp</td>
+            <td align="center" class="controlBoxFieldOption"><a href="#">HGB</a> 
+            </td>
+            <td align="center"> <euc:EformTextBox ID="SurgHGB_IntraOp" runat="server"  size="10" class="InputText" ></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr> 
+            <td class="controlBoxDataGridFirstColumn">&nbsp;</td>
+            <td height="35" class="controlBoxDataGridTitleColumn">&nbsp;&nbsp;IntraOp</td>
+            <td align="center" class="controlBoxFieldOption"><a href="#">HCT</a> 
+            </td>
+            <td align="center"> <euc:EformTextBox ID="SurgHCT_IntraOp" runat="server"  size="10" class="InputText" ></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr> 
+            <td valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+            <td align="right" valign="bottom" class="controlBoxDataGridFirstColumn"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table><br/>
+  
+  
+  <table width="320" border="0" cellpadding="0" cellspacing="0" class="controlBox">
+    <tr> 
+      <td width="2" valign="top"><img src="../Images/EFormControlTopLeft.gif" width="2" height="2" /></td>
+      <td  width="316">&nbsp;</td>
+      <td width="2" valign="top" align="right"><img src="../Images/EFormControlTopRight.gif" width="2" height="2" /></td>
+    </tr>
+    <tr> 
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+      <td><table width="316" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+            <td width="130" height="18" align="right" class="controlBoxFieldTitle">Crystalloid&nbsp; 
+            </td>
+            <td class="controlBoxFieldOption"> <label> 
+              <euc:EformTextBox ID="Crystalloid" class="InputText" size="10" runat=server/>
+              cc</label></td>
+          </tr>
+          <tr> 
+            <td height="18" align="right" class="controlBoxFieldTitle">Colloid&nbsp; 
+            </td>
+            <td class="controlBoxFieldOption"> <label> 
+               <euc:EformTextBox ID="Colloid" class="InputText" size="10" runat=server/>
+              cc</label></td>
+          </tr>
+        </table></td>
+      <td><img src="../Images/shim.gif" width="1" height="1" /></td>
+    </tr>
+    <tr> 
+      <td valign="bottom"><img src="../Images/EFormControlBottomLeft.gif" width="2" height="2" /></td>
+      <td>&nbsp;</td>
+      <td valign="bottom" align="right"><img src="../Images/EFormControlBottomRight.gif" width="2" height="2" /></td>
+    </tr>
+  </table>  <br/><br/><br/>
+
+
+  <!-- END Surgical Details / Fluids -->
+

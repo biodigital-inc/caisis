@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Αποκοπή</message>
+  </block>
+  <block id="copy">
+    <message name="title">Αντιγραφή</message>
+  </block>
+  <block id="paste">
+    <message name="title">Επικόλληση</message>
+  </block>
+  <block id="undo">
+    <message name="title">Αναίρεση</message>
+  </block>
+  <block id="redo">
+    <message name="title">Ακύρωση Αναίρεσης</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Υπερσύνδεση</message>
+    <message name="url">URL</message>
+    <message name="name">Όνομα</message>
+    <message name="target">Όρια</message>
+    <message name="title_attr">Τίτλος</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Εισαγωγή εικόνας</message>
+    <message name="select">Επιλογή</message>
+    <message name="cancel">’κυρο</message>
+    <message name="library">Βιβλιοθήκη</message>
+    <message name="preview">Προεπισκόπηση</message>
+    <message name="images">Εικόνες</message>
+    <message name="upload">Φόρτωμα εικόνας</message>
+    <message name="upload_button">Φόρτωμα</message>
+    <message name="error">Λάθος</message>
+    <message name="error_no_image">Παρακαλώ επιλέξτε μια εικόνα</message>
+    <message name="error_uploading">Ένα λάθος ενώ το διαχειριζόμενο αρχείο φορτώνονταν.  Παρακαλώ προσπαθήστε πάλι αργότερα</message>
+    <message name="error_wrong_type">Λανθασμένος τύπος αρχείου εικόνας</message>
+    <message name="error_no_dir">Η βιβλιοθήκη δεν δημιουργήθηκε με φυσικό τροπο ή δεν υπάρχει</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Ιδιότητες εικόνας</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+    <message name="source">Προέλευση</message>
+    <message name="alt">Εναλλακτικό κείμενο</message>
+    <message name="align">Ευθυγραμμίση</message>
+    <message name="justifyleft">αριστερά</message>
+    <message name="justifyright">δεξιά</message>
+    <message name="full">justifyfull</message>
+    <message name="top">πάνω</message>
+    <message name="middle">μέση</message>
+    <message name="bottom">κάτω</message>
+    <message name="absmiddle">absμέση</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Πλάτος</message>
+    <message name="height">Ύψος</message>
+    <message name="border">Περίγραμμα</message>
+    <message name="hspace">Οριζ. space</message>
+    <message name="vspace">Κάθετ. space</message>
+    <message name="error">Λάθος</message>
+    <message name="error_width_nan">Το πλάτος δεν είναι ένας αριθμός</message>
+    <message name="error_height_nan">Ύψος δεν είναι ένας αριθμός</message>
+    <message name="error_border_nan">Border δεν είναι ένας αριθμός</message>
+    <message name="error_hspace_nan">Το οριζόντιο διάστημα δεν είναι ένας αριθμός</message>
+    <message name="error_vspace_nan">Το κάθετο διάστημα δεν είναι ένας αριθμός</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Οριζόντιος κανόνας</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Δημιουργήστε πίνακα</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Ιδιότητες πίνακα</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ακυρο</message>
+    <message name="rows">Σειρές</message>
+    <message name="columns">Στήλες</message>
+    <message name="width">Πλάτος</message>
+    <message name="height">Ύψος</message>
+    <message name="border">Περίγραμμα</message>
+    <message name="pixels">pixels</message>
+    <message name="cellpadding">Γέμισμα κελιού</message>
+    <message name="cellspacing">Διάστημα κελιού</message>
+    <message name="bg_color">Background χρώμα</message>
+    <message name="error">Λάθος</message>
+    <message name="error_rows_nan">Οι σειρές δεν είναι ένας αριθμός</message>
+    <message name="error_columns_nan">Οι στήλες δεν είναι ένας αριθμός</message>
+    <message name="error_width_nan">Το πλάτος δεν είναι ένας αριθμός</message>
+    <message name="error_height_nan">Ύψος δεν είναι ένας αριθμός</message>
+    <message name="error_border_nan">Το περίγραμμα δεν είναι ένας αριθμός</message>
+    <message name="error_cellpadding_nan">Το γέμισμα κελιού δεν είναι ένας αριθμός</message>
+    <message name="error_cellspacing_nan">Το διάστημα κελιού δεν είναι ένας αριθμός</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title"> ιδιότητες Στηλών</message>
+    <message name="horizontal_align">Οριζόντια ευθυγράμμιση</message>
+    <message name="vertical_align">Κάθετη ευθυγράμμιση</message>
+    <message name="width">Πλάτος</message>
+    <message name="height">Ύψος</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Background color</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+    <message name="justifyleft">Αριστερά</message>
+    <message name="justifycenter">Κέντρο</message>
+    <message name="justifyright">Δεξιά</message>
+    <message name="full">Justify</message>
+    <message name="top">Top</message>
+    <message name="middle">Middle</message>
+    <message name="bottom">Bottom</message>
+    <message name="baseline">Baseline</message>
+    <message name="error">Λάθος</message>
+    <message name="error_width_nan">Το πλάτος δεν είναι ένας αριθμός</message>
+    <message name="error_height_nan">Ύψος δεν είναι ένας αριθμός</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Εισαγωγή σειράς</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Εισαγωγή στήλης</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Διαγραφή σειράς</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Διαγραφή στήλης</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Merge δεξιά</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Merge κάτω</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Split κελιού οριζόντια</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Split κελιού κάθετα</message>
+  </block>
+  <block id="style">
+    <message name="title">Style</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Γραμματοσειρά</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Μέγεθος</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Παράγραφος</message>
+  </block>
+  <block id="bold">
+    <message name="title">Έντονα</message>
+  </block>
+  <block id="italic">
+    <message name="title">Italic</message>
+  </block>
+  <block id="underline">
+    <message name="title">Υπογράμμιση</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Αρίθμηση</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">κουκκίδες</message>
+  </block>
+  <block id="indent">
+    <message name="title">Εσοχή</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Χωρίς εσοχή</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Αριστερά</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Κέντρο</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Δεξιά</message>
+  </block>
+  <block id="full">
+    <message name="title">Justify</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Fore color</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Background color</message>
+  </block>
+  <block id="design">
+    <message name="title">Αλλαγή σε WYSIWYG (design) mode</message>
+  </block>
+  <block id="html">
+    <message name="title">Αλλαγή σε HTML (code) mode</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Color picker</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML καθαρισμός (απομάκρυνση styles)</message>
+    <message name="confirm">Η εκτέλεση αυτή θα αφαιρέσει όλα τα styles, fonts and useless tags από το συγκεκριμένο content. Κάποια ή και όλες οι  μορφοποιήσεις σου μπορεί να χαθούν.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Όρια περιγραμμάτων</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Ιδιότητες Σειρών</message>
+    <message name="horizontal_align">Οριζόντια ευθυγράμμιση</message>
+    <message name="vertical_align">Κάθετη ευθυγράμμιση</message>
+    <message name="css_class">CSS class</message>
+    <message name="no_wrap">No wrap</message>
+    <message name="bg_color">Background color</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+    <message name="justifyleft">Αριστερά</message>
+    <message name="justifycenter">Κέντρο</message>
+    <message name="justifyright">Δεξιά</message>
+    <message name="full">Justify</message>
+    <message name="top">Πάνω</message>
+    <message name="middle">Μέση</message>
+    <message name="bottom">Κάτω</message>
+    <message name="baseline">Baseline</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Σπεσιαλ χαρακτήρες</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+  </block>
+  <block id="templates">
+    <message name="title">Templates</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Ιδιότητες Σελίδας</message>
+    <message name="title_tag">Τίτλος</message>
+    <message name="charset">Charset</message>
+    <message name="background">Background εικόνα</message>
+    <message name="bgcolor">Background χρώμα</message>
+    <message name="text">Χρώμα κειμένου</message>
+    <message name="link">Χρώμα link</message>
+    <message name="vlink">Χρώμα link που επισκέφτηκαν</message>
+    <message name="alink">Χρώμα Ενεργού link </message>
+    <message name="leftmargin">Περιθώριο Αριστερό</message>
+    <message name="topmargin">Πάνω Περιθώριο</message>
+    <message name="css_class">CSS class</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">’κυρο</message>
+  </block>
+  <block id="preview">
+    <message name="title">Προεπισκόπηση</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Image popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+</messages>

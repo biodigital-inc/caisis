@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="~/App_Code/Modules/ProtocolMgmt/ProtocolMgmtWebService.cs" Class="Caisis.UI.Modules.ProtocolMgmt.ProtocolMgmtWebService" %>

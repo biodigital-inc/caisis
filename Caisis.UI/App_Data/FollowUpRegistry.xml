@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+	Contains Survey Rule Configurations
+	
+	** ATTRIBUTES **	
+	rule.name="name of the survey rule" 
+  rule.type="type of rule"; Required for Longitudinal Followup.  
+            Current patient dependent rule types include:
+              - "SurveysDue" (rule type used for patients with NeedLetter1, NeedLetter2, or NeedLetter3 status)
+              - "HippaAuthorization" (rule type used for patients with NeedPtAuthorization status)              
+              
+  description="describes conditions/rules for the dataset of patients returned using sql query"
+  sqlFile="file name of sql patient query for survey rule"; located in directory App_Data/SQLFiles
+  
+  coverletter.displayname="The full display name of the cover letter/form" 
+	coverletter.xmlFileName="Full xml filename of cover letter/form"; located in directory Modules/FollowUp/LongitudinalFollowUp
+  ** NOTE: 
+     - follow up letter physician (Treating Physician) information is dynamically populated
+     - physician signature images are dynamically populated and should be stored as Images/FormImages/PhysicianSig_[PhLastName][PhFirstName].jpg (i.e., PhysicianSig_DoeJohn.jpg)
+     - ideal signature jpeg image size is 95 x 34 pixels
+
+  survey.displayname="The full display name of the survey/form" 
+	survey.pdfFileName="Full pdf filename of survey"/form; located in directory Modules/FollowUp/Surveys
+  
+-->
+<surveyrules>
+
+  
+  <rule name="Prostatectomy" type="SurveysDue" active="true">
+    <description>
+      Patients that meet the following criteria:
+      * had a prostectomy procedure 365 days or more ago
+      * has NOT had a PSA lab test within the last 365 days
+      * EITHER:
+        1.) has had no previous survey(s) sent OR,
+        2.) survey(s) sent 365 days or more ago, but has not been returned
+    </description>
+    <sqlFile>SurveysDue_Prostatectomy.sql</sqlFile>
+    <coverletters>
+      <coverletter displayName="Prostate Cover Letter" xmlFileName="FU_Letter_Prostate.xml"></coverletter>
+      <coverletter displayName="Survivorship Cover Letter" xmlFileName="FU_Letter_Survivorship.xml"></coverletter>
+    </coverletters>
+    <surveys>
+      <survey displayName="Prostate Longitudinal Follow-Up Form" pdfFileName="LongitudinalFollowupProstate.pdf"></survey>
+      <survey displayName="HIPAA Authorization" pdfFileName=""></survey>
+      <survey displayName="Epic-26 Short Survey" pdfFileName="EPIC26.pdf"></survey>
+    </surveys>
+
+
+  </rule>
+
+  <rule name="Medical Oncology" type="SurveysDue" active="true">
+    <description>
+       Patients that meet the following criteria:
+       * most recent status is 'metastasis'
+       * patient is not deceased
+       * EITHER:
+         1.) has had no previous survey(s) sent OR,
+         2.) survey(s) 90 days or more ago, but has not been returned
+    </description>
+    <sqlFile>SurveysDue_MedicalOncology.sql</sqlFile>
+    <coverletters>
+      <coverletter displayName="Kidney Cover Letter" xmlFileName="FU_Letter_Kidney.xml"></coverletter>
+    </coverletters>
+    <surveys>
+      <survey displayName="Brief Pain Inventory" pdfFileName="BPI.pdf"></survey>
+      <survey displayName="Brief Fatigue Inventory" pdfFileName="BFI.pdf"></survey>
+      <survey displayName="FACT-P" pdfFileName="FACT-P.pdf"></survey>
+    </surveys>
+  </rule>
+
+  <rule name="HIPAA authorization" type="HippaAuthorization" active="true">
+    <description>
+      Form(s) needed for patient HIPAA authorization
+    </description>
+    <sqlFile></sqlFile>
+    <coverletters>
+    </coverletters>
+    <surveys>
+      <survey displayName="HIPAA Authorization" pdfFileName="HIPAAAuthorization.pdf"></survey>
+    </surveys>
+  </rule>
+
+
+
+  <rule name="Instructions" type="NeedLetterPrintingInstructions" active="true">
+    <p>
+      <table>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>1.0 </b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Print Coverletters/Surveys/Authorization forms</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >ensure enough paper is in printer</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>2.0 </b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Print Mailing Labels</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >use Avery 5160 label sheets for printing.</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>3.0</b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Instructions</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.1</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >stamp return envelopes with "ATTN: Post-Treatment Survey"</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.2</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Put mailing labels on envelope</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.3</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Assemble packets:</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >stack Coverletter and Authorization form</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%">fold stack in thirds and place in mailing envelope</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.4</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Bring packets (stuffed mailing envelopes) down to building main room</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.5</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Eagerly await respone!</td>
+        </tr>
+      </table>
+    </p>
+  </rule>
+
+  <rule name="Instructions" type="NeedLetterEmailingInstructions" active="true">
+
+  </rule>
+
+  <rule name="Instructions" type="NeedLetterDoNotContactPerMDInstructions" active="true">
+
+  </rule>
+
+  <rule name="Instructions" type="HippaPrintingInstructions" active="true">
+    <p>
+      <table>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>1.0 </b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Print Coverletters/Authorization forms</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >ensure enough paper is in printer</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>2.0 </b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Print Mailing Labels</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >use Avery 5160 label sheets for printing.</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%">
+            <b>3.0</b>
+          </td>
+          <td align="left" valign="top" colspan="2" width="98%">
+            <b>Instructions</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.1</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >stamp return envelopes with "ATTN: Post-Treatment Survey Authorization Form"</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.2</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Put mailing labels on envelope</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.3</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Assemble packets:</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%" >stack Coverletter and Authorization form</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >- </td>
+          <td align="left" valign="top" colspan="1" width="96%">fold stack in thirds and place in mailing envelope</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.4</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Bring packets (stuffed mailing envelopes) down to building main room</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" colspan="1" width="2%"></td>
+          <td align="left" valign="top" colspan="1" width="2%" >
+            <b>3.5</b>
+          </td>
+          <td align="left" valign="top" colspan="1" width="96%" >Eagerly await respone!</td>
+        </tr>
+      </table>
+    </p>
+  </rule>
+
+  <rule name="Instructions" type="HippaEmailingInstructions" active="true">
+
+  </rule>
+
+
+</surveyrules>

@@ -1,0 +1,11 @@
+<%@ Control AutoEventWireup="true" Language="c#" Inherits="Caisis.UI.Core.Header.populateHelpArray" CodeFile="populateHelpArray.ascx.cs" CodeFileBaseClass="Caisis.UI.Core.Classes.BaseControl" %>
+<%@ Register TagPrefix="val" Namespace="Caisis.UI.Core.Classes" %>
+<%@ Import Namespace="Caisis.UI.Core.Classes" %>
+<script type="text/javascript">
+	var helpArray = new Array();
+	<asp:Repeater ID="rptToolTip" runat=server>
+	<ItemTemplate>
+		helpArray.<%# DataBinder.Eval(Container.DataItem, "HelpFieldName") %>="<%# PageUtil.EscapeDoubleQuotes(DataBinder.Eval(Container.DataItem, "HelpShortDescription").ToString())  %>";
+	</ItemTemplate>
+	</asp:Repeater>
+</script>

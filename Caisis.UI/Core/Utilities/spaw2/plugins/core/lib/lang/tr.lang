@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Kes</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopyala</message>
+  </block>
+  <block id="paste">
+    <message name="title">Ekle</message>
+  </block>
+  <block id="undo">
+    <message name="title">Geri al</message>
+  </block>
+  <block id="redo">
+    <message name="title">Tekrarla</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Link ekle</message>
+    <message name="url">URL</message>
+    <message name="name">Adı</message>
+    <message name="target">Hedef</message>
+    <message name="title_attr">Başlık</message>
+    <message name="a_type">Tip</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Çapa</message>
+    <message name="type_link2anchor">Çapaya link</message>
+    <message name="anchors">Anchors</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Resim ekle</message>
+    <message name="select">Resmi al</message>
+    <message name="delete">Resmi sil</message>
+    <message name="cancel">İptal</message>
+    <message name="library">Kütüphane</message>
+    <message name="preview">Ön izle</message>
+    <message name="images">Resim</message>
+    <message name="upload">Resim yükle</message>
+    <message name="upload_button">Yükle</message>
+    <message name="error">Hata</message>
+    <message name="error_no_image">Lütfen bir resim seçiniz</message>
+    <message name="error_uploading">Resim yükleme işleminde bir hata oluştu. Lütfen biraz sonra tekrar deneyiniz.</message>
+    <message name="error_wrong_type">Resim türü yanlış</message>
+    <message name="error_no_dir">Dizinde kütüphane bulunmuyor</message>
+    <message name="error_cant_delete">Silme işleminde hata oluştu</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Resim ayarları</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+    <message name="source">Kaynak</message>
+    <message name="alt">Alternatif Metin</message>
+    <message name="align">Konum</message>
+    <message name="justifyleft">Sol</message>
+    <message name="justifyright">Sağ</message>
+    <message name="top">Yukarda</message>
+    <message name="middle">Ortada</message>
+    <message name="bottom">Alt kısımda</message>
+    <message name="absmiddle">Merkezde</message>
+    <message name="texttop">Metin üstü</message>
+    <message name="baseline">Çizgi üzeri</message>
+    <message name="width">Genişlik</message>
+    <message name="height">Yükseklik</message>
+    <message name="border">Çerceve</message>
+    <message name="hspace">Yatay boşluk</message>
+    <message name="vspace">Dikey boşluk</message>
+    <message name="error">Hata</message>
+    <message name="error_width_nan">Genişlik sayı değil</message>
+    <message name="error_height_nan">Yükseklik sayı değil</message>
+    <message name="error_border_nan">Çerceve sayı değil</message>
+    <message name="error_hspace_nan">Yatay boşluk sayı değil</message>
+    <message name="error_vspace_nan">Dikey boşluk sayı değil</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Yatay çizgi</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Tabela oluştur</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tabela özellikleri</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal et</message>
+    <message name="rows">Satırlar</message>
+    <message name="columns">Haneler</message>
+    <message name="css_class">CSS class</message>
+    <message name="width">Genişlik</message>
+    <message name="height">Yükseklik</message>
+    <message name="border">Çerceve</message>
+    <message name="pixels">Pixel</message>
+    <message name="cellpadding">Hücreyi dolumu</message>
+    <message name="cellspacing">Hücre mesafesi</message>
+    <message name="bg_color">Arka ekran rengi</message>
+    <message name="background">Arka ekran resmi</message>
+    <message name="error">Hata</message>
+    <message name="error_rows_nan">Satır rakam değil</message>
+    <message name="error_columns_nan">Hane rakam değil</message>
+    <message name="error_width_nan">Genişlik rakam değil</message>
+    <message name="error_height_nan">Yükseklik rakam değil</message>
+    <message name="error_border_nan">Çerceve rakam değil</message>
+    <message name="error_cellpadding_nan">Hücre dolumu rakam değil</message>
+    <message name="error_cellspacing_nan">Hücre mesafesi rakam değil</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Hücre özelliği</message>
+    <message name="horizontal_align">Yatay konumu</message>
+    <message name="vertical_align">Dikey konumu</message>
+    <message name="width">Genişlik</message>
+    <message name="height">Yükseklik</message>
+    <message name="css_class">CSS sınıfı</message>
+    <message name="no_wrap">Paketsiz</message>
+    <message name="bg_color">Arka ekran rengi</message>
+    <message name="background">Arka ekran resmi</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal et</message>
+    <message name="justifyleft">Sol</message>
+    <message name="justifycenter">Merkezi</message>
+    <message name="justifyright">Sağ</message>
+    <message name="top">Üst kısım</message>
+    <message name="middle">Orta</message>
+    <message name="bottom">Alt kısım</message>
+    <message name="baseline">Çizgi üstü</message>
+    <message name="error">Hata</message>
+    <message name="error_width_nan">Genişlik rakam değil</message>
+    <message name="error_height_nan">Yükseklik rakam değil</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Satır ekle</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Hane ekle</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Satır sil</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Hane sil</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Hücreyi sağ taraf ile birleştir.</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Hücereyi alt taraf ile birleştir.</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Hücreyi yatay olarak böl</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Hücreyi dikey olarak böl</message>
+  </block>
+  <block id="style">
+    <message name="title">Düzenleme</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Yazı</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Büyüklüğü</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Parağraf</message>
+  </block>
+  <block id="bold">
+    <message name="title">Kalın</message>
+  </block>
+  <block id="italic">
+    <message name="title">Yatay ince</message>
+  </block>
+  <block id="underline">
+    <message name="title">Alt çizgili</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numarasal</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Listesel</message>
+  </block>
+  <block id="indent">
+    <message name="title">Dışa çek</message>
+  </block>
+  <block id="outdent">
+    <message name="title">İçe çek</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Sol</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Merkez</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Sağ</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Yazı rengi</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Arka ekran rengi</message>
+  </block>
+  <block id="design">
+    <message name="title">Design Modüsüne geç</message>
+  </block>
+  <block id="html">
+    <message name="title">HTML Modüsüne geç</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Renk seçimi</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal et</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML temizleyeçi</message>
+    <message name="confirm">Bu seçenek HTML formatlarını (Style) İçeriğinizden siler. Bu komutu seçmekle ya tüm ya da bazı Style blockları metin içerisinden silinir </message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Toggle borders</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">kendi penceresi (_self)</message>
+    <message name="_blank">boş yeni pencerede (_blank)</message>
+    <message name="_top">bir üst pencerede (_top)</message>
+    <message name="_parent">aynı pencerede (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Satır özellikleri</message>
+    <message name="horizontal_align">Yatay konum</message>
+    <message name="vertical_align">Dikey konum</message>
+    <message name="css_class">CSS Klası</message>
+    <message name="no_wrap">Paketsiz</message>
+    <message name="bg_color">Arka ekran rengi</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+    <message name="justifyleft">Sol</message>
+    <message name="justifycenter">Merkez</message>
+    <message name="justifyright">Sağ</message>
+    <message name="top">Üst</message>
+    <message name="middle">Orta</message>
+    <message name="bottom">Alt</message>
+    <message name="baseline">Çizgi üstü</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Özel karekterler</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+  </block>
+  <block id="templates">
+    <message name="title">Kalıplar</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Sayfa özelliği</message>
+    <message name="title_tag">Başlık</message>
+    <message name="charset">Metin Karekteri</message>
+    <message name="background">Arka plan resmi</message>
+    <message name="bgcolor">Arka plan rengi</message>
+    <message name="text">Yazı rengi</message>
+    <message name="link">Link rengi</message>
+    <message name="vlink">Uğranılmış link rengi</message>
+    <message name="alink">Actif link rengi</message>
+    <message name="leftmargin">Sol kenar</message>
+    <message name="topmargin">Üst kenar</message>
+    <message name="css_class">CSS Klası</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">İptal</message>
+  </block>
+  <block id="preview">
+    <message name="title">Ön gösterim</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Resim popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Büyülteç</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Subscript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Superscript</message>
+  </block>
+</messages>

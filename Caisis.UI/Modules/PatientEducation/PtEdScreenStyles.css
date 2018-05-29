@@ -1,0 +1,255 @@
+﻿.PDivider
+{
+    height: 0px;
+    page-break-after: always;
+    page-break-after: always;
+    background-color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.PageSize {
+	width: 100%;
+	text-align: left;
+	margin: 0 auto;
+	
+}
+
+
+.Header {
+	 margin: 0px;
+	 margin-bottom: 15px;
+	 width: 98%;
+	 vertical-align: top;
+	 z-index: -1;
+	 position:absolute;
+}
+.insertedHeader {
+	 margin: 0px;
+	 margin-bottom: 15px;
+	 width: 100%;
+	 vertical-align: top;
+}
+.HeaderBackground {
+	 z-index: -1;
+
+}
+
+
+.Footer {
+	vertical-align:bottom;
+	width: 100%;
+	
+}
+.insertedFooter {
+	vertical-align:bottom;
+	margin-top: 40px;
+	page-break-after: always;
+}
+
+.FooterTableCell 
+{
+    padding-top: 20px;
+	width: 33%;
+	font: "Times New Roman", Times, serif;
+	color: #000000;
+	font-size: 7pt;
+	text-align: left;
+	display: none;
+}
+
+.Continued {
+	vertical-align:bottom;
+	margin-top: 15px;
+}
+
+.content {
+	font: "Times New Roman", Times, serif;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 20px;
+	text-align: left;
+}
+
+img {
+	float: right;
+	margin: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 30%;
+}
+
+.HeaderImg {
+	margin: 0px;
+	width: 100%;
+}
+
+.PageBody {
+
+}
+
+
+span {
+	color: #000000;
+	font-size: 9pt;
+	margin-top: 20px;
+	text-align: left;
+}
+
+span.SectionTitle {
+	font: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 20pt;
+	text-align: left;
+	display: block;
+	margin-left: 24px;
+    margin-right: 24px;
+}
+.TopicDiv {
+    margin-top: 25px;
+}
+.SectionDiv {
+    margin-top: 70px;
+    margin-left: 0px;
+    padding-right: 0px;
+
+
+}
+
+.TopicTitle
+{
+    font-size: 12pt;
+    font-weight: bold;
+    display: block;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    
+}
+
+span.SubTopicTitle {
+	font: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 20pt;
+	text-align: left;
+	display: block;
+	margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 50px;
+}
+.SubTopicDiv {
+	margin-top: 70px;
+	display: block;
+	width: 100%;
+	margin-left: 0px;
+    padding-right: 0px;
+
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 11pt;
+}
+ul 
+{
+    font-size: 11pt;
+    margin: 0px;
+    margin-top: -16px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    background-color: #D4E1E7;
+
+/*  background-image: url(Images/ListBackground.png);
+    background-repeat: no-repeat;
+    background-color: #F2F7FC;
+*/
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 86%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ol 
+{
+    font-size: 11pt;
+    margin: 0px;
+    margin-top: -16px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    background-color: #D4E1E7;
+
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 35px;
+    width: 86%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+li
+{
+    line-height: normal;
+}
+
+.insertedContinued {
+    vertical-align:bottom;
+    margin-top: 15px;
+    display: block;
+}
+.ContinuedImg {
+    width: 45px;
+    height: 21px;
+    float: right;
+    margin-right: 20px;
+}
+.SpacerImg {
+    width: 90px;
+    height: 42px;
+    float: right;
+    margin-right: 34px;
+}    
+    
+#PrintingContainer
+{
+	font: "Times New Roman", Times, serif;
+	color: #000000;
+	font-size: 8pt;
+
+}
+
+.SectionContent
+{
+    visibility: visible;
+}
+
+.TopicContent
+{
+    visibility: visible;
+}
+
+.SubTopicContent
+{
+    visibility: visible;
+}
+
+
+.pageBG
+{
+    border: solid 1px #128bc3; 
+    border-top: none;
+    border-bottom: none;
+    height: 2000px; 
+/*  background-color: #FAF9EF; */
+}
+
+.BreakerDiv
+{
+}

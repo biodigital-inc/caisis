@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--  store in application cache -->
+<!--  this file creates a map between table name, form name, chron list drop down item, 
+			menu item, title of form displayed on page. It also specifies parent to child forms and 
+			if a form should be excluded in a disease view.
+      Attribute List: 
+        displayInMainMenu="false"
+        displayInSubMenu="false"
+        displayWithParent="true"
+        displayWithChild="EncExams,ReviewOfSystems"
+        displayOpened="true" : controls if the data entry section is displayed opened(true) or collapsed(false) (default true)
+        excludeViews="Prostate,Bladder" etc or excludeViews="All"
+        includeViews="Prostate,Bladder" etc or includeViews="All"
+        menuTitle=""
+        tableName=""
+        chronListOption=""
+        filterChronListOnMenuClick=""
+        numDisplayColumns="2"
+        fileName="" : for static files that will override the creation of a dynamic form for this table
+        siblingTables=""  : display sub menu links to forms who share the same parent record
+        relevantTables="" : display sub menu links to other relevant forms; defaults to 6
+        totalBlankGridRows = the total number of data grid rows available to a user without saving form
+        visibleBlankGridRows  = the number of totalBlankGridRows which are visible by default. The remaining rows are hidden and displayed
+                                when user clicks "add rows"; defaults to 3
+ -->
+<menus>
+  <menu title="Patients" menuTitle="Patients">
+    <menuItem loadByDefault="True" fileName="Summary.ascx" menuTitle="Summary" tableName="Summary" pageTitle="Summary" chronListOption="ListCommon" chronListText="Most Relevant">
+    </menuItem>
+    <menuItem menuTitle="Demographics" tableName="Patients" plugins="IdentifierValidator" numDisplayColumns="2" displayWithChild="PatientPhoneNumbers" pageTitle="Demographics" chronListOption="ListAll" chronListText="List All">
+      <menuItem menuTitle="Phone Numbers" tableName="PatientPhoneNumbers" displayInMainMenu="false" displayInSubMenu="false" gridView="true" pageTitle="Phone Numbers">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Missing Items" displayInMainMenu="false" chronListOption="ItemsMissing" chronListText="Missing Items">
+    </menuItem>
+    <menuItem menuTitle="Pending Items" displayInMainMenu="false" chronListOption="ItemsPending" chronListText="Pending Items">
+    </menuItem>
+    <menuItem fileName="AbsentEventForm.ascx" menuTitle="Absent Events" tableName="AbsentEvents" pageTitle="Absent Events" chronListOption="AbsentEvents" chronListText="Absent Events">
+    </menuItem>
+    <menuItem menuTitle="Actions" tableName="Actions" pageTitle="Actions" chronListOption="Actions" chronListText="Actions" gridView="true">
+    </menuItem>
+    <menuItem menuTitle="Allergies" tableName="Allergies" pageTitle="Allergies" chronListOption="Allergies" chronListText="Allergies">
+    </menuItem>
+    <menuItem menuTitle="Categories" tableName="Categories" pageTitle="Categories" chronListOption="Categories" chronListText="Categories">
+    </menuItem>
+    <menuItem menuTitle="Patient Consent" tableName="PatientConsent" pageTitle="Patient Consent" chronListOption="PatientConsent" chronListText="Patient Consent" excludeViews="Head &amp; Neck">
+    </menuItem>
+    <menuItem menuTitle="Comorbidities" tableName="Comorbidities" pageTitle="Comorbidities" chronListOption="Comorbidities" chronListText="Comorbidities">
+    </menuItem>
+    <menuItem menuTitle="Diseases" tableName="PatientDiseases" gridView="true" pageTitle="Diseases" chronListText="Diseases">
+    </menuItem>
+    <menuItem menuTitle="Dietary Intake" tableName="DietaryIntake" displayWithChild="DietaryIntakeItems" pageTitle="Dietary Intake" chronListOption="DietaryIntake" chronListText="Dietary Intake" excludeViews="Head &amp; Neck">
+      <menuItem menuTitle="Intake Items" tableName="DietaryIntakeItems" displayInMainMenu="false" displayInSubMenu="false" displayWithParent="true" gridView="true" pageTitle="Intake Items">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Family Members" tableName="FamilyMembers" displayWithChild="FamilyMemberDiagnosis" pageTitle="Family Members" chronListOption="FamilyMembers" chronListText="Family Members">
+      <menuItem menuTitle="Family Member Diagnosis" tableName="FamilyMemberDiagnosis" displayInMainMenu="false" displayInSubMenu="false" gridView="true" pageTitle="Family Diagnosis">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Hospitalization" tableName="Hospitalizations" pageTitle="Hospitalization" chronListOption="Hospitalizations" chronListText="Hospitalizations" numDisplayColumns="2">
+    </menuItem>
+    <menuItem menuTitle="Identifiers" tableName="Identifiers" pageTitle="Identifiers" chronListOption="Identifiers" chronListText="Identifiers">
+    </menuItem>
+    <menuItem menuTitle="Physicians" fileName="PatientPhysiciansForm.ascx" tableName="PatientPhysicians" pageTitle="Physicians" chronListOption=" " chronListText="Physicians" excludeViews="Head &amp; Neck">
+    </menuItem>
+    <menuItem menuTitle="Problems" tableName="PatientPhysicians" pageTitle="Problems" chronListOption="" chronListText="" >
+    </menuItem>
+    <menuItem menuTitle="Protocols" tableName="PatientProtocols" plugins="ProtocolsPlugin" displayWithChild="PatientProtocolStatus" pageTitle="Protocols" chronListOption="Protocols" chronListText="Protocols">
+      <menuItem menuTitle="Protocol Status" tableName="PatientProtocolStatus" displayInMainMenu="false" displayInSubMenu="false" gridView="true" pageTitle="Protocol Status">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Social Histories" tableName="SocialHistories" pageTitle="Social Histories" chronListOption="SocialHistories" chronListText="Social Histories" filterChronListOnMenuClick="True" numDisplayColumns="2">
+    </menuItem>
+  </menu>
+  <menu title="Encounters" menuTitle="Encounters">
+    <menuItem menuTitle="Encounters" tableName="Encounters" numDisplayColumns="2" pageTitle="Encounters" chronListOption="Encounters" chronListText="Encounters">
+      <menuItem menuTitle="Physical Exams" gridView="true" tableName="EncExams" displayWithParent="true" pageTitle="Physical Exams" chronListOption="Encounters" chronListText="Encounters" totalBlankGridRows="20" visibleBlankGridRows="10">
+      </menuItem>
+      <menuItem menuTitle="Rectal Exam" tableName="EncRectalExams" displayWithParent="true" displayWithChild="EncRectalExamFindings" pageTitle="Rectal Exam" chronListOption="Encounters" chronListText="Encounters" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Rectal Exam Findings" tableName="EncRectalExamFindings" gridView="true" pageTitle="Rectal Exam Findings" displayInMainMenu="false" displayInSubMenu="false" includeViews="Prostate" totalBlankGridRows="20" visibleBlankGridRows="10">
+      </menuItem>
+      <menuItem menuTitle="Bimanual Exams" gridView="true" tableName="EncBimanualExams" displayWithParent="true" pageTitle="Bimanual Exams" chronListOption="Encounters" chronListText="Encounters" includeViews="Bladder,Breast">
+      </menuItem>
+      <menuItem menuTitle="Head &amp; Neck Findings" gridView="true" tableName="EncHeadNeckFinding" displayWithChild="EncReviewOfSystems,EncExams,EncNodeExamFinding" displayWithParent="true" pageTitle="Head &amp; Neck Findings" chronListOption="Encounters" chronListText="Encounters" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Node Exam Findings" gridView="true" tableName="EncNodeExamFinding" displayWithParent="true" pageTitle="Node Exam Findings" chronListOption="Encounters" chronListText="Encounters">
+      </menuItem>
+      <menuItem menuTitle="Review of Systems" gridView="true" totalBlankGridRows="5" tableName="EncReviewOfSystems" displayWithParent="true" pageTitle="Review of Systems" chronListOption="Encounters" chronListText="Encounters">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Clinical Stages" tableName="ClinicalStages" fileName="ClinicalStage.ascx" pageTitle="Clinical Stages" chronListOption="ClinicalStages" chronListText="Clinical Stages">
+    </menuItem>
+    <menuItem menuTitle="Surveys" plugins="SurveyPlugin" tableName="Surveys" displayWithChild="SurveyItems" numDisplayColumns="2" pageTitle="Surveys" chronListOption="Surveys" chronListText="Surveys">
+      <menuItem menuTitle="Survey Items" gridView="true" tableName="SurveyItems" displayInMainMenu="false" displayInSubMenu="false" pageTitle="Survey Items" totalBlankGridRows="15" visibleBlankGridRows="10">
+      </menuItem>
+    </menuItem>
+  </menu>
+  <menu title="Procedures" menuTitle="Procedures">
+    <menuItem menuTitle="Operating Room Details" tableName="OperatingRoomDetails" mostRelevantTables="Procedures, Pathology" numDisplayColumns="2" pageTitle="Operating Room Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+    </menuItem>
+    <menuItem menuTitle="Procedures" tableName="Procedures" allowAbsentEvent="true" mostRelevantTables="OperatingRoomDetails,Pathology" numDisplayColumns="2" pageTitle="Procedures" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      <menuItem menuTitle="Assistants" tableName="ProcedureAssistants" displayWithParent="true" gridView="true" pageTitle="Assistants" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Gynecology">
+      </menuItem>
+      <menuItem menuTitle="Breast Reconstruction" tableName="BreastReconstructionProc" mostRelevantTables="OperatingRoomDetails,Pathology" displayWithParent="true" gridView="false" pageTitle="Breast Reconstruction" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Plastics" numDisplayColumns="2">
+      </menuItem>
+      <menuItem menuTitle="Colorectal" tableName="ColorectalProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding,ColorectalPath" displayWithParent="true" displayWithChild="ProcedureFinding" numDisplayColumns="2" pageTitle="Colorectal Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Colorectal">
+      </menuItem>
+      <menuItem menuTitle="Cystectomy" tableName="CystectomyProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding,CystectomyPath" displayWithParent="true" numDisplayColumns="2" pageTitle="Cystectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Bladder">
+      </menuItem>
+      <menuItem menuTitle="Gastrectomy" tableName="GastricProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding,GastricPath" displayWithParent="true" numDisplayColumns="2" pageTitle="Gastrectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Gastric">
+      </menuItem>
+      <menuItem menuTitle="Head &amp; Neck" tableName="HeadNeckProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding" displayWithParent="true" numDisplayColumns="2" pageTitle="Head and Neck Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Mastectomy" tableName="BreastProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding,BreastPath" displayWithParent="true" numDisplayColumns="2" pageTitle="Mastectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Breast">
+      </menuItem>
+      <menuItem menuTitle="Nephrectomy" tableName="NephrectomyProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProcedureFinding, NephrectomyPath" displayWithParent="true" numDisplayColumns="2" pageTitle="Nephrectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Kidney">
+      </menuItem>
+      <menuItem menuTitle="Neural Stimulations" tableName="NeuralStimulationProcFinding" mostRelevantTables="ProstatectomyPath,CystectomyPath" gridView="true" displayWithParent="true" pageTitle="Neural Stimulations" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Node Dissection" tableName="NodeProc" mostRelevantTables="NodePathFinding,OperatingRoomDetails,Pathology" displayWithParent="true" pageTitle="Nodes Details" displayWithChild="ProcedureFinding" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Pancreatectomy" tableName="PancreasProc" mostRelevantTables="PancreasPath,OperatingRoomDetails, Pathology" displayWithParent="true" numDisplayColumns="2" pageTitle="Pancreactomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Pancreas">
+      </menuItem>
+      <menuItem menuTitle="Plastics Free Flap" tableName="PlasticFreeFlapProc" mostRelevantTables="OperatingRoomDetails,Pathology" displayWithParent="true" gridView="true" pageTitle="Free Flaps Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Plastics">
+      </menuItem>
+      <menuItem menuTitle="Procedure Findings" tableName="ProcedureFinding" mostRelevantTables="OperatingRoomDetails,Pathology" gridView="True" displayWithParent="true" pageTitle="Procedure Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Prostatectomy" tableName="ProstatectomyProc" mostRelevantTables="OperatingRoomDetails,Pathology,ProstatectomyProcFinding, ProstatectomyPath, ProstatectomyPathSection, ProstatectomyPathFinding, NeuralStimulationProcFinding" displayWithParent="true" displayWithChild="ProstatectomyProcFinding" numDisplayColumns="2" pageTitle="Prostatectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostatectomy Findings" tableName="ProstatectomyProcFinding" mostRelevantTables="OperatingRoomDetails,Pathology, ProstatectomyProc, ProstatectomyPath, ProstatectomyPathSection, ProstatectomyPathFinding" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Prostatectomy Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="RPLND" tableName="RPLND_Proc" mostRelevantTables="NodePathFinding,OperatingRoomDetails,Pathology" displayWithParent="true" displayWithChild="ProcedureFinding" pageTitle="RPLND Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Thyroidectomy" tableName="ThyroidProc" mostRelevantTables="ThyroidPath,OperatingRoomDetails,Pathology" displayWithParent="true" displayWithChild="ProcedureFinding" numDisplayColumns="2" pageTitle="Thyroidectomy Details" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Urinary Diversions" tableName="UrinaryDiversionProc" mostRelevantTables="ProstatectomyPath,CystectomyPath" displayWithParent="true" numDisplayColumns="2" pageTitle="Urinary Diversions" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Pathology" tableName="Pathology" displayWithChild="PathologyStageGrade" mostRelevantTables="OperatingRoomDetails,Procedures" plugins="FileLoader" numDisplayColumns="2" pageTitle="Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      <menuItem menuTitle="Colorectal" tableName="ColorectalPath" mostRelevantTables="ColorectalProc, OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="ColorectalPathFinding, PathologyStageGrade, NodePathFinding" pageTitle="Colorectal Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Colorectal">
+      </menuItem>
+      <menuItem menuTitle="Colorectal Findings" tableName="ColorectalPathFinding" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Colorectal Pathology Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Colorectal">
+      </menuItem>
+      <menuItem menuTitle="Cystectomy" tableName="CystectomyPath" mostRelevantTables="CystectomyProc,OperatingRoomDetails, Procedures" displayWithParent="true" displayWithChild="PathologyStageGrade" numDisplayColumns="2" pageTitle="Cystectomy Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Bladder">
+      </menuItem>
+      <menuItem menuTitle="Endoscopy" tableName="CystoscopyPath" mostRelevantTables="OperatingRoomDetails,Procedures" displayWithChild="CystoscopyPathFinding, PathologyStageGrade" displayWithParent="true" numDisplayColumns="2" pageTitle="Endoscopy Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Bladder">
+      </menuItem>
+      <menuItem menuTitle="Endoscopy Findings" tableName="CystoscopyPathFinding" mostRelevantTables="OperatingRoomDetails,Procedures" displayWithParent="true" gridView="True" displayInMainMenu="false" pageTitle="Endoscopy Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Bladder">
+      </menuItem>
+      <menuItem menuTitle="Gastrectomy" tableName="GastricPath" mostRelevantTables="GastricProc,OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="PathologyStageGrade" numDisplayColumns="2" pageTitle="Gastric Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Gastric">
+      </menuItem>
+      <menuItem menuTitle="Head &amp; Neck" tableName="HeadNeckPath" mostRelevantTables="HeadNeckProc,OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="PathologyFinding, PathologyStageGrade, PathTest, NodePathFinding" numDisplayColumns="2" pageTitle="Head &amp; Neck Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Liver Path" tableName="LiverPath" mostRelevantTables="PathologyFinding,NodePathFinding,OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="PathologyFinding, PathologyStageGrade, NodePathFinding" numDisplayColumns="2" pageTitle="Liver Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Liver">
+      </menuItem>
+      <menuItem menuTitle="Lung Path" tableName="LungPath" mostRelevantTables="OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="PathologyStageGrade" numDisplayColumns="2" pageTitle="Lung Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Thoracic">
+      </menuItem>
+      <menuItem menuTitle="Mastectomy" tableName="BreastPath" mostRelevantTables="BreastProc,OperatingRoomDetails, Procedures" displayWithParent="true" displayWithChild="BreastPathFinding, PathologyStageGrade" numDisplayColumns="2" pageTitle="Breast Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Breast">
+      </menuItem>
+      <menuItem menuTitle="Mastectomy Findings" tableName="BreastPathFinding" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Breast Pathology Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Breast">
+      </menuItem>
+      <menuItem menuTitle="Nephrectomy" tableName="NephrectomyPath" mostRelevantTables="NephrectomyProc,OperatingRoomDetails, Procedures" displayWithParent="true" displayWithChild="NephrectomyPathFinding, PathologyStageGrade" numDisplayColumns="2" pageTitle="Kidney Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Kidney">
+      </menuItem>
+      <menuItem menuTitle="Nephrectomy Findings" tableName="NephrectomyPathFinding" mostRelevantTables="NephrectomyProc, OperatingRoomDetails, Procedures" displayWithParent="true" displayInMainMenu="false" gridView="True" pageTitle="Kidney Path Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Kidney">
+      </menuItem>
+      <menuItem menuTitle="Node Findings" tableName="NodePathFinding" mostRelevantTables="OperatingRoomDetails, Procedures, RPLND_Proc" gridView="True" displayWithParent="true" pageTitle="Pathology Node Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" totalBlankGridRows="12" visibleBlankGridRows="5">
+      </menuItem>
+      <menuItem menuTitle="Other Biopsies" tableName="BiopsyPath" mostRelevantTables="OperatingRoomDetails, Procedures" displayWithParent="true" displayWithChild="PathologyFinding" pageTitle="Biopsy Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Pancreatectomy" tableName="PancreasPath" mostRelevantTables="PathologyFinding,NodePathFinding,PancreasProc,OperatingRoomDetails,Procedures" displayWithParent="true" displayWithChild="PathologyFinding, PathologyStageGrade, NodePathFinding" numDisplayColumns="2" pageTitle="Pancreas Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Pancreas">
+      </menuItem>
+      <menuItem menuTitle="Pathology Findings" tableName="PathologyFinding" mostRelevantTables="OperatingRoomDetails,Procedures" gridView="True" displayWithParent="true" displayWithChild="PathologyStageGrade" pageTitle="Pathology Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Pathology Tests" tableName="PathTest" mostRelevantTables="OperatingRoomDetails, Procedures" gridView="True" displayWithParent="true" pageTitle="Pathology Tests" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+      <menuItem menuTitle="Polypectomy" tableName="PolypectomyPath" displayWithParent="true" numDisplayColumns="2" displayInMainMenu="true" displayWithChild="PathologyStageGrade" pageTitle="Polypectomy Pathology Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Colorectal">
+      </menuItem>
+      <menuItem menuTitle="Prostatectomy" tableName="ProstatectomyPath" mostRelevantTables="ProstatectomyProc, ProstatectomyProcFinding, NeuralStimulationProcFinding,OperatingRoomDetails, Procedures" displayWithParent="true" numDisplayColumns="2" displayWithChild="ProstatectomyPathSection, ProstatectomyPathFinding, PathologyStageGrade" pageTitle="Prostatectomy Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostatectomy Sections" tableName="ProstatectomyPathSection" mostRelevantTables="ProstatectomyProc,ProstatectomyProcFinding, NeuralStimulationProcFinding,OperatingRoomDetails, Procedures" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Prostate Pathology Sections" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostatectomy Findings" tableName="ProstatectomyPathFinding" mostRelevantTables="ProstatectomyProc,ProstatectomyProcFinding, NeuralStimulationProcFinding,OperatingRoomDetails, Procedures" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Prostate Pathology Findings" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostate Biopsies" tableName="ProstateBiopsyPath" mostRelevantTables="OperatingRoomDetails,Procedures" numDisplayColumns="2" displayWithParent="true" displayWithChild="ProstateBiopsyCorePath" pageTitle="Prostate Biopsy" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostate Biopsy Cores" tableName="ProstateBiopsyCorePath" mostRelevantTables="OperatingRoomDetails,Procedures" gridView="True" displayWithParent="true" displayInMainMenu="false" pageTitle="Prostate Biopsy Cores" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Prostate" totalBlankGridRows="20" visibleBlankGridRows="10">
+      </menuItem>
+      <menuItem menuTitle="Orchiectomy" tableName="OrchiectomyPath" mostRelevantTables="OperatingRoomDetails,Procedures" displayWithParent="true" numDisplayColumns="2" displayWithChild="PathologyStageGrade" pageTitle="Orchiectomy pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Testis">
+      </menuItem>
+      <menuItem menuTitle="Thyroidectomy" tableName="ThyroidPath" mostRelevantTables="ThyroidProc,OperatingRoomDetails,Procedures" numDisplayColumns="2" displayWithParent="true" displayWithChild="PathologyFinding, PathologyStageGrade, PathTest, NodePathFinding" pageTitle="Thyroid Pathology" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Pathology Stages" tableName="PathologyStageGrade" displayInMainMenu="false" displayInSubMenu="true" mostRelevantTables="OperatingRoomDetails,Procedures" displayWithParent="true" gridView="True" pageTitle="Pathology Stages" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Specimen Accessions" plugins="SpecimenLocation" tableName="SpecimenAccessions" displayInMainMenu="true" displayInSubMenu="false" displayWithChild="Specimens" mostRelevantTables="Pathology" displayWithParent="false" gridView="false" pageTitle="Specimen Accession" numDisplayColumns="2" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      <menuItem menuTitle="Specimens" tableName="Specimens" displayInMainMenu="false" displayInSubMenu="false" mostRelevantTables="" displayWithParent="true" gridView="True" pageTitle="Specimens" chronListOption="OperatingRoomDetails" chronListText="Procedures / Pathology">
+      </menuItem>
+    </menuItem>
+  </menu>
+  <menu title="Therapies" menuTitle="Therapies">
+    <menuItem menuTitle="Medications" tableName="Medications" pageTitle="Medications" chronListOption="Medications" chronListText="Medications">
+    </menuItem>
+    <menuItem menuTitle="Medical Tx" tableName="MedicalTherapy" allowAbsentEvent="true" numDisplayColumns="2" pageTitle="Medical Tx" chronListOption="MedicalTherapy" chronListText="Medical Tx">
+      <menuItem menuTitle="Administrations" tableName="MedTxAdministration" gridView="true" displayWithParent="true" pageTitle="Administrations" chronListOption="MedicalTherapy" chronListText="Medical Tx">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Radiation Tx" allowAbsentEvent="true" tableName="RadiationTherapy" numDisplayColumns="2" pageTitle="Radiation Tx" chronListOption="RadiationTherapy" chronListText="Radiation Tx">
+      <menuItem menuTitle="Administrations" tableName="RadTxAdministration" gridView="true" displayWithParent="true" pageTitle="Administrations" chronListOption="RadiationTherapy" chronListText="Radiation Tx">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Brachytherapy" tableName="BrachyTherapy" numDisplayColumns="2" pageTitle="Brachytherapy" chronListOption="BrachyTherapy" chronListText="Brachytherapy">
+    </menuItem>
+    <menuItem menuTitle="QOL Therapy" tableName="QOL_Therapy" pageTitle="QOL Therapy" chronListOption="QOL_Therapy" chronListText="QOL Therapy">
+    </menuItem>
+  </menu>
+  <menu title="Diagnostics" menuTitle="Diagnostics">
+    <menuItem menuTitle="Diagnostics" tableName="Diagnostics" numDisplayColumns="2" pageTitle="Diagnostics" chronListOption="Diagnostics" chronListText="Diagnostics">
+      <menuItem menuTitle="Endorectal Ultrasound" tableName="DxImageEndorectalUltrasound" displayWithParent="true" numDisplayColumns="2" pageTitle="Endorectal Ultrasound" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Colorectal">
+      </menuItem>
+      <menuItem menuTitle="Prostate Imaging" tableName="DxImageProstate" displayWithParent="true" numDisplayColumns="2" pageTitle="Prostate Imaging" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Prostate Findings" tableName="DxImageFindingsProstate" displayWithParent="true" gridView="true" pageTitle="Prostate Findings" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Prostate">
+      </menuItem>
+      <menuItem menuTitle="Pulmonary Test" tableName="DxPulmonaryTest" displayWithParent="true" gridView="false" pageTitle="Pulmonary Test" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Thoracic">
+      </menuItem>
+      <menuItem menuTitle="Kidney Findings" tableName="DxImageFindingsKidney" displayWithParent="true" gridView="true" pageTitle="Kidney Findings" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Kidney">
+      </menuItem>
+      <menuItem menuTitle="Thyroid Image Findings" mostRelevantTables="DxImageFindings" tableName="DxImageThyroid" displayWithParent="true" gridView="true" pageTitle="Thyroid Findings" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Thyroid Ultrasound" mostRelevantTables="DxImageFindings" tableName="DxImageThyroidUltrasound" displayWithParent="true" displayWithChild="DxImageFindings" gridView="true" pageTitle="Thyroid Ultrasound" chronListOption="Diagnostics" chronListText="Diagnostics" includeViews="Head &amp; Neck">
+      </menuItem>
+      <menuItem menuTitle="Other Image Findings" tableName="DxImageFindings" displayWithParent="true" gridView="true" pageTitle="Image Findings" chronListOption="Diagnostics" chronListText="Diagnostics">
+      </menuItem>
+    </menuItem>
+    <menuItem menuTitle="Lab Tests" tableName="LabTests" pageTitle="Lab Tests" chronListOption="LabTests" chronListText="Lab Tests">
+    </menuItem>
+  </menu>
+  <menu title="Outcomes" menuTitle="Outcomes">
+    <menuItem menuTitle="Status" tableName="Status" pageTitle="Status" chronListOption="Status" chronListText="Status">
+    </menuItem>
+    <menuItem menuTitle="Toxicities" tableName="Toxicities" plugins="CTCAEWizard" pageTitle="Toxicities" chronListOption="Toxicities" chronListText="Toxicities" numDisplayColumns="2">
+      <menuItem menuTitle="SAE" tableName="SeriousAdverseEvents" pageTitle="Serious Adverse Events" displayWithParent="true" chronListOption="Toxicities" chronListText="Toxicities" numDisplayColumns="2">
+      </menuItem>
+    </menuItem>
+  </menu>
+  <menu title="Workflows" menuTitle="Workflows">
+  </menu>
+</menus>

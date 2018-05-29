@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Torri</message>
+  </block>
+  <block id="copy">
+    <message name="title">Cop&iuml;o</message>
+  </block>
+  <block id="paste">
+    <message name="title">Gludo</message>
+  </block>
+  <block id="undo">
+    <message name="title">Dadwneud</message>
+  </block>
+  <block id="redo">
+    <message name="title">Ail-adrodd</message>
+  </block>
+  <block id="image">
+    <message name="title">Llwytho llun yn gyflym</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Llun</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+    <message name="source">Ffynhonnell</message>
+    <message name="alt">Disgrifiad byr</message>
+    <message name="align">Gosod</message>
+    <message name="left">chwith</message>
+    <message name="right">dde</message>
+    <message name="top">top</message>
+    <message name="middle">canol</message>
+    <message name="bottom">gwaelod</message>
+    <message name="absmiddle">abs-canol</message>
+    <message name="texttop">top-testun</message>
+    <message name="baseline">baslinell</message>
+    <message name="width">Lled</message>
+    <message name="height">Uchder</message>
+    <message name="border">Ymyl</message>
+    <message name="hspace">Bwlch llor.</message>
+    <message name="vspace">Bwlch fert.</message>
+    <message name="dimensions">Dimensiynau</message>
+    <message name="reset_dimensions">Ail-osod dimensiynau</message>
+    <message name="title_attr">Teitl</message>
+    <message name="constrain_proportions">cadw cyfrannedd</message>
+    <message name="error">Gwall</message>
+    <message name="error_width_nan">Lled ddim yn rhif</message>
+    <message name="error_height_nan">Uchder ddim yn rhif</message>
+    <message name="error_border_nan">Ymyl ddim yn rhif</message>
+    <message name="error_hspace_nan">Bwlch llorweddol ddim yn rhif</message>
+    <message name="error_vspace_nan">Bwlch fertigolis ddim yn rhif</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+    <message name="source">Ffynhonnell</message>
+    <message name="width">Lled</message>
+    <message name="height">Uchder</message>
+    <message name="error">Gwall</message>
+    <message name="error_width_nan">Lled ddim yn rhif</message>
+    <message name="error_height_nan">Uchder ddim yn rhif</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Riwl llorweddol</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Creu tabl</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Priodweddau tabl</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+    <message name="rows">Rhesi</message>
+    <message name="columns">Colofnau</message>
+    <message name="css_class">Dosbarth CSS</message>
+    <message name="width">Lled</message>
+    <message name="height">Uchder</message>
+    <message name="border">Ymyl</message>
+    <message name="pixels">picsel</message>
+    <message name="cellpadding">Padio cell</message>
+    <message name="cellspacing">Bylchiad cell</message>
+    <message name="bg_color">Lliw cefndir</message>
+    <message name="background">Delwedd cefndir</message>
+    <message name="error">Gwall</message>
+    <message name="error_rows_nan">Rhesi ddim yn rhif</message>
+    <message name="error_columns_nan">Colofnau ddim yn rhif</message>
+    <message name="error_width_nan">Lled ddim yn rhif</message>
+    <message name="error_height_nan">Uchder ddim yn rhif</message>
+    <message name="error_border_nan">Ymyl ddim yn rhif</message>
+    <message name="error_cellpadding_nan">Padio cell ddim yn rhif</message>
+    <message name="error_cellspacing_nan">Bylchiad cell ddim yn rhif</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Priodweddau cell</message>
+    <message name="horizontal_align">Alinio llorweddol</message>
+    <message name="vertical_align">Alinio fertigol</message>
+    <message name="width">Lled</message>
+    <message name="height">Uchder</message>
+    <message name="css_class">Dosbarth CSS</message>
+    <message name="no_wrap">Dim lapio</message>
+    <message name="bg_color">Lliw cefndir</message>
+    <message name="background">Delwedd cefndir</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+    <message name="left">Chwith</message>
+    <message name="center">Canol</message>
+    <message name="right">Dde</message>
+    <message name="top">Brig</message>
+    <message name="middle">Canol</message>
+    <message name="bottom">Gwaelod</message>
+    <message name="baseline">Baslinell</message>
+    <message name="error">Gwall</message>
+    <message name="error_width_nan">Lled ddim yn rhif</message>
+    <message name="error_height_nan">Uchder ddim yn rhif</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Mewnosod rhes</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Mewnosod colofn</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Dileu rhes</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Dileu colofn</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Cyfuno i'r dde</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Cyfuno i lawr</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Hollti cell yn lorweddol</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Hollti cell yn fertigol</message>
+  </block>
+  <block id="style">
+    <message name="title">Steil</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Ffont</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Maint</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paragraff</message>
+  </block>
+  <block id="bold">
+    <message name="title">Bras</message>
+  </block>
+  <block id="italic">
+    <message name="title">Italig</message>
+  </block>
+  <block id="underline">
+    <message name="title">Tanlinellu</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Llinell trwyddo</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Rhestr mewn trefn</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Rhestr bwled</message>
+  </block>
+  <block id="indent">
+    <message name="title">Tabio</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Dad-tabio</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Chwith</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Canoli</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Dde</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Ochrau syth</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Lliw</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Lliw cefndir</message>
+  </block>
+  <block id="design">
+    <message name="title">Newid i olwg WYSIWYG (dylunio)</message>
+  </block>
+  <block id="html">
+    <message name="title">Newid i olwg HTML (cod)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Dewisydd lliwiau</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">Glanhau HTML</message>
+    <message name="confirm">Bydd gwneud hyn yn glanhau eich cod.</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Togl ymylon</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Dolen</message>
+    <message name="url">URL</message>
+    <message name="name">Enw</message>
+    <message name="target">Targed</message>
+    <message name="title_attr">Teitl</message>
+    <message name="a_type">Teip</message>
+    <message name="type_link">Linc</message>
+    <message name="type_anchor">Angor</message>
+    <message name="type_link2anchor">Cysylltu i angor</message>
+    <message name="anchors">Angor</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">r'un ffr&acirc;m (_self)</message>
+    <message name="_blank">ffenstr newydd gwag (_blank)</message>
+    <message name="_top">ffr&acirc;m top (_top)</message>
+    <message name="_parent">ffr&acirc;m uwch (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Diddymu dolen</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Priodweddau rhes</message>
+    <message name="horizontal_align">Alinio llorweddol</message>
+    <message name="vertical_align">Alinio fertigol</message>
+    <message name="css_class">Dosbarth CSS</message>
+    <message name="no_wrap">Dim lapio</message>
+    <message name="bg_color">Lliw cefndir</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+    <message name="left">Chwith</message>
+    <message name="center">Center</message>
+    <message name="right">Dde</message>
+    <message name="top">Top</message>
+    <message name="middle">Canol</message>
+    <message name="bottom">Gwaelod</message>
+    <message name="baseline">Baslinell</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Cymeriadau arbennig</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+  </block>
+  <block id="templates">
+    <message name="title">Templedau</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Priodweddau tudalen</message>
+    <message name="title_tag">Teitl</message>
+    <message name="charset">Charset</message>
+    <message name="background">Delwedd cefndir</message>
+    <message name="bgcolor">Lliw cefndir</message>
+    <message name="text">lliw testun</message>
+    <message name="link">Lliw dolen</message>
+    <message name="vlink">Lliw dolen a ymwelwyd</message>
+    <message name="alink">lliw dolen actif</message>
+    <message name="leftmargin">Ffin chwith</message>
+    <message name="topmargin">Ffin top</message>
+    <message name="css_class">Dosbarth CSS</message>
+    <message name="ok">  Iawn  </message>
+    <message name="cancel">Canslo</message>
+  </block>
+  <block id="preview">
+    <message name="title">Rhagolwg</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup delwedd</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Chwyddo</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Is-sgript</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Uwch-sgript</message>
+  </block>
+</messages>

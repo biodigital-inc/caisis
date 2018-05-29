@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Spine Details" displayName="Spine Details">
+
+  <eformSection name="Protocols">
+    <eformItem controlName="SpinePtProtocols"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Diagnosis">
+    <eformItem controlName="SpineDiagnosis"></eformItem>
+  </eformSection>
+
+  <eformSection name="Interventions">
+    <eformItem displayName="Surgeries" controlName="SpinePriorSurgeries"></eformItem>
+    <eformItem displayName="Radiation Tx" controlName="SpinePriorRadTx"></eformItem>
+    <eformItem displayName="Medical Tx" controlName="SpinePriorMedTx"></eformItem>
+  </eformSection>
+
+  <eformSection name="Encounter/Diagnostics">
+    <eformItem displayName="Encounters" controlName="SpineEncounters"></eformItem>
+    <eformItem displayName="Imaging" controlName="SpineDiagnostics"></eformItem>
+    <eformItem displayName="Medications" controlName="SpineMedications"></eformItem>
+  </eformSection>
+
+  <eformSection name="Impression/Treatment Plan">
+    <eformItem displayName="Toxicities" controlName="SpineToxicities"></eformItem>
+    <eformItem displayName="Assessment &amp; Plan" controlName="SpineTxPlan"></eformItem>
+  </eformSection>
+
+
+  <Pathology RecordId="1">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+    
+    <PathologyStageGrade RecordId="1">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="1">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="2">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="3">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="4">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="5">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="31">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="32">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="33">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="34">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="35">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,1"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+  
+  <Pathology RecordId="2">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+
+    <PathologyStageGrade RecordId="2">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="6">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="7">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="8">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="9">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="10">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="36">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="37">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="38">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="39">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="40">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,2"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+  
+  <Pathology RecordId="3">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+
+    <PathologyStageGrade RecordId="3">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="11">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="12">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="13">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="14">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="15">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="41">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="42">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="43">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="44">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="45">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,3"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+  
+  <Pathology RecordId="4">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+
+    <PathologyStageGrade RecordId="4">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="16">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="17">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="18">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="19">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="20">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="46">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="47">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="48">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="49">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="50">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,4"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+  
+  <Pathology RecordId="5">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+
+    <PathologyStageGrade RecordId="5">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="21">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="22">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="23">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="24">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="25">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="51">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="52">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="53">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="54">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="55">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,5"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+  
+  <Pathology RecordId="6">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathHistology></PathHistology>
+    <PathHistology2></PathHistology2>
+    <PathNum></PathNum>
+    <PathDisease></PathDisease>
+    <PathSpecimenType></PathSpecimenType>
+    <Pathologist></Pathologist>
+    <PathInstitution></PathInstitution>
+    <PathNotes></PathNotes>
+    <PathQuality></PathQuality>
+
+    <PathologyStageGrade RecordId="6">
+      <PathStageDisease></PathStageDisease>
+      <PathGrade></PathGrade>
+      <PathQuality DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathologyStageGrade>
+
+    <PathTest RecordId="26">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="27">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="28">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="29">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="30">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="56">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="57">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="58">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="59">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+    <PathTest RecordId="60">
+      <PathDateText></PathDateText>
+      <PathDate></PathDate>
+      <PathTest></PathTest>
+      <PathResult></PathResult>
+      <PathNotes></PathNotes>
+      <PathQuality  DefaultSource="Pathology.PathQuality,6"  TriggeredBySiblings="True"></PathQuality>
+    </PathTest>
+  </Pathology>
+
+  <Status RecordId="1">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+  <Status RecordId="2">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+  <Status RecordId="3">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+  <Status RecordId="4">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+  <Status RecordId="5">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+  <Status RecordId="6">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+
+  <Status RecordId="7">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality ></StatusQuality>
+  </Status>
+
+  <OperatingRoomDetails RecordId="1">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpService></OpService>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    
+    <Procedures  RecordId="1">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"  TriggeredBySiblings="True"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"  TriggeredBySiblings="True"></ProcDate>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution DefaultSource="OperatingRoomDetails.OpInstitution,1"  TriggeredBySiblings="True"></ProcInstitution>
+      <ProcService DefaultSource="OperatingRoomDetails.OpService,1"  TriggeredBySiblings="True"></ProcService>
+      <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"  TriggeredBySiblings="True"></ProcSurgeon>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+      <ProcQuality DefaultSource="OperatingRoomDetails.OpQuality,1"  TriggeredBySiblings="True"></ProcQuality>
+
+      <SpineProc RecordId="1">
+        <ProcTumorResection></ProcTumorResection>
+        <ProcNumLaminectomyLevel></ProcNumLaminectomyLevel>
+        <ProcLaminectomyLevels></ProcLaminectomyLevels>
+        <ProcNumVertebrectomyLevels></ProcNumVertebrectomyLevels>
+        <ProcVertebrectomyLevels></ProcVertebrectomyLevels>
+        <ProcPercVertebralBodyRemoved></ProcPercVertebralBodyRemoved>
+        <ProcAnteriorReconstruction></ProcAnteriorReconstruction>
+        <ProcAnteriorReconstructionType></ProcAnteriorReconstructionType>
+        <ProcNumPediclesRemoved></ProcNumPediclesRemoved>
+        <ProcPediclesRemovedLevel></ProcPediclesRemovedLevel>
+        <ProcNumInstrumentedLevel></ProcNumInstrumentedLevel>
+        <ProcInstrumentedLevel></ProcInstrumentedLevel>
+        <ProcPreOpEmbolization></ProcPreOpEmbolization>
+        <ProcCementAugmentation></ProcCementAugmentation>
+        <ProcCementLevel></ProcCementLevel>
+        <ProcCementVolume></ProcCementVolume>
+        <ProcInflationPressure></ProcInflationPressure>
+        <ProcMISProcedure></ProcMISProcedure>
+        <ProcGraftMaterialUsed></ProcGraftMaterialUsed>
+      </SpineProc>
+    </Procedures>
+
+    <Procedures  RecordId="2">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"  TriggeredBySiblings="True"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"  TriggeredBySiblings="True"></ProcDate>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution DefaultSource="OperatingRoomDetails.OpInstitution,1"  TriggeredBySiblings="True"></ProcInstitution>
+      <ProcService DefaultSource="OperatingRoomDetails.OpService,1"  TriggeredBySiblings="True"></ProcService>
+      <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"  TriggeredBySiblings="True"></ProcSurgeon>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+      <ProcQuality DefaultSource="OperatingRoomDetails.OpQuality,1"  TriggeredBySiblings="True"></ProcQuality>
+
+      <SpineProc RecordId="2">
+        <ProcTumorResection></ProcTumorResection>
+        <ProcNumLaminectomyLevel></ProcNumLaminectomyLevel>
+        <ProcLaminectomyLevels></ProcLaminectomyLevels>
+        <ProcNumVertebrectomyLevels></ProcNumVertebrectomyLevels>
+        <ProcVertebrectomyLevels></ProcVertebrectomyLevels>
+        <ProcPercVertebralBodyRemoved></ProcPercVertebralBodyRemoved>
+        <ProcAnteriorReconstruction></ProcAnteriorReconstruction>
+        <ProcAnteriorReconstructionType></ProcAnteriorReconstructionType>
+        <ProcNumPediclesRemoved></ProcNumPediclesRemoved>
+        <ProcPediclesRemovedLevel></ProcPediclesRemovedLevel>
+        <ProcNumInstrumentedLevel></ProcNumInstrumentedLevel>
+        <ProcInstrumentedLevel></ProcInstrumentedLevel>
+        <ProcPreOpEmbolization></ProcPreOpEmbolization>
+        <ProcCementAugmentation></ProcCementAugmentation>
+        <ProcCementLevel></ProcCementLevel>
+        <ProcCementVolume></ProcCementVolume>
+        <ProcInflationPressure></ProcInflationPressure>
+        <ProcMISProcedure></ProcMISProcedure>
+        <ProcGraftMaterialUsed></ProcGraftMaterialUsed>
+      </SpineProc>
+    </Procedures>
+
+    <Procedures  RecordId="3">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"  TriggeredBySiblings="True"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"  TriggeredBySiblings="True"></ProcDate>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution DefaultSource="OperatingRoomDetails.OpInstitution,1"  TriggeredBySiblings="True"></ProcInstitution>
+      <ProcService DefaultSource="OperatingRoomDetails.OpService,1"  TriggeredBySiblings="True"></ProcService>
+      <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"  TriggeredBySiblings="True"></ProcSurgeon>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+      <ProcQuality DefaultSource="OperatingRoomDetails.OpQuality,1"  TriggeredBySiblings="True"></ProcQuality>
+
+      <SpineProc RecordId="3">
+        <ProcTumorResection></ProcTumorResection>
+        <ProcNumLaminectomyLevel></ProcNumLaminectomyLevel>
+        <ProcLaminectomyLevels></ProcLaminectomyLevels>
+        <ProcNumVertebrectomyLevels></ProcNumVertebrectomyLevels>
+        <ProcVertebrectomyLevels></ProcVertebrectomyLevels>
+        <ProcPercVertebralBodyRemoved></ProcPercVertebralBodyRemoved>
+        <ProcAnteriorReconstruction></ProcAnteriorReconstruction>
+        <ProcAnteriorReconstructionType></ProcAnteriorReconstructionType>
+        <ProcNumPediclesRemoved></ProcNumPediclesRemoved>
+        <ProcPediclesRemovedLevel></ProcPediclesRemovedLevel>
+        <ProcNumInstrumentedLevel></ProcNumInstrumentedLevel>
+        <ProcInstrumentedLevel></ProcInstrumentedLevel>
+        <ProcPreOpEmbolization></ProcPreOpEmbolization>
+        <ProcCementAugmentation></ProcCementAugmentation>
+        <ProcCementLevel></ProcCementLevel>
+        <ProcCementVolume></ProcCementVolume>
+        <ProcInflationPressure></ProcInflationPressure>
+        <ProcMISProcedure></ProcMISProcedure>
+        <ProcGraftMaterialUsed></ProcGraftMaterialUsed>
+      </SpineProc>
+    </Procedures>
+
+    <Procedures  RecordId="4">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"  TriggeredBySiblings="True"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"  TriggeredBySiblings="True"></ProcDate>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution DefaultSource="OperatingRoomDetails.OpInstitution,1"  TriggeredBySiblings="True"></ProcInstitution>
+      <ProcService DefaultSource="OperatingRoomDetails.OpService,1"  TriggeredBySiblings="True"></ProcService>
+      <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"  TriggeredBySiblings="True"></ProcSurgeon>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+      <ProcQuality DefaultSource="OperatingRoomDetails.OpQuality,1"  TriggeredBySiblings="True"></ProcQuality>
+
+      <SpineProc RecordId="4">
+        <ProcTumorResection></ProcTumorResection>
+        <ProcNumLaminectomyLevel></ProcNumLaminectomyLevel>
+        <ProcLaminectomyLevels></ProcLaminectomyLevels>
+        <ProcNumVertebrectomyLevels></ProcNumVertebrectomyLevels>
+        <ProcVertebrectomyLevels></ProcVertebrectomyLevels>
+        <ProcPercVertebralBodyRemoved></ProcPercVertebralBodyRemoved>
+        <ProcAnteriorReconstruction></ProcAnteriorReconstruction>
+        <ProcAnteriorReconstructionType></ProcAnteriorReconstructionType>
+        <ProcNumPediclesRemoved></ProcNumPediclesRemoved>
+        <ProcPediclesRemovedLevel></ProcPediclesRemovedLevel>
+        <ProcNumInstrumentedLevel></ProcNumInstrumentedLevel>
+        <ProcInstrumentedLevel></ProcInstrumentedLevel>
+        <ProcPreOpEmbolization></ProcPreOpEmbolization>
+        <ProcCementAugmentation></ProcCementAugmentation>
+        <ProcCementLevel></ProcCementLevel>
+        <ProcCementVolume></ProcCementVolume>
+        <ProcInflationPressure></ProcInflationPressure>
+        <ProcMISProcedure></ProcMISProcedure>
+        <ProcGraftMaterialUsed></ProcGraftMaterialUsed>
+      </SpineProc>
+    </Procedures>
+
+    <Procedures  RecordId="5">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"  TriggeredBySiblings="True"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"  TriggeredBySiblings="True"></ProcDate>
+      <ProcCPT_Code></ProcCPT_Code>
+      <ProcCPT_Description></ProcCPT_Description>
+      <ProcInstitution DefaultSource="OperatingRoomDetails.OpInstitution,1"  TriggeredBySiblings="True"></ProcInstitution>
+      <ProcService DefaultSource="OperatingRoomDetails.OpService,1"  TriggeredBySiblings="True"></ProcService>
+      <ProcSurgeon DefaultSource="OperatingRoomDetails.OpCaseSurgeon,1"  TriggeredBySiblings="True"></ProcSurgeon>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+      <ProcQuality DefaultSource="OperatingRoomDetails.OpQuality,1"  TriggeredBySiblings="True"></ProcQuality>
+
+      <SpineProc RecordId="5">
+        <ProcTumorResection></ProcTumorResection>
+        <ProcNumLaminectomyLevel></ProcNumLaminectomyLevel>
+        <ProcLaminectomyLevels></ProcLaminectomyLevels>
+        <ProcNumVertebrectomyLevels></ProcNumVertebrectomyLevels>
+        <ProcVertebrectomyLevels></ProcVertebrectomyLevels>
+        <ProcPercVertebralBodyRemoved></ProcPercVertebralBodyRemoved>
+        <ProcAnteriorReconstruction></ProcAnteriorReconstruction>
+        <ProcAnteriorReconstructionType></ProcAnteriorReconstructionType>
+        <ProcNumPediclesRemoved></ProcNumPediclesRemoved>
+        <ProcPediclesRemovedLevel></ProcPediclesRemovedLevel>
+        <ProcNumInstrumentedLevel></ProcNumInstrumentedLevel>
+        <ProcInstrumentedLevel></ProcInstrumentedLevel>
+        <ProcPreOpEmbolization></ProcPreOpEmbolization>
+        <ProcCementAugmentation></ProcCementAugmentation>
+        <ProcCementLevel></ProcCementLevel>
+        <ProcCementVolume></ProcCementVolume>
+        <ProcInflationPressure></ProcInflationPressure>
+        <ProcMISProcedure></ProcMISProcedure>
+        <ProcGraftMaterialUsed></ProcGraftMaterialUsed>
+      </SpineProc>
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <RadiationTherapy RecordId="1">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="2">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="3">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="4">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="5">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="6">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="7">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="8">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="9">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="10">
+    <RadTxPending></RadTxPending>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxSite DefaultValue="Spine"></RadTxSite>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxNumFractions></RadTxNumFractions>
+    <RadTxTarget></RadTxTarget>
+    <RadTxIsotope></RadTxIsotope>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+
+
+  <MedicalTherapy RecordId="1">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="2">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="3">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="4">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="5">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="6">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="7">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="8">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="9">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="10">
+    <MedTxPending></MedTxPending>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDisease></MedTxDisease>
+    <MedTxSite DefaultValue="Spine"></MedTxSite>
+    <MedTxTotalDose></MedTxTotalDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxRoute></MedTxRoute>
+    <MedTxSchedule></MedTxSchedule>
+    <MedTxCycle></MedTxCycle>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+
+
+  <Encounters RecordId="1">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncPhysician></EncPhysician>
+    <EncECOG_Score></EncECOG_Score>
+    <EncNotes></EncNotes>
+    <EncQuality></EncQuality>
+    <EncPresentation></EncPresentation>
+    <EncStatus></EncStatus>
+
+    <EncReviewOfSystems RecordId="1">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation1,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="2">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation2,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="3">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation3,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="4">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation4,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="5">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation5,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="6">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation6,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="7">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation7,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="8">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation8,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="9">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation9,1"></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="10">
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_RelatedTo></ROS_RelatedTo>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_Notes DefaultSource="NoTable.PainLocation10,1"></ROS_Notes>
+    </EncReviewOfSystems>
+  </Encounters>
+
+  <Surveys RecordId="1">
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyQuality></SurveyQuality>
+  </Surveys>
+  <Surveys RecordId="2">
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyQuality></SurveyQuality>
+    <SurveyNotes></SurveyNotes>
+  </Surveys>
+  <Surveys RecordId="3">
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyQuality></SurveyQuality>
+
+    <SurveyItems RecordId="1">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="2">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="3">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="4">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="5">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="6">
+      <SurveyItemNum></SurveyItemNum>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  </Surveys>
+
+
+  <Diagnostics RecordId="1">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="2">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="3">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="4">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="5">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="6">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="7">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="8">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="9">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="10">
+    <DxPending></DxPending>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxSite DefaultValue="Spine"></DxSite>
+    <DxSummary></DxSummary>
+    <DxStatus></DxStatus>
+    <DxNotes></DxNotes>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+
+
+  <Medications RecordId="1">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedRoute></MedRoute>
+    <MedSchedule></MedSchedule>
+    <MedNotes></MedNotes>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="2">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedRoute></MedRoute>
+    <MedSchedule></MedSchedule>
+    <MedNotes></MedNotes>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="3">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedRoute></MedRoute>
+    <MedSchedule></MedSchedule>
+    <MedNotes></MedNotes>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="4">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedRoute></MedRoute>
+    <MedSchedule></MedSchedule>
+    <MedNotes></MedNotes>
+    <MedQuality></MedQuality>
+  </Medications>
+  <Medications RecordId="5">
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <MedStopDateText></MedStopDateText>
+    <MedStopDate></MedStopDate>
+    <MedType></MedType>
+    <Medication NotNull="True"></Medication>
+    <MedDose></MedDose>
+    <MedUnits></MedUnits>
+    <MedRoute></MedRoute>
+    <MedSchedule></MedSchedule>
+    <MedNotes></MedNotes>
+    <MedQuality></MedQuality>
+  </Medications>
+
+  <Actions RecordId="1">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="2">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="3">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="4">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="5">
+    <ActionPending></ActionPending>
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+    <ActionItem NotNull="True"></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+
+  <Toxicities  RecordId="1">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName NotNull="True"></ToxName>
+    <ToxClass></ToxClass>
+    <ToxCategory></ToxCategory>
+    <ToxGrade></ToxGrade>
+    <ToxNotes></ToxNotes>
+    <ToxQuality></ToxQuality>
+  </Toxicities>
+  <Toxicities  RecordId="2">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName NotNull="True"></ToxName>
+    <ToxClass></ToxClass>
+    <ToxCategory></ToxCategory>
+    <ToxGrade></ToxGrade>
+    <ToxNotes></ToxNotes>
+    <ToxQuality></ToxQuality>
+  </Toxicities>
+  <Toxicities  RecordId="3">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName NotNull="True"></ToxName>
+    <ToxClass></ToxClass>
+    <ToxCategory></ToxCategory>
+    <ToxGrade></ToxGrade>
+    <ToxNotes></ToxNotes>
+    <ToxQuality></ToxQuality>
+  </Toxicities>
+  <Toxicities  RecordId="4">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName NotNull="True"></ToxName>
+    <ToxClass></ToxClass>
+    <ToxCategory></ToxCategory>
+    <ToxGrade></ToxGrade>
+    <ToxNotes></ToxNotes>
+    <ToxQuality></ToxQuality>
+  </Toxicities>
+  <Toxicities  RecordId="5">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName NotNull="True"></ToxName>
+    <ToxClass></ToxClass>
+    <ToxCategory></ToxCategory>
+    <ToxGrade></ToxGrade>
+    <ToxNotes></ToxNotes>
+    <ToxQuality></ToxQuality>
+  </Toxicities>
+
+
+  <NoTable RecordId="1">
+    <PainLocation1></PainLocation1>
+    <PainLocation2></PainLocation2>
+    <PainLocation3></PainLocation3>
+    <PainLocation4></PainLocation4>
+    <PainLocation5></PainLocation5>
+    <PainLocation6></PainLocation6>
+    <PainLocation7></PainLocation7>
+    <PainLocation8></PainLocation8>
+    <PainLocation9></PainLocation9>
+    <PainLocation10></PainLocation10>
+    <StatusDiseaseOrigin4></StatusDiseaseOrigin4>
+    <StatusDiseaseOrigin5></StatusDiseaseOrigin5>
+    <StatusDiseaseOrigin6></StatusDiseaseOrigin6>
+    <EncImpression1></EncImpression1>
+    <EncImpression2></EncImpression2>
+    <EncStatus1></EncStatus1>
+    <EncStatus2></EncStatus2>
+    <SINSLocation></SINSLocation>
+    <SINSPainRelief></SINSPainRelief>
+    <SINSBoneLesion></SINSBoneLesion>
+    <SINSRxSpinalAlign></SINSRxSpinalAlign>
+    <SINSVertCollapse></SINSVertCollapse>
+    <SINSPosterolateral></SINSPosterolateral>    
+  </NoTable>
+
+
+</eform>

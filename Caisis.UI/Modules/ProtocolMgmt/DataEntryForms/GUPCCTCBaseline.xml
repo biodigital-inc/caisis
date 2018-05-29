@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<form name="GU PCCTC Baseline" displayName="PCCTC Baseline" appendToUserName="baseline">
+    <formSection name="Diagnosis">
+        <formItem controlName="PCCTCDiseaseState" displayName="Disease State" title="Disease State" />
+        <formItem displayName="PSA at Diagnosis" controlName="PSAAtDiagnosis" title="PSA at Diagnosis" ></formItem>
+        <formItem displayName="Diagnostic Biopsy" controlName="PCCTCDiagnosticBiopsy" title="Diagnostic Biopsy" ></formItem>
+        <formItem displayName="Additional Biopsy" controlName="PCCTCAdditionalBiopsies" title="Additional Biopsies" ></formItem>
+        <formItem displayName="Clinical Stage" controlName="ClinicalStage_ProstateUICC02"></formItem>
+    </formSection>
+    <formSection name="Prior Treatment ">
+        <formItem displayName="Prostatectomy Details" controlName="PCCTCProstatectomyDetails" title="Prostatectomy Details"></formItem>
+        <formItem displayName="Surgical History" controlName="PCCTCSurgicalHistory" title="Surgical History"></formItem>
+        <!--<formItem displayName="RP Details" controlName="PCCTCRPDetails" title="RP Details"></formItem>-->
+        <formItem displayName="Radiation Therapy" controlName="PCCTCRadiationTherapy" title="Radiation Therapy"></formItem>
+        <formItem displayName="Hormone Therapy" controlName="PCCTCHormoneTherapy" title="Prostate Hormone Therapy"></formItem>
+        <formItem displayName="Immunotherapy" controlName="PCCTCImmunoTherapy" title="Prostate Immunotherapy"></formItem>
+        <formItem displayName="Chemotherapy" controlName="PCCTCChemoTherapy" title="Prostate Chemotherapy"></formItem>
+    </formSection>
+</form>

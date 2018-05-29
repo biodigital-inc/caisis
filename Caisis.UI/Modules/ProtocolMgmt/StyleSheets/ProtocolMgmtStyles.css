@@ -1,0 +1,1211 @@
+﻿body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+a
+{
+    outline: none;
+    text-decoration: none;
+}
+a img
+{
+    border-style: none;
+}
+
+textarea {border: solid 1px #cccccc;}
+
+input[type='text'],input.text {border: solid 1px #cccccc;}
+
+
+/* PROTOCOL INDEX */
+.PatientProtocolBody
+{
+    background-color: #fbfbfb;
+}
+.ProtocolTitleBarLeft
+{
+    background-image: url(../Images/TitleBar_left.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 54px;
+}
+.ProtocolTitleBarRight
+{
+    background-image: url(../Images/TitleBar_right.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 54px;
+}
+.ProtocolTitleBarBG_TreatmentArmSelector
+{
+background-image:url(../Images/TitleBar_BG_ProtocolNumber.png);
+background-repeat:no-repeat;
+height: 54px;
+width: 200px;
+padding-top: 10px;
+padding-left: 20px;
+vertical-align: top;
+background-position: -20px 0px;
+text-align: left;
+
+}
+.ProtocolTitleBarBG_ProtNum
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolNumber.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 101px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 12px;
+    line-height: 24px;
+    vertical-align: top;
+    color: #3d556d;
+}
+.ProtocolTitleBarBG_ProtNum_Smaller
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolNumber.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 101px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 14px;
+    line-height: 18px;
+    vertical-align: top;
+    color: #3d556d;
+}
+.ProtocolTitleBarBG_ProtNum_Smallest
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolNumber.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 101px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 12px;
+    line-height: 12px;
+    vertical-align: top;
+    color: #3d556d;
+}
+.ProtocolTitleBarBG_ProtTitle
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolTitle.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 13px;
+    line-height: 12px;
+    vertical-align: top;
+    color: #3d556d;
+}
+.ProtocolTitleBarBG_ProtTitle_New
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolTitle.png);
+    background-repeat: no-repeat;
+    background-position: -30px 0px;
+    height: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 13px;
+    line-height: 20px;
+    vertical-align: top;
+    color: #3d556d;
+}
+.ProtocolTitleBarBG_ExitButton
+{
+    background-image: url(../Images/TitleBar_BG_ProtocolNumber.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 100px;
+    padding-top: 10px;
+    vertical-align: top;
+    background-position: -20px 0px;
+    text-align: right;
+    padding-right: 20px;
+}
+.PatientLayerTopLeft
+{
+    background-image: url(../Images/PatientLayer_TopLeft.png);
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 20px;
+}
+.PatientLayerTopRight
+{
+    background-image: url(../Images/PatientLayer_TopRight.png);
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 33px;
+}
+.PatientLayerTop
+{
+    background-image: url(../Images/PatientLayer_TopBorderWithTabBG.png);
+    background-repeat: repeat-x;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.PatientLayerBottomLeft
+{
+    background-image: url(../Images/PatientLayer_BottomLeft.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 20px;
+}
+.PatientLayerBottomRight
+{
+    background-image: url(../Images/PatientLayer_BottomRight.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 33px;
+}
+.PatientLayerBottom
+{
+    background-image: url(../Images/PatientLayer_BottomBorder.png);
+    background-repeat: repeat-x;
+    height: 24px;
+}
+.PatientLayerLeft
+{
+    background-image: url(../Images/PatientLayer_LeftBorder.png);
+    background-repeat: no-repeat;
+}
+.PatientLayerLeft_miniTabs
+{
+    background-image: url(../Images/PatientLayer_LeftBorder_MiniTab.png);
+    background-repeat: no-repeat;
+}
+.PatientLayerRight
+{
+    background-image: url(../Images/PatientLayer_RightBorder.png);
+    background-repeat: no-repeat;
+}
+.PatientLayerRight_miniTabs
+{
+    background-image: url(../Images/PatientLayer_RightBorder_MiniTab.png);
+    background-repeat: no-repeat;
+}
+.PatientLayerMiddle
+{
+    background-image: url(../Images/PatientLayer_TabBG.png);
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    height: 400px;
+}
+
+/* PATIENT PORTAL */
+#PatientPortalHeaderBar
+{
+    height: 30px;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.PatientPortalBody
+{
+    background-image: url(../Images/PatientLayer_TopBorderWithTabBG.png);
+    background-position: 0px -10px;
+    background-repeat: repeat-x;
+    vertical-align: top;
+}
+.PatientPortalBody_miniTabs
+{
+    background-image: url(../Images/PatientLayer_TopBorderWithMiniTabBG.png);
+    background-position: 0px -10px;
+    background-repeat: repeat-x;
+    vertical-align: top;
+}
+.PatientTitleBar
+{
+    margin: 0px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 7px;
+    white-space: nowrap;
+}
+.PatientTabBar
+{
+    margin: 0px;
+    padding-top: 7px;
+}
+.PatientMiniTabBar
+{
+    margin: 0px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    height: 30px;
+}
+#PatientTabBar a
+{
+    outline: none;
+}
+#PatientTabBar img
+{
+    border-style: none;
+    cursor: pointer;
+}
+.PatientTitleBarLabel
+{
+    background-image: url(../Images/PatientTitleBarSeparatorLine.gif);
+    background-position: 12px 2px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ede3e2;
+}
+.PatientTabImage
+{
+    margin: auto;
+}
+
+/* Patient Panels */
+.ProtocolMgmtTitle
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+.ProtocolMgmtTitleSmall
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+}
+.PatientPanelSection
+{
+    width: 45%;
+}
+.PatientPanel
+{
+    background-color: #f8fafc;
+    border: 1px solid #cccccc;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+}
+.PatientPanel table
+{
+    table-layout: fixed;
+    width: 100%;
+}
+.PatientPanel table td
+{
+    vertical-align: top;
+}
+
+/* protocol manager styles   */
+
+.protocolMenu
+{
+    background-color: #3d556d;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.calendarTitle
+{
+    background-color: #ffffff;
+    color: #3d556d;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.calendar
+{
+    border: solid 1px #999999;
+}
+.dayTitle
+{
+    background-color: #3d556d;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.day
+{
+    background-color: #ffffff;
+    color: #3d556d;
+    font-size: 11px;
+    text-decoration: none;
+    border: solid 1px #999999;
+    height: 35px;
+}
+.dayText
+{
+    color: #3d556d;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+}
+
+.selectedDay
+{
+    background-color: #E1EAF1;
+    color: #8d2a2c;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 2px #8998a7;
+}
+.otherMonthDay
+{
+    background-color: #efefef;
+    color: #cccccc;
+    font-size: 11px;
+    text-decoration: none;
+    border: solid 1px #999999;
+    height: 35px;
+}
+.scheduledItem
+{
+    background-image: url(../Images/Icon_Scheduled.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+a.scheduledItem:hover
+{
+    background-image: url(../Images/Icon_Scheduled.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+.performedItem
+{
+    background-image: url(../Images/Icon_Performed.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+a.performedItem:hover
+{
+    background-image: url(../Images/Icon_Performed.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+.missedItem
+{
+    background-image: url(../Images/Icon_Missed.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+a.missedItem:hover
+{
+    background-image: url(../Images/Icon_Missed.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.anticipated
+{
+    background-color: #EBE0E4;
+    color: #8d2a2c;
+    border: solid 1px #8D2A2C;
+    height: 35px;
+}
+
+.otherAnticipated
+{
+    background-color: #EBE0E4;
+    color: #8d2a2c;
+    border: solid 1px #8D2A2C;
+}
+
+.selectedAnticipated
+{
+    background-color: #EBE0E4;
+    color: #8d2a2c;
+    border: solid 2px #8D2A2C;
+}
+
+
+
+
+a.anticipatedItem:hover
+{
+    background-image: url(../Images/Icon_Anticipated.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+.anticipatedItem
+{
+    background-image: url(../Images/Icon_Anticipated.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.unplannedItem
+{
+    background-image: url(../Images/Icon_Unplanned.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8D2A2C;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+
+a.unplannedItem:hover
+{
+    background-image: url(../Images/Icon_Unplanned.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+
+.dataEnteredItem
+{
+    background-image: url(../Images/Icon_DataEntered_small.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;}
+
+a.dataEnteredItem:hover
+{
+    background-image: url(../Images/Icon_DataEntered_small.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #455921;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.notApplicableItem
+{
+    background-image: url(../Images/Icon_NotApplicable.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;}
+
+a.notApplicableItem:hover
+{
+    background-image: url(../Images/Icon_NotApplicable.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #bbbbbb;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.refusedItem
+{
+    background-image: url(../Images/Icon_Refused.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;}
+
+a.refusedItem:hover
+{
+    background-image: url(../Images/Icon_Refused.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+.dependentItem
+{
+    background-image: url(../Images/Icon_Anticipated.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+a.dependentItem:hover
+{
+    background-image: url(../Images/Icon_Anticipated.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    color: #8d2a2c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+    
+.SchemaTabBar
+{
+    margin: 0px;
+    padding-top: 7px;
+}
+#SchemaTabBar a
+{
+    outline: none;
+}
+#SchemaTabBar img
+{
+    border-style: none;
+    cursor: pointer;
+}
+.BlueListBarTable
+{
+    table-layout: fixed;
+    width: 100%;
+    color: #ffffff;
+}
+.BlueListBar
+{
+    background-image: url(../Images/HeaderBarBlueBG.gif);
+    background-repeat: repeat-x;
+    height: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.BlueListBar img
+{
+    margin: 0px;
+    width: 6px;
+    height: 35px;
+}
+.BlueListBar a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.BlueListBar a:hover
+{
+    text-decoration: underline;
+}
+/* GridView Styling */
+.ItemRow_A
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #E0EBF1;
+    text-align: left;
+    vertical-align: middle;
+    padding: 6px;
+    height: 32px;
+    border: solid 1px #cccccc;
+    border-top: none;
+    border-left: none;
+}
+.AltItemRow_A
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #efefef;
+    text-align: left;
+    vertical-align: middle;
+    padding: 6px;
+    height: 32px;
+    border: solid 1px #cccccc;
+    border-top: none;
+    border-left: none;
+}
+.ItemRow_B
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f8fafc;
+    text-align: left;
+    vertical-align: middle;
+    padding: 6px;
+    height: 32px;
+    border: solid 1px #cccccc;
+    border-top: none;
+    border-left: none;
+}
+.ItemRow_Hover,
+.ItemRow_A:hover,
+.ItemRow_B:hover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #bb7f80;
+    text-align: left;
+    vertical-align: middle;
+    padding: 6px;
+    height: 32px;
+    border: solid 1px #cccccc;
+    border-top: none;
+    border-left: none;
+    cursor: pointer;
+}
+.ItemRow_Click
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #8d2a2c;
+    text-align: left;
+    vertical-align: middle;
+    padding: 6px;
+    height: 32px;
+    border: solid 1px #cccccc;
+    border-top: none;
+    border-left: none;
+}
+/* Item Status Selector */
+.selectorLayer
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 132px;
+    display: none;
+}
+.selectorLayerTop
+{
+    background-image: url(../Images/SelectorBG_Top.png);
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+.selectorLayerBottom
+{
+    background-image: url(../Images/SelectorBG_Bottom.png);
+    height: 9px;
+    line-height: 2px;
+    font-size: 2px;
+}
+a.selectorLayerRowTd
+{
+    display: block;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 15px;
+    cursor: pointer;
+}
+a.selectorLayerRowTd:hover
+{
+    background-color: #eee0e0;
+}
+a.selectorLayerRowTd img
+{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+a.selectorLayerRowTd span
+{
+    display: block;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.AnticipatedText
+{
+    color: #8d2a2c;
+}
+.ScheduledText
+{
+    color: #857100;
+}
+.PerformedText
+{
+    color: #386b3a;
+}
+.MissedText
+{
+    color: #8d2a2c;
+}
+.RefusedText
+{
+    color: #8d2a2c;
+}
+.NotApplicableText
+{
+    color: #bbbbbb;
+}
+
+/* admin */
+
+.dashboardTitleBar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #555555;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+
+
+.dashboardBG_TopLeft
+{
+	background-image:url(../Images/AdminDashboardBG_TopLeft.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.dashboardBG_TopRight
+{
+	background-image:url(../Images/AdminDashboardBG_TopRight.png);
+	background-repeat: no-repeat;
+	width: 9px;
+}
+.dashboardBG_BottomLeft
+{
+	background-image:url(../Images/AdminDashboardBG_BottomLeft.png);
+	background-repeat: no-repeat;
+	height: 8px;
+}
+.dashboardBG_BottomRight
+{
+	background-image:url(../Images/AdminDashboardBG_BottomRight.png);
+	background-repeat: no-repeat;
+	width: 9px;
+	height: 8px;
+}
+
+.dashboard_ProtocolInfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	vertical-align: top;
+	padding: 4px 7px 4px 7px;
+	
+}
+
+.ProtocolVersionNum
+{
+	display: table-cell; 
+	border: solid 1px #dddddd; 
+	background-color: #ffffff; 
+	padding: 2px 5px 2px 5px; 
+	font-weight: bold;
+	margin-right: 6px;
+	cursor: pointer;
+}
+.dashboardVersionRow_A
+{
+	background-color: #E0EBF1;
+	border: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	vertical-align: top;
+}
+.dashboardVersionRow_B
+{
+	background-color: #EEF4F8;
+	border: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	vertical-align: top;
+}
+.dashboardVersionRow_Hover
+{
+	background-color: #E2D1D3;
+	border: solid 1px #8d2a2c;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	vertical-align: top;
+	cursor: pointer;
+}
+.dashboardTreatmentArmRow_A
+{
+	background-color: #E0EBF1;
+	border: solid 1px #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	vertical-align: top;
+	padding: 6px 2px 6px 6px;
+}
+.dashboardTreatmentArmRow_B
+{
+	background-color: #EEF4F8;
+	border: solid 1px #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	vertical-align: top;
+	padding: 6px 2px 6px 6px;
+}
+.noRightBorder
+{
+	border-right: none;
+}
+.noLeftBorder
+{
+	border-left: none;
+}
+
+.infoPopUpDiv
+    {
+        z-index: 300;
+        position: absolute;
+        width: 280px;
+        display: none;
+        margin-top: 8px;
+    }
+.infoPopUpTable
+    {
+        width: 280px;
+        border: none;
+    }
+.infoPopUpTop
+    {
+        padding-top: 12px;
+        padding-left: 31px;
+        color: #8d2a2c;
+        font-size: 12px;
+        font-weight: bold;
+        background-image:url(../Images/InfoPopUp_Top.png);
+        background-repeat:no-repeat;
+        text-align: left;
+    }
+.infoPopUpMiddle
+    {
+        padding-top: 0px;
+        padding-left: 31px;
+        padding-right: 19px;
+        color: #333333;
+        font-size: 11px;
+        font-weight: normal;
+        background-image:url(../Images/InfoPopUp_Middle.png);
+        background-repeat: repeat-y;
+        text-align: left;
+        vertical-align: top;
+    }
+.infoPopUpBottom
+    {
+        background-image:url(../Images/InfoPopUp_Bottom.png);
+        background-repeat:no-repeat;
+        height: 18px;
+    }
+    .infoPopUpContentTable
+    {
+        width: 100%;
+
+    }
+.infoPopUpContentCol1
+    {
+        width: 40%;
+        font-size: 11px;
+        color: #333333;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        vertical-align: top;
+        border-bottom: solid 1px #E0EBF1;
+        padding-right: 6px;
+    }
+.infoPopUpContentCol2
+    {
+        font-size: 11px;
+        color: #333333;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        vertical-align: top;
+        border-bottom: solid 1px #E0EBF1;
+    }
+.infoPopUpContent_subtitle
+    {
+        font-weight: bold;
+        margin-top: 18px;
+        border-bottom: solid 1px #999999;
+    }
+.infoPopUpContent_selectedFieldListing
+    {
+        overflow: auto;
+        width: 100%;
+        overflow-x: hidden;
+        height: 100px;
+    }
+    
+.requiredField
+{
+	color: #8d282c;
+}
+
+.UnplannedEventContainer
+{
+    border: solid 1px #cccccc;
+    margin-bottom: 6px;
+    width: 97%;
+    height: 250px;
+    padding: 6px;
+    overflow: auto;
+}
+/* TABS */
+.dataEntryNavToggleContainer
+{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.dataEntryNavToggle
+{
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #FAFAFA;
+}
+.dataEntryNavToggle a, .dataEntryNavToggle button
+{
+    display: inline-block;
+    margin: 0;
+    padding: 2px 5px 2px 5px;
+    min-width: 75px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    background-color: transparent;
+    border-left: 1px solid #dddddd;
+}
+.dataEntryNavToggle a:first-child, .dataEntryNavToggle button:first-child
+{
+    border-left: 1px solid transparent;
+}
+.dataEntryNavToggle a:hover, .dataEntryNavToggle button:hover,
+.dataEntryNavToggle a.active, .dataEntryNavToggle button.active
+{
+    color: #8D2A2C;
+    background-color: #dddddd;
+}
+/* Pager */
+.pager
+{
+    display: block;
+    width: 100%;
+    margin: 3px auto;
+    clear: both;
+    font-size: 11px;
+    line-height: 11px;
+    vertical-align: middle;
+}
+.pager a
+{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    line-height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+   /* padding: 1px 4px 3px 4px;
+    margin: 2px 2px 0px 2px;    */        
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    color: #004256;
+}
+.pager a:hover
+{
+    border: 1px solid #8d2a2c;
+    color: #8d2a2c;
+    background-color: #efefef;
+}
+.pager a.active
+{
+    font-weight: bold;        
+    border: 1px solid #000000;
+    background-color: #004256;
+    color: #ffffff;
+    cursor: default;
+}
+/* DATA ENTRY */
+table.DataRecords
+{
+    table-layout: fixed;
+    width: auto;
+    border: 1px solid #bbbbbb;
+    border-collapse: collapse;
+}
+table.DataRecords > thead > tr
+{
+    background-color: #CDD4DA;
+}
+table.DataRecords > thead > tr > th
+{
+    background-color: #CDD4DA;
+    font-weight: bold;
+    color: #000000;
+}
+table.DataRecords > thead > tr > th.required
+{
+    color: #780000;
+}
+table.DataRecords > tbody > tr
+{
+    background-color: #E0EBF1;
+    border: 1px solid #bbbbbb;
+    border-collapse: collapse;
+}
+table.DataRecords > tbody > tr:nth-child(even)
+{
+    background-color: #ffffff;
+}
+table.DataRecords > tbody > tr > td
+{
+    padding: 8px 2px;
+}
+table.EditableRecords > tbody > tr:hover
+{
+    cursor: pointer;
+    background-color: #eedfe0;
+}
+table.DataRecords > tbody > tr.active,
+table.DataRecords > tbody > tr.dataGridBlankRowVisible,
+table.DataRecords > tbody > tr.dataGridBlankRowHidden
+{
+    background-color: #eedfe0;
+}
+.DataRecordOverflow
+{
+    position: relative;
+    overflow: auto;
+}
+.AddNewRowBtn, .AddNewRowBtn:hover
+{
+    width: 75px;
+    margin-top: 0px;
+    border-top: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}

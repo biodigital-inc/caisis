@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Prostate Surgery EForm" displayName="Prostate Surgery EForm">
+
+		<eformSection name="General">
+			<eformItem displayName="Surgery Date" controlName="ORDate"></eformItem>
+			<eformItem displayName="Case Surgeon" controlName="CaseSurgeon"></eformItem>
+			<eformItem displayName="Anesthesia" controlName="Anesthesia"></eformItem>			
+		</eformSection>
+
+		<eformSection name="Operative Findings">
+			
+			<eformItem displayName="Procedures Finished" controlName="ProstatectomyAndAncillaryProcs"></eformItem>
+      <eformItem displayName="T-Stage" controlName="ProstateTStage"></eformItem>
+			<eformItem displayName="Intraop Prostate Exam" controlName="IntraOpProstateExamWithDiagram"></eformItem>
+		</eformSection>
+	
+		<eformSection name="Open Details">
+			<eformItem displayName="Incisions" controlName="Incisions"></eformItem>
+			<eformItem displayName="Hypogastric Clamping" controlName="HypogastricArteryClamping"></eformItem>
+			<eformItem displayName="Periprostatic Veins" controlName="PeriprostaticVeins"></eformItem>
+      <eformItem displayName="Median Lobe" controlName="MedianLobe"></eformItem>
+			<eformItem displayName="Accessory Vessels" controlName="AccessoryVessels"></eformItem>
+			<eformItem displayName="Pelvis Accessibility" controlName="RPPelvisAccessibility"></eformItem>
+			<eformItem displayName="Overall Surgery Difficulty" controlName="OverallSurgeryDifficulty"></eformItem>
+			<eformItem displayName="Surgery Notes" controlName="AdditionalComments"></eformItem>
+		</eformSection>
+		
+		<eformSection name="Lap Details">
+			<eformItem displayName="Approach" controlName="ProstatectomyApproach"></eformItem>
+			<eformItem displayName="Ports" controlName="NumSizePorts"></eformItem>
+			<eformItem displayName="Seminal Vessicles" controlName="SVFirstDissection"></eformItem>
+			<eformItem displayName="Urachal Sparing" controlName="UrachalSparing"></eformItem>
+      <eformItem displayName="Median Lobe" controlName="MedianLobe"></eformItem>
+			<eformItem displayName="Accessory Vessels" controlName="AccessoryVessels"></eformItem>
+			<eformItem displayName="Pelvis Accessibility" controlName="RPPelvisAccessibility"></eformItem>
+			<eformItem displayName="Overall Surgery Difficulty" controlName="OverallSurgeryDifficulty"></eformItem>
+			<eformItem displayName="Surgery Notes" controlName="AdditionalComments"></eformItem>
+		</eformSection>
+		
+		<eformSection name="NVB and Grafts">
+			<eformItem displayName="NV Bundles" controlName="NeuroVascularBundles"></eformItem>
+			<eformItem displayName="Cavermap" controlName="Cavermaps"></eformItem>
+		</eformSection>
+		
+		<eformSection name="Surgical Details">
+			<eformItem displayName="Vesicourethral Anastamosis" controlName="VesicourethralAnastamosis"></eformItem>
+			<eformItem displayName="Drains" controlName="Drains"></eformItem>
+			<eformItem displayName="Catheter" controlName="Catheter"></eformItem>
+			<eformItem displayName="PostOp Prediction" controlName="PostOpPrediction"></eformItem>
+		</eformSection>
+		
+		<eformSection name="Fluids">
+			<eformItem displayName="Fluids" controlName="SurgicalDetailsFluids"></eformItem>
+		</eformSection>
+
+
+  <NoTable  >
+    <AccessoryVesselsYesNo></AccessoryVesselsYesNo>
+    
+  </NoTable>
+
+
+
+      <OperatingRoomDetails>
+
+        <OpDateText ></OpDateText>
+        <OpDate></OpDate>
+        <OpInstitution></OpInstitution>
+        <OpASA></OpASA>
+        <OpAnesthesiaType></OpAnesthesiaType>
+        <OpCaseSurgeon></OpCaseSurgeon>
+        <OpDuration></OpDuration>
+        <OpAnesthesiaDuration></OpAnesthesiaDuration>
+        <OpEstBloodLoss></OpEstBloodLoss>
+        <OpAutoAvailable></OpAutoAvailable>
+        <OpAutoTransfused></OpAutoTransfused>
+        <OpRBC_Available></OpRBC_Available>
+        <OpRBC_Transfused></OpRBC_Transfused>
+        <OpRBC_IntraOp></OpRBC_IntraOp>
+        <OpRBC_PostOp></OpRBC_PostOp>
+        <OpFFP_Transfused></OpFFP_Transfused>
+        <OpHGB_Admit></OpHGB_Admit>
+        <OpHCT_Admit></OpHCT_Admit>
+        <OpHGB_IntraOp></OpHGB_IntraOp>
+        <OpHCT_IntraOp></OpHCT_IntraOp>
+        <OpNS_Notes></OpNS_Notes>
+        <OpNS_ProbeType></OpNS_ProbeType>
+        <OpNotes></OpNotes>
+
+        <OpDifficulty></OpDifficulty>
+
+        <OpHD_Available></OpHD_Available>
+        <OpHD_Transfused></OpHD_Transfused>
+
+
+
+        <OpFFP_Available></OpFFP_Available>
+        <OpAutoIntraOp></OpAutoIntraOp>
+        <OpFFP_IntraOp></OpFFP_IntraOp>
+        <OpHD_IntraOp></OpHD_IntraOp>
+        <OpAuto_PostOp></OpAuto_PostOp>
+        <OpFFP_PostOp></OpFFP_PostOp>
+
+
+
+
+        <OpCrystalloid></OpCrystalloid>
+        <OpFluidAlbumin></OpFluidAlbumin>
+        <OpFluidHespan></OpFluidHespan>
+        <OpColloid></OpColloid>
+      
+    </OperatingRoomDetails>
+
+    <Procedures  RecordId='1'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <PathResult></PathResult>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      
+      
+      
+      <ProstatectomyProc>
+        <ProcL_Drain></ProcL_Drain>
+        <ProcR_Drain></ProcR_Drain>
+        <ProcAnteriorDrain></ProcAnteriorDrain>
+        <ProcPosteriorDrain></ProcPosteriorDrain>
+
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+
+        <ProcNotes></ProcNotes>
+        <ProcAV_Preserved></ProcAV_Preserved>
+        <ProcR_AV_Site></ProcR_AV_Site>
+        <ProcL_AV_Site></ProcL_AV_Site>
+        <ProcR_AV_Diam></ProcR_AV_Diam>
+        <ProcL_AV_Diam></ProcL_AV_Diam>
+        <ProcSV_DissectFirst></ProcSV_DissectFirst>
+        <ProcBulldogClamps></ProcBulldogClamps>
+
+        <ProcL_NVB_Status></ProcL_NVB_Status>
+        <ProcL_NVB_Graft></ProcL_NVB_Graft>
+        <ProcL_NVB_Donor></ProcL_NVB_Donor>
+        <ProcL_NVB_Quality></ProcL_NVB_Quality>
+        <ProcL_DopplerStatus></ProcL_DopplerStatus>
+        <ProcL_DopplerVA></ProcL_DopplerVA>
+
+
+        <ProcR_NVB_Status></ProcR_NVB_Status>
+        <ProcR_NVB_Graft></ProcR_NVB_Graft>
+        <ProcR_NVB_Donor></ProcR_NVB_Donor>
+        <ProcR_NVB_Quality></ProcR_NVB_Quality>
+        <ProcR_DopplerStatus></ProcR_DopplerStatus>
+        <ProcR_DopplerVA></ProcR_DopplerVA>
+
+
+        <ProcAnastQuality></ProcAnastQuality>
+        <ProcAnastNumSutures></ProcAnastNumSutures>
+        <ProcAnastSuturePattern></ProcAnastSuturePattern>
+        <ProcAnastSutureNotes></ProcAnastSutureNotes>
+        <ProcAnastWatertight></ProcAnastWatertight>
+        <ProcBN_Diam></ProcBN_Diam>
+        <ProcBN_DegreeEversion></ProcBN_DegreeEversion>
+        <ProcSuspVeinComplex></ProcSuspVeinComplex>
+        <ProcBladderClosure></ProcBladderClosure>
+
+
+        <ProcCathTraction></ProcCathTraction>
+        <ProcCathTractionDuration></ProcCathTractionDuration>
+
+        <ProcL_NVB_DissectionType></ProcL_NVB_DissectionType>
+        <ProcR_NVB_DissectionType></ProcR_NVB_DissectionType>
+
+
+        <ProcPeriprostaticVeins></ProcPeriprostaticVeins>
+        <ProcBladderNeckPreservation></ProcBladderNeckPreservation>
+        <ProcUrethralStumpScore></ProcUrethralStumpScore>
+        <ProcPelvisAccessibility></ProcPelvisAccessibility>
+
+        <ProcSkinIncisionLength></ProcSkinIncisionLength>
+        <ProcFascialIncisionLength></ProcFascialIncisionLength>
+        <ProcMedianLobe></ProcMedianLobe>
+        <ProcUrachalSparing></ProcUrachalSparing>
+
+        <ProcNumSize5Ports></ProcNumSize5Ports>
+        <ProcNumSize8Ports></ProcNumSize8Ports>
+        <ProcNumSize10Ports></ProcNumSize10Ports>
+        <ProcNumSize12Ports></ProcNumSize12Ports>
+
+
+      </ProstatectomyProc>
+
+      <ProstatectomyProcFinding  RecordId='1'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='2'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='3'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='4'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='5'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='6'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='7'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='8'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='9'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='10'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='11'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='12'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='13'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>
+      <ProstatectomyProcFinding  RecordId='14'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindLaterality></ProcFindLaterality>
+        <ProcFindAP></ProcFindAP>
+        <ProcFindCancer></ProcFindCancer>
+        <ProcFindExtension></ProcFindExtension>
+        <ProcFindMargin></ProcFindMargin>
+        <ProcFindFrozen></ProcFindFrozen>
+        <ProcFindAddTissue></ProcFindAddTissue>
+      </ProstatectomyProcFinding>  
+      
+      
+      
+		</Procedures>
+		<Procedures  RecordId='2'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+
+      <NeuralStimulationProcFinding RecordId='1'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='2'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='3'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='4'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='5'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='6'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='7'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='8'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='9'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='10'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+      <NeuralStimulationProcFinding RecordId='11'>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindLevel></ProcFindLevel>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+      </NeuralStimulationProcFinding>
+    </Procedures>
+		<Procedures  RecordId='3'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+		<Procedures  RecordId='4'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+		<Procedures  RecordId='5'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>		
+		<Procedures  RecordId='6'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <PathResult></PathResult>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId='7'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+		<Procedures  RecordId='8'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <PathResult></PathResult>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+
+  </Procedures>
+
+
+  <Diagnostics>
+    <DxType></DxType>
+    <DxTarget></DxTarget>
+    <DxImageProstate>
+      <ImgUrethraLength></ImgUrethraLength>
+    </DxImageProstate>
+  </Diagnostics>
+
+
+  <Surveys RecordId='1'>
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+
+    <SurveyItems RecordId='1'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='2'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>    
+    
+  </Surveys>
+  
+  <Surveys RecordId='2'>
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+
+    <SurveyItems RecordId='1'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='2'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+
+  </Surveys>
+  
+ 				
+</eform>
+
+
+

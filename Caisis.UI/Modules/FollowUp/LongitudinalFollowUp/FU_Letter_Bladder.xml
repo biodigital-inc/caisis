@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+  <letter>
+    <greeting>
+      Dear
+    </greeting>
+    <body>
+      <p>
+        I certainly hope this letter finds you in good health. My records show it has been a while since your last visit to ACME Cancer Center.  Your well being is very important to me and I would like to continue hearing about any new developments regarding your past kidney surgery and your general state of health.
+      </p>
+      <br/>
+      <p>
+        Enclosed in this envelop you will find a survey with questions geared to help me gain a better idea of your current medical status.  If you have some time, please complete this and return it in the enclosed pre-paid envelope.  With the feedback from this survey I hope to gain a better understanding of the long-term effects of kidney surgery, which will help me to improve the quality of my future care.
+      </p>
+      <br/>
+      <p>
+        In the event that your kidney tumor has recurred, I would like your permission to ask your physician for a copy of your medical records. I assure you that your information will be kept confidential in accordance with the Health Insurance Portability and Accountability Act of 1996.
+      </p>
+      <br/>
+      <p>
+        If you have any questions or would prefer to discuss the answers to this survey over the phone, please feel free to call us at <PHYS_PHONE></PHYS_PHONE>.
+      </p>
+      <br/>
+      <p>
+        We hope to hear from you soon.
+      </p>
+    </body>
+    <complimentaryClose>
+      Sincerely,
+    </complimentaryClose>
+  </letter>
+</XML>

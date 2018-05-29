@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="iso-8859-2" ?>
+<messages charset="iso-8859-2">
+  <block id="cut">
+    <message name="title">Kivágás</message>
+  </block>
+  <block id="copy">
+    <message name="title">Másol</message>
+  </block>
+  <block id="paste">
+    <message name="title">Beilleszt</message>
+  </block>
+  <block id="undo">
+    <message name="title">Visszavonás</message>
+  </block>
+  <block id="redo">
+    <message name="title">Mégis</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Kép</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégsem</message>
+    <message name="source">Forrás</message>
+    <message name="alt">Alternatív szöveg</message>
+    <message name="align">Igazítás</message>
+    <message name="left">Balra</message>
+    <message name="right">Jobbra</message>
+    <message name="top">Fentre</message>
+    <message name="middle">Középre</message>
+    <message name="bottom">Lentre</message>
+    <message name="absmiddle">Teljesen középre</message>
+    <message name="texttop">Szövegtetejére</message>
+    <message name="baseline">Alapvonalra</message>
+    <message name="width">Szélesség</message>
+    <message name="height">Magasság</message>
+    <message name="border">Keret</message>
+    <message name="hspace">Vízszintes hely</message>
+    <message name="vspace">Függőleges hely</message>
+    <message name="dimensions">Nézetek</message>
+    <message name="reset_dimensions">Nézetek alaphelyzetbe</message>
+    <message name="title_attr">Cím</message>
+    <message name="constrain_proportions">Kényszerített méretek</message>
+    <message name="error">Hiba</message>
+    <message name="error_width_nan">Szélesség nem egy szám</message>
+    <message name="error_height_nan">Magasság nem egy szám</message>
+    <message name="error_border_nan">Keret nem egy szám</message>
+    <message name="error_hspace_nan">Vízszintes hely nem egy szám</message>
+    <message name="error_vspace_nan">Függőleges hely nem egy szám</message>
+  </block>
+  <block id="flash_prop">
+    <message name="title">Flash</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+    <message name="source">Forrás</message>
+    <message name="width">Szélesség</message>
+    <message name="height">Magasság</message>
+    <message name="error">Hiba</message>
+    <message name="error_width_nan">Szélesség nem egy szám</message>
+    <message name="error_height_nan">Magasság nem egy szám</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Vízszintes elválasztó</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Tábla készítés</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Tábla tulajdonságok</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+    <message name="rows">Sorok</message>
+    <message name="columns">Oszlopok</message>
+    <message name="css_class">CSS osztály</message>
+    <message name="width">Szélesség</message>
+    <message name="height">Magasság</message>
+    <message name="border">Keret</message>
+    <message name="pixels">Pixelek</message>
+    <message name="cellpadding">Cella kitöltése</message>
+    <message name="cellspacing">Cellák közötti hely</message>
+    <message name="bg_color">Háttérszín</message>
+    <message name="background">Háttérkép</message>
+    <message name="error">Hiba</message>
+    <message name="error_rows_nan">Sorok nem egy szám</message>
+    <message name="error_columns_nan">Oszlopok nem egy szám</message>
+    <message name="error_width_nan">Szélesség nem egy szám</message>
+    <message name="error_height_nan">Magasság nem egy szám</message>
+    <message name="error_border_nan">Keret nem egy szám</message>
+    <message name="error_cellpadding_nan">Cella kitöltés nem egy szám</message>
+    <message name="error_cellspacing_nan">Cellák közötti hely nem egy szám</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Cella tulajdonságok</message>
+    <message name="horizontal_align">Vízszintes igazítás</message>
+    <message name="vertical_align">Függőleges igazítás</message>
+    <message name="width">Szélesség</message>
+    <message name="height">Magasság</message>
+    <message name="css_class">CSS osztály</message>
+    <message name="no_wrap">Nincs törés</message>
+    <message name="bg_color">Háttérszín</message>
+    <message name="background">Háttérkép</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+    <message name="left">Balra</message>
+    <message name="center">Középre</message>
+    <message name="right">Jobbra</message>
+    <message name="top">Fentre</message>
+    <message name="middle">Középre</message>
+    <message name="bottom">Lentre</message>
+    <message name="baseline">Alapvonalra</message>
+    <message name="error">Hiba</message>
+    <message name="error_width_nan">Szélesség nem egy szám</message>
+    <message name="error_height_nan">Magasság nem egy szám</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Sor beszúrása</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Oszlop beszúrása</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Sor törlése</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Oszlop törlése</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Cellák egyesítése jobbra</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Cellák egyesítése lefele</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Cellák vízszintes szétszakítása</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Cellák függőleges szétkaszítása</message>
+  </block>
+  <block id="style">
+    <message name="title">Stílus</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Betű</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Méret</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Bekezdés</message>
+  </block>
+  <block id="bold">
+    <message name="title">Félkövér</message>
+  </block>
+  <block id="italic">
+    <message name="title">Dőlt</message>
+  </block>
+  <block id="underline">
+    <message name="title">Aláhúzás</message>
+  </block>
+  <block id="strikethrough">
+    <message name="title">Áthúzás</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Számozás</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Felsorolás</message>
+  </block>
+  <block id="indent">
+    <message name="title">Behúzás növelése</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Behúzás csökkentése</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Balra</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Középre</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Jobbra</message>
+  </block>
+  <block id="justifyfull">
+    <message name="title">Sorkizárás</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Szín</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Háttérszín</message>
+  </block>
+  <block id="design">
+    <message name="title">Váltás a WYSWYG (design) módra</message>
+  </block>
+  <block id="html">
+    <message name="title">Váltás a HTML (kód) módra</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Színválasztó</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML tisztítás (stílusokat megszüntet)</message>
+    <message name="confirm">Ezzel a cselekedettel törli az alkalmazott stílusokat, betűtípusokat és a fölösleges adatokat a jelen dokumentumban. Valamennyi vagy minden formázás el fog veszni.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Szegély megmutatása</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hiperhivatkozás</message>
+    <message name="url">Hivatkozott cím (URL)</message>
+    <message name="name">Név</message>
+    <message name="target">Cél</message>
+    <message name="title_attr">Cím</message>
+    <message name="a_type">Tipus</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Könyvjelző</message>
+    <message name="type_link2anchor">Link a könyvjelzőhöz</message>
+    <message name="anchors">Könyvjelzők</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">saját keret (_self)</message>
+    <message name="_blank">új keret (_blank)</message>
+    <message name="_top">legfelső keret (_top)</message>
+    <message name="_parent">fő keret (_parent)</message>
+  </block>
+  <block id="unlink">
+    <message name="title">Hiperhivatkozás eltávolítása</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Sor tulajdonságai</message>
+    <message name="horizontal_align">Vízszintes igazítás</message>
+    <message name="vertical_align">Függőeges igazítás</message>
+    <message name="css_class">CSS osztály</message>
+    <message name="no_wrap">Nincs csomagolás</message>
+    <message name="bg_color">Háttérszín</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+    <message name="left">Balra</message>
+    <message name="center">Középre</message>
+    <message name="right">Jobbra</message>
+    <message name="top">Tetejére</message>
+    <message name="middle">Középre</message>
+    <message name="bottom">Aljára</message>
+    <message name="baseline">Alapvonalra</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Speciális karakterek</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+  </block>
+  <block id="templates">
+    <message name="title">Sablonok</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Oldal tulajdonságok</message>
+    <message name="title_tag">Címe</message>
+    <message name="charset">Karakter típus</message>
+    <message name="background">Háttérkép</message>
+    <message name="bgcolor">Háttérszín</message>
+    <message name="text">Szöveg színe</message>
+    <message name="link">Hivatkozás színe</message>
+    <message name="vlink">Látogatott hivatkozás színe</message>
+    <message name="alink">Aktív hivatkozás színe</message>
+    <message name="leftmargin">Bal margó</message>
+    <message name="topmargin">Tető margó</message>
+    <message name="css_class">CSS osztály</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Mégse</message>
+  </block>
+  <block id="preview">
+    <message name="title">Előnézet</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Előugró kép</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Nagyítás</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Alsóindex</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Felsőindex</message>
+  </block>
+</messages>

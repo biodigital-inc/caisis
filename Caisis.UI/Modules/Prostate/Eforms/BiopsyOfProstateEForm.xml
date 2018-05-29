@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Biopsy Of Prostate EForm" displayName="Prostate Biopsy / Fiducial Marker Eform">
+
+  <eformSection name="Prostate Size and Medical Assessment">
+    <eformItem displayName="Prostate Size" controlName="BiopsyOfProstateSize"></eformItem>
+    <eformItem displayName="DRE History" controlName="BiopsyOfProstateDREHistory"></eformItem>
+    <eformItem displayName="Digital Rectal Examination" controlName="BiopsyOfProstateClinicalStage"></eformItem>
+    <eformItem displayName="Serum PSA Level" controlName="BiopsyOfProstateSerumPSA"></eformItem>
+    <eformItem displayName="Indication for Biopsy" controlName="BiopsyOfProstateIndication"></eformItem>
+    <eformItem displayName="Pain and Anxiety" controlName="PainAndAnxietyInventory"></eformItem>
+  </eformSection>
+
+  <eformSection name="Ultrasound Report">
+    <eformItem displayName="MRI"  title="MRI" controlName="BiopsyOfProstateMRI"></eformItem>
+    <eformItem displayName="Ultrasound"  title="Ultrasound" controlName="BiopsyOfProstateUltrasound"></eformItem>
+    <eformItem displayName="Overall Assessment" controlName="BiopsyOfProstateOverallAssessment"></eformItem>
+    <eformItem displayName="Ultrasound Clinical Stage" controlName="BiopsyOfProstateUSClinicalStages"></eformItem>
+
+    <eformItem displayName="Biopsy" controlName="BiopsyOfProstateBiopsy"></eformItem>
+    <eformItem displayName="Prostate Contour" controlName="BiopsyOfProstateContour"></eformItem>
+    <eformItem displayName="Indicate abnormal areas" controlName="BiopsyOfProstateIndicateAbnormal"></eformItem>
+    <eformItem displayName="Attending Presence" controlName="BiopsyOfProstateAttendingPresence"></eformItem>
+    <eformItem displayName="Disposition" controlName="BiopsyOfProstateDisposition"></eformItem>
+  
+  </eformSection>
+
+<NoTable PutDataInTable="Encounters" PutDataInField="EncNotes">
+    <MedicationUnchanged></MedicationUnchanged>
+    <AntiplateletMedication></AntiplateletMedication>
+    <AntiplateletMedicationStopDateText></AntiplateletMedicationStopDateText>
+    <AntiplateletMedicationStopDate></AntiplateletMedicationStopDate>
+    <AllergiesUnchanged></AllergiesUnchanged>
+    <ConsentForm></ConsentForm>
+    <AntibioticPriorToBx></AntibioticPriorToBx>
+    <PostProcedureInstruction></PostProcedureInstruction>
+    <AbnormalComments></AbnormalComments>
+    <Disposition></Disposition>
+    <ProstatePSADensity></ProstatePSADensity>
+    <TZPSADensity></TZPSADensity>
+    <US_GuidedSystematic></US_GuidedSystematic>
+    <US_GuidedSystematicNum></US_GuidedSystematicNum>
+    <TZ_Biopsy></TZ_Biopsy>
+  <MRIFusionGuidedBiopsy></MRIFusionGuidedBiopsy>
+  <MRIFusionGuidedBiopsyNum></MRIFusionGuidedBiopsyNum>
+  <MRIFusionGuidedBiopsyLocation></MRIFusionGuidedBiopsyLocation>
+  <MRIFusionGuidedBiopsyMRIScore></MRIFusionGuidedBiopsyMRIScore>
+  
+  <MRIFusionGuidedBiopsy2></MRIFusionGuidedBiopsy2>
+  <MRIFusionGuidedBiopsyNum2></MRIFusionGuidedBiopsyNum2>
+  <MRIFusionGuidedBiopsyLocation2></MRIFusionGuidedBiopsyLocation2>
+  <MRIFusionGuidedBiopsyMRIScore2></MRIFusionGuidedBiopsyMRIScore2>
+
+
+  <VisuallyTargetedBiopsy></VisuallyTargetedBiopsy>
+  <VisuallyTargetedBiopsyNum></VisuallyTargetedBiopsyNum>
+  <VisuallyTargetedBiopsyLocation></VisuallyTargetedBiopsyLocation>
+  <VisuallyTargetedBiopsyMRIScore></VisuallyTargetedBiopsyMRIScore>
+
+  <VisuallyTargetedBiopsy2></VisuallyTargetedBiopsy2>
+  <VisuallyTargetedBiopsyNum2></VisuallyTargetedBiopsyNum2>
+  <VisuallyTargetedBiopsyLocation2></VisuallyTargetedBiopsyLocation2>
+  <VisuallyTargetedBiopsyMRIScore2></VisuallyTargetedBiopsyMRIScore2>
+    
+    
+  <FingerGuidedBiopsy></FingerGuidedBiopsy>
+    <FingerGuidedBiopsyNum></FingerGuidedBiopsyNum>
+    <FingerGuidedBiopsyLocation></FingerGuidedBiopsyLocation>
+    <FingerGuidedBiopsy2></FingerGuidedBiopsy2>
+    <FingerGuidedBiopsyNum2></FingerGuidedBiopsyNum2>
+    <FingerGuidedBiopsyLocation2></FingerGuidedBiopsyLocation2>
+    <SV_Biopsy></SV_Biopsy>
+  
+
+  
+</NoTable>
+
+
+  <Encounters>
+    <EncDate></EncDate>
+    <EncDateText></EncDateText>
+    <EncPhysician></EncPhysician>
+    <EncType></EncType>
+    <EncSystolic></EncSystolic>
+    <EncDiastolic></EncDiastolic>
+    <EncPulse></EncPulse>
+    <EncRespiration></EncRespiration>
+    <EncTemp></EncTemp>
+    <EncNotes></EncNotes>
+    <EncInstitution></EncInstitution>
+    <EncQuality></EncQuality>
+    <EncDataSource></EncDataSource>
+
+    <EncRectalExams>
+      <DRE_Result></DRE_Result>
+    </EncRectalExams>
+  </Encounters>
+
+  <ClinicalStages>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDisease></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT NotNull="True"></ClinStageT>
+    <ClinStageQuality NotNull="True"></ClinStageQuality>
+    <ClinStageDataSource></ClinStageDataSource>
+  </ClinicalStages>
+
+
+    <Medications RecordId="1">
+        <Medication NotNull="True"></Medication>
+        <MedDateText DefaultSource="Procedures.ProcDateText,1"></MedDateText>
+        <MedDate DefaultSource="Procedures.ProcDate,1"></MedDate>
+        <MedDose></MedDose>
+        <MedUnits></MedUnits>
+        <MedSchedule></MedSchedule>
+        <MedType></MedType>
+        <MedStopDate></MedStopDate>
+        <MedStopDateText></MedStopDateText>
+        <MedDataSource></MedDataSource>
+        <MedQuality></MedQuality>
+        <MedNotes DefaultValue="Antibiotic Prior to Biopsy"></MedNotes>
+    </Medications>
+
+  <Allergies RecordId="1">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="2">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="3">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="4">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="5">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="6">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="7">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="8">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+  <Allergies RecordId="9">
+    <Allergen NotNull="True"></Allergen>
+    <AllergyResponse></AllergyResponse>
+  </Allergies>
+
+
+  <Comorbidities RecordId="1">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="2">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="3">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="4">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="5">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="6">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+
+  <LabTests RecordId="1">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="2">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="3">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="4">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="5">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="6">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="7">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="8">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="9">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+  <LabTests RecordId="10">
+    <LabDate></LabDate>
+    <LabDateText></LabDateText>
+    <LabTest NotNull="True" DefaultValue="PSA"></LabTest>
+    <LabResult></LabResult>
+    <LabUnits DefaultValue="ng/ml"></LabUnits>
+    <LabDataSource DefaultValue="EForm"></LabDataSource>
+    <LabQuality></LabQuality>
+  </LabTests>
+
+  <Procedures RecordId="1">
+    <ProcName NotNull="True" DefaultValue="TRUS Biopsy"></ProcName>
+    <ProcIndication NotNull="True"></ProcIndication>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcDate></ProcDate>
+    <ProcDateText></ProcDateText>
+    <ProcSite></ProcSite>
+    <ProcNotes></ProcNotes>
+    <ProcDataSource></ProcDataSource>
+    <ProcQuality></ProcQuality>
+    <ProcInstitution></ProcInstitution>
+    
+    <ProcedureFinding RecordId="1">
+      <ProcFinding DefaultValue="Fiducial Markers"></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection></ProcFindDissection>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="2">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="US Guided (Systematic)"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="3">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="2 TZ"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="4">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="2 SV"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="5">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="MRI-Fusion Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="6">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="MRI-Fusion Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="7">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="MRI-Fusion Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="8">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="MRI-Fusion Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="9">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="MRI-Fusion Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="10">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Visually Targeted"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="11">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Visually Targeted"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="12">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Visually Targeted"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="13">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Visually Targeted"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="14">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Visually Targeted"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="15">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Finger Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="16">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Finger Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="17">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Finger Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="18">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Finger Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    <ProcedureFinding RecordId="19">
+      <ProcFinding></ProcFinding>
+      <ProcFindSite DefaultValue="Prostate"></ProcFindSite>
+      <ProcFindSide></ProcFindSide>
+      <ProcFindSubsite></ProcFindSubsite>
+      <ProcFindDissection DefaultValue="Finger Guided"></ProcFindDissection>
+      <ProcFindLaterality></ProcFindLaterality>
+      <ProcFindScore></ProcFindScore>
+      <ProcFindNotes></ProcFindNotes>
+    </ProcedureFinding>
+    
+  </Procedures>
+    <Procedures RecordId="2">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="3">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="4">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="5">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="6">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="7">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="8">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="9">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="10">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+    <Procedures RecordId="11">
+        <ProcName NotNull="True"></ProcName>
+        <ProcIndication></ProcIndication>
+        <ProcDate></ProcDate>
+        <ProcDateText></ProcDateText>
+        <ProcSite></ProcSite>
+        <ProcNotes></ProcNotes>
+        <ProcDataSource></ProcDataSource>
+        <ProcQuality></ProcQuality>
+        <ProcInstitution></ProcInstitution>
+    </Procedures>
+  
+
+  <Diagnostics>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult NotNull="True"></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate>
+      <ImgProstateHeight></ImgProstateHeight>
+      <ImgProstateWidth></ImgProstateWidth>
+      <ImgProstateLength></ImgProstateLength>
+      <ImgProstateVolume></ImgProstateVolume>
+      <ImgTZ_Height></ImgTZ_Height>
+      <ImgTZ_Width></ImgTZ_Width>
+      <ImgTZ_Length></ImgTZ_Length>
+      <ImgTZ_Volume></ImgTZ_Volume>
+      <ImgClinStageT></ImgClinStageT>
+      <ImgProstateContour></ImgProstateContour>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgNotes></ImgNotes>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgNotes></ImgNotes>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgNotes></ImgNotes>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgNotes></ImgNotes>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindHeight></ImgFindHeight>
+      <ImgFindWidth></ImgFindWidth>
+      <ImgFindLength></ImgFindLength>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgNotes></ImgNotes>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+
+
+  <Diagnostics RecordId="1">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget DefaultValue="Prostate"></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="1">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+
+  <Diagnostics RecordId="2">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget DefaultValue="Prostate"></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="2">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+  <Diagnostics RecordId="3">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget DefaultValue="Prostate"></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="3">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+  <Diagnostics RecordId="4">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget DefaultValue="Prostate"></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="4">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+  <Diagnostics RecordId="5">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget DefaultValue="Prostate"></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="5">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+  <Diagnostics RecordId="6">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+
+    <DxImageProstate RecordId="6">
+      <ImgProstateVolume></ImgProstateVolume>
+    </DxImageProstate>
+
+    <DxImageFindingsProstate RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+
+    <DxImageFindingsProstate RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindLevel></ImgFindLevel>
+      <ImgFindLaterality></ImgFindLaterality>
+      <ImgFindAP></ImgFindAP>
+      <ImgFindZone></ImgFindZone>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+    </DxImageFindingsProstate>
+  </Diagnostics>
+  <Diagnostics RecordId="7">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="8">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="9">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+  <Diagnostics RecordId="10">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType></DxType>
+    <DxDisease></DxDisease>
+    <DxTarget></DxTarget>
+    <DxResult ></DxResult>
+    <DxNotes></DxNotes>
+    <DxInstitution></DxInstitution>
+    <DxDataSource></DxDataSource>
+    <DxQuality></DxQuality>
+  </Diagnostics>
+
+
+
+  <Surveys RecordId="1">
+    <SurveyDateText DefaultSource="Procedures.ProcDateText,1"></SurveyDateText>
+    <SurveyDate DefaultSource="Procedures.ProcDateText,1"></SurveyDate>
+    <SurveyType DefaultValue="Prostate Biopsy Pain and Anxiety Inventory"></SurveyType>
+    <SurveyResult></SurveyResult>
+    <SurveyTotal></SurveyTotal>
+    <SurveyNotes></SurveyNotes>
+    <SurveyQuality DefaultValue="STD" TriggeredByChildren="true"></SurveyQuality>
+
+    <SurveyItems RecordId="1">
+      <SurveyItemNum DefaultValue="1"></SurveyItemNum>
+      <SurveyItem DefaultValue="Overall, how much pain did you experience during the biopsy?"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="2">
+      <SurveyItemNum DefaultValue="2"></SurveyItemNum>
+      <SurveyItem DefaultValue="Overall, how much discomfort did you experience during the biopsy?"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="3">
+      <SurveyItemNum DefaultValue="3"></SurveyItemNum>
+      <SurveyItem DefaultValue="Overall, how anxious or tense were you during the biopsy?"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId="4">
+      <SurveyItemNum DefaultValue="4"></SurveyItemNum>
+      <SurveyItem DefaultValue="Overall, how would you feel about having to repeat a biopsy?"></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+  </Surveys>
+  
+  
+</eform>

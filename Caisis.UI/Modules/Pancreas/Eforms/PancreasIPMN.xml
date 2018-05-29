@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Pancreas IPMN" displayname="Pancreas IPMN">
+    <eformSection name="Demographics">
+        <eformItem displayName="Demographics" title="Demographics" controlName="PancreatitisDemographics"></eformItem>
+        <eformItem displayName="Status" title="Status" controlName="PancreasIPMNStatus"></eformItem>
+        <eformItem displayName="IPMN" title="IPMN" controlName="PancreasIPMNYesNo"></eformItem>
+        <eformItem displayName="Comorbidities" title="Comorbidities" controlName="PancreasIPMNComorbidities"></eformItem>
+        <eformItem displayName="Vital Signs" title="Vital Signs" controlName="VitalSigns_IPMN"></eformItem>
+        <eformItem displayName="Preoperative Lab Studies" title="Preoperative Lab Studies" controlName="PancreatitisDiagnosticsLabTests"></eformItem>
+        <eformItem displayName="Smoking" title="Smoking" controlName="PancreasIPMNSmoking"></eformItem>
+        <eformItem displayName="Family History" title="Family History of Pancreas Cancer" controlName="FamilyHistoryBreast"></eformItem>
+    </eformSection>
+    <eformSection name="Radiology">
+        <eformItem displayName="Radiology" title="Radiology" controlName="Radiology_IPMN"></eformItem>
+    </eformSection>
+    <eformSection name="GI">
+        <eformItem displayName="GI" title="GI" controlName="GI_IPMN"></eformItem>
+    </eformSection>
+    <eformSection name="Surgery and Pathology">
+        <eformItem displayName="Surgery" title="Surgery" controlName="Surgery_IPMN"></eformItem>
+        <eformItem displayName="Pathology" title="IPMN Pathology" controlName="Pathology_IPMN"></eformItem>
+    </eformSection>
+
+
+
+
+
+    <NoTable>
+        <IPMN></IPMN>
+
+        <LabTestPrefix_21></LabTestPrefix_21>
+        <LabTestPrefix_22></LabTestPrefix_22>
+        <LabTestPrefix_23></LabTestPrefix_23>
+        <LabTestPrefix_24></LabTestPrefix_24>
+        <LabTestPrefix_25></LabTestPrefix_25>
+        <LabTestPrefix_26></LabTestPrefix_26>
+        <LabTestPrefix_27></LabTestPrefix_27>
+        <LabTestPrefix_28></LabTestPrefix_28>
+        <LabTestPrefix_29></LabTestPrefix_29>
+        <LabTestPrefix_30></LabTestPrefix_30>
+        <LabTestPrefix_31></LabTestPrefix_31>
+        <LabTestPrefix_32></LabTestPrefix_32>
+        <LabTestPrefix_33></LabTestPrefix_33>
+        <LabTestPrefix_34></LabTestPrefix_34>
+        <LabTestPrefix_35></LabTestPrefix_35>
+        <LabTestPrefix_36></LabTestPrefix_36>
+        <LabTestPrefix_37></LabTestPrefix_37>
+        <LabTestPrefix_38></LabTestPrefix_38>
+        <LabTestPrefix_39></LabTestPrefix_39>
+        <LabTestPrefix_40></LabTestPrefix_40>
+        <LabTestPrefix_41></LabTestPrefix_41>
+        <LabTestPrefix_42></LabTestPrefix_42>
+        <LabTestPrefix_43></LabTestPrefix_43>
+        <LabTestPrefix_44></LabTestPrefix_44>
+        <LabTestPrefix_45></LabTestPrefix_45>
+        <LabTestPrefix_46></LabTestPrefix_46>
+        <LabTestPrefix_47></LabTestPrefix_47>
+        <LabTestPrefix_48></LabTestPrefix_48>
+        <LabTestPrefix_49></LabTestPrefix_49>
+        <LabTestPrefix_50></LabTestPrefix_50>
+
+        <LabTestName_21></LabTestName_21>
+        <LabTestName_22></LabTestName_22>
+        <LabTestName_23></LabTestName_23>
+        <LabTestName_24></LabTestName_24>
+        <LabTestName_25></LabTestName_25>
+        <LabTestName_26></LabTestName_26>
+        <LabTestName_27></LabTestName_27>
+        <LabTestName_28></LabTestName_28>
+        <LabTestName_29></LabTestName_29>
+        <LabTestName_30></LabTestName_30>
+        <LabTestName_31></LabTestName_31>
+        <LabTestName_32></LabTestName_32>
+        <LabTestName_33></LabTestName_33>
+        <LabTestName_34></LabTestName_34>
+        <LabTestName_35></LabTestName_35>
+        <LabTestName_36></LabTestName_36>
+        <LabTestName_37></LabTestName_37>
+        <LabTestName_38></LabTestName_38>
+        <LabTestName_39></LabTestName_39>
+        <LabTestName_40></LabTestName_40>
+        <LabTestName_41></LabTestName_41>
+        <LabTestName_42></LabTestName_42>
+        <LabTestName_43></LabTestName_43>
+        <LabTestName_44></LabTestName_44>
+        <LabTestName_45></LabTestName_45>
+        <LabTestName_46></LabTestName_46>
+        <LabTestName_47 ></LabTestName_47>
+        <LabTestName_48></LabTestName_48>
+        <LabTestName_49></LabTestName_49>
+        <LabTestName_50></LabTestName_50>
+
+        <ComorbRecorded></ComorbRecorded>
+        <SmokingRecorded></SmokingRecorded>
+    </NoTable>
+
+
+    <Status RecordId="1">
+        <StatusDateText></StatusDateText>
+        <StatusDate></StatusDate>
+        <Status NotNull="True"></Status>
+        <StatusDisease DefaultValue="Pancreas"></StatusDisease>
+    </Status>
+    <Status RecordId="2">
+        <StatusDateText></StatusDateText>
+        <StatusDate></StatusDate>
+        <Status NotNull="True"></Status>
+        <StatusDisease DefaultValue="Pancreas"></StatusDisease>
+        <StatusNotes></StatusNotes>
+    </Status>
+    
+    
+    <Comorbidities RecordId="1">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="2">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="3">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="4">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="5">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="6">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="7">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="8">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="9">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <Comorbidities RecordId="10">
+        <ComorbDateText/>
+        <ComorbDate/>
+        <Comorbidity NotNull="True" />
+        <ComorbGrade />
+    </Comorbidities>
+    <AbsentEvents RecordId="1">
+        <AbsentDateText></AbsentDateText>
+        <AbsentDate></AbsentDate>
+        <TableName NotNull="True"></TableName>
+        <FieldName NotNull="True"></FieldName>
+        <FieldValue NotNull="True"></FieldValue>
+        <AbsentReason></AbsentReason>
+        <AbsentQuality></AbsentQuality>
+    </AbsentEvents>
+    <Encounters RecordId="1">
+        <EncDateText NotNull="True"></EncDateText>
+        <EncDate ></EncDate>
+        <EncHeight></EncHeight>
+        <EncWeight></EncWeight>
+        <EncNotes></EncNotes>
+        <EncBSA></EncBSA>
+        <EncBMI></EncBMI>
+
+        <EncSystolic></EncSystolic>
+        <EncDiastolic></EncDiastolic>
+        <EncPulse></EncPulse>
+        <EncTemp></EncTemp>
+        <EncRespiration></EncRespiration>
+        <EncKPS></EncKPS>
+        <EncOxygenSaturation></EncOxygenSaturation>
+
+    </Encounters>
+
+    <LabTests RecordId="21">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="22">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="23">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="24">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="25">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="26">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="27">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="28">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="29">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="30">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="31">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="32">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="33">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="34">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="35">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="36">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="37">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="38">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="39">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="40">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="41">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="42">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="43">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="44">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="45">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="46">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="47">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="48">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="49">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <LabTests RecordId="50">
+        <LabDate></LabDate>
+        <LabDateText></LabDateText>
+        <LabTest NotNull="True"></LabTest>
+        <LabResult></LabResult>
+        <LabUnits></LabUnits>
+        <LabQuality></LabQuality>
+        <LabTime></LabTime>
+    </LabTests>
+    <SocialHistories>
+        <SocHxTobaccoType></SocHxTobaccoType>
+        <SocHxTobaccoPacksPerDay></SocHxTobaccoPacksPerDay>
+        <SocHxTobaccoPacksPerYear></SocHxTobaccoPacksPerYear>
+        <SocHxTobaccoYears></SocHxTobaccoYears>
+        <SocHxTobaccoQuitYear></SocHxTobaccoQuitYear>
+    </SocialHistories>
+
+    <FamilyMembers RecordId="1">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="2">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="3">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="4">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="5">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="6">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="7">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="8">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="9">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <FamilyMembers RecordId="10">
+        <FamMemSide></FamMemSide>
+        <FamMemRelation></FamMemRelation>
+        <FamMemDeathAge></FamMemDeathAge>
+        <FamilyMemberDiagnosis RecordId="1">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="2">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+        <FamilyMemberDiagnosis RecordId="3">
+            <FamMemDiagnosis></FamMemDiagnosis>
+            <FamMemDiagnosisAge></FamMemDiagnosisAge>
+            <FamMemNotes></FamMemNotes>
+        </FamilyMemberDiagnosis>
+    </FamilyMembers>
+
+    <Diagnostics RecordId="1">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType>
+        <DxTarget DefaultValue="Pancreas"></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxQuality DefaultValue="STD"></DxQuality>
+        <DxImagePancreas RecordId="1"> <!-- new -->
+            <ImgCystMaxDim></ImgCystMaxDim>
+            <ImgMultiplicity></ImgMultiplicity>
+            <ImgMaxMainDuctDiam></ImgMaxMainDuctDiam>
+            <ImgMaxUncinateDuctDiam></ImgMaxUncinateDuctDiam>
+            <ImgSideBranchMouthSize></ImgSideBranchMouthSize>
+            <ImgEnhancingNodules></ImgEnhancingNodules>
+            <ImgEnhancingNoduleSize></ImgEnhancingNoduleSize>
+            <ImgPancreaticMass></ImgPancreaticMass>
+            <ImgThickEnhancingSepta></ImgThickEnhancingSepta>
+            <ImgBorders></ImgBorders>
+            <ImgArterialProximityToLesion></ImgArterialProximityToLesion>
+            <ImgVenousProximityToLesion></ImgVenousProximityToLesion>
+            <ImgCystMorphology></ImgCystMorphology>
+            <ImgCalcifications></ImgCalcifications>
+        </DxImagePancreas>
+    </Diagnostics>
+
+    <Diagnostics RecordId="2">
+        <DxDateText></DxDateText>
+        <DxDate></DxDate>
+        <DxType NotNull="True"></DxType>
+        <DxTarget DefaultValue="Pancreas"></DxTarget>
+        <DxResult></DxResult>
+        <DxNotes></DxNotes>
+        <DxTotalNumTumors></DxTotalNumTumors>
+        <DxQuality DefaultValue="STD"></DxQuality>
+        <DxImagePancreas RecordId="2"> <!-- new -->
+            <ImgCystMaxDim></ImgCystMaxDim>
+            <ImgMultiplicity></ImgMultiplicity>
+            <ImgMaxMainDuctDiam></ImgMaxMainDuctDiam>
+            <ImgMaxUncinateDuctDiam></ImgMaxUncinateDuctDiam>
+            <ImgSideBranchMouthSize></ImgSideBranchMouthSize>
+            <ImgEnhancingNodules></ImgEnhancingNodules>
+            <ImgEnhancingNoduleSize></ImgEnhancingNoduleSize>
+            <ImgPancreaticMass></ImgPancreaticMass>
+            <ImgThickEnhancingSepta></ImgThickEnhancingSepta>
+            <ImgBorders></ImgBorders>
+            <ImgArterialProximityToLesion></ImgArterialProximityToLesion>
+            <ImgVenousProximityToLesion></ImgVenousProximityToLesion>
+            <ImgCystMorphology></ImgCystMorphology>
+            <ImgCalcifications></ImgCalcifications>
+        </DxImagePancreas>
+    </Diagnostics>
+
+    <Pathology RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSite DefaultValue="Pancreas"></PathSite>
+        <PathLymphaticInv></PathLymphaticInv>
+        <PathPerineuralInv></PathPerineuralInv>
+        <PathNotes></PathNotes>
+        <PancreasPath RecordId="1">
+            <PathIPMN></PathIPMN>
+            <PathEpitheliumType></PathEpitheliumType> <!-- new -->
+            <PathDysplasia></PathDysplasia> <!-- new -->
+            <PathCarcinoma></PathCarcinoma> <!-- new -->
+            <PathCarcinomaType></PathCarcinomaType> <!-- new -->
+            <PathPercCarcinoma></PathPercCarcinoma> <!-- new -->
+            <PathCarcinomaMaxDim></PathCarcinomaMaxDim> <!-- new -->
+            <PathVascularInv></PathVascularInv>
+            <PathPerineuralInv></PathPerineuralInv>
+            <PathPanIn></PathPanIn>
+            <PathNonneoplastic></PathNonneoplastic> <!-- new -->
+            <PathPancreaticMargin></PathPancreaticMargin>
+            <PathBileDuctMargin></PathBileDuctMargin>
+            <PathAddTissueMargin></PathAddTissueMargin>
+            <PathProximalMargin></PathProximalMargin>
+            <PathDistalMargin></PathDistalMargin>
+        </PancreasPath>
+        <PathologyStageGrade RecordId="1">
+            <PathStageDisease DefaultValue="IPMN"></PathStageDisease>
+            <PathStageSystem DefaultValue="UICC_2002"></PathStageSystem>
+            <PathStageT></PathStageT>
+        </PathologyStageGrade>
+        <NodePathFinding RecordId="1">
+            <PathFindPosNodes></PathFindPosNodes>
+            <PathFindNumNodes></PathFindNumNodes>
+        </NodePathFinding>
+    </Pathology>
+
+
+    <Pathology RecordId="2">
+        <PathDateText DefaultSource="Diagnostics.DxDateText,2" TriggeredBySiblings="true" ></PathDateText>
+        <PathDate DefaultSource="Diagnostics.DxDate,2" TriggeredBySiblings="true" ></PathDate>
+        <PathSpecimenType DefaultValue="Cytology"></PathSpecimenType>
+        <PathSite DefaultSource="Diagnostics.DxTarget,2" TriggeredBySiblings="true" ></PathSite>
+        <PathLymphaticInv></PathLymphaticInv>
+        <PathPerineuralInv></PathPerineuralInv>
+
+        <PathologyFinding RecordId="1">
+            <PathFinding DefaultValue="Cyst Fluid CEA"></PathFinding>
+            <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="2">
+            <PathFinding DefaultValue="Cyst Fluid Quality"></PathFinding>
+            <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="3">
+            <PathFinding DefaultValue="Cytology"></PathFinding>
+            <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        
+    </Pathology>
+
+
+    <OperatingRoomDetails RecordId="1">
+
+        <OpDateText ></OpDateText>
+        <OpDate></OpDate>
+        <OpInstitution></OpInstitution>
+        <OpFluids></OpFluids>
+        <OpCrystalloid></OpCrystalloid>
+        <OpColloid></OpColloid>
+        <OpEstBloodLoss></OpEstBloodLoss>
+        <OpRBC_Transfused></OpRBC_Transfused>
+        <OpRBC_IntraOp></OpRBC_IntraOp>
+        <OpFFP_Transfused></OpFFP_Transfused>
+        <OpFFP_IntraOp></OpFFP_IntraOp>
+        <OpDuration></OpDuration>
+        <OpUrineOutput></OpUrineOutput>
+        <OpQuality DefaultValue="STD"></OpQuality>
+        <OpNotes></OpNotes>
+
+
+        <Procedures  RecordId="1">
+            <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1" TriggeredBySiblings="true"></ProcDateText>
+            <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1" TriggeredBySiblings="true"></ProcDate>
+            <ProcName NotNull="True"></ProcName>
+            <ProcApproach></ProcApproach>
+            <ProcSide></ProcSide>
+            <ProcNotes></ProcNotes>
+            <ProcInstitution></ProcInstitution>
+            <ProcQuality></ProcQuality>
+            
+            <PancreasProc RecordId="1">
+                <ProcPancreaticDuctSize></ProcPancreaticDuctSize>
+                <ProcBileDuctSize></ProcBileDuctSize>
+                <ProcGlandTexture></ProcGlandTexture> <!-- new -->
+            </PancreasProc>
+            
+        </Procedures>
+        <Procedures  RecordId="2">
+            <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1" ></ProcDateText>
+            <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1" ></ProcDate>
+            <ProcName NotNull="True"></ProcName>
+            <ProcApproach></ProcApproach>
+            <ProcSide></ProcSide>
+            <ProcNotes></ProcNotes>
+            <ProcInstitution></ProcInstitution>
+            <ProcQuality></ProcQuality>
+        </Procedures>
+        <Procedures  RecordId="3">
+            <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1" ></ProcDateText>
+            <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1" ></ProcDate>
+            <ProcName NotNull="True"></ProcName>
+            <ProcApproach></ProcApproach>
+            <ProcSide></ProcSide>
+            <ProcNotes></ProcNotes>
+            <ProcInstitution></ProcInstitution>
+            <ProcQuality></ProcQuality>
+        </Procedures>
+        <Procedures  RecordId="4">
+            <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1" ></ProcDateText>
+            <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1" ></ProcDate>
+            <ProcName ></ProcName>
+            <ProcApproach></ProcApproach>
+            <ProcSide></ProcSide>
+            <ProcNotes></ProcNotes>
+            <ProcInstitution></ProcInstitution>
+            <ProcQuality></ProcQuality>
+        </Procedures>
+        <Procedures  RecordId="5">
+            <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,1"></ProcDateText>
+            <ProcDate DefaultSource="OperatingRoomDetails.OpDate,1"></ProcDate>
+            <ProcName ></ProcName>
+            <ProcApproach></ProcApproach>
+            <ProcSide></ProcSide>
+            <ProcNotes></ProcNotes>
+            <ProcInstitution></ProcInstitution>
+            <ProcQuality></ProcQuality>
+        </Procedures>
+
+
+
+
+
+        </OperatingRoomDetails>
+
+
+
+</eform>
+

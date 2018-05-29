@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Wytnij</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopiuj</message>
+  </block>
+  <block id="paste">
+    <message name="title">Wklej</message>
+  </block>
+  <block id="undo">
+    <message name="title">Cofnij</message>
+  </block>
+  <block id="redo">
+    <message name="title">Ponów</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Wstaw obrazek</message>
+    <message name="select">Wybierz</message>
+    <message name="delete">Usuń</message>
+    <message name="cancel">Anuluj</message>
+    <message name="library">Biblioteka</message>
+    <message name="preview">Podgląd</message>
+    <message name="images">Obrazki</message>
+    <message name="upload">Wyślij obrazek</message>
+    <message name="upload_button">Wyślij</message>
+    <message name="error">Błąd</message>
+    <message name="error_no_image">Proszę wybrać obrazek</message>
+    <message name="error_uploading">Przy wysyłaniu obrazka wystąpił błąd. Proszę spróbować później.</message>
+    <message name="error_wrong_type">Niewłaściwy typ pliku obrazka</message>
+    <message name="error_no_dir">Brak biblioteki obrazków</message>
+    <message name="error_cant_delete">Błąd usuwania</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Właściwości obrazka</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+    <message name="source">Ścieżka</message>
+    <message name="alt">Tekst alternatywny</message>
+    <message name="align">Wyrównanie</message>
+    <message name="justifyleft">justifyleft</message>
+    <message name="justifyright">justifyright</message>
+    <message name="top">top</message>
+    <message name="middle">middle</message>
+    <message name="bottom">bottom</message>
+    <message name="absmiddle">absmiddle</message>
+    <message name="texttop">texttop</message>
+    <message name="baseline">baseline</message>
+    <message name="width">Szerokość</message>
+    <message name="height">Wysokość</message>
+    <message name="border">Obramowanie</message>
+    <message name="hspace">Odstęp poziomy</message>
+    <message name="vspace">Odstęp pionowy</message>
+    <message name="error">Błąd</message>
+    <message name="error_width_nan">Szerokość nie jest liczbą</message>
+    <message name="error_height_nan">Wysokość nie jest liczbą</message>
+    <message name="error_border_nan">Ramka nie jest liczbą</message>
+    <message name="error_hspace_nan">Odstęp poziomy nie jest liczbą</message>
+    <message name="error_vspace_nan">Odstęp pionowy nie jest liczbą</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Linia pozioma</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Wstaw tabelę</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Właściwości tabeli</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+    <message name="rows">Liczba wierszy</message>
+    <message name="columns">Liczba kolumn</message>
+    <message name="css_class">Styl CSS</message>
+    <message name="width">Szerokość</message>
+    <message name="height">Wysokość</message>
+    <message name="border">Obramowanie</message>
+    <message name="pixels">pikseli</message>
+    <message name="cellpadding">Margines komórki</message>
+    <message name="cellspacing">Obramowanie komórki</message>
+    <message name="bg_color">Kolor tła</message>
+    <message name="background">Obrazek tła</message>
+    <message name="error">Błąd</message>
+    <message name="error_rows_nan">Liczba wierszy nie jest liczbą</message>
+    <message name="error_columns_nan">Liczba kolumn nie jest liczbą</message>
+    <message name="error_width_nan">Szerokość nie jest liczbą</message>
+    <message name="error_height_nan">Wysokość nie jest liczbą</message>
+    <message name="error_border_nan">Obramowanie nie jest liczbą</message>
+    <message name="error_cellpadding_nan">Margines komórki nie jest liczbą</message>
+    <message name="error_cellspacing_nan">Obramowanie komórki nie jest liczbą</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Właściwości komórki</message>
+    <message name="horizontal_align">Wyrównanie w poziomie</message>
+    <message name="vertical_align">Wyrównanie w pionie</message>
+    <message name="width">Szerokość</message>
+    <message name="height">Wysokość</message>
+    <message name="css_class">styl CSS</message>
+    <message name="no_wrap">Blokuj dzielenie akapitu</message>
+    <message name="bg_color">Kolor tła</message>
+    <message name="background">Obrazek tła</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+    <message name="justifyleft">Do lewej</message>
+    <message name="justifycenter">Do środka</message>
+    <message name="justifyright">Do prawej</message>
+    <message name="top">Do góry</message>
+    <message name="middle">Do środka</message>
+    <message name="bottom">Do dołu</message>
+    <message name="baseline">Do linii bazowej</message>
+    <message name="error">Błąd</message>
+    <message name="error_width_nan">Szerokość nie jest liczbą</message>
+    <message name="error_height_nan">Wysokość nie jest liczbą</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Wstaw wiersz</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Wstaw kolumnę</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Usuń wiersz</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Usuń kolumnę</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Połącz z prawą</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Połącz z dolną</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Podziel komórkę w poziomie</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Podziel komórkę w pionie</message>
+  </block>
+  <block id="style">
+    <message name="title">Styl</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Czcionka</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Rozmiar</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Akapit</message>
+  </block>
+  <block id="bold">
+    <message name="title">Pogrubienie</message>
+  </block>
+  <block id="italic">
+    <message name="title">Kursywa</message>
+  </block>
+  <block id="underline">
+    <message name="title">Podkreślenie</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Numerowanie</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Wypunktowanie</message>
+  </block>
+  <block id="indent">
+    <message name="title">Zwiększ wcięcie</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Zmniejsz wcięcie</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Wyrównaj do lewej</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Wyśrodkuj</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Wyrównaj do prawej</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Kolor czcionki</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Kolor tła</message>
+  </block>
+  <block id="design">
+    <message name="title">Przełącz w tryb podglądu (WYSIWYG)</message>
+  </block>
+  <block id="html">
+    <message name="title">Przełącz w tryb HTML (kod)</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Wybór koloru</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">czyszczenie HTML (usuwanie styli)</message>
+    <message name="confirm">Przeprowadzenie tej operacji usunie wszystkie style, określenia czcionek i zbędne znaczniki z bieżącej treści. Część lub całość formatowania może zostać utracona.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Przełącz obramowania</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Odsyłacz</message>
+    <message name="url">Adres URL</message>
+    <message name="name">Nazwa</message>
+    <message name="target">Okno docelowe</message>
+    <message name="title_attr">Tytuł</message>
+    <message name="a_type">Typ</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Kotwica</message>
+    <message name="type_link2anchor">Adres kotwicy</message>
+    <message name="anchors">Kotwice</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">to samo (_self)</message>
+    <message name="_blank">nowe okno (_blank)</message>
+    <message name="_top">górna ramka (_top)</message>
+    <message name="_parent">nadrzędna ramka (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Właściwosci wiersza</message>
+    <message name="horizontal_align">Wyrównanie w poziomie</message>
+    <message name="vertical_align">Wyrównanie w pionie</message>
+    <message name="css_class">styl CSS</message>
+    <message name="no_wrap">Blokuj dzielenie akapitu</message>
+    <message name="bg_color">Kolor tła</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+    <message name="justifyleft">Wyrównaj do lewej</message>
+    <message name="justifycenter">Do środka</message>
+    <message name="justifyright">Do prawej</message>
+    <message name="top">Do góry</message>
+    <message name="middle">Do środka</message>
+    <message name="bottom">Do dołu</message>
+    <message name="baseline">Do linii bazowej</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Znaki specjalne</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+  </block>
+  <block id="templates">
+    <message name="title">Szablony</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Właściwości strony</message>
+    <message name="title_tag">Tytył</message>
+    <message name="charset">Strona kodowa</message>
+    <message name="background">Obraz tła</message>
+    <message name="bgcolor">Kolor tła</message>
+    <message name="text">Kolor tekstu</message>
+    <message name="link">Kolor odsyłacza</message>
+    <message name="vlink">Kolor wybranego odsyłacza</message>
+    <message name="alink">Kolor aktywnego odsyłacza</message>
+    <message name="leftmargin">Margines lewy</message>
+    <message name="topmargin">Margines górny</message>
+    <message name="css_class">Styl CSS</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Anuluj</message>
+  </block>
+  <block id="preview">
+    <message name="title">Podgląd</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Image popup</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Indeks dolny</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Indeks górny</message>
+  </block>
+</messages>

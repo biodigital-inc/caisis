@@ -1,0 +1,181 @@
+﻿.PageSize {
+	width: 725px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+.Header {
+	 margin: 0px;
+	 margin-bottom: 15px;
+	 width: 100%;
+	 vertical-align: top;
+}
+.insertedHeader {
+	 margin: 0px;
+	 margin-bottom: 15px;
+	 width: 100%;
+	 vertical-align: top;
+}
+.HeaderBackground {
+	 z-index: -1;
+
+}
+
+
+.Footer {
+	vertical-align:bottom;
+	margin-top: 50px;
+}
+.insertedFooter {
+	vertical-align:bottom;
+	margin-top: 50px;
+	page-break-after: always;
+}
+
+.FooterTableCell {
+	width: 33%;
+	font: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-align: left;
+}
+
+.Continued {
+	vertical-align:bottom;
+	margin-top: 15px;
+}
+
+.content {
+	font: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 9pt;
+	margin-top: 20px;
+	text-align: left;
+}
+
+img {
+	float: right;
+	margin: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.HeaderImg {
+	margin: 0px;
+	width: 100%;
+}
+
+.PageBody {
+
+}
+
+
+span {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 10pt;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.SectionTitle {
+	font: Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 21pt;
+	text-align: left;
+	display: block;
+}
+.TopicDiv {
+    margin-top: 37px;
+}
+.SectionDiv {
+    margin-top: 90px;
+    margin-left: 24px;
+    padding-right: 24px;
+
+}
+
+.TopicTitle
+{
+    font-size: 13pt;
+    font-weight: bold;
+    display: block;
+}
+.SubTopicTitle
+{
+    font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 20pt;
+	text-align: left;
+	display: block;
+	margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 50px;
+}
+.SubTopicDiv {
+    margin-top: -72px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family:"Times New Roman", Times, serif;  
+}
+ul 
+{
+    margin: 0px;
+    background-color: #e0edf6;
+    padding: 20px;
+    padding-left: 35px;
+    padding-top: 0px;
+    width: 60%;
+}
+li
+{
+    margin-top: 0px;
+}
+.insertedContinued {
+    vertical-align:bottom;
+    margin-top: 15px;
+    display: block;
+}
+.ContinuedImg {
+    width: 90px;
+    height: 42px;
+    float: right;
+    margin-right: 34px;
+}
+.SpacerImg {
+    width: 90px;
+    height: 42px;
+    float: right;
+    margin-right: 34px;
+}    
+    
+#PrintingContainer
+{
+	font: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 9pt;
+
+}
+
+.SectionContent
+{
+    visibility: visible;
+}
+
+.TopicContent
+{
+    visibility: visible;
+}
+
+.SubTopicContent
+{
+    visibility: visible;
+}
+
+

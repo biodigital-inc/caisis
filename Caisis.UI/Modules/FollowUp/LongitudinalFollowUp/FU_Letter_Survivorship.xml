@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+  <letter>
+    <greeting>
+      Dear
+    </greeting>
+    <body>
+      <p>
+        I am writing to let you know of an important and exciting new program for our patients that I think will be of particular interest to you.
+        I am pleased to announce the establishment of a comprehensive <b>Prostate Cancer Survivorship Program</b> as part of ACME Cancer Center’s overall survivorship initiative. In addition to the routine follow-up care for patients who have completed treatment for prostate cancer, this program offers expanded services with an emphasis on wellness, cancer prevention and health promotion, using the full scope of resources available here at ACME Cancer Center . The major areas of emphasis include:
+      </p>
+      <br/>
+      <p>
+          <table >
+            <tr>
+              <td colspan="1" width="8%"></td>
+              <td colspan="1" width="2%" valign="top" align="left">• </td>
+              <td colspan="1" width="90%" valign="top" align="left">follow-up assessment to detect recurrence of prostate cancer;</td>
+            </tr>
+            <tr>
+              <td colspan="1" width="8%"></td>
+              <td colspan="1" width="2%" valign="top" align="left">• </td>
+              <td colspan="1" width="90%" valign="top" align="left">identification and management of physical issues related to prostate cancer and surgical side effects, such as urinary incontinence and erectile dysfunction;</td>
+            </tr>
+            <tr>
+              <td colspan="1" width="8%"></td>
+              <td colspan="1" width="2%" valign="top" align="left">• </td>
+              <td colspan="1" width="90%" valign="top" align="left">screening for other cancers, such as colon cancer and skin cancer, using national guidelines;</td>
+            </tr>
+            <tr>
+              <td colspan="1" width="8%"></td>
+              <td colspan="1" width="2%" valign="top" align="left">• </td>
+              <td colspan="1" width="90%" valign="top" align="left">assessment of other medical conditions and referral when needed;</td>
+            </tr>
+            <tr>
+              <td colspan="1" width="8%"></td>
+              <td colspan="1" width="2%" valign="top" align="left">• </td>
+              <td colspan="1" width="90%" valign="top" align="left">education, support and referral for post-treatment psychosocial concerns.</td>
+            </tr>
+
+          </table>
+      </p>
+      <br/>
+      <p>
+        Individuals who participate in the Prostate Cancer Survivorship Program will have regularly scheduled evaluations in the Cancer Center with me and the other prostate cancer surgeons who will be available if any new issues arise.
+      </p>
+      <br/>
+      <p>
+      I hope you will consider this program as an option for your care. If you have additional questions and/or are interested in participating in the Survivorship Program, please contact my office before your next appointment. You can also contact Mary Schoen directly at (646) 422-4329 for further information.  If you choose not to participate, I will continue to see you for your regularly scheduled visits.
+      </p>
+      <br/>
+    </body>
+    <complimentaryClose>
+      With best wishes in your continuing good health,
+    </complimentaryClose>
+    <footer>
+
+    </footer>
+  </letter>
+</XML>

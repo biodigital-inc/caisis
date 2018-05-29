@@ -1,0 +1,1478 @@
+﻿body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: #f8fafc;
+}
+#headerOuterContainer
+{
+	margin: auto;
+	width: 95%;
+	padding-right: 14px;
+	background-image: url(../Images/AdminImages/AdminHeader_Right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 44px;
+	margin-bottom: 20px;
+}
+#headerInnerContainer
+{
+	padding-left: 162px;
+	background-image: url(../Images/AdminImages/AdminHeader_Left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 44px;
+	white-space: nowrap;
+	position: relative;
+	min-width: 800px;
+}
+#headerLinks
+{
+	margin: 0px auto 0px -325px;
+	padding-top: 14px;
+	padding-left: 60px;
+	white-space: nowrap;
+	max-width: 650px;
+	
+	position: absolute;
+	left: 50%;
+}
+#headerLinks a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333333;
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+a#UsersGroupsLink:hover
+{
+	color: #D4612B;
+}
+a#UsersGroupsLink.active
+{
+	color: #D4612B;
+	text-decoration: underline;
+}
+a#SystemConfigLink:hover
+{
+	color: #2178A1;
+}
+a#SystemConfigLink.active
+{
+	color: #2178A1;
+	text-decoration: underline;
+}
+a#AdminReportsLink:hover
+{
+	color: #8d2a2c;
+}
+a#AdminReportsLink.active
+{
+	color: #8d2a2c;
+	text-decoration: underline;
+}
+#headerButtons
+{
+	float: right;
+	display: inline;
+	margin-top: 12px;
+}
+#HeaderButton_BackToCaisis
+{
+	height: 19px;
+	width: 94px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+#HeaderButton_LogOut
+{
+	height: 19px;
+	width: 69px;
+	cursor: pointer;
+}
+
+#AdminHeaderSubNavContainer
+{
+    visibility: visible;
+	width: 776px;
+	padding-right: 3px;
+	background-image: url(../Images/AdminImages/AdminHeader_SubNav_Right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 24px;
+	position: absolute;
+	top: 34px;
+	left: 50%;
+	margin-left: -388px;
+	filter:alpha(opacity=100);
+    -moz-opacity:1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+#AdminHeaderSubNavContainer.hidden a
+{
+    visibility: hidden;
+}
+#AdminHeaderSubNavContainer.hidden a.selected
+{
+/*    visibility: visible;
+    border: solid 1px #cccccc;
+	background-image: url(../Images/AdminImages/AdminHeader_SubNav_Left.png);
+	background-position:  center center;
+	background-repeat: no-repeat;
+	color: #666666;
+*/
+}
+#AdminHeaderSubNavContainer.hidden #AdminHeaderSubNavContainer
+{
+    background-image: none;
+}
+#AdminHeaderSubNavContainer.hidden
+{
+    background-image: none;
+}
+#AdminHeaderSubNavContainer.hidden #AdminHeaderSubNav
+{
+    background-image: none;
+}
+/*
+#AdminHeaderSubNavContainer.hidden
+{
+    visibility: hidden;
+	width: 580px;
+	padding-right: 3px;
+	background-image: url(../Images/AdminImages/AdminHeader_SubNav_Right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 24px;
+	position: absolute;
+	top: 34px;
+	left: 50%;
+	margin-left: -290px;
+	filter:alpha(opacity=100);
+    -moz-opacity:1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+*/
+#AdminHeaderSubNav
+{
+	padding-left: 3px;
+	background-image: url(../Images/AdminImages/AdminHeader_SubNav_Left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 24px;
+	position: relative;
+}
+
+
+#adminPageContentContainer
+{
+	position: relative;
+	width: 95%;
+	margin: 0px auto 0px auto;
+}
+
+
+.adminBox
+{
+	background-color: #ffffff;
+	border: solid 1px #cccccc;
+	
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	color: #1f1f1f;
+	
+	min-height: 200px;
+	margin-top: 4px;
+	
+	
+}
+
+.adminNavBoxContainer
+{
+	width: 140px;
+	margin-left: 4px;
+	float: left;
+	clear: none;
+}
+.adminNavBoxContainerTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	color: #000000;
+	font-weight: bold;
+	padding-left: 2px;
+	white-space: nowrap;
+}
+
+#EditFormBox
+{
+	margin-left: 210px;
+	margin-right: 0px;
+}
+
+.EditFormBoxHelpSection
+{
+	margin: 5px 5px 5px 5px;
+	padding: 5px;
+	color: #333333;
+	position: relative;
+
+}
+div#EditFormBox>div.adminBox
+{
+	/*
+	background-image: url(../Images/AdminImages/MainContentBoxBottomBG.png);
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	*/
+}
+
+div.adminBoxNavListContainer
+{
+	overflow: auto;
+	max-height: 400px;
+	padding: 5px;
+}
+
+ul.adminBoxNavList
+{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-indent: 0;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1f1f1f;
+	
+}
+ul.adminBoxNavList li
+{
+	border: solid 1px #ffffff;
+	
+	margin: 1px 0px 1px 0px;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	list-style-image: none;
+	list-style-type: none;
+	padding: 3px 6px 3px 6px;
+}
+ul.adminBoxNavList li:hover
+{
+	background-color: #E9DDDF;
+	border: solid 1px #AD686A;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	color: #222222;
+	cursor: pointer;
+	background-image: url(../Images/AdminImages/AdminListHighlightedWidget.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+ul.adminBoxNavList li.alternate
+{
+	border: solid 1px #f1f1f1;
+	background-color: #f1f1f1;
+	
+	margin: 1px 0px 1px 0px;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	list-style-image: none;
+	list-style-type: none;
+	padding: 3px 6px 3px 6px;
+}
+ul.adminBoxNavList li.alternate:hover
+{
+	background-color: #E9DDDF;
+	border: solid 1px #AD686A;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	color: #000000;
+	cursor: pointer;
+	background-image: url(../Images/AdminImages/AdminListHighlightedWidget.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+ul.adminBoxNavList li.selected
+{
+	border: solid 1px #8D2A2C;
+	background-color: #8D2A2C;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	color: #ffffff;
+	
+	background-image: url(../Images/AdminImages/AdminListSelectedWidget.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	
+	cursor: default;
+}
+ul.adminBoxNavList li.selected:hover
+{
+	border: solid 1px #8D2A2C;
+	background-color: #8D2A2C;	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+/*	behavior: url(../ClientScripts/border-radius.htc); */
+	
+	color: #ffffff;
+	cursor: pointer;
+	background-image: url(../Images/AdminImages/AdminListSelectedWidget.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+ul.adminBoxNavList li.selected:hover a
+{
+	color: #ffffff;
+}
+ul.adminBoxNavList li input[type='checkbox']
+{
+	margin: 0px 5px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+ul.adminBoxNavList li a
+{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.adminBoxNavListSort
+{
+    padding:3px 10px;
+}
+a.adminBoxNavListSortLink
+{
+   text-decoration: underline;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+a.adminBoxNavListSortLink:hover
+{
+     text-decoration: underline;
+}
+
+.NavListFooterButton
+{
+	margin: 4px auto 0px auto;
+	cursor: pointer;
+}
+.adminBoxHeaderArea
+{
+	background-color: #F3F3F3;
+	border: solid 1px #dddddd;
+	margin: 5px 5px 5px 5px;
+	position: relative;
+	min-height: 20px;
+	line-height: 20px;
+	padding: 5px 8px 5px 8px;
+}
+.adminBoxHeaderAreaButton
+{
+	position: absolute;
+	right: 3px;
+	bottom: 4px;
+	cursor: pointer;
+	
+}
+#EditEFormMainContent
+{
+	margin: 5px 0px 5px 5px;
+	padding: 5px 12px 200px 12px;
+	overflow: auto;
+	max-height: 320px;
+	min-height: 200px;
+}
+#EditEFormMainContentFooter
+{
+	
+	/*
+	background-image: url(../Images/AdminImages/MainContentBoxBottomBG.png);
+	background-repeat: repeat-x;
+	
+	height: 34px;*/
+	
+	font-size: 11px;
+	color: #666666;
+	padding: 0px 12px 5px 12px;
+}
+#adminPageSubtitleBarContainer
+{
+	margin: auto;
+	width: 94%;
+	padding-right: 6px;
+	background-image: url(../Images/AdminImages/AdminSubtitleBar_Right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 34px;
+	margin-bottom: 20px;
+}
+#adminPageSubtitleBar
+{
+	background-image: url(../Images/AdminImages/AdminSubtitleBar_Left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 34px;
+	
+	position: relative;
+	
+}
+#adminPageSubtitleBarText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333333;
+	position: absolute;
+	
+	top: 9px;
+	left: 8px;
+}
+#adminPageSubtitleBarLinks
+{
+    position: absolute;
+    top: 5px;
+}
+#adminPageSubtitleBarLinks>a
+{
+	border: solid 1px transparent;
+	
+	margin: 1px 7px 1px 7px;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	/*behavior: url(../ClientScripts/border-radius.htc);*/
+	
+	color: #666666;
+	
+	padding: 1px 5px 1px 5px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	
+	text-decoration: none;
+}
+#adminPageSubtitleBarLinks>a:hover
+{
+	border: solid 1px #C69596;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	/*behavior: url(../ClientScripts/border-radius.htc);*/
+	
+	color: #8D2A2C;
+	
+	cursor: pointer;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+}
+#adminPageSubtitleBarLinks>a.selected
+{
+	border: solid 1px #8D2A2C;
+	background-color: #8D2A2C;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	/*behavior: url(../ClientScripts/border-radius.htc); */
+	
+	color: #ffffff;
+	
+	cursor: default;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	
+	filter:alpha(opacity=100);
+    -moz-opacity:1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+
+
+
+
+.EditDataEntryForm_2Cols
+{
+	width: 97%;
+	margin: 0px auto 0px auto;
+	clear: both;
+}
+
+.EditDataEntryForm_ChildTable
+{
+	float: right;
+	width: 98%;
+	padding: 10px 0px 10px 0px;
+	
+	background-color: #fbfbfb;
+	border: solid 1px #dddddd;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	
+	margin: 40px auto 0px auto;
+	
+}
+.EditDataEntryForm_ChildTableTitle
+{
+	display: inline-block;
+	
+	padding-left: 6px;
+	background-image: url(../Images/AdminImages/ChildTableTitleBG_Left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 21px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	font-weight: bold;
+	
+	color: #111111;
+	
+	cursor: pointer;
+	
+}
+/* more tabs */
+.EditDataEntryForm_MoreTabLayer
+{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 100;
+    min-width: 150px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.EditDataEntryForm_MoreTabLayer a
+{
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+.EditDataEntryForm_MoreTabLayer a:hover
+{
+    color: #000;
+    background-color: #ccc;
+}
+
+.EditDataEntryForm_ChildTableTitleInnerContainer
+{
+	display: inline-block;
+	
+	padding-right: 6px;
+	background-image: url(../Images/AdminImages/ChildTableTitleBG_Right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 21px;
+}
+.EditDataEntryForm_ChildTableTitleOuterContainer
+{
+	margin-top: -31px;
+	margin-left: -1px;
+	margin-bottom: 10px;
+    /*position: relative;*/
+}
+
+.EditDataEntryForm_Column1
+{
+	float: left;
+	width: 48%;
+}
+.EditDataEntryForm_Column2
+{
+	float: right;
+	width: 48%;
+}
+.EditDataEntryForm_ColumnSingle
+{
+    float: none;
+    width: 60%;
+    margin-left: 20%;
+}
+.EditDataEntryForm_Overflow
+{
+	max-height: 270px;
+	overflow: auto;
+}
+.EditDataEntryField_Container
+{
+	width: 99%;
+	padding: 3px 3px 3px 7px;
+	border: solid 1px #f4f4f4;
+	background-color: #fcfcfc;
+	
+	margin: 0px 0px 4px 0px;
+	
+	vertical-align: top;
+	
+}
+.EditDataEntryField_Common
+{
+    border: 1px solid #8d282c;
+}
+div.EditDataEntryField_Container input[type="text"]
+{
+	vertical-align: middle;
+	/*max-width: 120px;*/
+    width: 100px;
+}
+div.EditDataEntryField_Container select
+{
+	vertical-align: middle;
+	/*max-width: 120px;*/
+    width: 100px;
+}
+div.EditDataEntryField_Container textarea
+{
+	/*max-width: 120px;*/
+    width: 100px;
+    vertical-align: middle;
+}
+
+.EditDataEntryField_Container:hover
+{
+	width: 99%;
+	padding: 3px 3px 3px 7px;
+/*	background-color: #f6f6f6;
+	background-image: url(../Images/AdminImages/AdminEditDataEntryFieldHighlightBG.png);
+*/	
+    background-color: #eeeeee;
+    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#e2e2e2'); /* for IE */
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #f8f8f8),
+		color-stop(1, #e2e2e2)
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		#f8f8f8 0%,
+		#e2e2e2 100%
+	);	
+	
+	
+	
+	
+	border: solid 1px #cccccc;
+	cursor: pointer;
+
+	background-repeat: repeat-x;
+	margin: 0px 0px 4px 0px;
+	
+}
+
+.EditDataEntryField_Container_Active
+{
+	width: 99%;
+	padding: 3px 3px 3px 7px;
+	border: solid 1px #dddddd;
+	background-color: #efefef;
+	margin: 0px 0px 4px 0px;
+	
+}
+
+#EditEFormMainContent .EditDataEntryField_Container:hover,#EditEFormMainContent .EditDataEntryField_Container_Active{
+    cursor: help;
+}
+
+.EditDataEntryField_Label
+{
+	display: inline-block;
+	width: 90px;
+/*	float: left; */
+	line-height: 14px;
+}
+.requiredField
+{
+	display: inline-block;
+	width: 90px;
+/*	float: left; */
+	line-height: 14px;
+}
+
+.EditDataEntryField_icon_standard
+{
+	width: 9px;
+	height: 9px;
+	
+	margin-right: 25px;
+	
+	background-image: none;
+	
+	vertical-align: middle;
+	
+	border: none;
+	float: left;
+}
+
+.EditDataEntryField_icon_customized
+{
+	width: 9px;
+	height: 9px;
+	
+	margin-right: 25px;
+	
+	background-image: url(../Images/AdminImages/AdminIcon_CustomizedField.png);
+	background-repeat: no-repeat;	
+	vertical-align:  baseline;
+	
+	border: none;
+	float: left;
+}
+
+.EditDataEntryField_Tooltip
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;	
+	background-image: url(../Images/AdminImages/MetadataTooltipBG_bottom.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;	
+
+    padding-bottom: 23px;
+    width: 347px;
+    display: inline-block;
+    z-index: 4000;
+}
+.EditDataEntryField_TooltipContentContainer
+{
+	background-image: url(../Images/AdminImages/MetadataTooltipBG_top.png);
+	background-repeat: no-repeat;
+	padding: 35px 23px 0px 24px;
+	min-height: 110px;
+}
+.EditDataEntryField_TooltipContentContainer .adminPopupCloseButton
+{
+    float: right;
+    right: 11px;
+    top: 26px;
+    margin-top: -9px;
+    margin-right: -12px;
+}
+.EditDataEntryField_TooltipContent
+{
+
+}
+.EditDataEntryField_TooltipContent .EditDataEntryField_TooltipTitle
+{
+    display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	
+	color: #8d2a2c;
+
+    margin-bottom: 5px;
+}
+.EditDataEntryField_TooltipContent .EditDataEntryField_TooltipTable
+{
+    width: 100%;
+}
+.EditDataEntryField_TooltipContent a
+{
+    color: #00668d;
+    font-weight: bold;
+}
+.EditDataEntryField_TooltipContent a:hover
+{
+    color: #8d2a2c;
+}
+
+
+
+.EditDataEntryField_Tooltip h3
+{
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.EditDataEntryField_Tooltip th
+{
+    text-align: left;
+    padding-left: 5px;
+    border-bottom: solid 1px #cccccc;
+}
+.EditDataEntryField_Tooltip td
+{
+     white-space: normal;
+     vertical-align: top;
+     padding: 3px 16px 3px 3px;
+     
+     font-size: 10px;
+     height: auto;
+}
+
+.EditDataEntryForm_Grid
+{
+	margin: 0px auto 0px auto;
+	clear: both;
+	padding: 10px 0px 20px 10px;
+	white-space: nowrap;
+	overflow: auto;
+	width: 100%;
+
+}
+div.EditDataEntryForm_Grid div.EditDataEntryField_Container
+{
+}
+
+
+div.EditDataEntryForm_Grid div.EditDataEntryField_Container:hover
+{
+}
+
+
+div.EditDataEntryForm_Grid span.EditDataEntryField_Label
+{
+	float: left;	
+}
+div.EditDataEntryForm_Grid span.EditDataEntryField_Label>input
+{
+	float: left;
+	clear: both;
+}
+div.EditDataEntryForm_Grid img.EditDataEntryField_icon_standard
+{
+	float: left;	
+	margin-right: 4px;
+}
+
+div.EditDataEntryForm_Grid img.EditDataEntryField_icon_customized
+{
+	float: left;	
+	margin-right: 4px;
+}
+
+#adminSplashBG
+{
+	position: absolute;
+	z-index: 1;
+	height: 350px;
+	width: 76%;
+	left: 12%;
+	top: 100px;
+	
+	background-image: url(../Images/AdminImages/AdminSplashBG_lightGray.png);
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#adminSplashLeftBlock
+{
+	position: absolute;
+	z-index: 2;
+	width: 166px;
+	left: 0px;
+	top: 128px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 9px;
+	padding-bottom: 5px;
+	
+	background-image: url(../Images/AdminImages/AdminSplashBG_red.png);
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	
+}
+#adminSplashLeftBlockTitle
+{
+    padding-left: 12px;
+    padding-right: 12px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+	
+	color: #ffffff;
+}
+
+#adminSplashLeftBlockSummaryTitle
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 50px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+	text-align: center;
+	
+	color: #ffffff;
+}
+#adminSplashLeftBlockSummaryContent
+{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	
+	background-image: url(../Images/AdminImages/AdminSplashInnerHelpBox_top.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	color: #333333;
+}
+#adminSplashLeftBlockSummaryContent p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: normal;
+	text-align: left;
+	
+	margin: 8px 0px 0px 0px;
+}
+#adminSplashLeftBlockSummaryContent a
+{
+    color: #8d2a2c;
+}
+#adminSplashLeftBlockSummaryBottom
+{
+    height: 7px;
+    font-size: 1px;
+    line-height: 1px;
+	background-image: url(../Images/AdminImages/AdminSplashInnerHelpBox_bottom.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#adminSplashRightBlock
+{
+	position: absolute;
+	z-index: 2;
+	height: 251px;
+/*	width: 182px;
+*/	width: 210px;
+	right: 0px;
+	top: 128px;
+}
+#adminSplashRightBlockTitle
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 8px;
+	height: 40px;
+	
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_red_top.png);
+	background-repeat: no-repeat;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+	text-align: center;
+	
+	color: #ffffff;
+}
+#adminSplashRightBlockContent
+{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 10px;
+	
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_red_bottom.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	
+	color: #333333;
+}
+#adminSplashRightBlockContent p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: normal;
+	
+	margin: 0px 0px 7px 0px;
+	
+}
+#adminSplashRightBlockContent a
+{
+    color: #8d2a2c;
+
+}
+
+.adminSplashHelpBlock
+{
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 9px 11px 9px 11px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	
+	color: #111111;
+}
+#adminSplashHelpBlockUsersGroups
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_orange_top.png);
+	
+}
+#adminSplashHelpBlockSystemConfig
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_yellow_top.png);
+}
+#adminSplashHelpBlockAdminReports
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_lightGreen_top.png);
+}
+.adminSplashHelpBlock a
+{
+	display: block;
+	margin-top: 6px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: normal;
+	
+	color: #111111;
+	text-decoration: none;
+}
+
+.adminSplashHelpBlock a:hover
+{
+	text-decoration:  underline;
+	cursor: pointer;
+	background-color: #f1f1f1;
+}
+.adminSplashHelpBlockContainer
+{	
+	width: 202px;
+	float: left;
+	clear: none;
+	margin: 0px 10px 0px 10px;
+}
+.adminSplashHelpBlockBottomTitle
+{
+	height: 23px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: bold;
+	color: #333333;
+	
+	text-align: center;
+	margin-top: 9px;
+}
+.adminSplashHelpBlockInnerContainer
+{
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#adminSplashHelpBlockUsersGroupsInnerContainer
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_orange_bottom.png);
+}
+#adminSplashHelpBlockSystemConfigInnerContainer
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_yellow_bottom.png);
+}
+#adminSplashHelpBlockAdminReportsInnerContainer
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBox_lightGreen_bottom.png);
+}
+#adminSplashHelpBlocks
+{
+	margin: 0px auto 0px -335px;
+	padding-top: 14px;
+	white-space: nowrap;
+	width: 670px;
+	left: 50%;
+	top: -15px;
+	
+	z-index: 5;
+	position: absolute;
+	
+}
+.adminSplashHelpBlockArrow
+{
+	background-image: url(../Images/AdminImages/AdminSplashHelpBoxArrow.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+	height: 128px;
+	
+}
+
+
+
+
+#usersSchematic
+{
+	background-image: url(../Images/AdminImages/AdminSchematic2_UsersAndGroups.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	height: 557px;
+	width: 444px;
+	
+	background-color: #ffffff;
+	
+	border: solid 1px #cccccc;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	
+	position: absolute;
+	left: 30%; top: 0px;
+	overflow: visible;
+		
+	z-index: 100;
+
+}
+
+#usersSchematic a
+{
+	position: absolute;
+	cursor: pointer;
+}
+#usersSchematic div
+{
+	position: absolute;
+	
+	z-index: 3000;
+	
+	top: 14px;
+	left: 156px;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: normal;
+	
+	color: #333333;
+}
+
+#userGroupFrameContainer
+{
+	display: none;
+	
+	margin-left: 450px;
+	margin-top: 0px;
+	
+	z-index: 20;
+	
+/*	border: solid 1px #cccccc; 
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+*/
+	
+}
+#userGroupFrame
+{
+	height: 500px;
+	width: 100%;
+}
+
+.adminEditPanel
+{
+}
+.adminEditPanelTitle
+{
+    font-family: Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: bold;
+	
+	color: #8d2a2c;
+}
+
+
+/* new */
+a > img
+{
+    border-style: none;
+}
+.adminBoxNavList * a
+{
+    color: #000000;
+    text-decoration: none;
+}
+.selected a
+{
+    color: #ffffff;
+}
+#headerIndexIcon
+{
+    float: left;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    display: block;
+    width: 175px;
+    height: 45px;
+}
+.FilterSearchBoxWrapper
+{
+    position: relative;
+}
+.FilterSearchBox
+{
+    font-weight: normal;
+    font-style: italic;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+/*    background-image: url('../Images/GrayPanel_close.png');
+    background-position: 206px center;
+    background-repeat: no-repeat;
+*/
+    display: block;
+    min-width: 90%;
+    max-width: 96%;
+    display: block;
+    margin: 2px auto;
+    padding: 5px;
+}
+.FilterSearchBox:hover
+{
+    font-weight: normal;
+    font-style: italic;
+    color: #666666;
+    border: 1px solid #cccccc;
+}
+.FilterSearchBox:focus,.FilterSearchBoxActive
+{
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+}
+.FilterSearchBoxIcon
+{
+    position: absolute;
+    top: 5px;
+    right: 5%;
+    width: 13px;
+    height: 12px;
+    display: block;
+    text-align: center;
+   /* background-image: url("../Images/Header/SearchBoxBG.png");
+    background-position: center;
+    background-repeat: no-repeat;*/
+    cursor: pointer;
+}
+.FilterSearchBoxIconClose
+{
+    background-image: none;
+}
+.FilterSearchBoxIcon img
+{
+    display: inline-block;
+}
+.FilterSearchBoxIcon span
+{
+    display: none;
+}
+.FilterSearchBoxIconClose  img
+{
+    display: none;
+}
+.FilterSearchBoxIconClose span
+{
+    display: inline-block;
+    color: #333333;
+}
+.FilterSearchBoxIconClose span:hover
+{
+    color: #000000;
+}
+
+#AdminUserGroupPopupContainer
+{
+    margin: auto;
+}
+/* ADMIN NAVIGATION */
+.adminNavHeading
+{
+    color: #111111;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+.adminNavHelpText
+{
+    color: #666666;
+    text-align: left;
+    font-size: 11px;
+    font-weight: normal;
+}
+.adminNavHeadingBack
+{
+    border: 1px solid #BBBBBB;
+    border-radius: 5px 5px 5px 5px;
+    color: #111111;
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.adminNavMainContent
+{
+    max-height: 450px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.adminListTable
+{
+
+}
+
+
+#NavButtons
+{
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+
+
+.dataGridItemRowA
+{
+    background-color: #eeeeee;
+    height: auto;
+    padding: 3px 0px 3px 0px;
+}
+.dataGridItemRowB
+{
+    background-color: #ffffff;
+    height: auto;
+    padding: 3px 0px 3px 0px;
+}
+
+/* sorting */
+.sortWidgetWrapper {
+    width: 65px;
+}
+span.sortWidgetContainer
+{
+    float: left;
+    margin-right: 1px;
+    margin-left: 6px;
+    line-height: 1px;
+    font-size: 1px;
+    clear: none;
+}
+a.fieldSortWidget
+{
+    display: inline-block;
+    width: 11px;
+    height: 9px;
+    font-size: 1px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+a.fieldSortWidgetUp
+{
+    background-image: url(../Images/AdminImages/Button_WidgetUP.gif);
+}
+a.fieldSortWidgetDown
+{
+    background-image: url(../Images/AdminImages/Button_WidgetDOWN.gif);
+    margin-top: 1px;
+}
+/* end sorting */
+
+
+
+.adminPopupCloseButton
+{
+    background-image: url(../Images/AdminImages/AdminPopup_Close.png);
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+.adminPopupCloseButton:hover
+{
+    background-image: url(../Images/AdminImages/AdminPopup_Close_hover.png);
+}

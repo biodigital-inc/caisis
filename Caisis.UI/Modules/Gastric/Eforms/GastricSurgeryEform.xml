@@ -1,0 +1,1216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<eform name="Gastric Surgery Eform" displayName="Gastric Surgery EForm"   >
+
+  <eformSection name="Visit Information">
+    <eformItem displayName="Appointment" title="Appointment" controlName="GastricAppointment"></eformItem>
+    <eformItem displayName="Chief Complaint" title="Chief Complaint" controlName="ChiefComplaintGastric"></eformItem>
+  </eformSection>
+
+  <eformSection name="Patient History">
+    <eformItem displayName="Actions" title="Actions" controlName="Actions"></eformItem>
+    <eformItem displayName="Comorbidities" title="Comorbidities" controlName="Comorbidities"></eformItem>
+    <eformItem displayName="Family History" title="Family History" controlName="PatientsFamilyMembers"></eformItem>
+    <eformItem displayName="Prior Surgery" title="Prior Surgery (Outside MSKCC)" controlName="OutsideProcedureHistory"></eformItem>
+    <eformItem displayName="PreOp T-Stage" title="PreOp T-Stage (UICC_10)" controlName="ClinStageGastric"></eformItem>
+    <eformItem displayName="Vital Signs" title="Vital Signs" controlName="VitalSigns"></eformItem>
+  </eformSection>
+
+  <eformSection name="Biopsy">
+    <eformItem  title="Biopsy" controlName="GastricBiopsy"></eformItem>
+  </eformSection>
+
+  <eformSection name="Procedures">
+    <eformItem  displayName="Laparoscopy" title="Laparoscopy" controlName="GastricLaparoscopyPastAndNew"></eformItem>
+    <eformItem  displayName="Pathology (Laparoscopy)" title="Pathology (Laparoscopy)" controlName="GastricLaparoscopyPath"></eformItem>
+    <eformItem  displayName="Resection" title="Resection" controlName="GastricResectionPastAndNew"></eformItem>
+      <eformItem  displayName="Pathology (Resection)" title="Pathology (Resection)" controlName="GastricResectionPath2"></eformItem>
+
+
+      
+  </eformSection>
+
+  <eformSection name="Therapies">
+    <eformItem displayName="Medical Therapy" controlName="MedicalTherapyGastric"></eformItem>
+    <eformItem displayName="Radiation Therapy" controlName="RadiationTherapyGastric"></eformItem>
+  </eformSection>
+
+  <eformSection name="Diagnostics and Status">
+    <eformItem displayName="Diagnostics" controlName="ImagingGastric"></eformItem>
+    <eformItem displayName="Status" controlName="StatusGastric"></eformItem>
+  </eformSection>
+
+
+  <Encounters RecordId="1">
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncType></EncType>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncInstitution></EncInstitution>
+    <EncSystolic></EncSystolic>
+    <EncDiastolic></EncDiastolic>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncQuality></EncQuality>
+  </Encounters>
+
+  <Actions RecordId="1">
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+     <ActionItem NotNull="True" ></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="2">
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+     <ActionItem NotNull="True" ></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="3">
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+     <ActionItem NotNull="True" ></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="4">
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+     <ActionItem NotNull="True" ></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  <Actions RecordId="5">
+    <ActionDateText></ActionDateText>
+    <ActionDate></ActionDate>
+     <ActionItem NotNull="True" ></ActionItem>
+    <ActionNotes></ActionNotes>
+  </Actions>
+  
+  
+  <FamilyMembers RecordId="1">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId="1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId="2">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId="1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+  <FamilyMembers RecordId="3">
+    <FamMemSide></FamMemSide>
+    <FamMemRelation></FamMemRelation>
+    <FamMemDeathAge></FamMemDeathAge>
+    <FamilyMemberDiagnosis RecordId="1">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="2">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+    <FamilyMemberDiagnosis RecordId="3">
+      <FamMemDiagnosis></FamMemDiagnosis>
+      <FamMemDiagnosisAge></FamMemDiagnosisAge>
+      <FamMemNotes></FamMemNotes>
+    </FamilyMemberDiagnosis>
+  </FamilyMembers>
+
+
+  <Comorbidities RecordId='1'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='2'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='3'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='4'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='5'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='6'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='7'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='8'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='9'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='10'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='11'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='12'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='13'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='14'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+  <Comorbidities RecordId='15'>
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+  </Comorbidities>
+
+
+  <ClinicalStages RecordId="1">
+    <ClinStageT NotNull="True"></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageDisease></ClinStageDisease>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageSide></ClinStageSide>
+  </ClinicalStages>
+
+  <MedicalTherapy RecordId='1'>
+    <ProtocolId></ProtocolId>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxIntent></MedTxIntent>
+    <MedTxDisease></MedTxDisease>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='2'>
+    <ProtocolId></ProtocolId>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxIntent></MedTxIntent>
+    <MedTxDisease></MedTxDisease>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId='3'>
+    <ProtocolId></ProtocolId>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxIntent></MedTxIntent>
+    <MedTxDisease></MedTxDisease>
+    <MedTxInstitution></MedTxInstitution>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+
+
+  <Procedures  RecordId='1'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='3'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='6'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='7'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='8'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  
+  
+  
+
+    <Procedures  RecordId='11'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <Pathology RecordId="11">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathNum></PathNum>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathHistology></PathHistology>
+        <PathHistology2></PathHistology2>
+        <PathInstitution></PathInstitution>
+        <PathLaboratory></PathLaboratory>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <Pathologist></Pathologist>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+
+    </Procedures>
+
+  <OperatingRoomDetails RecordId="12">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpService></OpService>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+    
+
+    <Procedures  RecordId='12'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName></ProcName>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcApproach></ProcApproach>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <GastricProc RecordId='12'>
+        <ProcResidualTumor></ProcResidualTumor>
+        <ProcIntent></ProcIntent>
+        <ProcCompleteResection></ProcCompleteResection>
+        <ProcProximalMarginFrozen></ProcProximalMarginFrozen>
+        <ProcDistalMarginFrozen></ProcDistalMarginFrozen>
+        <ProcDeepOtherMarginFrozen></ProcDeepOtherMarginFrozen>
+        <ProcIntraOpUS></ProcIntraOpUS>
+        <ProcAddMargin></ProcAddMargin>
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+        <ProcStageN></ProcStageN>
+        <ProcStageM></ProcStageM>
+      </GastricProc>
+
+      <NodeProc RecordId='12'>
+        <ProcDissectionExtent></ProcDissectionExtent>
+      </NodeProc>
+      
+
+
+      <Pathology RecordId="1">
+          <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+          <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType DefaultValue="Cytology" ></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite DefaultValue="Peritoneum" ></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology DefaultValue="Adenocarcinoma" ></PathHistology>
+
+        <PathologyStageGrade RecordId="12">
+          <PathStageT></PathStageT>
+          <PathQuality></PathQuality>
+        </PathologyStageGrade>
+        
+      </Pathology>
+      <Pathology RecordId="2">
+          <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+          <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+          <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType DefaultValue="Biopsy" ></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+          <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+          <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+          <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+      <Pathology RecordId="3">
+          <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+          <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+          <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+          <PathSpecimenType DefaultValue="Brushing" ></PathSpecimenType>
+          <PathSpecimenCollection></PathSpecimenCollection>
+          <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+          <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="13">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpService></OpService>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+
+
+    <Procedures  RecordId='13'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcApproach></ProcApproach>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <GastricProc RecordId='13'>
+        <ProcResidualTumor></ProcResidualTumor>
+        <ProcIntent></ProcIntent>
+        <ProcCompleteResection></ProcCompleteResection>
+        <ProcProximalMarginFrozen></ProcProximalMarginFrozen>
+        <ProcDistalMarginFrozen></ProcDistalMarginFrozen>
+        <ProcDeepOtherMarginFrozen></ProcDeepOtherMarginFrozen>
+        <ProcIntraOpUS></ProcIntraOpUS>
+        <ProcAddMargin></ProcAddMargin>
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+        <ProcStageN></ProcStageN>
+        <ProcStageM></ProcStageM>
+      </GastricProc>
+
+      <NodeProc RecordId='13'>
+        <ProcDissectionExtent></ProcDissectionExtent>
+      </NodeProc>
+
+      <Pathology RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology></PathHistology>
+
+        <PathologyStageGrade RecordId="13">
+          <PathStageT></PathStageT>
+            <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+      </Pathology>
+      <Pathology RecordId="2">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+      <Pathology RecordId="3">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+      
+
+    </Procedures>
+  </OperatingRoomDetails>
+
+
+  <OperatingRoomDetails RecordId="14">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpService></OpService>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+
+
+    <Procedures  RecordId='14'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName></ProcName>
+      <ProcPrimary></ProcPrimary>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+      <ProcApproach></ProcApproach>
+
+
+
+      <GastricProc RecordId='14'>
+        <ProcResidualTumor></ProcResidualTumor>
+        <ProcIntent></ProcIntent>
+        <ProcCompleteResection></ProcCompleteResection>
+        <ProcProximalMarginFrozen></ProcProximalMarginFrozen>
+        <ProcDistalMarginFrozen></ProcDistalMarginFrozen>
+        <ProcDeepOtherMarginFrozen></ProcDeepOtherMarginFrozen>
+        <ProcIntraOpUS></ProcIntraOpUS>
+        <ProcAddMargin></ProcAddMargin>
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+        <ProcStageN></ProcStageN>
+        <ProcStageM></ProcStageM>
+      </GastricProc>
+
+      <NodeProc RecordId='14'>
+        <ProcDissectionExtent></ProcDissectionExtent>
+      </NodeProc>
+
+
+      <Pathology RecordId="14">
+        <ProcedureId></ProcedureId><OperatingRoomDetailId></OperatingRoomDetailId>
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite DefaultValue="Stomach"></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology></PathHistology>
+        <PathHistology2></PathHistology2>
+        <Pathologist></Pathologist>
+
+        <GastricPath  RecordId="14">
+          <PathMultifocal></PathMultifocal>
+          <PathWHO_Type></PathWHO_Type>
+          <PathWHO_Type2></PathWHO_Type2>
+          <PathLauren></PathLauren>
+          <PathOtherType></PathOtherType>
+          <PathMargin></PathMargin>
+          <PathTumorMaxDim></PathTumorMaxDim>
+          <PathSiewert></PathSiewert>
+          <PathTreatmentEffect></PathTreatmentEffect>
+          <PathInvasionDepth></PathInvasionDepth>
+          <PathLocation></PathLocation>
+          <PathVascularInv></PathVascularInv>
+          <PathPerineuralInv></PathPerineuralInv>
+        </GastricPath>
+
+        <PathologyStageGrade  RecordId="1">
+          <PathStageDisease DefaultValue="Gastric"></PathStageDisease>
+          <PathGrade></PathGrade>
+          <PathStageSystem DefaultValue="UICC_10"></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageGroup></PathStageGroup>
+          <PathQuality DefaultValue="STD"></PathQuality>
+        </PathologyStageGrade>
+        <PathologyStageGrade  RecordId="2">
+          <PathStageDisease DefaultValue="GE Junction"></PathStageDisease>
+          <PathGrade></PathGrade>
+          <PathStageSystem DefaultValue="UICC_10"></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageGroup></PathStageGroup>
+          <PathQuality DefaultValue="STD"></PathQuality>
+        </PathologyStageGrade>
+        
+
+        <NodePathFinding  RecordId="14">
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+        </NodePathFinding>
+
+
+        <PathTest RecordId="1">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="2">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="3">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="4">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        
+      </Pathology>
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="15">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpService></OpService>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+
+    <Procedures  RecordId='15'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcApproach></ProcApproach>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <GastricProc RecordId='15'>
+        <ProcResidualTumor></ProcResidualTumor>
+        <ProcIntent></ProcIntent>
+        <ProcCompleteResection></ProcCompleteResection>
+        <ProcProximalMarginFrozen></ProcProximalMarginFrozen>
+        <ProcDistalMarginFrozen></ProcDistalMarginFrozen>
+        <ProcDeepOtherMarginFrozen></ProcDeepOtherMarginFrozen>
+        <ProcIntraOpUS></ProcIntraOpUS>
+        <ProcAddMargin></ProcAddMargin>
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+        <ProcStageN></ProcStageN>
+        <ProcStageM></ProcStageM>
+      </GastricProc>
+
+      <NodeProc RecordId='15'>
+        <ProcDissectionExtent></ProcDissectionExtent>
+      </NodeProc>
+
+      <Pathology RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology></PathHistology>
+
+        <PathologyStageGrade RecordId="15">
+          <PathStageT></PathStageT>
+            <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+      </Pathology>
+      <Pathology RecordId="2">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+      <Pathology RecordId="3">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+    </Procedures>
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="16">
+    <OpDateText></OpDateText>
+    <OpDate></OpDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpService></OpService>
+    <OpInstitution></OpInstitution>
+    <OpQuality></OpQuality>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpDuration></OpDuration>
+
+    <Procedures  RecordId='16'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcIndication></ProcIndication>
+      <ProcApproach></ProcApproach>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcQuality></ProcQuality>
+      <ProcDataSource></ProcDataSource>
+
+      <GastricProc RecordId='16'>
+        <ProcResidualTumor></ProcResidualTumor>
+        <ProcIntent></ProcIntent>
+        <ProcCompleteResection></ProcCompleteResection>
+        <ProcProximalMarginFrozen></ProcProximalMarginFrozen>
+        <ProcDistalMarginFrozen></ProcDistalMarginFrozen>
+        <ProcDeepOtherMarginFrozen></ProcDeepOtherMarginFrozen>
+        <ProcIntraOpUS></ProcIntraOpUS>
+        <ProcAddMargin></ProcAddMargin>
+        <ProcStageSystem></ProcStageSystem>
+        <ProcStageT></ProcStageT>
+        <ProcStageN></ProcStageN>
+        <ProcStageM></ProcStageM>
+      </GastricProc>
+
+      <NodeProc RecordId='16'>
+        <ProcDissectionExtent></ProcDissectionExtent>
+      </NodeProc>
+
+      <Pathology RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology></PathHistology>
+
+        <PathologyStageGrade RecordId="16">
+          <PathStageT></PathStageT>
+            <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+      </Pathology>
+      <Pathology RecordId="2">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+      <Pathology RecordId="3">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality></PathQuality>
+        <PathDataSource></PathDataSource>
+      </Pathology>
+    </Procedures>
+  </OperatingRoomDetails>
+
+
+    <Pathology RecordId="17">
+        <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+        <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType DefaultValue="Cytology" ></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite DefaultValue="Peritoneum" ></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+        <PathHistology DefaultValue="Adenocarcinoma" ></PathHistology>
+
+        <PathologyStageGrade RecordId="12">
+            <PathStageT></PathStageT>
+            <PathQuality></PathQuality>
+        </PathologyStageGrade>
+
+    </Pathology>
+    <Pathology RecordId="18">
+        <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+        <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType DefaultValue="Biopsy" ></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+    </Pathology>
+    <Pathology RecordId="19">
+        <ProcedureId DefaultSource="NoTable.LaparoscopyPathPastProcedureId"></ProcedureId>
+        <OperatingRoomDetailId DefaultSource="NoTable.LaparoscopyPathPastORDetailId"></OperatingRoomDetailId>
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <PathSpecimenType DefaultValue="Brushing" ></PathSpecimenType>
+        <PathSpecimenCollection></PathSpecimenCollection>
+        <PathSite DefaultValue="Stomach" ></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSide></PathSide>
+        <PathResult></PathResult>
+        <PathInstitution DefaultValue="Memorial Sloan Kettering Cancer Center" ></PathInstitution>
+        <PathNotes></PathNotes>
+        <PathQuality DefaultValue="STD" ></PathQuality>
+        <PathDataSource></PathDataSource>
+    </Pathology>
+
+
+    <RadiationTherapy RecordId='1'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxIntent></RadTxIntent>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='2'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxIntent></RadTxIntent>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId='3'>
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxIntent></RadTxIntent>
+    <RadTxStopDate></RadTxStopDate>
+    <RadTxStopDateText></RadTxStopDateText>
+    <RadTxInstitution></RadTxInstitution>
+    <RadTxNotes></RadTxNotes>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+
+
+
+  <Diagnostics RecordId="1">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="2">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="3">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="4">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="5">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="6">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="7">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Diagnostics RecordId="8">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxDisease></DxDisease>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxResult></DxResult>
+    <DxInstitution></DxInstitution>
+    <DxQuality></DxQuality>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <Status RecordId='1'>
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusPhysician></StatusPhysician>
+    <StatusNotes></StatusNotes>
+    <StatusDataSource></StatusDataSource>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <NoTable>
+    <BiopsyPerformed></BiopsyPerformed>
+    <LaparoscopyPerformed></LaparoscopyPerformed>
+    <LaparoscopyPathEntered></LaparoscopyPathEntered>
+    <LaparoscopyPathPastProcedureId></LaparoscopyPathPastProcedureId>
+      <LaparoscopyPathPastORDetailId></LaparoscopyPathPastORDetailId>
+    <Laparoscopy2Performed></Laparoscopy2Performed>
+    <Laparoscopy3Performed></Laparoscopy3Performed>
+    <Laparoscopy4Performed></Laparoscopy4Performed>
+    <ResectionPerformed></ResectionPerformed>
+    <ResectionPathStageDisease></ResectionPathStageDisease>
+      <Laparoscopy4Performed></Laparoscopy4Performed>
+      <ResectionPathEntered></ResectionPathEntered>
+      <ResectionPathPastProcedureId></ResectionPathPastProcedureId>
+      <ResectionPathPastORDetailId></ResectionPathPastORDetailId>
+      
+    
+  </NoTable>  
+  
+</eform>

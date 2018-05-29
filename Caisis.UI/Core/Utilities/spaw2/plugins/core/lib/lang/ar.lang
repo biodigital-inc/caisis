@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8" direction="rtl">
+  <block id="cut">
+    <message name="title">قص</message>
+  </block>
+  <block id="copy">
+    <message name="title">نسخ</message>
+  </block>
+  <block id="paste">
+    <message name="title">لصق</message>
+  </block>
+  <block id="undo">
+    <message name="title">تراجع</message>
+  </block>
+  <block id="redo">
+    <message name="title">إعادة التراجع</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">إدراج صورة</message>
+    <message name="select">إختر</message>
+    <message name="delete">حذف</message>
+    <message name="cancel">إلغاء الأمر</message>
+    <message name="library">المكتبة</message>
+    <message name="preview">معاينة</message>
+    <message name="images">الصور</message>
+    <message name="upload">اختر صورة للتحميل</message>
+    <message name="upload_button">إرفع الصورة</message>
+    <message name="error">خطأ</message>
+    <message name="error_no_image">من فضلك إختر صورة</message>
+    <message name="error_uploading">Aحدث خطأ أثناء معالجة الملف، الرجاء المحاولة فيما بعد.</message>
+    <message name="error_wrong_type">نوع ملف الصورة خاطء.</message>
+    <message name="error_no_dir">مجلد مكتبات الصور غير موجود؟</message>
+    <message name="error_cant_delete">خطأ: فشلت عملية الحذف</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">خصائص الصورة</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء</message>
+    <message name="source">المصدر</message>
+    <message name="alt">نص بديل</message>
+    <message name="align">محاذاه</message>
+    <message name="justifyleft">يسار</message>
+    <message name="justifyright">يمين</message>
+    <message name="top">أعلى</message>
+    <message name="middle">وسط</message>
+    <message name="bottom">أسفل</message>
+    <message name="absmiddle">وسط السطر</message>
+    <message name="texttop">النص بالأعلى</message>
+    <message name="baseline">مع الخط</message>
+    <message name="width">العرض</message>
+    <message name="height">الطول</message>
+    <message name="border">سمك الحدود</message>
+    <message name="hspace">الفراغ عموديا</message>
+    <message name="vspace">الفراغ أفقيا</message>
+    <message name="error">خطأ</message>
+    <message name="error_width_nan">العرض ليس برقم</message>
+    <message name="error_height_nan">الطول ليس برقم</message>
+    <message name="error_border_nan">سمك الحدود ليس برقم</message>
+    <message name="error_hspace_nan">حقل الفراغ الأفقي ليس رقم</message>
+    <message name="error_vspace_nan">حقل الفراغ العمودي ليس رقم</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">خط أفقي</message>
+  </block>
+  <block id="table_create">
+    <message name="title">إنشاء جدول</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">خصائص الجدول</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء</message>
+    <message name="rows">صفوف</message>
+    <message name="columns">أعمدة</message>
+    <message name="css_class">CSS دالة</message>
+    <message name="width">العرض</message>
+    <message name="height">الطول</message>
+    <message name="border">الحد</message>
+    <message name="pixels">بيكسل</message>
+    <message name="cellpadding">نطاق الخلية</message>
+    <message name="cellspacing">المسافة بين الخلايا</message>
+    <message name="bg_color">لون الخلفية</message>
+    <message name="background">صورة الخلفية</message>
+    <message name="error">حطأ</message>
+    <message name="error_rows_nan">الصف ليس برقم</message>
+    <message name="error_columns_nan">العمود ليس برقم</message>
+    <message name="error_width_nan">العرض ليس برقم</message>
+    <message name="error_height_nan">الطول ليس برقم</message>
+    <message name="error_border_nan">الحد ليس برقم</message>
+    <message name="error_cellpadding_nan">نطاق الخلية ليس برقم</message>
+    <message name="error_cellspacing_nan">المسافة بين الخلاايا ليس برقم</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">خصائص الخلية</message>
+    <message name="horizontal_align">محاذاه عمودية</message>
+    <message name="vertical_align">محاذاه أفقية</message>
+    <message name="width">العرض</message>
+    <message name="height">الطول</message>
+    <message name="css_class">CSS دالة</message>
+    <message name="no_wrap">بلا التفاف</message>
+    <message name="bg_color">لون الخلفية</message>
+    <message name="background">صورة الخلفية</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء</message>
+    <message name="justifyleft">يسار</message>
+    <message name="justifycenter">وسط</message>
+    <message name="justifyright">يمين</message>
+    <message name="top">أعلى</message>
+    <message name="middle">وسط</message>
+    <message name="bottom">أسفل</message>
+    <message name="baseline">خط أساسي</message>
+    <message name="error">خطأ</message>
+    <message name="error_width_nan">العرض ليس برقم</message>
+    <message name="error_height_nan">الطول ليس برقم</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">إدراج صف</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">إدراج عمود</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">حذف صف</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">حذف عمود</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">دمج يمين</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">دمج يسار</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">تقسيم الخلاايا عنودي</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">تقسيم الخلاايا أفقي</message>
+  </block>
+  <block id="style">
+    <message name="title">التنسيق</message>
+  </block>
+  <block id="fontname">
+    <message name="title">الخط</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">الحجم</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">الفقرة</message>
+  </block>
+  <block id="bold">
+    <message name="title">أسود عريض</message>
+  </block>
+  <block id="italic">
+    <message name="title">مائل</message>
+  </block>
+  <block id="underline">
+    <message name="title">تحته خط</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">تعداد رقمي</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">تعداد نقطي</message>
+  </block>
+  <block id="indent">
+    <message name="title">زيادة المسافة البادئة</message>
+  </block>
+  <block id="outdent">
+    <message name="title">إنقاص المسافة الزائدة</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">يسار</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">وسط</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">يمين</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">لون النص</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">لون الخلفية</message>
+  </block>
+  <block id="design">
+    <message name="title">عرض التصميم</message>
+  </block>
+  <block id="html">
+    <message name="title">عرض كود html</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">إنتقاء اللون</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء الأمر</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">مسح كافة التنسيقات</message>
+    <message name="confirm">سيتم مسح كافة التنسيقات و الأكواد التي لا تلزم، وبعضها قد يبقى.</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">حدود السياق</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">رابط تشعبي</message>
+    <message name="url">عنوان ال URL</message>
+    <message name="name">الاسم</message>
+    <message name="target">الإطار الهدف</message>
+    <message name="title_attr">العنوان</message>
+    <message name="a_type">النوع</message>
+    <message name="type_link">رابط</message>
+    <message name="type_anchor">معلمة</message>
+    <message name="type_link2anchor">ربط بمعلمة</message>
+    <message name="anchors">المعلمات</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">الغاء</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">نفس الاطار (_self)</message>
+    <message name="_blank">صفحة جديدة (_blank)</message>
+    <message name="_top">أعلى (_top)</message>
+    <message name="_parent">إطار قرين (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">خصائص الصف</message>
+    <message name="horizontal_align">محاذاة عمودية</message>
+    <message name="vertical_align">محاذاه أفقية</message>
+    <message name="css_class">CSS دالة</message>
+    <message name="no_wrap">بلا التفاف</message>
+    <message name="bg_color">لون الخلفية</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">الغاء</message>
+    <message name="justifyleft">يسار</message>
+    <message name="justifycenter">توسيط</message>
+    <message name="justifyright">يمين</message>
+    <message name="top">أعلى</message>
+    <message name="middle">وسط</message>
+    <message name="bottom">أسفل</message>
+    <message name="baseline">خط أساسي</message>
+  </block>
+  <block id="symbols">
+    <message name="title">رموز خاصة</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">الغاء</message>
+  </block>
+  <block id="templates">
+    <message name="title">أشكال جاهزة Templates</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">خصائص الصفحة</message>
+    <message name="title_tag">العنوان</message>
+    <message name="charset">ترميز</message>
+    <message name="background">صورة الخلفية</message>
+    <message name="bgcolor">لون الخلفية</message>
+    <message name="text">لون النص</message>
+    <message name="link">لون الرابط</message>
+    <message name="vlink">لون الرابط الذي تم زيارته</message>
+    <message name="alink">لون الرابط الفعال</message>
+    <message name="leftmargin">الحد الأيسر</message>
+    <message name="topmargin">الحد العلوي</message>
+    <message name="css_class">CSS دالة</message>
+    <message name="ok">   موافق   </message>
+    <message name="cancel">إلغاء</message>
+  </block>
+  <block id="preview">
+    <message name="title">معاينة</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">إدراج صورة وجعل رابط لها تظهر في نافذة عند الضغط عليها أو على الرابط</message>
+  </block>
+  <block id="zoom">
+    <message name="title">تكبير/تصغير</message>
+  </block>
+  <block id="subscript">
+    <message name="title">رفع النص</message>
+  </block>
+  <block id="superscript">
+    <message name="title">رفع النص2</message>
+  </block>
+</messages>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Colorectal Consult EForm" displayName="Colorectal Consult EForm">
+
+<eformSection name="General">
+	<eformItem displayName="Reason for Visit" controlName="ColorectalAppointment"></eformItem>
+    <eformItem displayName="Pre-Malignant Disease" controlName="ColorectalPreMalignantDisease"></eformItem>
+    <eformItem displayName="Malignant Disease" controlName="ColorectalMalignantDisease"></eformItem>
+
+    <eformItem displayName="Family History Questionnaire" controlName="ColorectalFamilyHistorySurvey"></eformItem>
+    <eformItem  displayName="Comments" title="Comments (including notes on other malignant disease)" controlName="EncountersNotes"></eformItem>
+    <eformItem  displayName="Outside Details" title="" controlName="ColorectalOutsideDetails"></eformItem>
+</eformSection>
+
+  <Encounters>
+    <EncDate UseAsEformValue="EformApptTime"></EncDate>
+    <EncDateText></EncDateText>
+    <EncPhysician UseAsEformValue="EformApptPhysician"></EncPhysician>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPresentation></EncPresentation>
+    <EncType></EncType>
+    <EncDataSource></EncDataSource>
+    <EncQuality></EncQuality>
+    <EncNotes></EncNotes>
+  </Encounters>
+
+
+    <Surveys RecordId="1">
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyType></SurveyType>
+        <SurveyQuality></SurveyQuality>
+
+        <SurveyItems RecordId="1">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="2">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="3">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="4">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="5">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="6">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="7">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="8">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+
+    <Surveys RecordId="2">
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyType></SurveyType>
+        <SurveyResult></SurveyResult>
+        <SurveyQuality></SurveyQuality>
+
+        <SurveyItems RecordId="1">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="2">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="3">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="4">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="5">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="6">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="7">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="8">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="9">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Surveys RecordId="3">
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyType></SurveyType>
+        <SurveyResult></SurveyResult>
+        <SurveyQuality></SurveyQuality>
+
+        <SurveyItems RecordId="1">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="2">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="3">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="4">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="5">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="6">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="7">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="8">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="9">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+    <Surveys RecordId="4">
+        <SurveyDateText></SurveyDateText>
+        <SurveyDate></SurveyDate>
+        <SurveyType></SurveyType>
+        <SurveyResult></SurveyResult>
+        <SurveyQuality></SurveyQuality>
+
+        <SurveyItems RecordId="1">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="2">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="3">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="4">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="5">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="6">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="7">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="8">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+        <SurveyItems RecordId="9">
+            <SurveyItem></SurveyItem>
+            <SurveyItemResult></SurveyItemResult>
+        </SurveyItems>
+    </Surveys>
+
+
+
+    <Comorbidities RecordId="1">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="2">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="3">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="4">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="5">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="6">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="7">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="8">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="9">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="10">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbSystem></ComorbSystem>
+    <ComorbStatus></ComorbStatus>
+    <ComorbDataSource></ComorbDataSource>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+
+  <Status RecordId="1">
+    <StatusDateText DefaultSource="Encounters.EncDateText"></StatusDateText>
+    <StatusDate DefaultSource="Encounters.EncDate"></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <Pathology RecordId="1">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="1">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="2">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="2">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="3">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="3">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="4">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="4">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="5">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="5">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="6">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="6">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="7">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="7">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="8">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="8">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="9">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="9">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="10">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="10">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="11">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="11">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="12">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="12">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="13">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="13">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="14">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="14">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+  <Pathology RecordId="15">
+    <PathDateText></PathDateText>
+    <PathDate></PathDate>
+    <PathResult></PathResult>
+    <PathSite></PathSite>
+    <PathHistology></PathHistology>
+    <ColorectalPath RecordId="15">
+      <PathDiseaseExtent></PathDiseaseExtent>
+    </ColorectalPath>
+  </Pathology>
+
+    <OperatingRoomDetails RecordId="1">
+
+        <OpDateText></OpDateText>
+        <OpDate></OpDate>
+        <OpInstitution></OpInstitution>
+
+        <Procedures RecordId="1">
+            <ProcDateText></ProcDateText>
+            <ProcDate></ProcDate>
+            <ProcName NotNull="True"></ProcName>
+        </Procedures>
+
+    </OperatingRoomDetails>
+
+  <NoTable>
+    
+    <BenignDisease></BenignDisease>
+    <MalignantDisease></MalignantDisease>
+    <PreMalignantDisease></PreMalignantDisease>
+
+    <AnatomicSiteofDisease></AnatomicSiteofDisease>
+
+      <Malignant_PrimaryPreviousTreatment></Malignant_PrimaryPreviousTreatment>
+      <Malignant_LocallyRecurrentPreviousTreatment></Malignant_LocallyRecurrentPreviousTreatment>
+      <Malignant_MetastasisPreviousTreatment></Malignant_MetastasisPreviousTreatment>
+
+      <OutsideORAndProcDetails></OutsideORAndProcDetails>
+	  
+	  <MultipleMetastases></MultipleMetastases>
+	  
+  </NoTable>
+  
+  </eform>

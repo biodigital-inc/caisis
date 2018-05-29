@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="~/App_Code/Utilities/WebService.cs" Class="Caisis.WebServices.WebService" %>

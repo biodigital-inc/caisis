@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+This xml file conrtols the navigation section in the Admin section
+
+section: An admin section in left column
+ @name: The Name of the Section
+ @pageTitle: The main heading of the section in the navigation page, as well as help text on navigtaion image
+ @default: the @pageTitle of the item you want to set as the defaultpage
+ @icon: the name of the icon in the AdminImages folder.
+   note: this is without the .gif, and there should also be an icon with the iconNameOn to show highlighted section on click
+ @href: the page on which to navigatite to when clicked, AdminNavigationPage.aspx?section=sectioName will automatically
+   create navigation page with headings, etc, but can supply own page link.
+ 
+item: An item/page in each "section"
+ @pageTitle: the display name in the page navigation as well as reference name.
+ @href: the page which contains the logic for this item
+ @expandPage: true|false indicating whether the page should be expanded to show item content
+ @autoExpandPage: true, page will automatically resize to show item content, false, user will be
+                  prompted if the would like to expand the page. (NOTE: attribute only applicable when expandPage="true")
+
+-->
+<sections>
+  <section name="Users" pageTitle="Manage Users" defaultPage="Add User" icon="NavIconUsers" href="AdminNavigationPage.aspx?section=Users">
+    <item pageTitle="Add User" href="AdminAddUser.aspx"></item>
+    <item pageTitle="Edit / Delete User" href="AdminEditDeleteUser.aspx"></item>
+    <item pageTitle="Update User Password" href="AdminUpdatePassword.aspx"></item>
+    <item pageTitle="Email User" href="AdminEmailUser.aspx"></item>
+    <item pageTitle="Add User to Group" href="AdminUserToGroup.aspx"></item>
+  </section>
+  <section name="RolesGroupsDatasets" pageTitle="Roles, Groups, &amp; Datasets" defaultPage="Notes &amp; Definitions" icon="NavIconGroupsAndRoles" href="AdminNavigationPage.aspx?section=RolesGroupsDatasets">
+    <item pageTitle="Notes &amp; Definitions" href="AdminRoleSectionIntro.aspx"></item>
+    <item pageTitle="Add / Update Roles" href="AdminRoles.aspx"></item>
+    <item pageTitle="Add / Update User Groups" href="AdminGroups.aspx"></item>
+    <item pageTitle="Associate Groups with Roles" href="AdminGroups.aspx"></item>
+    <item pageTitle="Associate Groups with DataSets" href="AdminGroupsToDatasets.aspx"></item>
+    <item pageTitle="Give Groups Access to Tabs" href="AdminGroupTabAccess.aspx"></item>
+    <item pageTitle="Manage Contacts" href="AdminContactsLauncher.aspx" expandPage="true"  autoExpandPage="true"></item>
+  </section>
+  <section name="ManageDatasets" pageTitle="Manage Datasets" defaultPage="Manage Datasets" icon="NavIconDatasets" href="AdminNavigationPage.aspx?section=ManageDatasets">
+    <item pageTitle="Manage Datasets" href="AdminDatasets.aspx"></item>
+    <item pageTitle="Associate Groups with DataSets" href="AdminGroupsToDatasets.aspx"></item>
+    <item pageTitle="Add Patient to Institution" href="AdminPatientToInstitution.aspx"></item>
+    <item pageTitle="Update Institutions Table" href="Institutions_List.aspx"></item>
+    <item pageTitle="Update Diseases Table" href="AdminUpdateDiseases.aspx"></item>
+  </section>
+  <section name="Vocabulary" pageTitle="Vocabulary" defaultPage="Add/Edit" icon="NavIconVocabulary" href="AdminNavigationPage.aspx?section=Vocabulary">
+    <item pageTitle="Add/Edit" href="AdminLookupCodes.aspx"></item>
+    <item pageTitle="Child/Parent" href="AdminChildParentLookupCodes.aspx"></item>
+    <item pageTitle="Assign Attributes" href="AdminLookupCodesToAttribute.aspx"></item>
+    <item pageTitle="Refresh Cache" href="AdminResetCacheItem.aspx?item=LookupCodes"></item>
+  </section>
+  <section name="ManageApplication" pageTitle="Manage Application" defaultPage="Manage Meta Data" icon="NavIconSystemConfig" href="AdminNavigationPage.aspx?section=ManageApplication">
+    <item pageTitle="Manage Meta Data" href="AdminMetaTables.aspx"></item>
+    <!--<item pageTitle="Manage Table Meta Data" href="AdminTableMetadata.aspx" expandPage="true" autoExpandPage="true"></item>-->
+    <item pageTitle="Refresh Application Cache" href="AdminResetCacheItem.aspx?item=Application"></item>
+    <item pageTitle="Manage Patient Data Navigation" href="AdminPatientDataConfig.aspx"></item>
+    <item pageTitle="Data Integrity" href="AdminLookupCodesDataIntegrity.aspx"></item>
+    <item pageTitle="Manage Help Descriptions" href="AdminHelpSections.aspx"></item>
+    <item pageTitle="Admin Surveys" href="AdminSurveyLauncher.aspx" expandPage="false" autoExpandPage="false"></item>
+    <item pageTitle="Edit Table Metadata" href="AdminEditTableMetadata.aspx" expandPage="true" autoExpandPage="true"></item>  
+</section>
+  <section name="SystemReports" pageTitle="System Reports" defaultPage="" icon="NavIconReports" href="AdminSectionReports.aspx">
+  </section>
+  <section name="EformManagement" pageTitle="EForm Management" defaultPage="Manage Workflows (alpha)" icon="NavIconManageEForms" href="AdminNavigationPage.aspx?section=EformManagement">
+    <item pageTitle="Manage Workflows (alpha)" href="AdminEFormList.aspx"></item>
+    <item pageTitle="Eform Activity" href="AdminEformActivity.aspx"></item>
+    <item pageTitle="Send Notification" href="AdminSendEformNotifications.aspx"></item>
+    <item pageTitle="Notification Log" href="AdminEformNotificationLog.aspx"></item>
+    <item pageTitle="EForm Component Viewer" href="AdminEFormComponentViewer.aspx" expandPage="true" autoExpandPage="true"></item>
+  </section>
+</sections>

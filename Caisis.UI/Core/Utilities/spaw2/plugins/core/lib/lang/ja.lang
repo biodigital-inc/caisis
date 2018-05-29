@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">切り取り</message>
+  </block>
+  <block id="copy">
+    <message name="title">コピー</message>
+  </block>
+  <block id="paste">
+    <message name="title">貼り付け</message>
+  </block>
+  <block id="undo">
+    <message name="title">元に戻す</message>
+  </block>
+  <block id="redo">
+    <message name="title">やり直す</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">ハイパーリンク</message>
+    <message name="url">URL</message>
+    <message name="name">サイト名</message>
+    <message name="target">ターゲット</message>
+    <message name="title_attr">タイトル</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">イメージの挿入</message>
+    <message name="select"> 選択する </message>
+    <message name="cancel">キャンセル</message>
+    <message name="library">ライブラリ</message>
+    <message name="preview">プレビュー</message>
+    <message name="images">イメージ</message>
+    <message name="upload">アップロード</message>
+    <message name="upload_button">アップロード</message>
+    <message name="error">エラー</message>
+    <message name="error_no_image">イメージを指定して下さい</message>
+    <message name="error_uploading">アップロード中にエラーが起こりました。少ししてからもう一度実行してみてください。</message>
+    <message name="error_wrong_type">イメージファイルではありません</message>
+    <message name="error_no_dir">ライブラリが見つかりません</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">イメージのプロパティ</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+    <message name="source">参照先</message>
+    <message name="alt">代替テキスト</message>
+    <message name="align">行揃え</message>
+    <message name="justifyleft">左</message>
+    <message name="justifyright">右</message>
+    <message name="top">上</message>
+    <message name="middle">中央</message>
+    <message name="bottom">下</message>
+    <message name="absmiddle">中央(絶対的)</message>
+    <message name="texttop">上(絶対的)</message>
+    <message name="baseline">ベースライン</message>
+    <message name="width">幅</message>
+    <message name="height">高さ</message>
+    <message name="border">ボーダー</message>
+    <message name="hspace">横間隔</message>
+    <message name="vspace">縦間隔</message>
+    <message name="error">エラー</message>
+    <message name="error_width_nan">幅を入力して下さい</message>
+    <message name="error_height_nan">高さを入力して下さい</message>
+    <message name="error_border_nan">ボーダーを入力して下さい</message>
+    <message name="error_hspace_nan">横間隔を入力して下さい</message>
+    <message name="error_vspace_nan">縦間隔を入力して下さい</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">区切り線</message>
+  </block>
+  <block id="table_create">
+    <message name="title">テーブルの作成</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">テーブルのプロパティ</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+    <message name="rows">行</message>
+    <message name="columns">列</message>
+    <message name="width">幅</message>
+    <message name="height">高さ</message>
+    <message name="border">ボーダー</message>
+    <message name="pixels">ピクセル</message>
+    <message name="cellpadding">セル内余白</message>
+    <message name="cellspacing">セル内間隔</message>
+    <message name="bg_color">背景色</message>
+    <message name="error">エラー</message>
+    <message name="error_rows_nan">行を入力して下さい</message>
+    <message name="error_columns_nan">列を入力して下さい</message>
+    <message name="error_width_nan">幅を入力して下さい</message>
+    <message name="error_height_nan">高さを入力して下さい</message>
+    <message name="error_border_nan">ボーダーを入力して下さい</message>
+    <message name="error_cellpadding_nan">セル内余白を入力して下さい</message>
+    <message name="error_cellspacing_nan">セル内間隔を入力して下さい</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">セルのプロパティ</message>
+    <message name="horizontal_align">横揃え</message>
+    <message name="vertical_align">縦揃え</message>
+    <message name="width">幅</message>
+    <message name="height">高さ</message>
+    <message name="css_class">CSS クラス</message>
+    <message name="no_wrap">折り返さない</message>
+    <message name="bg_color">背景色</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+    <message name="justifyleft">左</message>
+    <message name="justifycenter">中央</message>
+    <message name="justifyright">右</message>
+    <message name="top">上</message>
+    <message name="middle">中央</message>
+    <message name="bottom">下</message>
+    <message name="baseline">ベースライン</message>
+    <message name="error">エラー</message>
+    <message name="error_width_nan">幅を入力して下さい</message>
+    <message name="error_height_nan">高さを入力して下さい</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">行の挿入</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">列の挿入</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">行の削除</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">列の削除</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">右の列と結合</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">下の行と結合</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">行を分割</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">列を分割</message>
+  </block>
+  <block id="style">
+    <message name="title">スタイル</message>
+  </block>
+  <block id="fontname">
+    <message name="title">フォント</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">サイズ</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">段落</message>
+  </block>
+  <block id="bold">
+    <message name="title">太字</message>
+  </block>
+  <block id="italic">
+    <message name="title">斜体</message>
+  </block>
+  <block id="underline">
+    <message name="title">下線</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">番号リスト</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">リスト</message>
+  </block>
+  <block id="indent">
+    <message name="title">インデント追加</message>
+  </block>
+  <block id="outdent">
+    <message name="title">インデント削除</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">左揃え</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">中央揃え</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">右揃え</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">文字色</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">背景色</message>
+  </block>
+  <block id="design">
+    <message name="title">WYSIWYG (デザイン) モードへ</message>
+  </block>
+  <block id="html">
+    <message name="title">HTML (コード) モードへ</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Color picker</message>
+    <message name="ok">    OK   </message>
+    <message name="cancel">キャンセル</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTMLクリーンアップ (スタイルの削除)</message>
+    <message name="confirm">実行すると、すべてのスタイルやフォントや重複したタグを除去します。場合によってはあなたの意図しない結果になることもありますのでお気を付け下さい。</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">ボーダーの切り替え</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">行のプロパティ</message>
+    <message name="horizontal_align">横揃え</message>
+    <message name="vertical_align">縦揃え</message>
+    <message name="css_class">CSS クラス</message>
+    <message name="no_wrap">折り返さない</message>
+    <message name="bg_color">背景色</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+    <message name="justifyleft">左</message>
+    <message name="justifycenter">中央</message>
+    <message name="justifyright">右</message>
+    <message name="top">上</message>
+    <message name="middle">中央</message>
+    <message name="bottom">下</message>
+    <message name="baseline">ベースライン</message>
+  </block>
+  <block id="symbols">
+    <message name="title">特殊文字</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+  </block>
+  <block id="templates">
+    <message name="title">テンプレート</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">ページのプロパティ</message>
+    <message name="title_tag">タイトル</message>
+    <message name="charset">文字コード</message>
+    <message name="background">背景イメージ</message>
+    <message name="bgcolor">背景色</message>
+    <message name="text">文字色</message>
+    <message name="link">リンク色</message>
+    <message name="vlink">訪問済みリンク色</message>
+    <message name="alink">アクティブリンク色</message>
+    <message name="leftmargin">左マージン</message>
+    <message name="topmargin">上マージン</message>
+    <message name="css_class">CSS クラス</message>
+    <message name="ok">    OK    </message>
+    <message name="cancel">キャンセル</message>
+  </block>
+  <block id="preview">
+    <message name="title">プレビュー</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">イメージのポップアップ</message>
+  </block>
+  <block id="zoom">
+    <message name="title">拡大</message>
+  </block>
+</messages>

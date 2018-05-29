@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Perineural Invasion" displayName="Perineural Invasion">
+<eformSection name="All Sections">
+  <eformItem title="Encounter" displayName="Encounter" controlName="SelectHeadNeckEncounter"></eformItem>
+  <eformItem title="Review Of Systems" displayName="Review Of Systems" controlName="ReviewOfSystems_PerineuralInv"></eformItem>
+  <eformItem title="Cranial Nerve Exam" displayName="Cranial Nerve Exam" controlName="CranialNerveExam"></eformItem>
+
+  
+</eformSection>
+
+  <NoTable>
+    <ExistingEncounterId Required="true"></ExistingEncounterId>
+    <SignatureStatement_Attending></SignatureStatement_Attending>
+  </NoTable>
+
+
+
+
+  <EncHeadNeckCranialNerveExam RecordId="1">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <EncSide />
+    <EncCranialNerveII DefaultValue="Unknown" />
+    <EncCranialNerveIII_IV_VI DefaultValue="Unknown" />
+    <EncSupraorbitalV1 DefaultValue="Unknown" />
+    <EncSupratrochlearV1 DefaultValue="Unknown" />
+    <EncInfraorbitalV2 DefaultValue="Unknown" />
+    <EnclingualV3 DefaultValue="Unknown" />
+    <EncMentalV3 DefaultValue="Unknown" />
+    <EncInfAlveolarV3 DefaultValue="Unknown" />
+    <EncMasseterAtrophyV3 DefaultValue="Unknown" />
+    <EncTemporalVII DefaultValue="Unknown" />
+    <EncZygomaticVII DefaultValue="Unknown" />
+    <EncBuccalVII DefaultValue="Unknown" />
+    <EncMarginalVII DefaultValue="Unknown" />
+    <EncHouseBrackmannScore />
+    <EncVagusX DefaultValue="Unknown" />
+    <EncVocalCord DefaultValue="Unknown" />
+    <EncAccessoryXI DefaultValue="Unknown" />
+    <EncHypoglossalXII />
+    <EncOtherNamedNerve />
+    <EncOtherNamedNerveResult />
+  </EncHeadNeckCranialNerveExam>
+  
+  
+    <EncReviewOfSystems RecordId="1">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Pain"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="2">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Pain Region"></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="3">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Pain Quality"></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="4">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Pain Severity"></ROS_Symptom>
+      <ROS_Result></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="5">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Dysgeusia"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="6">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Hoarseness"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="7">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Pruritus"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="8">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Dysphagia"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="9">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Paresthesia"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+
+    <EncReviewOfSystems RecordId="10">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Anosmia"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="11">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom DefaultValue="Impaired Visual Acuity"></ROS_Symptom>
+    <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+      <EncReviewOfSystems RecordId="12">
+        <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+        <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+        <ROS_Symptom DefaultValue="Hyperesthesia"></ROS_Symptom>
+        <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+        <ROS_Presenting></ROS_Presenting>
+        <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+        <ROS_Notes></ROS_Notes>
+      </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="13">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Diplopia"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId="14">
+      <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+      <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+      <ROS_Symptom DefaultValue="Unilateral Dry Eye"></ROS_Symptom>
+      <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+      <ROS_Presenting></ROS_Presenting>
+      <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+      <ROS_Notes></ROS_Notes>
+    </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="15">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom DefaultValue="Otalgia"></ROS_Symptom>
+    <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+  
+  
+  
+  <EncReviewOfSystems RecordId="16">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom></ROS_Symptom>
+    <ROS_Result DefaultValue="Unknown" RequireSiblings="True"></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="17">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom DefaultValue="Weakness"></ROS_Symptom>
+    <ROS_Result DefaultValue="Unknown" RequireSiblings="False"></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="18">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom></ROS_Symptom>
+    <ROS_Result></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="19">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom></ROS_Symptom>
+    <ROS_Result></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+  <EncReviewOfSystems RecordId="20">
+    <EncounterId DefaultSource="NoTable.ExistingEncounterId"></EncounterId>
+    <ROS_System DefaultValue="Head and Neck PNI"></ROS_System>
+    <ROS_Symptom></ROS_Symptom>
+    <ROS_Result></ROS_Result>
+    <ROS_Presenting></ROS_Presenting>
+    <ROS_RelatedTo DefaultValue="Disease/Treatment"></ROS_RelatedTo>
+    <ROS_Notes></ROS_Notes>
+  </EncReviewOfSystems>
+
+
+</eform>

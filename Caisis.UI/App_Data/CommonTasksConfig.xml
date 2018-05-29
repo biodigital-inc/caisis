@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- TODO: activate enabled link -->
+<commonTasks>
+
+  <task displayName="Add a New Patient" page="AddNewPatients.aspx" permission="AddPatient" enabled="true"></task>
+
+  <task displayName="Import a Patient" page="ImportPatients.aspx" permission="AddPatient" enabled="false"></task>
+
+  <task displayName="Add/Edit a Physician" page="AddEditPhysicians.aspx" permission="EditData" enabled="true"></task>
+
+  <task displayName="Add/Edit a Protocol" page="AddEditProtocols.aspx" permission="EditData" enabled="true"></task>
+
+</commonTasks>
+
+		

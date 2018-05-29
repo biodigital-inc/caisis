@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+
+	Contains Paper Form Configurations
+  1. Controls menu items in paper forms section
+     - Items appear under menus signified by @group attribute in groups section
+     - Items will appear in order in xml list
+  2. Controls the items visible in paper form dropdown lists
+	  - Items will appear in order in xml list
+    - Item text will appear as @batchName atttribute
+    - Only items with @batchName atttribute are show in dropdown list
+
+** /forms/groups/group ATTRIBUTES **
+@group = a key/number used to ideantily a group of forms
+@title = the title to display for a group's menu heading
+
+** /form/form ATTRIBUTES **
+@group = The group key as defined in groups section
+@batchName(optional) = Items with this attribute appear in paper form dropdown lists
+@formName = The name of the form as it apepars in the menu
+@page = The name of the control representing the paper form
+@active=true or false(default) indicating whether the node is "active", inactive nodes will be hidden from eform drop down lists
+
+XPath="/forms/form[@batchName]"
+-->
+<forms>
+  <form active="true" disease="Prostate" batchName="GU/Med Prostate New Patient" formName="GU New" page="GUProsNP.ascx"></form>
+  <form active="true" disease="Prostate" batchName="GU/Med Prostate Follow-Up" formName="GU Follow-up"  page="GUProsFU.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate New Patient" formName="Urology New" page="UroProsNP.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate Follow-Up" formName="Urology Follow-up"  page="UroProsFU.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate Active Surveillance" formName="Urology Active Surveillance"  page="UroProsActiveSurveillance.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Urology Prostate QOL Survey" formName="Urology Prostate QOL Survey"  page="UroSurveyProstateQOL.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostatectomy Details" formName="Prostatectomy Details" page="UroProsOR.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate Preop Note" formName="Prostate Preop Note" page="UroPreopProsNote.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate Post-Tx Survey" formName="Urology Prostate Post-Treatment Survey"  page="UroSurveyPostTxProstate.ascx"></form>
+  <form active="true" disease="Prostate" formName="Prostatectomy Diagram" page="UroProsORPathDiagram.ascx"></form>
+  <form active="true" disease="Prostate"   formName="Patient Flow Chart"  page="PatientOverview.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Prostate QOL Results" formName="Prostate QOL Analysis" page="ProstateQOLResults.ascx"></form>
+  <form active="true" disease="Prostate" batchName="Active Surveillance Survivorship" formName="Active Surveillance Survivorship" page="ActiveSurveillanceSurvivorship.ascx"></form>
+  <form active="true" disease="Prostate" batchName="GU/Med Prostate New Visit Intake (draft)" formName="GU New Intake (draft)" page="GUProsNPIntake.ascx"></form>
+
+
+  <form active="true" disease="Bladder" batchName="Bladder New Patient" formName="Urology New"   page="UroBladNP.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Bladder Cystectomy Follow-Up" formName="Urology Cystectomy Follow-up"   page="UroBladCystFU.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Bladder Follow-Up Endoscopy" formName="Urology Follow-up Endoscopy"   page="UroBladFU.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Bladder Endoscopy OR" formName="Endoscopy OR"    page="UroBladEndoOR.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Cystectomy Details" formName="Cystectomy Details"   page="UroBladOR.ascx"></form>
+  <form active="true" disease="Bladder"  formName="Urinary Diversion" page="UroBladUrinDiv.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Bladder Post-Tx Survey" formName="Urology Bladder Post-Treatment Survey" page="UroSurveyPostTxBladder.ascx"></form>
+  <form active="false" disease="Bladder" batchName="Urothelial Baseline Survey" formName="Urology Urothelial Baseline Questionnaire" page="UroSurveyBaselineUrothelial.ascx"></form>
+  <form active="true" disease="Bladder" batchName="Urothelial Baseline Questionnaire (draft)" formName="Urology Urothelial Baseline Questionnaire (draft)" page="UroSurveyHematuria.ascx"></form>
+
+  <form active="true" disease="Kidney" batchName="Kidney New Patient" formName="Urology New" page="UroKidnNP.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Kidney Nephrectomy Follow-Up" formName="Nephrectomy Follow-up" page="UroKidnNephFU.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Upper-Tract Urothelial New Patient" formName="Urology Upper Tract New" page="UroUTUrNP.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Upper-Tract Urothelial Follow-Up" formName="Urology Upper Tract Follow-up" page="UroUTUrFU.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Nephrectomy Details" formName="Nephrectomy Details" page="UroKidnOR.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Kidney Post-Tx Survey" formName="Urology Kidney Post-Treatment Survey"  page="UroSurveyPostTxKidney.ascx"></form>
+  <form active="true" disease="Kidney" batchName="Kidney Clinical Summary" formName="Kidney Clinical Summary"  page="KidneyClinicalSummary.ascx"></form>
+
+  <form active="true" disease="Testis" batchName="Testis New Patient" formName="Urology New" page="UroTestNP.ascx"></form>
+  <form active="true" disease="Testis" batchName="Testis Follow-Up" formName="Urology Follow-up" page="UroTestFU.ascx"></form>
+  <form active="true" disease="Testis" batchName="Testis Follow-Up (No Attending)" formName="Urology Follow-up (No Attending)" page="UroTestFU_NoMD.ascx"></form>
+  <form active="true" disease="Testis" batchName="Testis Surgery Details" formName="Testis Surgery Details" page="UroTestOR.ascx"></form>
+  <form active="true" disease="Testis" batchName="Testis Post-Tx Survey" formName="Urology Testis Post-Treatment Survey" page="UroSurveyPostTxTestis.ascx"></form>
+
+    <form active="true" disease="General" formName="Colorectal Stoma Survey" page="StomaSurvey.ascx"></form>
+  <form active="true" disease="General" batchName="GU/Med General New Patient" formName="GU General New Patient" page="GUGenNP.ascx"></form>
+  <form active="true" disease="General" batchName="GU/Med General Follow-Up" formName="GU General Follow-up" page="GUGenFU.ascx"></form>
+  <form active="true" disease="General" batchName="Urology General Patient" formName="Urology General New Patient" page="UroGenNP.ascx"></form>
+  <form active="true" disease="General"  formName="Urology General Follow-up" page="UroGenFU.ascx"></form>
+  <form active="true" disease="General" batchName="General Urology Endoscopy" formName="Urology General Endoscopy" page="UroGenEndo.ascx"></form>
+  <form active="true" disease="General" batchName="Urinary Function New Patient" formName="Urology Urinary Function New" page="UroUrinFuncNP.ascx"></form>
+  <form active="true" disease="General" batchName="Urinary Function Follow-Up" formName="Urology Urinary Function Follow-up" page="UroUrinFuncFU.ascx"></form>
+  <form active="true" disease="General" batchName="Urodynamics" formName="Urology Urodynamics" page="UroDynamics.ascx"></form>
+  <form active="true" disease="General" batchName="Sexual Function New Patient" formName="Urology Sexual Function New" page="UroSexFuncNP.ascx"></form>
+  <form active="true" disease="General" batchName="Sexual Function Follow-Up" formName="Urology Sexual Function Follow-up" page="UroSexFuncFU.ascx"></form>
+  <form active="true" disease="General" batchName="Urology Preoperative Note" formName="Preop Note" page="UroPreopNote.ascx"></form>
+  <form active="true" disease="General" batchName="Non-Linked Admit" formName="Non-Linked Admit" page="InptNonLinkedAdmit.ascx"></form>
+  <form active="true" disease="General" batchName="Linked Follow-up" formName="Linked Follow-up" page="InptLinkedAdmit.ascx"></form>
+  <form active="true" disease="General" batchName="Non-Linked Follow-up" formName="Non-Linked Follow-up" page="InptNonLinkedFU.ascx"></form>
+  <form active="true" disease="General" batchName="Prostate Survivorship" formName="Survivorship" page="UroProsSurvivor.ascx"></form>
+  <form active="true" disease="General" batchName="Survivorship (Bladder)" formName="Survivorship (Bladder)" page="UroProsSurvivorWBladHPI.ascx"></form>
+  <form active="true" disease="General" batchName="Intralesional Injection" formName="Urology Intralesional Injection" page="UroILVEndo.ascx"></form>
+  <form active="true" disease="General" batchName="Dynamic Infusion Cavernosometry" formName="Urology Dynamic Infusion Cavernosometry" page="DynamicInfusionCavernosometry.ascx"></form>
+  <form active="true" disease="General"  formName="Surgical Complications" page="UroGUOR.ascx"></form>
+  <form active="true" disease="General" batchName="Breast Follow-Up" formName="Breast Follow-Up" page="SurgBreastFU.ascx"></form>
+  <form active="true" disease="General" batchName="General Consult" formName="Urology General Consult" page="UroGenConsult.ascx"></form>
+  <!-- Breast Scoring Surveys -->
+    <form active="true" disease="Breast" batchName="BreastQ Survey Results" formName="BreastQ Survey Results" page="BreastSurvey.ascx"></form>
+    <form active="true" disease="Breast" batchName="Breast Surgery Clinical Summary" formName="Breast Surgery Clinical Summary" page="BreastSurgeryClinicalSummary.ascx"></form>
+
+    <form active="true" disease="Inpatient" formName="Non-Linked Admit" page="InptNonLinkedAdmit.ascx"></form>
+  <form active="true" disease="Inpatient"  formName="Linked Follow-up" page="InptLinkedAdmit.ascx"></form>
+  <form active="true" disease="Inpatient"  formName="Non-Linked Follow-up" page="InptNonLinkedFU.ascx"></form>
+
+  <form active="true" disease="Basking Ridge" batchName="Prostate New Patient (BR)" formName="Prostate New (Basking Ridge)" page="UroProsNP_Regional.ascx"></form>
+  <form active="true" disease="Basking Ridge" batchName="Prostate Follow-Up (BR)" formName="Prostate Follow-Up (Basking Ridge)"  page="UroProsFU_Regional.ascx"></form>
+  <form active="true" disease="Basking Ridge" batchName="Bladder Cystectomy Follow-Up (BR)" formName="Bladder Cystectomy Follow-Up (Basking Ridge)"   page="UroBladCystFU_Regional.ascx"></form>
+  <form active="true" disease="Basking Ridge" batchName="Breast Follow-Up (BR)" formName="Breast Follow-Up (Basking Ridge)" page="SurgBreastFU_Regional.ascx"></form>
+  <form active="true" disease="Basking Ridge" batchName="Urology Prostate QOL Survey (BR)" formName="Urology Prostate QOL Survey (Basking Ridge)"  page="UroSurveyProstateQOL_Regional.ascx"></form>
+  <!--
+    <form group="Dev" batchName="Head and Neck Follow-Up" formName="Head and Neck Follow-Up" page="SurgHeadNeckFU.ascx"></form>
+   -->
+</forms>
+
+

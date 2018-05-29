@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<surveys>
+    <survey name="c13-115 Eligibility Questionnaire">
+        <!--
+        Question 1 has to be always answered as “Yes” AND either of the following has to be true
+            Question 2 is answered as “Yes” OR
+            Question 3 and 4 are answered “Yes”  OR
+            Question 3 and 5 are answered “Yes”.
+        -->
+        <eligible response="Yes,Yes,*,*,*"></eligible>
+        <eligible response="Yes,*,Yes,Yes,*"></eligible>
+        <eligible response="Yes,*,Yes,*,Yes"></eligible>
+    </survey>
+</surveys>

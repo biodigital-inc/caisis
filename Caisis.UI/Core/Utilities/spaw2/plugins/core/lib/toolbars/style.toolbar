@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="style" module="core">
+  <dropdown name="style" onEnabledCheck="isStyleEnabled"
+            onStatusCheck="styleStatusCheck" onChange="styleChange" />
+  <dropdown name="formatBlock" onEnabledCheck="isStandardFunctionEnabled"
+            onStatusCheck="standardFunctionStatusCheck" onChange="standardFunctionChange" />
+  <image name="separator" />
+</toolbar>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="mode_strip" module="core">
+  <button name="design" onEnabledCheck="isDesignModeEnabled"
+          onPushedCheck="isHtmlModeEnabled" 
+          onClick="designModeClick"
+          showInContextMenu="true" />
+  <button name="html" onEnabledCheck="isHtmlModeEnabled"
+          onPushedCheck="isDesignModeEnabled"
+          onClick="htmlModeClick"
+          showInContextMenu="true" />
+</toolbar>

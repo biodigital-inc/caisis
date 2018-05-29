@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Colorectal Surgery EForm" displayName="Colorectal Surgery EForm">
+
+  <eformSection name="Procedures">
+    <eformItem displayName="Date and Surgeon" controlName="ORDateAndCaseSurgeon"></eformItem>
+    <eformItem displayName="Procedures" controlName="AppendixProcedure"></eformItem>
+    <eformItem controlName="PrimaryColorectalProcedure"></eformItem>
+    <eformItem controlName="ColonAndRectalProcedures"></eformItem>
+  </eformSection>
+
+  <eformSection name="Primary Resection Details">    
+    <eformItem controlName="IntentOfOperation"></eformItem>
+  </eformSection>
+
+  
+
+
+    <OperatingRoomDetails>
+      <OpDateText ></OpDateText>
+      <OpDate></OpDate>
+      <OpCaseSurgeon></OpCaseSurgeon>
+      <OpPresenceStatement></OpPresenceStatement>
+      <OpPresenceKeyPortions></OpPresenceKeyPortions>      
+		
+		  <Procedures  RecordId='1'>
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+			  <ProcName NotNull="True"></ProcName>			
+			  <PathResult></PathResult>
+        <ProcSide></ProcSide>
+        <ProcNotes></ProcNotes>
+        <ProcInstitution></ProcInstitution>
+        <ProcQuality></ProcQuality>
+        <ProcApproach></ProcApproach>
+        <ProcSite></ProcSite>
+        <ProcCPT_Modifier></ProcCPT_Modifier>
+        <ProcPrimary></ProcPrimary>
+        
+        <ColorectalProc>
+            <ProcIntent></ProcIntent>
+            <ProcTumorObstruction></ProcTumorObstruction>
+            <ProcPerforation></ProcPerforation>
+            <ProcDiseaseExtent></ProcDiseaseExtent>
+            <ProcPathType></ProcPathType>
+            <ProcSynchronousResection></ProcSynchronousResection>
+            <ProcSynchResectionLiver></ProcSynchResectionLiver>
+            <ProcSynchResectionLung></ProcSynchResectionLung>
+            <ProcSynchResectionRetroperitonealNodal></ProcSynchResectionRetroperitonealNodal>
+            <ProcSynchResectionOvary></ProcSynchResectionOvary>
+            <ProcSynchResectionPeritoneal></ProcSynchResectionPeritoneal>
+            <ProcSynchResectionOther></ProcSynchResectionOther>
+            <ProcCompleteResection></ProcCompleteResection>
+            <ProcTumorAnalVerge></ProcTumorAnalVerge>
+            <ProcRectalLocation></ProcRectalLocation>
+            <ProcRectalExamPreOp></ProcRectalExamPreOp>
+            <ProcAPR_PreOp></ProcAPR_PreOp>
+            <ProcAPR_IntraOp></ProcAPR_IntraOp>
+            <ProcAnast></ProcAnast>
+            <ProcAnatomy></ProcAnatomy>
+            <ProcSplenicFlexure></ProcSplenicFlexure>
+            <ProcProximalTransection></ProcProximalTransection>
+            <ProcAnastAnalVergeDist></ProcAnastAnalVergeDist>
+            <ProcArteryLigation></ProcArteryLigation>
+            <ProcPouchSize></ProcPouchSize>
+            <ProcColoplastySize></ProcColoplastySize>
+            <ProcMucosectomy></ProcMucosectomy>
+            <ProcColostomyIleostomy></ProcColostomyIleostomy>
+            <ProcIntraSphinctericDissection></ProcIntraSphinctericDissection>        
+        </ColorectalProc>  
+        
+		  </Procedures>
+    
+		  <Procedures  RecordId='2'>
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+			  <PathResult></PathResult>
+        <ProcSite></ProcSite>
+      </Procedures>
+		  <Procedures  RecordId='3'>
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <PathResult></PathResult>
+        <ProcSite></ProcSite>
+      </Procedures>
+      <Procedures  RecordId='4'>
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+			  <PathResult></PathResult>
+        <ProcSite></ProcSite>
+		  </Procedures>
+		  <Procedures  RecordId='5'>
+        <ProcDateText></ProcDateText>
+        <ProcDate></ProcDate>
+        <ProcName NotNull="True"></ProcName>
+        <PathResult></PathResult>
+        <ProcSite></ProcSite>
+      </Procedures>
+      <Procedures  RecordId='6'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <PathResult></PathResult>
+      <ProcSite></ProcSite>
+    </Procedures>
+    <Procedures  RecordId='7'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+			<PathResult></PathResult>
+      <ProcSite></ProcSite>
+		</Procedures>
+		<Procedures  RecordId='8'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <PathResult></PathResult>
+      <ProcSite></ProcSite>
+    </Procedures>
+    <Procedures  RecordId='9'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+      <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='11'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='12'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='13'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='14'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='15'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='16'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='17'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='18'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='19'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='20'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='21'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='22'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='23'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='24'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='25'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='26'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='27'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='28'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='29'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='30'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='31'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='32'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='33'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='34'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='35'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='36'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='37'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='38'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='39'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='40'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='41'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='42'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='43'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='44'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='45'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='46'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='47'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='48'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='49'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='50'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='51'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='52'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='53'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='54'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='55'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='56'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='57'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='58'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='59'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='60'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='61'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='62'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='63'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='64'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='65'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='66'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='67'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='68'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='69'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='70'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='71'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='72'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='73'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='74'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='75'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='76'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='77'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='78'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='79'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='80'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+  <Procedures  RecordId='81'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+
+  <Procedures  RecordId='82'>
+    <ProcPrimary></ProcPrimary>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+
+    <ColorectalProc RecordId="1">
+      <ProcDiseaseExtent></ProcDiseaseExtent>
+      <ProcIntent></ProcIntent>
+      <ProcCompleteResection></ProcCompleteResection>
+    </ColorectalProc>
+  </Procedures>
+
+  <Procedures  RecordId='83'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+
+
+  <Procedures  RecordId='84'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <PathResult></PathResult>
+    <ProcSite></ProcSite>
+  </Procedures>
+</OperatingRoomDetails>
+  
+  <Diagnostics>
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxNotes></DxNotes>
+  </Diagnostics>
+
+  <MedicalTherapy>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxIntent></MedTxIntent>
+    <MedTxIndication></MedTxIndication>
+    <MedTxNotes></MedTxNotes>
+  </MedicalTherapy>
+
+  <MedicalTherapy RecordId='1'>
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxAgent></MedTxAgent>
+    <MedTxNotes></MedTxNotes>
+    <MedTxQuality></MedTxQuality>
+  </MedicalTherapy>
+
+  <RadiationTherapy>
+    <RadTxType NotNull="True"></RadTxType>
+    <RadTxIntent></RadTxIntent>
+    <RadTxIndication></RadTxIndication>
+    <RadTxNotes></RadTxNotes>
+  </RadiationTherapy>
+
+  <BrachyTherapy>
+    <BrachyNotes></BrachyNotes>
+  </BrachyTherapy>  
+
+  <AbsentEvents RecordId='1'>
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+  <Encounters>
+    <EncDateText></EncDateText>
+    <EncDate></EncDate>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPresentation></EncPresentation>
+    <EncQuality></EncQuality>
+
+    <EncReviewOfSystems RecordId='1'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>      
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='2'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='3'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='4'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='5'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='6'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='7'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='8'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='9'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='10'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='11'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='12'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='13'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='14'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+    <EncReviewOfSystems RecordId='15'>
+      <ROS_System></ROS_System>
+      <ROS_Symptom></ROS_Symptom>
+    </EncReviewOfSystems>
+  </Encounters>
+
+  <Surveys>
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType NotNull="True"></SurveyType>
+    <SurveyQuality></SurveyQuality>
+
+    <SurveyItems RecordId='1'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='2'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='3'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='4'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='5'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='6'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='7'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='8'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='9'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='10'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='11'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='12'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='13'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='14'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='15'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='16'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='17'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='18'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='19'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='20'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='21'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='22'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='23'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='24'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='25'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='26'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='27'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='28'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='29'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    <SurveyItems RecordId='30'>
+      <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    
+  </Surveys>
+
+  <ClinicalStages>
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT NotNull="True"></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStageQuality NotNull="True"></ClinStageQuality>
+  </ClinicalStages>
+  
+
+  <NoTable>
+    <T></T>
+    <N></N>
+    <PrimProcOther></PrimProcOther>
+    <PlaceIPPort></PlaceIPPort>
+    <HIPEC></HIPEC>
+    <ROS_Symptom></ROS_Symptom>
+    <DebulkingRadio></DebulkingRadio>
+    <ResectionRadio></ResectionRadio>
+  </NoTable>
+
+</eform>

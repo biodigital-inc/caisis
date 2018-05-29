@@ -1,0 +1,950 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F3F5;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+.eformBody {
+	margin: 0px;
+	padding: 0px;
+	background-color: #3d556d;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.eformBox
+{
+/*	background-color: #F1F3F4; */
+	background-color: #F8FAFC;
+}
+
+td 
+{
+	font-size: 13px;
+}
+
+.controlBox {
+	background-color: #DFE3E6;
+	margin: 6px;
+	font-size: 13px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.eFormWorkArea
+{
+	/*
+	background-color: #ffffff;
+	border: solid 1px #DFE3E6;
+*/
+}
+
+.controlBoxTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.controlBoxFieldTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.controlBoxFieldOption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+
+
+.InputError {
+	border: 2px solid #8d2a2c;
+	color: #8d2a2c;
+	font-weight: bold;
+	background-color: #EBE1E3; 
+	padding: 5px;
+}
+
+.InputText {
+	border: 1px solid #999999;
+	
+}
+
+.controlBoxDataGridFirstColumn {
+	background-color: #CDD4DA;
+	margin: 6px;
+}
+.controlBoxDataGridTable {
+	margin: 6px;
+}
+.controlBoxDataGridHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #DFE3E6;
+	text-align: center;
+}
+.controlBoxDataGridHeaderFirstCol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CDD4DA;
+	text-align: center;
+}
+.controlBoxDataGridTitleColumn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CDD4DA;
+}
+.controlBoxDataGridValueColumn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #DFE3E6;
+}
+a:link {
+	color: #3D556D;
+}
+a:visited {
+	color: #3D556D;
+}
+a:hover {
+	color: #3D556D;
+}
+a:active {
+	color: #3D556D;
+}
+
+
+.eformTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 13px;
+	color: #8d2a2c;
+	text-decoration: none;
+}
+
+.eformNavigationLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 19px;
+	color: #333333;
+	text-decoration: none;
+	padding-left: 25px;
+	background-image: url(../Images/EFormNavigationWidget.gif);
+	background-repeat: no-repeat;
+	background-position: 11 9;
+	text-align: left;
+}
+.eformNavigationLinkOn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 19px;
+	color: #333333;
+	text-decoration: none;
+	padding-left: 25px;
+	cursor: pointer;
+	background-image: url(../Images/EFormNavigationWidget.gif);
+	background-repeat: no-repeat;
+	background-position: 11 8;
+	text-align: left;
+
+}
+.eformNavigationHeading 
+{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+	cursor:pointer;
+	border: solid 1px #DFE3E6;
+	padding-left: 10px;
+	background-color: #ffffff;
+	text-align: left;
+}
+.eformNavigationHeading:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+	border: solid 1px #8d2a2c;
+	background-color: #dca4b1;
+	cursor: default;
+	padding-left: 10px;
+	text-align: left;
+}
+.eformNavigationHeadingOn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	border: solid 1px #8d2a2c;
+	background-color: #dca4b1;
+	cursor: default;
+	padding-left: 10px;
+	text-align: left;
+}
+.eformSmallNavigationHeading 
+{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+	cursor:pointer;
+	border: solid 1px #DFE3E6;
+	padding-left: 10px;
+	background-color: #ffffff;
+	text-align: left;
+}
+.eformSmallNavigationHeadingOn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+	border: solid 1px #8d2a2c;
+	background-color: #dca4b1;
+	cursor: default;
+	padding-left: 10px;
+	text-align: left;
+}
+.eformNavigationTable
+{
+/*	background-color: #ffffff;
+	border: solid 1px #DFE3E6;
+*/
+}
+.eformBG
+{
+	BACKGROUND-IMAGE: url(../Images/EformBG.gif); 
+	BACKGROUND-REPEAT: no-repeat;
+	background-color: #3d556d;
+}
+.eformPreviewBG
+{
+	BACKGROUND-IMAGE: url(../Images/EformPreviewBG.gif); 
+	BACKGROUND-REPEAT: no-repeat;
+	background-color: #3d556d;
+}
+.eformValidationBG
+{
+	BACKGROUND-IMAGE: url(../Images/EformValidationBG.gif); 
+	BACKGROUND-REPEAT: no-repeat;
+	background-position: 0px 0px;
+	background-color: #3d556d;
+}
+.eformViewerBG
+{
+	BACKGROUND-IMAGE: url(../Images/EformViewerBG.gif); 
+	BACKGROUND-REPEAT: no-repeat;
+	background-color: #3d556d;
+}
+
+
+.imageButtonOn {
+	cursor: pointer;
+	
+}
+.previewTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8d2a2c;
+	text-decoration: none;
+}
+
+.previewText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.EFormStartTable
+{
+	background-image: url(../images/ArrowLeftBG2.jpg);
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+	color: #8d2a2c;
+	font-size: 20px;
+	font-weight: bold;
+}
+.EFormFinishTable
+{
+	color: #8d2a2c;
+	font-size: 20px;
+	font-weight: bold;
+}
+.NumPadButtonDown
+{
+	color: #ffffff;
+	background-color: #8d2a2c;
+}
+.NumPadButtonUp
+{
+	color: #333333;
+	background-color: #ffffff;
+}
+.EFormReportRow1
+{
+	color: #000000;
+	background-color: #e8e8e8;
+}
+.EFormReportRow2
+{
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.EFormDataTableTop {
+	background-color: #00668d;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.EFormDataTableTop a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.EFormDataTableTop a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.EFormDataTableCell 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #00668d;
+	line-height: 20px;
+	
+}
+.EFormDataTableCellOn 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #00668d;
+	line-height: 20px;
+	background-color: #dca4b1;
+	cursor:hand;
+	
+}
+.EFormDataTableRow {
+	color: #00668d;
+	background-color: #ffffff;
+}
+.EFormDataTableRowOver {
+	background-color:#e9d5d6;
+	color: #000000;
+	cursor: pointer;
+}
+
+.rptE {color:red;}
+.de{color:#8d2a2c; background-color: #ffffcc; font-weight: bold; text-decoration: underline; cursor:pointer;}	
+
+
+
+
+.EFormSideBarTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #8d2a2c;
+}	
+.EFormMainTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight:	normal;
+	color: #8d2a2c;
+	text-align: left;
+}
+.EFormRedLine
+{
+	background-color: #8d2a2c;
+}
+.MenuBarLabel
+{
+	vertical-align:middle;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.EFormSectionNavDiv
+{
+	border: solid 1px #cccccc;
+}
+.eformVerifyTableCell
+{
+	border: solid 1px #F1F3F4;
+	background-color: #F1F3F4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 18px;
+	background-image: url(../Images/EFormNavigationWidget.gif);
+	background-repeat: no-repeat;
+	background-position: 2 11;
+	cursor: pointer;
+}
+.eformVerifyTableCellHighlight
+{
+	border: solid 1px #8d2a2c;
+	background-color: #dca4b1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 18px;
+	cursor: pointer;
+}
+
+
+.ClinicalEformGridColumnOne {
+	background-color: #DFE3E6;
+	margin: 6px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	white-space: nowrap;
+
+}
+.ClinicalEformGridColumnTwo {
+	background-color: #ffffff;
+	margin: 6px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+
+
+}
+.ClinicalEformGridColumns {
+	margin: 6px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.ClinicalEformHighlightedRow {
+	background-color: #ffffff;
+	background-image: url(../Images/EformHighlightedRowBG.gif);
+	background-repeat: repeat-x;
+	height: 28px;
+	cursor: pointer;
+
+}
+
+.ClinicalEformPopulatedRow {
+	background-image: url(../Images/EformPopulatedRowBG.gif);
+	background-repeat: repeat-x;
+	height: 28px;
+	cursor: pointer;
+}
+tr.ClinicalEformPopulatedRow2
+{
+}
+tr.ClinicalEformPopulatedRow2 td {
+	background-color: #ffffff;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0E4E6', endColorstr='#FEFEFE'); /* for IE */
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #E0E4E6),
+		color-stop(1, #FEFEFE)
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		#E0E4E6 0%,
+		#FEFEFE 100%
+	);
+	
+	height: 28px;
+	cursor: pointer;
+	border-bottom: solid 1px #D7DCE1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+
+
+}
+tr.ClinicalEformPopulatedRow2:hover td
+{
+	background-color: #EEDFE0;
+	color: #000000;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DBA5B2', endColorstr='#EED2D9'); /* for IE */
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #D0C9D1),
+		color-stop(0.47, #DBA5B2),
+		color-stop(1, #EED2D9)
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		#D0C9D1 0%,
+		#DBA5B2 47%,
+		#EED2D9 100%
+	);
+	
+	
+}
+
+.ClinicalEformPopulatedRowHomeMeds { /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: #AA80D5; /*purple*/
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+}
+
+.ClinicalEformPopulatedRowHospitalMeds { /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: #D26F6F;  /*red*/	
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+}
+
+.ClinicalEformPopulatedRowHospitalHomeMedsMatchCoreFields { /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: #80FF80;  /*Green*/
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+}
+
+.ClinicalEformPopulatedRowHospitalAndHomeMedsMatchAgentField { /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: #FF9146;  /*orange*/
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+}
+
+.ClinicalEformPopulatedRowInactive { /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: #CCCCCC; /*gray*/
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+
+}
+
+.ClinicalEformPopulatedRowNew {  /* Used for Pharmacy Medications/MedTx controls */
+	/*background-image: url(../Images/EformPopulatedRowBG.gif);*/
+	background-color: Transparent; /*blue*/
+	background-repeat: repeat-x;
+	height: 28px;
+	/*cursor: pointer;*/
+}
+
+.ClinicalEformHighlightedSpan {
+	background-color: #EEE8EB;
+	background-image: url(../Images/EformHighlightedSpanBG.gif);
+	background-repeat: repeat-x;
+	cursor: pointer;
+	border: solid 1px #8d2a2c;
+	padding: 2px;
+
+}
+.ClinicalEformPopulatedSpan {
+	background-image: url(../Images/EformPopulatedSpanBG.gif);
+	background-repeat: repeat-x;
+	cursor: pointer;
+	border: solid 1px #d8d8d8;
+	padding: 2px;
+}
+
+.ClinicalEformPopulatedRowNonClickable {
+	height: 28px;
+	background-color: #efefef;
+}
+
+
+
+
+.ClinicalEformTable {
+	border: 1px solid #cdd4da;
+}
+
+.ClinicalEformPopulatedColumn {
+	border-bottom: solid 1px #D7DCE1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222222;
+
+}
+
+.eformVerifyTableRow1
+{
+	
+	onmouseover : "this.className='eformVerifyTableRow2'; showToolTip('Click');";
+	
+	background-color: #ffffff;
+	color: #000000;
+	cursor: pointer;
+}
+.eformVerifyTableRow2
+{
+	background-color: #E6E8E9;
+	color: #000000;
+	cursor: pointer;
+}
+.eformLargePopulatedTable
+{
+	background-image: url(../Images/LargeEFormTableBG.gif);
+	background-repeat: repeat-x;
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+}
+.eformLargePopulatedTableBlue
+{
+	background-image: url(../Images/LargeEFormTableBG_Blue.gif);
+	background-repeat: repeat-x;
+	border: solid 1px #cccccc;
+	background-color: #E9F3FF;
+}
+.eformXLargePopulatedTable
+{
+	background-image: url(../Images/XLEFormTableBG.gif);
+	background-repeat: repeat-x;
+	border: solid 1px #cccccc;
+	background-color: #f6f8f8;
+}
+.ControlBoxLinedRowsShaded {
+
+	background-color: #DFE3E6;
+	margin: 0px;
+	font-size: 13px;
+	border-bottom: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+}
+.ControlBoxLinedRows {
+ 	margin: 6px;
+	font-size: 13px;
+	border-bottom: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+}
+.ControlBoxBottomBorder {
+	font-size: 13px;
+	border-bottom: solid 1px #cccccc;
+}
+.ControlBoxRowAlternatingRowsA
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #EBEBEB;
+	color: #222222;
+}
+.ControlBoxRowAlternatingRowsB
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	color: #222222;
+}
+
+
+.EFormPopupTable
+{
+/*	border: solid 3px #8d2a2c;
+*/
+}
+.EFormPopupTitleCell
+{
+	background-color: #8d2a2c;
+	color: #ffffff;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.EFormPopupCell
+{
+	color: #333333;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.EFormPopupInstructionText
+{
+	color: #333333;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.EFormClinicListMenu
+{
+	border: 1px solid #8d2a2c;
+	background-color: #ffffff; 
+	width: 225px; 
+	position:absolute; 
+/*	left:137px; 
+	top:49; 
+*/
+	visibility:hidden; 
+	z-index:10;
+	margin-left: 130px;
+	margin-top: 20px;
+}
+.EFormAlertMsg
+{
+	font-size: 13px;
+	color: #8d2a2c;
+}
+.EFormTable
+{
+	padding:0px 0px 0px 0px;
+
+	width:100%;
+}
+.EFormTableRow{
+	background-color: #ffffff;
+}
+
+.FormInsideTableRegCell {
+	border-top: 0px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 0px solid #cccccc;
+}
+.FormInsideTableLeftCell {
+	border-top: 0px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+.ProstateDiagramBGTable
+{
+	background-image:url(../Images/DREDiagram/ProstateDiagram_EForm_Whole.gif);
+	background-repeat:no-repeat;
+	border: solid 1px #cccccc;
+}
+
+.InvisibleImage
+{
+	filter: alpha(opacity:0);
+	KHTMLOpacity: 0;
+	MozOpacity: 0;
+	opacity: 0;
+}
+
+.EFormVerifySectionTitle
+{
+	font-size: 15px;
+	color: #333333;
+	font-weight: bold;
+}
+.ClickableImage
+{
+	cursor: pointer;
+}
+.EFormPickerOptions
+{
+	font-size: 10px;
+}
+.PatientAllEformsList
+{
+	font-size: 11px;
+}
+.PatientEformListStart
+{
+	background-image:url(../Images/SelectAnEFormToViewEdit.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 45px;
+}
+.EFormWarningDiv
+{
+	top: 10px;
+	left: 300px;
+	background-color: #ffffff;
+	border: solid 2px #8d2a2c;
+	position: absolute;
+	z-index: 30;
+	visibility: hidden;
+}
+
+.IntraOpDiagramBGTable
+{
+	background-image:url(../Images/IntraOpProstateExamDiagram3.gif);
+	background-repeat:no-repeat;
+}
+
+.DisabledEformInputField
+{
+	background-color: #cccccc;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+span.urodynamicsSectionComment
+{
+	color: #666666;
+	font-size: 11px;
+	margin-left: 20px; 
+}
+
+.eFormRelatedRecordWidget
+{
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 2px;
+    cursor: pointer;
+    background-color: #eeeeee;
+    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#e2e2e2'); /* for IE */
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #f8f8f8),
+		color-stop(1, #e2e2e2)
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		#f8f8f8 0%,
+		#e2e2e2 100%
+	);
+    color: #444444;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    text-align: center;
+    
+    margin: 0px 1px 1px -1px;
+    vertical-align: middle;
+}
+
+.eFormRelatedRecordWidget:hover
+{
+    color: #111111;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    
+}
+
+
+
+
+div.EFormInfoBubble
+{
+    display: none;
+    width: auto;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../Images/RelatedRecordInfoBubbleBG_Bottom.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 13px;
+}
+div.EFormInfoBubbleContent
+{
+    width: 200px;
+    text-align: left;
+    background-image: url(../Images/RelatedRecordInfoBubbleBG_Top.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 13px 20px 5px 20px;
+    min-height: 70px;
+    color: #333333;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 11px;
+    line-height: normal;
+}
+
+div.EFormInfoBubbleContent table
+{
+    width: 93%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div.EFormInfoBubbleContent td
+{
+    color: #333333;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px #E0E0D9;
+    border-bottom: solid 1px #E0E0D9;
+    white-space: normal;
+    word-wrap: break-word;
+    vertical-align: top;
+    font-size: 11px;
+    line-height: normal;
+}
+div.EFormInfoBubbleContent td.HPIRecordDetailsBubbleTitle
+{
+    border-top: none;
+    font-weight: bold;
+    color: #111111;
+}
+.RelatedRecordsFrame
+{
+    display: block;
+    height: 100%;
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    z-index: 1001;
+    top: 40px;
+    left: 0px;
+}
+.RelatedRecordsFrame
+{
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    z-index: 1001;
+    top: 40px;
+    left: 100px;
+}     

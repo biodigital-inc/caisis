@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">C&#7855;t</message>
+  </block>
+  <block id="copy">
+    <message name="title">Sao ch&#233;p</message>
+  </block>
+  <block id="paste">
+    <message name="title">D&#225;n</message>
+  </block>
+  <block id="undo">
+    <message name="title">H&#7911;y thao t&#225;c</message>
+  </block>
+  <block id="redo">
+    <message name="title">L&#224;m l&#7841;i thao t&#225;c</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Ch&#232;n th&#234;m &#7843;nh</message>
+    <message name="select">Ch&#7885;n</message>
+    <message name="delete">X&#243;a</message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+    <message name="library">Th&#432; vi&#7879;n</message>
+    <message name="preview">Xem tr&#432;&#7899;c</message>
+    <message name="images">&#7842;nh</message>
+    <message name="upload">T&#7843;i &#7843;nh l&#234;n</message>
+    <message name="upload_button">T&#7843;i l&#234;n</message>
+    <message name="error">L&#7895;i</message>
+    <message name="error_no_image">H&#227;y ch&#7885;n m&#7897;t &#7843;nh</message>
+    <message name="error_uploading">C&#243; l&#7895;i trong khi qu&#7843;n l&#253; t&#7879;p t&#7843;i l&#234;n.Xin th&#7917; l&#7841;i sau</message>
+    <message name="error_wrong_type">T&#7879;p &#7843;nh kh&#244;ng &#273;&#250;ng ki&#7875;u</message>
+    <message name="error_no_dir">Th&#432; vi&#7879;n kh&#244;ng t&#7891;n t&#7841;i</message>
+    <message name="error_cant_delete">L&#7895;i x&#243;a t&#7879;p</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Thu&#7897;c t&#237;nh &#7843;nh</message>
+    <message name="ok">   Ch&#7845;p nh&#7853;n   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+    <message name="source">Ngu&#7891;n</message>
+    <message name="alt">Ti&#234;u &#273;&#7873; &#7843;nh</message>
+    <message name="align">C&#259;n l&#7873;</message>
+    <message name="justifyleft">tr&#225;i</message>
+    <message name="justifyright">ph&#7843;i</message>
+    <message name="top">tr&#234;n</message>
+    <message name="middle">gi&#7919;a</message>
+    <message name="bottom">d&#432;&#7899;i</message>
+    <message name="absmiddle">ch&#237;nh gi&#7919;a</message>
+    <message name="texttop">ph&#237;a tr&#234;n ch&#7919;</message>
+    <message name="baseline">ph&#237;a tr&#234;n d&#242;ng</message>
+    <message name="width">R&#7897;ng</message>
+    <message name="height">Cao</message>
+    <message name="border">Vi&#7873;n</message>
+    <message name="hspace">kho&#7843;ng tr&#7855;ng ngang</message>
+    <message name="vspace">kho&#7843;ng tr&#7855;ng d&#7885;c</message>
+    <message name="error">L&#7895;i</message>
+    <message name="error_width_nan">&#272;&#7897; r&#7897;ng kh&#244;ng ph&#7843;i s&#7889;</message>
+    <message name="error_height_nan">Chi&#7873;u cao kh&#244;ng ph&#7843;i s&#7889;</message>
+    <message name="error_border_nan">Vi&#7873;n kh&#244;ng ph&#7843;i s&#7889;</message>
+    <message name="error_hspace_nan">Kho&#7843;ng tr&#7855;ng ngang kh&#244;ng ph&#7843;i s&#7889;</message>
+    <message name="error_vspace_nan">Kho&#7843;ng tr&#7855;ng d&#7885;c kh&#244;ng ph&#7843;i s&#7889;</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Thanh ngang</message>
+  </block>
+  <block id="table_create">
+    <message name="title">T&#7841;o b&#7843;ng</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Thu&#7897;c t&#237;nh b&#7843;ng</message>
+    <message name="ok">   Ch&#7845;p nh&#7853;n   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+    <message name="rows">D&#242;ng</message>
+    <message name="columns">C&#7897;t</message>
+    <message name="css_class">l&#7899;i CSS</message>
+    <message name="width">R&#7897;ng</message>
+    <message name="height">Cao</message>
+    <message name="border">Vi&#7873;n</message>
+    <message name="pixels">&#273;i&#7875;m &#7843;nh</message>
+    <message name="cellpadding">&#272;&#7879;m &#244;</message>
+    <message name="cellspacing">Kho&#7843;ng tr&#7889;ng c&#7911;a &#244;</message>
+    <message name="bg_color">M&#224;u n&#7873;n</message>
+    <message name="background">&#7842;nh n&#7873;n</message>
+    <message name="error">L&#7895;i</message>
+    <message name="error_rows_nan">D&#242;ng kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_columns_nan">C&#7897;t kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_width_nan">&#272;&#7897; r&#7897;ng kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_height_nan">Chi&#7875;u cao kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_border_nan">&#272;&#432;&#7901;ng vi&#7873;n kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_cellpadding_nan">Kho&#7843;ng &#273;&#7879;m &#244; kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_cellspacing_nan">Kho&#7843;ng tr&#7855;ng &#244; kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Thu&#7897;c t&#237;nh &#244;</message>
+    <message name="horizontal_align">C&#259;n ngang</message>
+    <message name="vertical_align">C&#259;n d&#7885;c</message>
+    <message name="width">R&#7897;ng</message>
+    <message name="height">Cao</message>
+    <message name="css_class">l&#7899;p CSS</message>
+    <message name="no_wrap">Kh&#244;ng bao ch&#7919;</message>
+    <message name="bg_color">M&#224;u n&#7873;n</message>
+    <message name="background">&#7842;nh n&#7873;n</message>
+    <message name="ok">   Ch&#7845;p nh&#7853;n   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+    <message name="justifyleft">Tr&#225;i</message>
+    <message name="justifycenter">Gi&#7919;a</message>
+    <message name="justifyright">Ph&#7843;i</message>
+    <message name="top">Tr&#234;n</message>
+    <message name="middle">Gi&#7919;a</message>
+    <message name="bottom">D&#432;&#7899;i</message>
+    <message name="baseline">Tr&#234;n d&#242;ng</message>
+    <message name="error">L&#7895;i</message>
+    <message name="error_width_nan">&#272;&#7897; r&#7897;ng kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+    <message name="error_height_nan">Chi&#7875;u cao kh&#244;ng ph&#7843;i l&#224; m&#7897;t s&#7889;</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Th&#234;m d&#242;ng</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Th&#234;m c&#7897;t</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">X&#243;a d&#242;ng</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">X&#243;a c&#7897;t</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">K&#7871;t h&#7907;p b&#234;n ph&#7843;i</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">K&#7871;t h&#7907;p d&#432;&#7899;i</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Chia &#244; ngang</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Chia &#244; d&#7885;c</message>
+  </block>
+  <block id="style">
+    <message name="title">Ki&#7875;u</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Ph&#244;ng ch&#7919;</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">K&#237;ch th&#432;&#7899;c</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">&#272;o&#7841;n</message>
+  </block>
+  <block id="bold">
+    <message name="title">&#272;&#7853;m</message>
+  </block>
+  <block id="italic">
+    <message name="title">Nghi&#234;ng</message>
+  </block>
+  <block id="underline">
+    <message name="title">G&#7841;ch ch&#226;n</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Li&#7879;t k&#234; th&#7913; t&#7921;</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Li&#7879;t k&#234; d&#7845;u</message>
+  </block>
+  <block id="indent">
+    <message name="title">Th&#7909;t v&#224;o</message>
+  </block>
+  <block id="outdent">
+    <message name="title">L&#249;i ra</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Tr&#225;i</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Gi&#7919;a</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Ph&#7843;i</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">M&#224;u ch&#7919;</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">M&#224;u n&#7873;n</message>
+  </block>
+  <block id="design">
+    <message name="title">Chuy&#7875;n sang ch&#7871; &#273;&#7897; thi&#7871;t k&#7871;</message>
+  </block>
+  <block id="html">
+    <message name="title">Chuy&#7875;n sang ch&#7871; &#273;&#7897; m&#227; HTML</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">B&#7843;ng m&#224;u</message>
+    <message name="ok">   Ch&#7885;n   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">L&#224;m s&#7841;ch m&#227; HTML</message>
+    <message name="confirm">Khi th&#7921;c hi&#7879;n thao t&#225;c n&#224;y, c&#225;c &#273;&#7883;nh d&#7841;ng c&#7911;a v&#259;n b&#7843;n s&#7869; m&#7845;t.</message>
+    <message name="ok">   Ch&#7845;p nh&#7853;n   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">C&#259;n vi&#7873;n</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Si&#234;u li&#234;n k&#7871;t</message>
+    <message name="url">URL</message>
+    <message name="name">T&#234;n</message>
+    <message name="target">&#272;&#237;ch</message>
+    <message name="title_attr">Ti&#234;u &#273;&#7873;</message>
+    <message name="a_type">Ki&#7875;u</message>
+    <message name="type_link">Li&#234;n k&#7871;t</message>
+    <message name="type_anchor">Neo</message>
+    <message name="type_link2anchor">Li&#234;n k&#7871;t t&#7899;i neo</message>
+    <message name="anchors">Neo</message>
+    <message name="ok">   &#272;&#7891;ng &#253;   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">c&#249;ng m&#7897;t frame (_self)</message>
+    <message name="_blank">c&#7917;a s&#7893; m&#7899;i (_blank)</message>
+    <message name="_top">Frame tr&#234;n c&#249;ng (_top)</message>
+    <message name="_parent">Frame g&#7889;c (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Thu&#7897;c t&#237;nh d&#242;ng</message>
+    <message name="horizontal_align">C&#259;n ngang</message>
+    <message name="vertical_align">C&#259;n d&#7885;c</message>
+    <message name="css_class">l&#7899;p CSS</message>
+    <message name="no_wrap">Kh&#244;ng bao ch&#7919;</message>
+    <message name="bg_color">M&#224;u n&#7873;n</message>
+    <message name="ok">   &#272;&#7891;ng &#253;   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+    <message name="justifyleft">Tr&#225;i</message>
+    <message name="justifycenter">Gi&#7919;a</message>
+    <message name="justifyright">Ph&#7843;i</message>
+    <message name="top">Tr&#234;n</message>
+    <message name="middle">Gi&#7919;a</message>
+    <message name="bottom">D&#432;&#7899;i</message>
+    <message name="baseline">Tr&#234;n d&#242;ng</message>
+  </block>
+  <block id="symbols">
+    <message name="title">K&#253; t&#7921; &#273;&#7863;c bi&#7879;t</message>
+    <message name="ok">   &#272;&#7891;ng &#253;   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+  </block>
+  <block id="templates">
+    <message name="title">M&#7851;u</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Thu&#7897;c t&#237;nh trang</message>
+    <message name="title_tag">Ti&#234;u &#273;&#7873;</message>
+    <message name="charset">Charset</message>
+    <message name="background">&#7842;nh n&#7873;n</message>
+    <message name="bgcolor">M&#224;u n&#7873;n</message>
+    <message name="text">M&#224;u ch&#7919;</message>
+    <message name="link">M&#224;u li&#234;n k&#7871;t</message>
+    <message name="vlink">M&#224;u li&#234;n k&#7871;t &#273;&#227; th&#259;m</message>
+    <message name="alink">M&#224;u li&#234;n k&#7871;t k&#237;ch ho&#7841;t</message>
+    <message name="leftmargin">M&#233;p tr&#225;i</message>
+    <message name="topmargin">M&#233;p tr&#234;n</message>
+    <message name="css_class">l&#7899;p CSS</message>
+    <message name="ok">   &#272;&#7891;ng &#253;   </message>
+    <message name="cancel">H&#7911;y b&#7887;</message>
+  </block>
+  <block id="preview">
+    <message name="title">Xem tr&#432;&#7899;c</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Popup &#7843;nh</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Zoom</message>
+  </block>
+  <block id="subscript">
+    <message name="title">ch&#7919; nh&#7887; ph&#237;a d&#432;&#7899;i</message>
+  </block>
+  <block id="superscript">
+    <message name="title">ch&#7919; nh&#7887; ph&#237;a tr&#234;n</message>
+  </block>
+</messages>

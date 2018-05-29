@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+	Contains EForm Configurations
+	No longer hard coded into class definition. Will be read
+	on the fly from the CaisisConfiguration class. Adding a new
+	EForm Element will add this EForm for use in the application.
+	
+	** ATTRIBUTES **
+	displayname="The full display name of the EForm" 
+	name="Name of the EForm (Will be removed from future revisions)" 
+	filename="Full XML filename of EForm"
+	promptForPrint="If true, EForm will automatically print when Approved (default to false)"
+	reviewStep="..."
+	approvePermissionRequired="..."
+  emailReportToUserOnApproval=true or false indicating whether or not to send an email
+                              to the user approving the eform
+  active=true or false(default) indicating whether the node is "active",
+         inactive nodes will be hidden from eform drop down lists
+  allowMultiple=true or false(default) which controls if an multiple eforms of this type can be
+           initiated for a patient on the same day.
+    showNav=true or false (default=true) to control is navigation is visible by default on first page
+-->
+<eforms>
+
+
+
+
+
+
+
+  <eform
+  disease="Bladder"
+  displayname="Urology Follow-Up Endoscopy"
+  name="Uro Blad FU"
+  filename="UroBladFU.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="true"
+  enableReferrals="true"
+  active="true" />
+  
+  
+  <eform
+  disease="Bladder"
+  displayname="Cystectomy w/ Continent Reservoir"
+  name="Cystectomy W Continent Reservoir"
+  filename="CystectomyWContinentReservoir.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="false"
+  active="true" />
+
+
+  <eform
+  disease="Bladder"
+  displayname="Cystectomy Details"
+  name="Cystectomy Details EForm"
+  filename="CystectomyDetailsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <!--   
+  <eform
+  disease="Bladder"
+  displayname="Cystectomy w/ Diversion"
+  name="Cystectomy W Diversion"
+  filename="CystectomyWDiversion.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+-->
+
+  <eform
+  disease="Bladder"
+  displayname="Cystectomy w/ Ileal Conduit"
+  name="Cystectomy W Ileal Conduit"
+  filename="CystectomyWIlealConduit.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Bladder"
+  displayname="Cystectomy w/ NeoBladder"
+  name="Cystectomy W NeoBladder"
+  filename="CystectomyWNeoBladder.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <!--** MUHC eform-->
+  <eform
+   disease="Bone"
+   displayname="Osteoporosis"
+   name="Osteoporosis"
+   filename="Osteoporosis.xml"
+   promptForPrint="false"
+   emailReportToUserOnApproval="false"
+   approvePermissionRequired="true"
+   allowMultiple="false"
+   active="true" />
+
+  <eform
+  disease="Breast"
+  displayname="Breast Surgery EForm"
+  name="Breast Surgery EForm"
+  filename="BreastSurgeryEForm.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Breast"
+  displayname="Breast Surgery Follow Up"
+  name="Breast Surgery FU"
+  filename="BreastSurgeryFU.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  active="true" />
+
+  <eform
+  disease="Colorectal"
+  displayname="Colorectal Surgery EForm"
+  name="Colorectal Surgery EForm"
+  filename="ColorectalSurgeryEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+<!-- 
+  <eform
+  disease="Colorectal"
+  displayname="Colorectal Intake EForm"
+  name="Colorectal Intake EForm"
+  filename="ColorectalIntakeEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+-->
+    <eform
+    disease="Colorectal"
+    displayname="Colorectal Consult EForm"
+    name="Colorectal Consult EForm"
+    filename="ColorectalConsultEForm.xml"
+    promptForPrint="false"
+    emailReportToUserOnApproval="false"
+    approvePermissionRequired="true"
+    allowMultiple="false"
+    active="true" />
+
+  <eform
+  disease="Esophagus"
+  displayname="Esophageal Gastric Surgery"
+  name="Esophagus Surgery"
+  filename="EsophagusSurgery.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+disease="Gastric"
+displayname="Gastric Surgery"
+name="Gastric Surgery Eform"
+filename="GastricSurgeryEform.xml"
+promptForPrint="true"
+emailReportToUserOnApproval="false"
+approvePermissionRequired="true"
+allowMultiple="true"
+active="true" />
+
+  <eform
+  disease="General"
+  displayname="General Urology Endoscopy"
+  name="Uro Gen Endo"
+  filename="UroGenEndo.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="General"
+  displayname="Urology Survivorship"
+  name="Survivorship"
+  filename="Survivorship.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="true"
+  active="true" />
+
+  <eform
+  disease="General"
+  displayname="Urology Survivorship (Bladder)"
+  name="Survivorship-Bladder"
+  filename="Survivorship-Bladder.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="true"
+  active="true" />
+
+  <!--** Bellevue eform-->
+  <eform
+  disease="General"
+  displayname="Surgery Complications Review"
+  name="Surg CCs Review"
+  filename="SurgCCsReview.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="General"
+  displayname="Urinary Diversion EForm"
+  name="Urinary Diversion Eform"
+  filename="UrinaryDiversionEform.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Gynecology"
+  displayname="GTD EForm"
+  name="GTD Eform"
+  filename="GTDEform.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Gynecology"
+  displayname="Gynecology Details"
+  name="Gynecology Details"
+  filename="GynecologyDetails.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+   disease="Head &amp; Neck"
+   displayname="Head and Neck Surgery EForm"
+   name="Head Neck Surgery Eform"
+   filename="HeadNeckSurgeryEform.xml"
+   promptForPrint="false"
+   emailReportToUserOnApproval="true"
+   approvePermissionRequired="true"
+   allowMultiple="false"
+   active="true" />
+
+  <eform
+  disease="Head &amp; Neck"
+  displayname="Oral Cavity"
+  name="Oral Cavity"
+  filename="OralCavity.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+  
+  <eform
+  disease="Head &amp; Neck"
+  displayname="Oropharynx Details"
+  name="Oropharynx Details"
+  filename="OropharynxDetails.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+ disease="Head &amp; Neck"
+ displayname="Oropharynx Procedure"
+ name="Oropharynx Procedure"
+ filename="OropharynxProcedure.xml"
+ promptForPrint="false"
+ emailReportToUserOnApproval="true"
+ approvePermissionRequired="true"
+ allowMultiple="false"
+ active="true" />
+
+  <eform
+  disease="Head &amp; Neck"
+  displayname="Salivary Gland"
+  name="Salivary Gland"
+  filename="SalivaryGland.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Head &amp; Neck"
+  displayname="Thyroid Details EForm"
+  name="Thyroid Details"
+  filename="ThyroidDetails.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+   disease="Head &amp; Neck"
+  displayname="Thyroid Surgery EForm"
+  name="Thyroid Surgery Eform"
+  filename="ThyroidSurgeryEform.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="true"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+   disease="Head &amp; Neck"
+  displayname="Perineural Invasion"
+  name="Perineural Invasion"
+  filename="PerineuralInvasion.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="true"
+  active="true" />
+
+
+    <eform
+disease="Kidney"
+displayname="Nephrectomy Follow-Up"
+name="Uro Kidn Neph FU"
+filename="UroKidnNephFU.xml"
+promptForPrint="false"
+emailReportToUserOnApproval="false"
+approvePermissionRequired="true"
+allowMultiple="false"
+active="true" />
+
+    <eform
+  disease="Kidney"
+  displayname="Nephrectomy Details"
+  name="Nephrectomy Details EForm"
+  filename="NephrectomyDetailsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+
+
+
+  <!--** NYU eform-->
+  <eform
+  disease="Liver"
+  displayname="Liver Surgery"
+  name="Liver Surgery"
+  filename="LiverSurgery.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <!-- Neuro - Brain eform-->
+  <eform
+  disease="Neuro"
+  displayname="Neuro Details EForm"
+  name="Neuro Details EForm"
+  filename="NeuroDetailsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="false"
+  active="true" />
+
+  <!-- Neuro - Spine eform-->
+  <eform
+  disease="Spine"
+  displayname="Spine Details"
+  name="Spine Details"
+  filename="SpineDetails.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  enableReferrals="false"
+  active="true" />
+
+  <!-- Neuro - peds eform-->
+  <eform
+  disease="PedsNeuro"
+  displayname="Neuro Pediatrics EForm"
+  name="Neuro Pediatrics EForm"
+  filename="NeuroPediatricsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="false"
+  active="true" />
+
+  <!--** NYU eform-->
+  <eform
+   disease="Pancreas"
+   displayname="Pancreas Surgery"
+   name="Pancreas Surgery"
+   filename="PancreasSurgery.xml"
+   promptForPrint="true"
+   emailReportToUserOnApproval="false"
+   approvePermissionRequired="true"
+   allowMultiple="false"
+   active="true" />
+
+  <!--** NYU eform-->
+  <eform
+   disease="Pancreatitis"
+   displayname="Pancreatitis"
+   name="Pancreatitis"
+   filename="Pancreatitis.xml"
+   promptForPrint="true"
+   emailReportToUserOnApproval="false"
+   approvePermissionRequired="true"
+   allowMultiple="false"
+   active="true" />
+
+  <eform
+  disease="Prostate"
+  displayname="Biopsy Of Prostate EForm"
+  name="Biopsy Of Prostate EForm"
+  filename="BiopsyOfProstateEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="false"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Prostate"
+  displayname="GU Prostate Follow Up"
+  name="GU Pros FU"
+  filename="GUProsFU.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+    <eform
+    disease="Prostate"
+    displayname="GU Prostate Follow Up (NEW)"
+    name="GU Pros FU_v2"
+    filename="GUProsFU_v2.xml"
+    promptForPrint="true"
+    emailReportToUserOnApproval="false"
+    approvePermissionRequired="true"
+    allowMultiple="false"
+    active="true" />
+
+  <eform
+disease="Prostate"
+displayname="PCCTC Baseline"
+name="GU PCCTC Baseline"
+filename="GUPCCTCBaseline.xml"
+promptForPrint="false"
+emailReportToUserOnApproval="false"
+approvePermissionRequired="true"
+allowMultiple="true"
+active="true"
+showNav="false" />
+
+  <!--** Caris Eform -->
+  <eform
+  disease="Prostate"
+   displayname="Prostate Specimen Enrollment"
+   name="Prostate Specimen Enrollment"
+   filename="ProstateSpecimenEnrollment.xml"
+   promptForPrint="true"
+   emailReportToUserOnApproval="false"
+   approvePermissionRequired="true"
+   allowMultiple="false"
+   active="true" />
+
+  <!--** Caris Eform -->
+  <eform
+  disease="Prostate"
+  displayname="Prostate Specimen Control"
+  name="Prostate Specimen Control"
+  filename="ProstateSpecimenControl.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Prostate"
+  displayname="Prostate Surgery EForm"
+  name="Prostate Surgery EForm"
+  filename="ProstateSurgeryEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+ disease="Prostate"
+ displayname="Prostate New Patient EForm"
+ name="Prostate New Patient EForm"
+ filename="ProstateNewPatientEForm.xml"
+ promptForPrint="false"
+ emailReportToUserOnApproval="false"
+ approvePermissionRequired="true"
+ allowMultiple="false"
+ active="true" />
+  
+  <eform
+  disease="Prostate"
+  displayname="Urology Prostate Follow Up"
+  name="Uro Pros FU"
+  filename="UroProsFU.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="true"
+  enableReferrals="true"
+  active="true" />
+
+
+
+  <eform
+  disease="Prostate"
+  displayname="Urology Prostate Active Surveillance"
+  name="Uro Pros Active Surveillance"
+  filename="UroProsActiveSurveillance.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  enableReferrals="true"
+  active="true" />
+
+
+  <eform
+    disease="Prostate"
+    displayname="Urology Prostate New Patient"
+    name="Uro Pros NP"
+    filename="UroProsNP.xml"
+    promptForPrint="false"
+    emailReportToUserOnApproval="false"
+    approvePermissionRequired="true"
+    allowMultiple="true"
+    active="true" />
+
+  <eform
+  disease="Prostate"
+  displayname="Urology Sexual Function Follow Up"
+  name="Uro Sexual Func FU"
+  filename="UroSexualFuncFU.xml"
+  promptForPrint="true"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+  <eform
+  disease="Thoracic"
+  displayname="Thoracic Details EForm"
+  name="Thoracic Details EForm"
+  filename="ThoracicDetailsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true" />
+
+    <eform
+    disease="Pancreas"
+    displayname="Pancreas IPMN"
+    name="Pancreas IPMN"
+    filename="PancreasIPMN.xml"
+    promptForPrint="true"
+    emailReportToUserOnApproval="false"
+    approvePermissionRequired="true"
+    allowMultiple="false"
+    active="true" />
+
+
+  <eform
+  disease="Testis"
+  displayname="Urology Testis Surgery Details"
+  name="Testis Surgery Details"
+  filename="TestisSurgeryDetails.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  allowMultiple="false"
+  active="true"/>
+
+
+  <eform
+  disease="General"
+  displayname="Urology Urodynamics"
+  name="Urodynamics EForm"
+  filename="UrodynamicsEForm.xml"
+  promptForPrint="false"
+  emailReportToUserOnApproval="false"
+  approvePermissionRequired="true"
+  active="true" />
+
+  
+  
+  <!--   
+  <eform
+   displayname="Interface Examples"
+   name="Interface Examples"
+   filename="InterfaceExamples.xml"
+   promptForPrint="false"
+   emailReportToUserOnApproval="false"
+   approvePermissionRequired="false"
+   allowMultiple="false"
+   active="true" />
+   
+  -->
+
+</eforms>

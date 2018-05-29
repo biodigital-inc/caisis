@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbar name="table" module="core">
+  <button name="table_create" onEnabledCheck="isInDesignMode"
+          onClick="tableCreateClick" />
+  <image name="separator" />
+
+  <button name="table_prop" onEnabledCheck="isTablePropertiesEnabled"
+        onClick="tablePropClick"
+        showInContextMenu="true" />
+  <button name="table_cell_prop" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="tableCellPropClick"
+        showInContextMenu="true" />
+  <image name="separator" />
+
+  <button name="table_row_insert" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="insertTableRowClick"
+        showInContextMenu="true" />
+  <button name="table_column_insert" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="insertTableColumnClick"
+        showInContextMenu="true" />
+  <button name="table_row_delete" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="deleteTableRowClick"
+        showInContextMenu="true" />
+  <button name="table_column_delete" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="deleteTableColumnClick"
+        showInContextMenu="true" />
+  <image name="separator" />
+
+  <button name="table_cell_merge_right" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="mergeTableCellRightClick"
+        showInContextMenu="true" />
+  <button name="table_cell_merge_down" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="mergeTableCellDownClick"
+        showInContextMenu="true" />
+  <button name="table_cell_split_horizontal" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="splitTableCellHorizontallyClick"
+        showInContextMenu="true" />
+  <button name="table_cell_split_vertical" onEnabledCheck="isTableCellPropertiesEnabled"
+        onClick="splitTableCellVerticallyClick"
+        showInContextMenu="true" />
+  <image name="separator" />
+
+</toolbar>

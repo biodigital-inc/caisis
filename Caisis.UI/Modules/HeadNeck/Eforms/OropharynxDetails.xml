@@ -1,0 +1,3408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Oropharynx Details" displayName="Oropharynx Details">
+  
+  <eformSection name="History">
+
+    <eformItem displayName="Oropharynx Diagnosis Biopsy" title="Oropharynx Diagnosis Biopsy" controlName="OropharynxBiopsy"></eformItem>
+    <eformItem displayName="Previous Pathology Tests" title="Previous Pathology Tests" controlName="OropharynxPathTest"></eformItem>
+    <eformItem displayName="Comorbidities" title="Comorbidities"  controlName="OropharynxComorbidities"></eformItem>
+    <eformItem displayName="Clinical Stages" title="Clinical Stage History (Oropharynx)"  controlName="OropharynxClinicalStageHistory"></eformItem>
+    <eformItem displayName="Previous Surgical Procedures" title="Previous Surgical Procedures" controlName="OropharynxProcedureHistory"></eformItem>
+    <eformItem displayName="Previous Medical Therapies" title=" "  controlName="OropharynxMedicalTx"></eformItem>
+    <eformItem displayName="Previous Radiation Therapies" title=" "  controlName="OropharynxRadiationTx"></eformItem>
+    <eformItem displayName="Previous Complications" title=" "  controlName="OropharynxComplications"></eformItem>
+    <eformItem displayName="Social History" title="Social History"  controlName="PatientsSocialHistories"></eformItem>
+
+  </eformSection>
+
+
+  <eformSection name="Encounter">
+    <eformItem displayName="Encounter" title="Encounter"  controlName="OropharynxEncounters"></eformItem>
+    <eformItem displayName="Head and Neck Findings" title="Head and Neck Findings" controlName="OropharynxHeadNeckFindings"></eformItem>
+    <eformItem displayName="Nodes" title=" " controlName="OropharynxNodeExamFindings"></eformItem>
+    <eformItem displayName="Distant Metastasis" title="Distant Metastasis" controlName="OropharynxDistantMets"></eformItem>
+    <eformItem displayName="Image Findings" title="Image Findings" controlName="OropharynxDiagnostics"></eformItem>
+    <eformItem displayName="Clinical Stage" title="Clinical Stage (Oropharyngeal)" controlName="OropharynxClinStageAJCC02"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Current Treatment">
+    <eformItem displayName="Salvage Diagnosis Biopsy" title="Salvage Diagnosis Biopsy" controlName="OropharynxSalvageBiopsy"></eformItem>
+    <eformItem displayName="Surgeries" title=" " controlName="OropharynxProceduresPrimary"></eformItem>
+    <eformItem displayName="Complications" title=" " controlName="OropharynxComplications2"></eformItem>
+    <eformItem displayName="Radiation Therapies" title=" " controlName="OropharynxRadiationTx2"></eformItem>
+    <eformItem displayName="Medical Therapies" title=" " controlName="OropharynxMedicalTx2"></eformItem>
+    <eformItem displayName="Treatment Plan" title="Treatment Plan" controlName="OropharynxIntentionToTreat"></eformItem>
+    <eformItem displayName="Surgical Pathology" title="Surgical Pathology" controlName="OropharynxPathology"></eformItem>
+    <eformItem displayName="Pathology Tests" title="Pathology Tests" controlName="OropharynxPathTest2"></eformItem>
+    <eformItem displayName="Pathology Stage Grade" title="Pathology Stage Grade" controlName="OropharynxPathStageGrade2"></eformItem>
+    <eformItem displayName="Cervical Nodes" title="Cervical Nodes" controlName="OropharynxNodePathFindings"></eformItem>
+  </eformSection>
+
+
+  <eformSection name="Treatment Outcome">
+    <eformItem displayName="Treatment Outcome" title=" " controlName="OropharynxTreatmentOutcome"></eformItem>
+    <eformItem displayName="Treatment Failure" title=" " controlName="OropharynxTreatmentFailure"></eformItem>
+    <eformItem displayName="Radiation Therapies" title=" " controlName="OropharynxRadiationTx3"></eformItem>
+    <eformItem displayName="Medical Therapies" title=" " controlName="OropharynxMedicalTx3"></eformItem>
+    <eformItem displayName="Salvage Surgeries" title=" " controlName="OropharynxProceduresSalvage"></eformItem>
+  </eformSection>
+
+  <eformSection name="Follow-up">
+    <eformItem displayName="Follow-up and Vital Status" title=" " controlName="OropharynxOutcome"></eformItem>
+  </eformSection>
+
+
+  <AbsentEvents RecordId="1">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="2">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="3">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="4">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="5">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="6">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="7">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="8">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="9">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="10">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="11">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="12">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="13">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+  <AbsentEvents RecordId="14">
+    <AbsentDateText></AbsentDateText>
+    <AbsentDate></AbsentDate>
+    <TableName NotNull="True"></TableName>
+    <FieldName NotNull="True"></FieldName>
+    <FieldValue NotNull="True"></FieldValue>
+    <AbsentReason></AbsentReason>
+    <AbsentQuality></AbsentQuality>
+  </AbsentEvents>
+
+  
+  <ClinicalStages RecordId="1">
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease DefaultValue="Oropharyngeal"></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStagePhysician></ClinStagePhysician>
+  </ClinicalStages>
+  <ClinicalStages RecordId="2">
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease DefaultValue="Oropharyngeal"></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStagePhysician></ClinStagePhysician>
+  </ClinicalStages>
+  <ClinicalStages RecordId="3">
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease DefaultValue="Oropharyngeal"></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStagePhysician></ClinStagePhysician>
+  </ClinicalStages>
+  <ClinicalStages RecordId="4">
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease DefaultValue="Oropharyngeal"></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStagePhysician></ClinStagePhysician>
+  </ClinicalStages>
+  <ClinicalStages RecordId="5">
+    <ClinStageDateText></ClinStageDateText>
+    <ClinStageDate></ClinStageDate>
+    <ClinStageDisease DefaultValue="Oropharyngeal"></ClinStageDisease>
+    <ClinStageSystem></ClinStageSystem>
+    <ClinStageT></ClinStageT>
+    <ClinStageN></ClinStageN>
+    <ClinStageM></ClinStageM>
+    <ClinStageQuality></ClinStageQuality>
+    <ClinStageNotes></ClinStageNotes>
+    <ClinStagePhysician></ClinStagePhysician>
+  </ClinicalStages>
+  
+  <Comorbidities RecordId="1">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="2">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="3">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="4">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="5">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="6">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="7">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="8">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="9">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="10">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="11">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="12">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="13">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="14">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="15">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="16">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="17">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="18">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="19">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="20">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="21">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="22">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="23">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+  <Comorbidities RecordId="24">
+    <ComorbDateText></ComorbDateText>
+    <ComorbDate></ComorbDate>
+    <Comorbidity NotNull="True"></Comorbidity>
+    <ComorbNotes></ComorbNotes>
+    <ComorbQuality></ComorbQuality>
+  </Comorbidities>
+
+
+  <Diagnostics RecordId="11">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxQuality></DxQuality>
+
+    <DxImageFindings RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+
+  </Diagnostics>
+  
+  <Diagnostics RecordId="12">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxQuality></DxQuality>
+
+    <DxImageFindings RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+
+  </Diagnostics>
+
+  <Diagnostics RecordId="13">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxQuality></DxQuality>
+
+    <DxImageFindings RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+
+  </Diagnostics>
+
+  <Diagnostics RecordId="14">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxQuality></DxQuality>
+
+    <DxImageFindings RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+
+  </Diagnostics>
+
+
+  <Diagnostics RecordId="15">
+    <DxDateText></DxDateText>
+    <DxDate></DxDate>
+    <DxType NotNull="True"></DxType>
+    <DxTarget></DxTarget>
+    <DxSide></DxSide>
+    <DxResult></DxResult>
+    <DxDisease></DxDisease>
+    <DxQuality></DxQuality>
+
+    <DxImageFindings RecordId="1">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="2">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="3">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="4">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+    <DxImageFindings RecordId="5">
+      <ImgFindSide></ImgFindSide>
+      <ImgFindSite></ImgFindSite>
+      <ImgFindSubsite></ImgFindSubsite>
+      <ImgFindResult></ImgFindResult>
+      <ImgFindExtension></ImgFindExtension>
+      <ImgFindWidth></ImgFindWidth>
+    </DxImageFindings>
+
+  </Diagnostics>
+  
+  
+  <Encounters RecordId="1">
+    <EncDate ></EncDate>
+    <EncDateText NotNull="True"></EncDateText>
+    <EncChiefComplaint></EncChiefComplaint>
+    <EncPhysician></EncPhysician>
+    <EncFellow></EncFellow>
+    <EncNurse></EncNurse>
+    <EncBP></EncBP>
+    <EncPulse></EncPulse>
+    <EncTemp></EncTemp>
+    <EncRespiration></EncRespiration>
+    <EncHeight></EncHeight>
+    <EncWeight></EncWeight>
+    <EncBSA></EncBSA>
+    <EncBMI></EncBMI>
+    <EncKPS></EncKPS>
+    <EncECOG_Score></EncECOG_Score>
+    <EncNotes></EncNotes>
+    <EncType></EncType>
+
+    <EncHeadNeckFinding RecordId="1">
+      <EncFindSite></EncFindSite>
+      <EncFindSide></EncFindSide>
+      <EncFindSubsite></EncFindSubsite>
+      <EncFindPrimaryDim></EncFindPrimaryDim>
+      <EncFindMorphology></EncFindMorphology>
+      <EncFindInv></EncFindInv>
+      <EncFindInvSite></EncFindInvSite>
+      <EncFindNotes></EncFindNotes>
+    </EncHeadNeckFinding>
+    <EncHeadNeckFinding RecordId="2">
+      <EncFindSite></EncFindSite>
+      <EncFindSide></EncFindSide>
+      <EncFindSubsite></EncFindSubsite>
+      <EncFindPrimaryDim></EncFindPrimaryDim>
+      <EncFindMorphology></EncFindMorphology>
+      <EncFindInv></EncFindInv>
+      <EncFindInvSite></EncFindInvSite>
+      <EncFindNotes></EncFindNotes>
+    </EncHeadNeckFinding>
+    <EncHeadNeckFinding RecordId="3">
+      <EncFindSite></EncFindSite>
+      <EncFindSide></EncFindSide>
+      <EncFindSubsite></EncFindSubsite>
+      <EncFindPrimaryDim></EncFindPrimaryDim>
+      <EncFindMorphology></EncFindMorphology>
+      <EncFindInv></EncFindInv>
+      <EncFindInvSite></EncFindInvSite>
+      <EncFindNotes></EncFindNotes>
+    </EncHeadNeckFinding>
+    <EncHeadNeckFinding RecordId="4">
+      <EncFindSite></EncFindSite>
+      <EncFindSide></EncFindSide>
+      <EncFindSubsite></EncFindSubsite>
+      <EncFindPrimaryDim></EncFindPrimaryDim>
+      <EncFindMorphology></EncFindMorphology>
+      <EncFindInv></EncFindInv>
+      <EncFindInvSite></EncFindInvSite>
+      <EncFindNotes></EncFindNotes>
+    </EncHeadNeckFinding>
+    <EncHeadNeckFinding RecordId="5">
+      <EncFindSite></EncFindSite>
+      <EncFindSide></EncFindSide>
+      <EncFindSubsite></EncFindSubsite>
+      <EncFindPrimaryDim></EncFindPrimaryDim>
+      <EncFindMorphology></EncFindMorphology>
+      <EncFindInv></EncFindInv>
+      <EncFindInvSite></EncFindInvSite>
+      <EncFindNotes></EncFindNotes>
+    </EncHeadNeckFinding>
+
+    <EncNodeExamFinding RecordId="1">
+      <ExamFindSide></ExamFindSide>
+      <ExamFindSite></ExamFindSite>
+      <ExamFindResult></ExamFindResult>
+      <ExamFindMaxDim></ExamFindMaxDim>
+    </EncNodeExamFinding>
+    <EncNodeExamFinding RecordId="2">
+      <ExamFindSide></ExamFindSide>
+      <ExamFindSite></ExamFindSite>
+      <ExamFindResult></ExamFindResult>
+      <ExamFindMaxDim></ExamFindMaxDim>
+    </EncNodeExamFinding>
+    
+  </Encounters>
+
+  <MedicalTherapy RecordId="1">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="2">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="3">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="4">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="5">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+
+  <MedicalTherapy RecordId="6">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="7">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="8">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="9">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="10">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+
+  <MedicalTherapy RecordId="11">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="12">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="13">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="14">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+  <MedicalTherapy RecordId="15">
+    <MedTxDateText></MedTxDateText>
+    <MedTxDate></MedTxDate>
+    <MedTxAgent></MedTxAgent>
+    <MedTxQuality></MedTxQuality>
+    <MedTxDisease></MedTxDisease>
+    <MedTxType NotNull="True"></MedTxType>
+    <MedTxDose></MedTxDose>
+    <MedTxUnits></MedTxUnits>
+    <MedTxCycle></MedTxCycle>
+    <MedTxStopDateText></MedTxStopDateText>
+    <MedTxStopDate></MedTxStopDate>
+  </MedicalTherapy>
+
+  <OperatingRoomDetails RecordId="11">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="11">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <Pathology RecordId="11">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathSpecimenType></PathSpecimenType>
+      </Pathology>
+      
+    </Procedures>
+    
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="12">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="12">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <Pathology RecordId="12">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathSpecimenType></PathSpecimenType>
+      </Pathology>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+
+
+  <OperatingRoomDetails RecordId="13">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="13">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <Pathology RecordId="13">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathSpecimenType></PathSpecimenType>
+      </Pathology>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+
+
+  <OperatingRoomDetails RecordId="14">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="14">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <Pathology RecordId="14">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathSpecimenType></PathSpecimenType>
+      </Pathology>
+    </Procedures>
+
+  </OperatingRoomDetails>
+
+
+  <OperatingRoomDetails RecordId="15">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="15">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <Pathology RecordId="15">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathSpecimenType></PathSpecimenType>
+      </Pathology>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="16">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="16">
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      
+      <Pathology RecordId="16">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathResult></PathResult>
+        <PathNotes></PathNotes>
+        <PathSite></PathSite>
+        <PathSide></PathSide>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+
+        <HeadNeckPath RecordId="1">
+        <PathVascularInv></PathVascularInv>
+        <PathPerineuralInv></PathPerineuralInv>
+        </HeadNeckPath>
+
+        <PathologyFinding RecordId="1">
+        <PathFindSite></PathFindSite>
+        <PathFindSubsite></PathFindSubsite>
+        <PathFindHistology></PathFindHistology>
+        <PathFindWidth></PathFindWidth>
+        </PathologyFinding>
+
+        <PathTest RecordId="1">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathTest NotNull="True"></PathTest>
+        <PathResult></PathResult>
+        <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="2">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathTest NotNull="True"></PathTest>
+        <PathResult></PathResult>
+        <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="3">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathTest></PathTest>
+        <PathResult></PathResult>
+        <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="4">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathTest></PathTest>
+        <PathResult></PathResult>
+        <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="5">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathTest></PathTest>
+        <PathResult></PathResult>
+        <PathUnits></PathUnits>
+        </PathTest>
+
+        <PathologyStageGrade RecordId="1">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="2">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="3">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="4">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="5">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="6">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="7">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="8">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="9">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="10">
+        <PathStageDisease></PathStageDisease>
+        <PathStageSystem></PathStageSystem>
+        <PathStageT></PathStageT>
+        <PathStageN></PathStageN>
+        <PathStageM></PathStageM>
+        <PathStageR></PathStageR>
+        <PathGrade></PathGrade>
+        <PathNotes></PathNotes>
+        </PathologyStageGrade>
+      </Pathology> 
+      
+    </Procedures>
+    
+  </OperatingRoomDetails>
+  
+  <OperatingRoomDetails RecordId="17">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="17">
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSite></ProcSite>
+      <ProcSide></ProcSide>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+
+      <Pathology RecordId="17">
+        <PathDateText></PathDateText>
+        <PathDate></PathDate>
+        <PathResult></PathResult>
+        <PathNotes></PathNotes>
+        <PathSite></PathSite>
+        <PathSide></PathSide>
+        <PathSubsite></PathSubsite>
+        <PathHistology></PathHistology>
+        <PathQuality></PathQuality>
+        <PathNum></PathNum>
+        <PathSpecimenType></PathSpecimenType>
+
+        <HeadNeckPath RecordId="1">
+          <PathVascularInv></PathVascularInv>
+          <PathPerineuralInv></PathPerineuralInv>
+        </HeadNeckPath>
+
+        <PathologyFinding RecordId="1">
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindWidth></PathFindWidth>
+        </PathologyFinding>
+
+        <PathTest RecordId="1">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest NotNull="True"></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="2">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest NotNull="True"></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="3">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="4">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="5">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+
+        <PathologyStageGrade RecordId="1">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="2">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="3">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="4">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="5">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="6">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="7">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="8">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="9">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="10">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+      </Pathology>
+
+    </Procedures>
+
+  </OperatingRoomDetails>
+
+  <OperatingRoomDetails RecordId="20">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="4">
+      <ProcDateText DefaultSource="OperatingRoomDetails.OpDateText,20"></ProcDateText>
+      <ProcDate DefaultSource="OperatingRoomDetails.OpDate,20"></ProcDate>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcName DefaultSource="NoTable.LateralDissectDone"></ProcName>
+      <ProcSite DefaultValue="Neck"></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcSide></ProcSide>
+      <ProcQuality DefaultValue="STD"></ProcQuality>
+      <ProcedureFinding RecordId="1">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="2">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="3">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="4">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+    </Procedures>
+    <Procedures  RecordId="5">
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcInstitution></ProcInstitution>
+      <ProcService></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcName DefaultSource="NoTable.LateralDissectDone"></ProcName>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcSide></ProcSide>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+
+
+
+    <Procedures  RecordId="17">
+      <ProcDateText ></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSite DefaultValue="Neck"></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcSide></ProcSide>
+      <ProcName ></ProcName>
+      <ProcQuality DefaultValue="STD"></ProcQuality>
+      <ProcInstitution DefaultValue="Memorial Sloan Kettering Cancer Center"></ProcInstitution>
+      <ProcService DefaultValue="Head and Neck"></ProcService>
+      <ProcSurgeon></ProcSurgeon>
+
+      
+
+
+      <ProcedureFinding RecordId="1">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="2">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="3">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+      <ProcedureFinding RecordId="4">
+        <ProcFinding></ProcFinding>
+        <ProcFindSide></ProcFindSide>
+        <ProcFindSite></ProcFindSite>
+        <ProcFindSubsite></ProcFindSubsite>
+      </ProcedureFinding>
+    </Procedures>
+    
+    
+    
+    
+    
+    
+    
+    <Procedures  RecordId="19">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="20">
+      <ProcPrimary></ProcPrimary>
+      <ProcName></ProcName>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+
+      <Pathology RecordId="20">
+        <PathDateText NotNull="True"></PathDateText>
+        <PathDate></PathDate>
+        <PathNum></PathNum>
+        <Pathologist></Pathologist>
+        <PathNotes></PathNotes>
+        <PathHistology></PathHistology>
+        <PathSide></PathSide>
+        <PathSite></PathSite>
+        <PathSubsite></PathSubsite>
+        <PathSpecimenType></PathSpecimenType>
+        <PathResult></PathResult>
+
+        <HeadNeckPath RecordId="1">
+          <PathMargin></PathMargin>
+          <PathMarginSite></PathMarginSite>
+          <PathMorphology></PathMorphology>
+          <PathVascularInv></PathVascularInv>
+          <PathPerineuralInv></PathPerineuralInv>
+          <PathTumorInv ></PathTumorInv>
+          <PathInvasionDepth ></PathInvasionDepth>
+          <PathTumorMaxDim ></PathTumorMaxDim>
+          <PathNecrosis ></PathNecrosis>
+          <PathMultiCentricity ></PathMultiCentricity>
+          <PathInvasionPattern ></PathInvasionPattern>
+          <PathCarcinomaInSitu ></PathCarcinomaInSitu>
+          <PathNonNeoplasticMucosa ></PathNonNeoplasticMucosa>
+          <PathExtension ></PathExtension>
+        </HeadNeckPath>
+
+        <PathTest RecordId="1">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest NotNull="True"></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="2">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest NotNull="True"></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="3">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="4">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+        <PathTest RecordId="5">
+          <PathDateText></PathDateText>
+          <PathDate></PathDate>
+          <PathTest></PathTest>
+          <PathResult></PathResult>
+          <PathUnits></PathUnits>
+        </PathTest>
+
+        <PathologyFinding RecordId="1" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="2" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="3" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="4" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="5" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="6" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="7" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="8" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="9" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+        <PathologyFinding RecordId="10" >
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindSubsite></PathFindSubsite>
+          <PathFindHistology></PathFindHistology>
+          <PathFindHeight></PathFindHeight>
+          <PathFindWidth></PathFindWidth>
+          <PathFindLength></PathFindLength>
+          <PathFindGrade></PathFindGrade>
+          <PathFindResult></PathFindResult>
+        </PathologyFinding>
+
+        <NodePathFinding RecordId="1">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="2">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="3">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="4">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="5">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="6">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="7">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="8">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="9">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="10">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="11">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="12">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="13">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="14">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="15">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+        <NodePathFinding RecordId="16">
+          <PathFindSide></PathFindSide>
+          <PathFindSite></PathFindSite>
+          <PathFindPosNodes></PathFindPosNodes>
+          <PathFindNumNodes></PathFindNumNodes>
+          <PathFindHistology></PathFindHistology>
+          <PathFindMaxDim></PathFindMaxDim>
+        </NodePathFinding>
+
+        <PathologyStageGrade RecordId="1">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="2">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="3">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="4">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="5">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="6">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="7">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="8">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="9">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+        <PathologyStageGrade RecordId="10">
+          <PathStageDisease></PathStageDisease>
+          <PathStageSystem></PathStageSystem>
+          <PathStageT></PathStageT>
+          <PathStageN></PathStageN>
+          <PathStageM></PathStageM>
+          <PathStageR></PathStageR>
+          <PathGrade></PathGrade>
+          <PathNotes></PathNotes>
+        </PathologyStageGrade>
+
+      </Pathology>
+    </Procedures>
+    <Procedures  RecordId="21">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="22">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="23">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="24">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="25">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="26">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="27">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="28">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="29">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="30">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="31">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="32">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="33">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="34">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="35">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="36">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="37">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="38">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="39">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="40">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="41">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="42">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="43">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="44">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId="45">
+      <ProcPrimary></ProcPrimary>
+      <ProcName NotNull="True"></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+
+
+    
+  </OperatingRoomDetails>
+
+
+  <OperatingRoomDetails RecordId="60">
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpAdmitDateText></OpAdmitDateText>
+    <OpAdmitDate></OpAdmitDate>
+    <OpDischargeDateText></OpDischargeDateText>
+    <OpDischargeDate></OpDischargeDate>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpQuality></OpQuality>
+
+    <Procedures  RecordId="60">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="61">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="62">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="63">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="64">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="65">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="66">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="67">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="68">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="69">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="70">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="71">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="72">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="73">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="74">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    <Procedures  RecordId="75">
+      <ProcPrimary></ProcPrimary>
+      <ProcName ></ProcName>
+      <ProcDateText NotNull="True"></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcSide></ProcSide>
+      <ProcSite></ProcSite>
+      <ProcSubsite></ProcSubsite>
+      <ProcQuality></ProcQuality>
+      <ProcApproach></ProcApproach>
+      <ProcIndication></ProcIndication>
+      <ProcNotes></ProcNotes>
+    </Procedures>
+    
+  </OperatingRoomDetails>
+
+
+
+
+  <Procedures  RecordId="46">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="47">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="48">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="49">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="50">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="51">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="52">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="53">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="54">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+
+
+  
+  <Procedures  RecordId="90">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="91">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="92">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="93">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  <Procedures  RecordId="94">
+    <ProcPrimary></ProcPrimary>
+    <ProcName ></ProcName>
+    <ProcDateText NotNull="True"></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcSide></ProcSide>
+    <ProcSite></ProcSite>
+    <ProcSubsite></ProcSubsite>
+    <ProcQuality></ProcQuality>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNotes></ProcNotes>
+  </Procedures>
+  
+  <RadiationTherapy RecordId="1">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="2">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="3">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="4">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="5">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="6">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="7">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="8">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="9">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="10">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="11">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="12">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="13">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="14">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="15">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="16">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="17">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="18">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="19">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  <RadiationTherapy RecordId="20">
+    <RadTxDateText></RadTxDateText>
+    <RadTxDate></RadTxDate><RadTxStopDateText></RadTxStopDateText><RadTxStopDate></RadTxStopDate>
+    <RadTxType NotNull="True" ></RadTxType>
+    <RadTxDisease></RadTxDisease>
+    <RadTxTarget></RadTxTarget>
+    <RadTxTotalDose></RadTxTotalDose>
+    <RadTxUnits></RadTxUnits>
+    <RadTxQuality></RadTxQuality>
+  </RadiationTherapy>
+  
+  
+  
+  
+  
+  <SocialHistories RecordId="1">
+    <SocHxOccupation></SocHxOccupation>
+    <SocHxMaritalStatus></SocHxMaritalStatus>
+    <SocHxChildren></SocHxChildren>
+    <SocHxTobaccoType></SocHxTobaccoType>
+    <SocHxTobaccoPacksPerDay></SocHxTobaccoPacksPerDay>
+    <SocHxTobaccoYears></SocHxTobaccoYears>
+    <SocHxTobaccoQuitYear></SocHxTobaccoQuitYear>
+    <SocHxAlcohol></SocHxAlcohol>
+    <SocHxCarcinogen></SocHxCarcinogen>
+    <SocHxDataSource></SocHxDataSource>
+  </SocialHistories>
+  
+
+  <Status RecordId="1">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="2">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="3">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="4">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="5">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <Status RecordId="10">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="11">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="12">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="13">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="14">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="15">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="16">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="17">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="18">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="19">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="20">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="21">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="22">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="23">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="24">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="25">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="26">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="27">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="28">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="29">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <StatusDisease></StatusDisease>
+    <Status NotNull="True"></Status>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+
+  <Status RecordId="30">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>  
+  <Status RecordId="31">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+  <Status RecordId="32">
+    <StatusDateText></StatusDateText>
+    <StatusDate></StatusDate>
+    <Status NotNull="True"></Status>
+    <StatusDisease></StatusDisease>
+    <StatusNotes></StatusNotes>
+    <StatusQuality></StatusQuality>
+  </Status>
+ 
+  <Surveys RecordId="1">
+    <SurveyDateText></SurveyDateText>
+    <SurveyDate></SurveyDate>
+    <SurveyType></SurveyType>
+
+    <SurveyItems RecordId="1">
+       <SurveyItem></SurveyItem>
+      <SurveyItemResult></SurveyItemResult>
+    </SurveyItems>
+    
+  </Surveys>
+
+  <Toxicities RecordId="1">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="2">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="3">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="4">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="5">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="6">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="7">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="8">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="9">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+  <Toxicities RecordId="10">
+    <ToxDateText></ToxDateText>
+    <ToxDate></ToxDate>
+    <ToxName></ToxName><ToxRelatedTo></ToxRelatedTo><ToxIntervention></ToxIntervention>
+    <ToxNotes></ToxNotes>
+  </Toxicities>
+
+  
+  <NoTable>
+    
+    <NodeFindings></NodeFindings>
+    
+    <LateralDissectDone></LateralDissectDone>
+    <MedTxRecorded></MedTxRecorded>
+    <MedTxRecorded2></MedTxRecorded2>
+    <MedTxRecorded3></MedTxRecorded3>
+    <RadTxRecorded></RadTxRecorded>
+    <RadTxRecorded2></RadTxRecorded2>
+    <RadTxRecorded3></RadTxRecorded3>
+
+    <IntentionToTreatDateText></IntentionToTreatDateText>
+    <IntentionToTreatValues></IntentionToTreatValues>
+    
+    <ComplicationRecorded></ComplicationRecorded>
+    <ComplicationRecorded2></ComplicationRecorded2>
+    <TreatmentRecorded></TreatmentRecorded>
+    <NoTreatment_Date></NoTreatment_Date>
+    <LocalRecorded></LocalRecorded>
+    <NoLocal_Date></NoLocal_Date>
+    <NeckRecorded></NeckRecorded>
+    <NoNeck_Date></NoNeck_Date>
+    <DistantRecorded></DistantRecorded>
+    <NoDistant_Date></NoDistant_Date>
+    <PrimaryProcRecorded></PrimaryProcRecorded>
+    <ReconProcDone></ReconProcDone>
+    <LateralDissectDone></LateralDissectDone>
+    <ProcSubsiteValues_4></ProcSubsiteValues_4>
+    <ProcSubsiteValues_5></ProcSubsiteValues_5>
+    <FeedingRecorded></FeedingRecorded>
+    <TracRecorded></TracRecorded>
+    <SalvageProcRecorded></SalvageProcRecorded>
+
+    <ProcNamePrefix></ProcNamePrefix>
+    <ProcDateText></ProcDateText>
+    <ProcApproach></ProcApproach>
+    <ProcIndication></ProcIndication>
+    <ProcNamePrefixSalvage></ProcNamePrefixSalvage>
+    <ProcDateTextSalvage></ProcDateTextSalvage>
+    <ProcApproachSalvage></ProcApproachSalvage>
+    <ProcIndicationSalvage></ProcIndicationSalvage>    
+    
+    <PathKeratinization></PathKeratinization>
+    <PathKeratinization2></PathKeratinization2>
+    <PathKeratinizationSalvage></PathKeratinizationSalvage>
+    <PathResultType></PathResultType>
+    <PathResultType2></PathResultType2>
+
+    <HistologicECSpread></HistologicECSpread>
+
+    <Status_FirstRecurrence_10></Status_FirstRecurrence_10>
+    <Status_FirstRecurrence_11></Status_FirstRecurrence_11>
+    <Status_FirstRecurrence_12></Status_FirstRecurrence_12>
+    <Status_FirstRecurrence_13></Status_FirstRecurrence_13>
+    <Status_FirstRecurrence_14></Status_FirstRecurrence_14>
+    <Status_LocalRecurrence_15></Status_LocalRecurrence_15>
+    <Status_LocalRecurrence_16></Status_LocalRecurrence_16>
+    <Status_LocalRecurrence_17></Status_LocalRecurrence_17>
+    <Status_LocalRecurrence_18></Status_LocalRecurrence_18>
+    <Status_LocalRecurrence_19></Status_LocalRecurrence_19>
+    <Status_LocalRecurrenceRx_15></Status_LocalRecurrenceRx_15>
+    <Status_LocalRecurrenceRx_16></Status_LocalRecurrenceRx_16>
+    <Status_LocalRecurrenceRx_17></Status_LocalRecurrenceRx_17>
+    <Status_LocalRecurrenceRx_18></Status_LocalRecurrenceRx_18>
+    <Status_LocalRecurrenceRx_19></Status_LocalRecurrenceRx_19>
+    <Status_NeckRecurrence_20></Status_NeckRecurrence_20>
+    <Status_NeckRecurrence_21></Status_NeckRecurrence_21>
+    <Status_NeckRecurrence_22></Status_NeckRecurrence_22>
+    <Status_NeckRecurrence_23></Status_NeckRecurrence_23>
+    <Status_NeckRecurrence_24></Status_NeckRecurrence_24>
+    <Status_NeckRecurrenceRx_20></Status_NeckRecurrenceRx_20>
+    <Status_NeckRecurrenceRx_21></Status_NeckRecurrenceRx_21>
+    <Status_NeckRecurrenceRx_22></Status_NeckRecurrenceRx_22>
+    <Status_NeckRecurrenceRx_23></Status_NeckRecurrenceRx_23>
+    <Status_NeckRecurrenceRx_24></Status_NeckRecurrenceRx_24>
+    <Status_DistantFailure_25></Status_DistantFailure_25>
+    <Status_DistantFailure_26></Status_DistantFailure_26>
+    <Status_DistantFailure_27></Status_DistantFailure_27>
+    <Status_DistantFailure_28></Status_DistantFailure_28>
+    <Status_DistantFailure_29></Status_DistantFailure_29>
+    <Status_DistantFailureRx_25></Status_DistantFailureRx_25>
+    <Status_DistantFailureRx_26></Status_DistantFailureRx_26>
+    <Status_DistantFailureRx_27></Status_DistantFailureRx_27>
+    <Status_DistantFailureRx_28></Status_DistantFailureRx_28>
+    <Status_DistantFailureRx_29></Status_DistantFailureRx_29>
+
+    <PatientStatus></PatientStatus>
+    <PatientStatus2></PatientStatus2>
+
+    <LevelsDissRight></LevelsDissRight>
+    <PathFindSiteCBL_L23></PathFindSiteCBL_L23>
+    <PathFindSiteCBL_R24></PathFindSiteCBL_R24>
+    <LevelsDissLeft></LevelsDissLeft>
+    
+  </NoTable>
+  
+</eform>

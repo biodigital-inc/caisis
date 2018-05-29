@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>		
+
+<eform name="Urinary Diversion Eform" displayName="Urinary Diversion EForm">
+
+		<eformSection name="Orthotopic Neo-Bladder">
+      <eformItem displayName="Date and Surgeon" controlName="ORDateAndCaseSurgeon"></eformItem>
+      <eformItem displayName="Urinary Diversion Type" controlName="UrinaryDiversionDetails"></eformItem>
+      <eformItem displayName="Neo-Bladder Details" controlName="OrthotopicNeoBladder"></eformItem>
+      </eformSection>
+  <eformSection name="Ileal Conduit Diversion">
+    <eformItem displayName="Ileal Conduit Diversion Details" controlName="IlealConduitDiversion"></eformItem>
+    </eformSection>
+  <eformSection name="Continent Cutaneous Reservoir">
+    <eformItem displayName="Continent Cutaneous Reservoir Details" controlName="ContinentCutaneousReservoir"></eformItem>
+  </eformSection>
+
+  <eformSection name="Other Details">
+    <eformItem displayName="Drains" controlName="UrinaryDiversionDrains"></eformItem>
+    <eformItem displayName="Notes" controlName="ProcedureNotes"></eformItem>
+    <eformItem displayName="Presence Statement" controlName="PresenceStatement"></eformItem>
+  </eformSection>
+
+
+
+
+  <NoTable  PutDataInTable="OperatingRoomDetails"  PutDataInField="OpNotes" >
+
+
+
+	</NoTable>
+
+
+
+  <OperatingRoomDetails>
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    
+    <OpASA></OpASA>
+    <OpAnesthesiaDuration></OpAnesthesiaDuration>
+    <OpAnesthesiaType></OpAnesthesiaType>
+
+    <OpDifficulty></OpDifficulty>
+    <OpEstBloodLoss></OpEstBloodLoss>
+
+    <OpNotes></OpNotes>
+
+    <OpPresenceStatement></OpPresenceStatement>
+    <OpPresenceKeyPortions></OpPresenceKeyPortions>
+    <OpCaseSurgeon></OpCaseSurgeon>
+  </OperatingRoomDetails>
+		
+		<Procedures  RecordId='1'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+
+
+      <UrinaryDiversionProc>
+        <ProcTermIleumLength></ProcTermIleumLength>
+        <ProcR_ColonLength></ProcR_ColonLength>
+        <ProcSigmoidLength></ProcSigmoidLength>
+        <ProcTransColonLength></ProcTransColonLength>
+        <ProcIlealBasedLength></ProcIlealBasedLength>
+        <ProcAppendixLength></ProcAppendixLength>
+        <ProcOtherSegment></ProcOtherSegment>
+        <ProcOtherSegmentLength></ProcOtherSegmentLength>
+        <ProcStomaType></ProcStomaType>
+        <ProcStomaLocation></ProcStomaLocation>
+        <ProcNumFascialSutures></ProcNumFascialSutures>
+        <ProcUreterStents></ProcUreterStents>
+        <ProcUreterStentExternalized></ProcUreterStentExternalized>
+        <ProcEvertedMucosa></ProcEvertedMucosa>
+
+        <ProcNB_Configuration></ProcNB_Configuration>
+        <ProcNB_NumChimneys></ProcNB_NumChimneys>
+        <ProcNB_ChimneyLength1></ProcNB_ChimneyLength1>
+        <ProcNB_ChimneyLength2></ProcNB_ChimneyLength2>
+        <ProcNB_AfferentLimbLength></ProcNB_AfferentLimbLength>
+        <ProcBladderNeckTube></ProcBladderNeckTube>
+        <ProcBladderNeckTubeLength></ProcBladderNeckTubeLength>
+        <ProcNumSutures></ProcNumSutures>
+        <ProcNB_NumUrethraSutures></ProcNB_NumUrethraSutures>
+        <ProcNB_UrethraSutureType></ProcNB_UrethraSutureType>
+        <ProcNB_UrethraSutureQuality></ProcNB_UrethraSutureQuality>
+        <ProcContMech></ProcContMech>
+        <ProcContMechSubtype></ProcContMechSubtype>
+        <ProcContMechLength></ProcContMechLength>
+        <ProcJP_Drain></ProcJP_Drain>
+        <ProcPelvicDrain></ProcPelvicDrain>
+        <ProcPenroseDrain></ProcPenroseDrain>
+        <ProcSuprapubicDrain></ProcSuprapubicDrain>
+        <ProcStomalDrain></ProcStomalDrain>
+        <ProcUrethraDrain></ProcUrethraDrain>
+        <ProcPouch></ProcPouch>
+
+        <ProcL_UreterAnast></ProcL_UreterAnast>
+        <ProcR_UreterAnast></ProcR_UreterAnast>
+
+
+      </UrinaryDiversionProc>
+      
+      
+      
+      
+		</Procedures>
+		<Procedures  RecordId='2'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+
+      <NeuralStimulationProcFinding  RecordId='1'>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+        <ProcFindSide></ProcFindSide>
+      </NeuralStimulationProcFinding>
+
+      <NeuralStimulationProcFinding  RecordId='2'>
+        <ProcFindMovement></ProcFindMovement>
+        <ProcFindmA></ProcFindmA>
+        <ProcFindSide></ProcFindSide>
+      </NeuralStimulationProcFinding>      
+      
+
+    </Procedures>
+		<Procedures  RecordId='3'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+		<Procedures  RecordId='4'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+		<Procedures  RecordId='5'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>		
+		<Procedures  RecordId='6'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>	
+		<Procedures  RecordId='7'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+      <ProcName NotNull="True"></ProcName>
+      <ProcSurgeon></ProcSurgeon>
+      <ProcSurgeonType></ProcSurgeonType>
+      <ProcAssistant></ProcAssistant>
+      <ProcAssistantType></ProcAssistantType>
+      <PathResult></PathResult>
+      <ProcSide></ProcSide>
+      <ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+    </Procedures>
+    <Procedures  RecordId='8'>
+      <ProcDateText></ProcDateText>
+      <ProcDate></ProcDate>
+			<ProcName NotNull="True"></ProcName>
+			<ProcSurgeon></ProcSurgeon>
+			<ProcSurgeonType></ProcSurgeonType>
+			<ProcAssistant></ProcAssistant>
+			<ProcAssistantType></ProcAssistantType>
+			<PathResult></PathResult>
+			<ProcSide></ProcSide>
+			<ProcNotes></ProcNotes>
+      <ProcInstitution></ProcInstitution>
+      <ProcQuality></ProcQuality>
+		</Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+
+  </Procedures>
+
+ 				
+</eform>
+
+
+

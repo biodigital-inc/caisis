@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<eform name="Nephrectomy Details EForm" displayName="Nephrectomy Details EForm">
+
+
+
+  <eformSection name="Nature of Operation">
+    <eformItem displayName="Date and Surgeon" controlName="ORDateAndCaseSurgeon"></eformItem>
+    <eformItem displayName="Anesthesia" controlName="Anesthesia"></eformItem>
+    <eformItem displayName="Diagnosis" controlName="NephPreAndPostOpDiagnosis"></eformItem>
+    <eformItem displayName="Tumor Location" controlName="KidneyTumorLocation"></eformItem>
+    <eformItem displayName="Number of Tumors" controlName="NumberKidneyTumors"></eformItem>
+    <eformItem displayName="Procedures" controlName="NephrectomyAndAncillaryProcs"></eformItem>
+    <eformItem displayName="Type Planned" controlName="PlannedType"></eformItem>
+    <eformItem displayName="Plan Reason" controlName="ReasonPartialPlanned"></eformItem>
+  </eformSection>
+  <eformSection name="Nephrectomy Details">
+    <eformItem displayName="Complete Resection" controlName="CompleteResection"></eformItem>
+    <eformItem displayName="Excision Technique" controlName="ExcisionTechnique"></eformItem>
+    <eformItem displayName="IntraOp US" controlName="NephIntraOpUS"></eformItem>
+    <eformItem displayName="Level of IVC Invasion" controlName="LevelIVCInvasion"></eformItem>
+    <eformItem displayName="Ischemia" controlName="Ischemia"></eformItem>
+    <eformItem displayName="Clamp Time" controlName="ClampTime"></eformItem>
+    <eformItem displayName="Renal Hypothermia" controlName="RenalHypothermia"></eformItem>
+  </eformSection>
+  
+  <eformSection name="Additional Details">
+    <eformItem displayName="Renoprotective Agent" controlName="ManitolDetails"></eformItem>
+    <eformItem displayName="Additional Neph Details" controlName="AdditionalNephDetails"></eformItem>
+    <eformItem displayName="Frozen Margins" controlName="FrozenMargins"></eformItem>
+    <eformItem displayName="Regional LND" controlName="NephRegionalLND"></eformItem>
+
+  </eformSection>
+
+
+
+    <eformSection name="Surgical Details">
+      <eformItem displayName="Surgical Details" controlName="NephSurgicalDetails"></eformItem>
+      <eformItem displayName="Medications" controlName="NephrectomyMedications"></eformItem>
+      <eformItem displayName="Fluids" controlName="SurgicalDetailsFluids"></eformItem>
+    <eformItem displayName="Notes" controlName="ProcedureNotes"></eformItem>
+  </eformSection>
+
+
+
+
+
+  <NoTable PutDataInTable="OperatingRoomDetails"  PutDataInField="OpNotes">
+  </NoTable>
+
+
+
+  <OperatingRoomDetails>
+
+    <OpDateText ></OpDateText>
+    <OpDate></OpDate>
+    <OpInstitution></OpInstitution>
+    <OpASA></OpASA>
+    <OpAnesthesiaType></OpAnesthesiaType>
+    <OpCaseSurgeon></OpCaseSurgeon>
+    <OpDuration></OpDuration>
+    <OpAnesthesiaDuration></OpAnesthesiaDuration>
+    <OpEstBloodLoss></OpEstBloodLoss>
+    <OpAutoAvailable></OpAutoAvailable>
+    <OpAutoTransfused></OpAutoTransfused>
+    <OpRBC_Available></OpRBC_Available>
+    <OpRBC_Transfused></OpRBC_Transfused>
+    <OpRBC_IntraOp></OpRBC_IntraOp>
+    <OpRBC_PostOp></OpRBC_PostOp>
+    <OpFFP_Transfused></OpFFP_Transfused>
+    <OpHGB_Admit></OpHGB_Admit>
+    <OpHCT_Admit></OpHCT_Admit>
+    <OpHGB_IntraOp></OpHGB_IntraOp>
+    <OpHCT_IntraOp></OpHCT_IntraOp>
+    <OpNS_Notes></OpNS_Notes>
+    <OpNS_ProbeType></OpNS_ProbeType>
+    <OpNotes></OpNotes>
+
+
+    <OpHD_Available></OpHD_Available>
+    <OpHD_Transfused></OpHD_Transfused>
+
+
+    <OpFFP_Available></OpFFP_Available>
+    <OpAutoIntraOp></OpAutoIntraOp>
+    <OpFFP_IntraOp></OpFFP_IntraOp>
+    <OpHD_IntraOp></OpHD_IntraOp>
+    <OpAuto_PostOp></OpAuto_PostOp>
+    <OpFFP_PostOp></OpFFP_PostOp>
+
+
+    <OpCrystalloid></OpCrystalloid>
+    <OpFluidAlbumin></OpFluidAlbumin>
+    <OpFluidHespan></OpFluidHespan>
+    <OpColloid></OpColloid>  
+    
+
+  </OperatingRoomDetails>
+
+
+
+
+
+
+  <Procedures  RecordId='1'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName Required="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+
+    <NephrectomyProc>
+      <ProcPlannedType></ProcPlannedType>
+      <ProcPartialReason></ProcPartialReason>
+      <ProcConversionReason></ProcConversionReason>
+      
+
+      
+      
+      <ProcPartialIceSlush></ProcPartialIceSlush>
+
+      <ProcPreOpDiagnosis></ProcPreOpDiagnosis>
+      <ProcPostOpDiagnosis></ProcPostOpDiagnosis>
+
+      <ProcTumorLocation></ProcTumorLocation>
+      <ProcNumTumors></ProcNumTumors>
+      <ProcCompleteResection></ProcCompleteResection>
+      <ProcExcisionTechnique></ProcExcisionTechnique>
+      <ProcIntraOpUS></ProcIntraOpUS>
+      <ProcIntraOpUS_Lesions></ProcIntraOpUS_Lesions>
+      <ProcIVC_Inv></ProcIVC_Inv>
+      <ProcPartialIschemia></ProcPartialIschemia>
+      <ProcPartialClampDuration></ProcPartialClampDuration>
+      
+      <ProcHypothermia></ProcHypothermia>
+      <ProcRenalHypothermiaType></ProcRenalHypothermiaType>
+      <ProcUreteralStent></ProcUreteralStent>
+
+      <ProcCollectingSystemEntry></ProcCollectingSystemEntry>
+      <ProcCollectingSystemRepair></ProcCollectingSystemRepair>
+      <ProcRenalVeinClamping></ProcRenalVeinClamping>
+      <ProcNumRenalArteries></ProcNumRenalArteries>
+      <ProcNumRenalArteriesOccluded></ProcNumRenalArteriesOccluded>
+      <ProcSinusFatExtension></ProcSinusFatExtension>
+      <ProcFrozenSections></ProcFrozenSections>
+      <ProcAddTissue></ProcAddTissue>
+      
+      
+      <ProcDrains></ProcDrains>
+      <ProcCO2_PressureDuration></ProcCO2_PressureDuration>
+      <ProcPercKidneySpared></ProcPercKidneySpared>
+      <ProcComplication></ProcComplication>
+
+
+        <ProcNephrectomyTypeConversionReason/>
+        <ProcInfusionType></ProcInfusionType>
+        <ProcInfusionBeforeClamping></ProcInfusionBeforeClamping>
+        <ProcInfusionToRenalVeinClampingTime></ProcInfusionToRenalVeinClampingTime>
+        <ProcInfusionDetails></ProcInfusionDetails>
+
+
+    </NephrectomyProc>
+
+
+  </Procedures>
+  <Procedures  RecordId='2'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+    
+
+  </Procedures>
+  <Procedures  RecordId='3'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='4'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='5'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='6'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='7'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='8'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='9'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+  </Procedures>
+  <Procedures  RecordId='10'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSurgeon></ProcSurgeon>
+    <ProcSurgeonType></ProcSurgeonType>
+    <ProcAssistant></ProcAssistant>
+    <ProcAssistantType></ProcAssistantType>
+    <PathResult></PathResult>
+    <ProcSide></ProcSide>
+    <ProcNotes></ProcNotes>
+    <ProcInstitution></ProcInstitution>
+    <ProcQuality></ProcQuality>
+
+  </Procedures>
+  <Procedures  RecordId='11'>
+    <ProcDateText></ProcDateText>
+    <ProcDate></ProcDate>
+    <ProcName NotNull="True"></ProcName>
+    <ProcSite></ProcSite>
+  </Procedures>
+
+
+  <Medications RecordId='1'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId='2'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication></Medication>
+  </Medications>
+  <Medications RecordId='3'>
+    <MedDateText></MedDateText>
+    <MedDate></MedDate>
+    <Medication></Medication>
+    <Medications RecordId='4'>
+      <MedDateText></MedDateText>
+      <MedDate></MedDate>
+      <Medication></Medication>
+    </Medications>
+    <Medications RecordId='5'>
+      <MedDateText></MedDateText>
+      <MedDate></MedDate>
+      <Medication></Medication>
+    </Medications>
+  </Medications>
+  
+  
+</eform>
+
+
+

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages charset="utf-8">
+  <block id="cut">
+    <message name="title">Kəs</message>
+  </block>
+  <block id="copy">
+    <message name="title">Kopyala</message>
+  </block>
+  <block id="paste">
+    <message name="title">Yapışdır</message>
+  </block>
+  <block id="undo">
+    <message name="title">Geri al</message>
+  </block>
+  <block id="redo">
+    <message name="title">Təkrarla</message>
+  </block>
+  <block id="image_insert">
+    <message name="title">Şəkil əlavə et</message>
+    <message name="select">Seç</message>
+    <message name="delete">Sil</message>
+    <message name="cancel">Ləğv et</message>
+    <message name="library">Kitabxana</message>
+    <message name="preview">Görünüş</message>
+    <message name="images">Şəkillər</message>
+    <message name="upload">Şəkil yüklə</message>
+    <message name="upload_button">Yüklə</message>
+    <message name="error">Xəta</message>
+    <message name="error_no_image">Şəkil seçin</message>
+    <message name="error_uploading">Faylın yüklənməsi zamanı xəta baş verdi. Zəhmət olmasa bir az sonra təkrar yoxlayın</message>
+    <message name="error_wrong_type">Düzgun olmayan şəkil formatı</message>
+    <message name="error_no_dir">Kitabxana fiziki olaraq mövcud deyil</message>
+    <message name="error_cant_delete">Silmə müvəffəqiyyətsiz oldu</message>
+  </block>
+  <block id="image_prop">
+    <message name="title">Şəkil xüsusiyyətləri</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+    <message name="source">Mənbə</message>
+    <message name="alt">Alternativ mətn</message>
+    <message name="align">Yerləşmə</message>
+    <message name="justifyleft">sol</message>
+    <message name="justifyright">sağ</message>
+    <message name="top">üst</message>
+    <message name="middle">orta</message>
+    <message name="bottom">alt</message>
+    <message name="absmiddle">tən orta</message>
+    <message name="texttop">mətn yuxarıda</message>
+    <message name="baseline">altxətt</message>
+    <message name="width">Uzunluq</message>
+    <message name="height">Hündürlük</message>
+    <message name="border">Sərhəd</message>
+    <message name="hspace">Hor. boşluq</message>
+    <message name="vspace">Şaq. boşluq</message>
+    <message name="error">Xəta</message>
+    <message name="error_width_nan">Uzunluq rəqəm deyil</message>
+    <message name="error_height_nan">Hündürlük rəqəm deyil</message>
+    <message name="error_border_nan">Sərhəd rəqəm deyil</message>
+    <message name="error_hspace_nan">Horizontal boşluq rəqəm deyil</message>
+    <message name="error_vspace_nan">Şaquli boşluq rəqəm deyil</message>
+  </block>
+  <block id="inserthorizontalrule">
+    <message name="title">Horizontal xətt</message>
+  </block>
+  <block id="table_create">
+    <message name="title">Cədvəl düzəlt</message>
+  </block>
+  <block id="table_prop">
+    <message name="title">Cədvəl xüsusiyyətləri</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+    <message name="rows">Sətir</message>
+    <message name="columns">Sütun</message>
+    <message name="css_class">CSS sinifi</message>
+    <message name="width">Uzunluq</message>
+    <message name="height">Hündürlük</message>
+    <message name="border">Sərhəd</message>
+    <message name="pixels">piksel</message>
+    <message name="cellpadding">Hüceyrədən uzaqlıq</message>
+    <message name="cellspacing">Hüceyrə uzaqlığı</message>
+    <message name="bg_color">Arxa fon rəngi</message>
+    <message name="background">Arxa fon şəkli</message>
+    <message name="error">Xəta</message>
+    <message name="error_rows_nan">Sətir rəqəm deyil</message>
+    <message name="error_columns_nan">Sütun rəqəm deyil</message>
+    <message name="error_width_nan">Uzunluq rəqəm deyil</message>
+    <message name="error_height_nan">Hündürlük rəqəm deyil</message>
+    <message name="error_border_nan">Sərhəd rəqəm deyil</message>
+    <message name="error_cellpadding_nan">Hüceyrədən uzaqlıq rəqəm deyil</message>
+    <message name="error_cellspacing_nan">Hüceyrə uzaqlığı rəqəm deyil</message>
+  </block>
+  <block id="table_cell_prop">
+    <message name="title">Hüceyrə xüsusiyyətləri</message>
+    <message name="horizontal_align">Horizontal yerləşmə</message>
+    <message name="vertical_align">Şaquli yerləşmə</message>
+    <message name="width">Uzunluq</message>
+    <message name="height">Hündürlük</message>
+    <message name="css_class">CSS sinifi</message>
+    <message name="no_wrap">Yığılma olmasın</message>
+    <message name="bg_color">Arxa fon rəngi</message>
+    <message name="background">Arxa fon şəkli</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+    <message name="justifyleft">Sol</message>
+    <message name="justifycenter">Mərkəz</message>
+    <message name="justifyright">Sağ</message>
+    <message name="top">Üst</message>
+    <message name="middle">Orta</message>
+    <message name="bottom">Alt</message>
+    <message name="baseline">Altxətt</message>
+    <message name="error">Xəta</message>
+    <message name="error_width_nan">Uzunluq rəqəm deyil</message>
+    <message name="error_height_nan">Hündürlük rəqəm deyil</message>
+  </block>
+  <block id="table_row_insert">
+    <message name="title">Sətir əlavə et</message>
+  </block>
+  <block id="table_column_insert">
+    <message name="title">Sütun əlavə et</message>
+  </block>
+  <block id="table_row_delete">
+    <message name="title">Sətir sil</message>
+  </block>
+  <block id="table_column_delete">
+    <message name="title">Sütun sil</message>
+  </block>
+  <block id="table_cell_merge_right">
+    <message name="title">Sağla birləşmə</message>
+  </block>
+  <block id="table_cell_merge_down">
+    <message name="title">Aşağıyla birləşmə</message>
+  </block>
+  <block id="table_cell_split_horizontal">
+    <message name="title">Hüceyrəni horizontal böl</message>
+  </block>
+  <block id="table_cell_split_vertical">
+    <message name="title">Hüceyrəni şaquli böl</message>
+  </block>
+  <block id="style">
+    <message name="title">Stil</message>
+  </block>
+  <block id="codesnippet">
+    <message name="title">Şablon</message>
+  </block>
+  <block id="fontname">
+    <message name="title">Font</message>
+  </block>
+  <block id="fontsize">
+    <message name="title">Ölçü</message>
+  </block>
+  <block id="formatBlock">
+    <message name="title">Paraqraf</message>
+  </block>
+  <block id="bold">
+    <message name="title">Qalın</message>
+  </block>
+  <block id="italic">
+    <message name="title">Əyri</message>
+  </block>
+  <block id="underline">
+    <message name="title">Altxətli</message>
+  </block>
+  <block id="insertorderedlist">
+    <message name="title">Nömrəli siyahı</message>
+  </block>
+  <block id="insertunorderedlist">
+    <message name="title">Muncuqlu siyahı</message>
+  </block>
+  <block id="indent">
+    <message name="title">Abzas əlavə et</message>
+  </block>
+  <block id="outdent">
+    <message name="title">Abzas sil</message>
+  </block>
+  <block id="justifyleft">
+    <message name="title">Sol</message>
+  </block>
+  <block id="justifycenter">
+    <message name="title">Mərkəz</message>
+  </block>
+  <block id="justifyright">
+    <message name="title">Sağ</message>
+  </block>
+  <block id="fore_color">
+    <message name="title">Yazı rəngi</message>
+  </block>
+  <block id="bg_color">
+    <message name="title">Arxa plan rəngi</message>
+  </block>
+  <block id="design">
+    <message name="title">WYSIWYG (dizayn) moduna keçin</message>
+  </block>
+  <block id="html">
+    <message name="title">HTML (kod) moduna keçin</message>
+  </block>
+  <block id="colorpicker">
+    <message name="title">Rəng seçən</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+  </block>
+  <block id="cleanup">
+    <message name="title">HTML təmizləməsi (stilləri sil)</message>
+    <message name="confirm">Bu əməliyyat icra edilərsə cari məzmundakı bütün stillər, fontlar və tag-lər silinəcəkdir. Formatlaşdırmanızın bir qismi və ya hamısı silinə bilər.</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+  </block>
+  <block id="toggle_borders">
+    <message name="title">Sərhədləri dəyiş</message>
+  </block>
+  <block id="hyperlink">
+    <message name="title">Hiperlink</message>
+    <message name="url">URL</message>
+    <message name="name">Ad</message>
+    <message name="target">Hədəf</message>
+    <message name="title_attr">Başlıq</message>
+    <message name="a_type">Tip</message>
+    <message name="type_link">Link</message>
+    <message name="type_anchor">Lövbər</message>
+    <message name="type_link2anchor">Lövbərə link</message>
+    <message name="anchors">Lövbərlər</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+  </block>
+  <block id="hyperlink_targets">
+    <message name="_self">eyni çərçivə (_self)</message>
+    <message name="_blank">yeni boş pəncərə (_blank)</message>
+    <message name="_top">yuxarı çərçivə(_top)</message>
+    <message name="_parent">valideyn çərçivə (_parent)</message>
+  </block>
+  <block id="table_row_prop">
+    <message name="title">Sətir xüsusiyyətləri</message>
+    <message name="horizontal_align">Horizontal yerləşmə</message>
+    <message name="vertical_align">Şaquli yerləşmə</message>
+    <message name="css_class">CSS sinifi</message>
+    <message name="no_wrap">Yığılma olasın</message>
+    <message name="bg_color">Arxa fon rəngi</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+    <message name="justifyleft">Sol</message>
+    <message name="justifycenter">Mərkəz</message>
+    <message name="justifyright">Sağ</message>
+    <message name="top">Üst</message>
+    <message name="middle">Orta</message>
+    <message name="bottom">Alt</message>
+    <message name="baseline">Altxətt</message>
+  </block>
+  <block id="symbols">
+    <message name="title">Xüsusi simvollar</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+  </block>
+  <block id="templates">
+    <message name="title">Şablonlar</message>
+  </block>
+  <block id="page_prop">
+    <message name="title">Səhifə xüsusiyyətləri</message>
+    <message name="title_tag">Başlıq</message>
+    <message name="charset">Charset</message>
+    <message name="background">Arxa fon şəkli</message>
+    <message name="bgcolor">Arxa fon rəngi</message>
+    <message name="text">Məzmun rəngi</message>
+    <message name="link">Link rəngi</message>
+    <message name="vlink">Açılmış linkin rəngi</message>
+    <message name="alink">Aktiv linkin rəngi</message>
+    <message name="leftmargin">Sol boşluq</message>
+    <message name="topmargin">Yuxarı boşluq</message>
+    <message name="css_class">CSS sinifi</message>
+    <message name="ok">   OK   </message>
+    <message name="cancel">Ləğv et</message>
+  </block>
+  <block id="preview">
+    <message name="title">Görünüş</message>
+  </block>
+  <block id="image_popup">
+    <message name="title">Şəkil (popup)</message>
+  </block>
+  <block id="zoom">
+    <message name="title">Böyüt</message>
+  </block>
+  <block id="subscript">
+    <message name="title">Altyazı</message>
+  </block>
+  <block id="superscript">
+    <message name="title">Üstyazı</message>
+  </block>
+</messages>
