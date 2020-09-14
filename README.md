@@ -16,5 +16,3 @@ http://www.caisis.org
 5. Update the web.config file with your database connection string and other local parameters (See comments in web.config file).
 6. To test that it is working properly, build the application and browse to http://localhost/dev/Login.aspx
 7. Login with username "admin" and password "password". Go to the admin untility to add additional users.
-
-Please contact caisis@biodigital.com with questions. 
